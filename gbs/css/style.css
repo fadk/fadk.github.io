@@ -43,6 +43,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     font-style: normal;
     font-size: 18px;
 }
+
 .gbs-disabled{
     color: rgba(0, 0, 0, 0.2);
 }
@@ -61,14 +62,30 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     position: absolute;
 }
 .bg-image-hero-company{
-    background-image:url('../img/hero-company-3840x933-min.jpg');
+    background-image:url('../img/hero-company-1920x350-min.jpg');
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-bg-image-hero-achievement{
-    background-image:url('../img/hero-achievement-3840x933-min.jpg');
+.bg-image-hero-achievement{
+    background-image:url('../img/hero-achievement-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image-hero-business{
+    background-image:url('../img/hero-business-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image-hero-lab{
+    background-image:
+    linear-gradient(304.59deg, rgba(67, 151, 103, 0.33) 3.77%, rgba(194, 194, 194, 0.33) 93.04%),
+            url('../img/hero-lab-1920x350-min.jpg');
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,8 +102,25 @@ bg-image-hero-achievement{
     height: 350px;
     position: relative;
 }
+.gbs-hero-text-container-technology{
+    background: linear-gradient(272.69deg, #3F9494 2.04%, #2D5A5A 97.75%);
+    opacity: 0.9;
+    width: 345px;
+    height: 350px;
+    position: relative;
+}
 .gbs-hero-text-container-header{
     background-color: #273342;
+    width: 388px;
+    height: 81px;
+    position: absolute;
+    margin-left: -43px;
+    top:34px;
+    display: flex;
+    align-items: center;
+}
+.gbs-hero-text-container-header-technology{
+    background-color: #264D4D;
     width: 388px;
     height: 81px;
     position: absolute;
@@ -102,7 +136,13 @@ bg-image-hero-achievement{
     margin-top:26px;
     margin-left:34px;
 }
-
+.gbs-hero-text-container-header-technology h1{
+    color:#FFFFFF;
+    font-style: Bold;
+    font-size: 24px;
+    margin-top:26px;
+    margin-left:34px;
+}
 .gbs-text-container{
     padding-top:45px;
     padding-bottom:70px;
@@ -149,6 +189,10 @@ bg-image-hero-achievement{
 .gbs-footer-column:last-child{
     text-align: right;
 }
+.container {
+    max-width: 960px;
+    width: 960px;
+}
 @media screen and (min-width: 1440px){
     .container {
         max-width: 1230px;
@@ -161,14 +205,19 @@ bg-image-hero-achievement{
         width: 1160px;
     }
 }
-@media screen and (max-width: 1920px){
-    .bg-image-hero-company{
-        background-image:url('../img/hero-company-1920x350-min.jpg');
+
+@media screen and (max-width: 1000px){
+    .gbs-tablet-hidden{
+        display: none !important;
     }
-    .bg-image-hero-achievement{
-        background-image:url('../img/hero-achievement-1920x350-min.jpg');
+    a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover, .navbar-brand .navbar-link.is-active {
+        color: #27AE60;
+    }
+    .gbs-navbar-item-brand span{
+        color: #27AE60;
     }
 }
+
 @media screen and (max-width: 768px){
     .bg-image-hero-company{
         background-image:url('../img/hero-company-768x250-min.jpg');
@@ -176,4 +225,19 @@ bg-image-hero-achievement{
     .bg-image-hero-achievement{
         background-image:url('../img/hero-achievement-768x250-min.jpg');
     }
+    .bg-image-hero-business{
+        background-image:url('../img/hero-business-768x250-min.jpg');
+    }
+    .bg-image-hero-lab{
+        background-image:url('../img/hero-lab-768x250-min.jpg');
+    }
+
+
+    a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover, .navbar-brand .navbar-link.is-active {
+        color: #27AE60;
+    }
+    .gbs-navbar-item-brand span{
+        color: #27AE60;
+    }
+
 }
