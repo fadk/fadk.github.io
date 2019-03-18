@@ -1,9 +1,21 @@
+html, body {
+    height: 100%;
+}
 body{
     background: #F1F1F1;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #323232;
+    display: flex;
+    flex-direction: column;
+}
+.gbs-content {
+    flex: 1 0 auto;
+    background-color: #F1F1F1;
+}
+.footer {
+    flex-shrink: 0;
 }
 .navbar {
     background-color: #F1F1F1;
@@ -70,6 +82,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-left: -43px;
     top:34px;
     display: flex;
+    align-items: center;
 }
 .gbs-hero-text-container-header h1{
     color:#FFFFFF;
