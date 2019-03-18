@@ -91,6 +91,20 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-size: cover;
     background-position: center;
 }
+.bg-image-hero-mission{
+    background-image:url('../img/hero-mission-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image-hero-partners{
+    background-image:url('../img/hero-partners-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .hero-body {
     padding: 0px;
     display: flex;
@@ -146,6 +160,50 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .gbs-text-container{
     padding-top:45px;
     padding-bottom:70px;
+}
+.gbs-text-container-mission{
+    margin-right: 0px;
+}
+.gbs-text-container-partners{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100% !important;
+}
+.gbs-partners-list{
+    background: rgba(255, 255, 255, 0.3);
+    list-style-type:disc;
+    padding: 27px 21px;
+    padding-left:50px;
+}
+.gbs-partners-list li{
+    margin-bottom: 30px;
+}
+.gbs-mission-text-wrapper{
+    margin-left:-18px;
+}
+.gbs-mission-wrapper{
+    background: rgba(194, 194, 194, 0.2);
+    padding-top:45px;
+    padding-bottom:70px;
+}
+.gbs-mission-columns{
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+    margin-right: 0px;
+}
+
+
+.gbs-partners-columns{
+    padding-top:45px;
+    padding-bottom:16px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+    background-color:#C2C2C2;
+}
+.mission-circle-big{
+    position: absolute;
+    top:32%;
+    left:8%;
 }
 .gbs-divider {
     background-color: #0679E3;
@@ -229,7 +287,15 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         background-image:url('../img/hero-business-768x250-min.jpg');
     }
     .bg-image-hero-lab{
-        background-image:url('../img/hero-lab-768x250-min.jpg');
+        background-image:
+                linear-gradient(304.59deg, rgba(67, 151, 103, 0.33) 3.77%, rgba(194, 194, 194, 0.33) 93.04%),
+                url('../img/hero-lab-768x250-min.jpg');
+    }
+    .bg-image-hero-mission{
+        background-image:url('../img/hero-mission-768x250-min.jpg');
+    }
+    .bg-image-hero-partners{
+        background-image:url('../img/hero-partners-768x250-min.jpg');
     }
 
 
