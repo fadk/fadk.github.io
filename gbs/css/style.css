@@ -10,6 +10,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0679E3;
+}
 .gbs-content {
     flex: 1 0 auto;
     background-color: #F1F1F1;
@@ -44,6 +49,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .svg-lock{
     margin-top:-25px;
 }
+.svg-hero{
+    margin-left: 25px;
+}
 .fa-sort-down{
     margin-left:7px;
     font-size: 11px;
@@ -52,16 +60,19 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .owl-nav{
     position: absolute;
 }
-
-/*#bg-image.lazy {*/
-    /*background-image: none;*/
-/*}*/
 .bg-image-hero-company{
-    background-image:url('../img/hero-company-1920-min.jpg');
+    background-image:url('../img/hero-company-3840x933-min.jpg');
+    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
+}
+bg-image-hero-achievement{
+    background-image:url('../img/hero-achievement-3840x933-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .hero-body {
     padding: 0px;
@@ -91,12 +102,17 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-top:26px;
     margin-left:34px;
 }
-.svg-hero-company{
-    margin-left: 25px;
-}
+
 .gbs-text-container{
     padding-top:45px;
     padding-bottom:70px;
+}
+.gbs-divider {
+    background-color: #0679E3;
+    border: none;
+    display: block;
+    height: 3px;
+    margin-top: 14px;
 }
 .gbs-text-container p{
     padding-bottom:20px;
@@ -107,6 +123,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .gbs-font-weight-600{
     font-weight: 600;
 }
+
 .footer{
     background: #272727;
     color: #FFFFFF;
@@ -143,11 +160,20 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         max-width: 1160px;
         width: 1160px;
     }
+}
+@media screen and (max-width: 1920px){
     .bg-image-hero-company{
-        background-image:url('../img/hero-company-1920-min.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center center;
+        background-image:url('../img/hero-company-1920x350-min.jpg');
+    }
+    .bg-image-hero-achievement{
+        background-image:url('../img/hero-achievement-1920x350-min.jpg');
+    }
+}
+@media screen and (max-width: 768px){
+    .bg-image-hero-company{
+        background-image:url('../img/hero-company-768x250-min.jpg');
+    }
+    .bg-image-hero-achievement{
+        background-image:url('../img/hero-achievement-768x250-min.jpg');
     }
 }

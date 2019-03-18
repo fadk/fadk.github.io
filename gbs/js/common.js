@@ -4,7 +4,7 @@ $(document).ready(function(){
         loop: true,
         dots: false,
         nav: true,
-        navText: [],
+
         lazyLoad: true,
         video: true,
     });
