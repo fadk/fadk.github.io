@@ -1,3 +1,5 @@
+
+
 html, body {
     height: 100%;
 }
@@ -125,6 +127,66 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     height: 350px;
     position: relative;
 }
+.gbs-owl-slide-1{
+    background-image:url('../img/index-slide-1-1920x1080-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gbs-owl-slide-2{
+    background-image:url('../img/index-slide-2-1920x1080-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gbs-owl-slide-3{
+    background-image:url('../img/index-slide-3-1920x1080-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gbs-owl-slide{
+    display:flex;
+    flex-direction: column;
+}
+.gbs-owl-slide-text-container{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.gbs-owl-slide-text-container h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: normal;
+    color: #FFFFFF;
+}
+.gbs-owl-slide-arrow-container{
+    width: 612px;
+    height: 142px;
+    display:flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 15%;
+    background: linear-gradient(89.17deg, rgba(47, 128, 237, 0.5) 20.66%, rgba(255, 255, 255, 0) 92.69%);
+
+}
+.icon-carousel-arrow-video{
+    margin-left:20%;
+}
+.gbs-owl-slide-arrow-container p{
+    margin-left:5%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
 .gbs-hero-text-container-technology{
     background: linear-gradient(272.69deg, #3F9494 2.04%, #2D5A5A 97.75%);
     opacity: 0.9;
@@ -230,6 +292,11 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .gbs-font-weight-600{
     font-weight: 600;
 }
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto!important;
+    height:100vh!important;
+}
 
 .footer{
     background: #272727;
@@ -304,8 +371,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .bg-image-hero-patents{
         background-image:url('../img/hero-patents-768x250-min.jpg');
     }
-
-
-
-
+}
+@media print {
+    a[href]:after {
+        content: " (" attr(href) ") ";
+    }
 }

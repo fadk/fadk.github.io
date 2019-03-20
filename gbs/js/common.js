@@ -2,9 +2,8 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         items: 1,
         loop: true,
-        dots: false,
+        dots: true,
         nav: true,
-
         lazyLoad: true,
         video: true,
     });
