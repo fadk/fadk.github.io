@@ -105,6 +105,15 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-size: cover;
     background-position: center;
 }
+.bg-image-hero-patents{
+    background-image:url('../img/hero-patents-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .hero-body {
     padding: 0px;
     display: flex;
@@ -268,12 +277,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .gbs-tablet-hidden{
         display: none !important;
     }
-    a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover, .navbar-brand .navbar-link.is-active {
-        color: #27AE60;
-    }
-    .gbs-navbar-item-brand span{
-        color: #27AE60;
-    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -297,13 +301,11 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .bg-image-hero-partners{
         background-image:url('../img/hero-partners-768x250-min.jpg');
     }
+    .bg-image-hero-patents{
+        background-image:url('../img/hero-patents-768x250-min.jpg');
+    }
 
 
-    a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover, .navbar-brand .navbar-link.is-active {
-        color: #27AE60;
-    }
-    .gbs-navbar-item-brand span{
-        color: #27AE60;
-    }
+
 
 }
