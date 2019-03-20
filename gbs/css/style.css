@@ -427,3 +427,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 
 }
+@media screen and (max-height: 565px){
+    .gbs-owl-slide-text-container{
+        margin-top: 10px;
+    }
+
+}
