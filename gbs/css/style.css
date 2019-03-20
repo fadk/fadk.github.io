@@ -151,6 +151,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .gbs-owl-slide{
     display:flex;
     flex-direction: column;
+    height: 100vh;
 }
 .gbs-owl-slide-text-container{
     margin-top: 15%;
@@ -192,7 +193,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .owl-theme .owl-dots {
     bottom:30px;
     position: absolute;
-    left:45%;
+    left:47%;
 }
 .owl-theme .owl-dots .owl-dot span {
     width: 13px;
@@ -226,6 +227,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     display:flex;
     justify-content: space-between;
 }
+
 .gbs-hero-text-container-header{
     background-color: #273342;
     width: 388px;
