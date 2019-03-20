@@ -17,8 +17,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+            <state relative-caret-position="379">
+              <caret line="425" column="21" selection-start-line="425" selection-start-column="21" selection-end-line="425" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -38,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="92" column="69" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="69" />
+            <state relative-caret-position="372">
+              <caret line="103" column="69" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -92,6 +92,8 @@
       <find>fa-long-arrow-alt-left</find>
       <find>next</find>
       <find>abso</find>
+      <find>gbs-owl-slide-text-container</find>
+      <find>gbs-owl-slide-arrow-container</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -126,9 +128,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="211" />
-    <option name="y" value="13" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="14" />
     <option name="width" value="1282" />
     <option name="height" value="688" />
   </component>
@@ -196,15 +197,15 @@
       <workItem from="1552843253154" duration="6951000" />
       <workItem from="1552854944440" duration="920000" />
       <workItem from="1552916946708" duration="26933000" />
-      <workItem from="1553013618644" duration="18119000" />
+      <workItem from="1553013618644" duration="19413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52923000" />
+    <option name="totallyTimeSpent" value="54217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="211" y="13" width="1282" height="688" extended-state="0" />
+    <frame x="14" y="0" width="1282" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
@@ -407,16 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/achievement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="89" column="48" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="48" />
-          <folding>
-            <marker date="1553081784000" expanded="true" signature="1068:1431" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../grills/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -479,15 +470,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="92" column="69" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="69" />
+        <state relative-caret-position="372">
+          <caret line="103" column="69" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/achievement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="48" />
+          <folding>
+            <marker date="1553081784000" expanded="true" signature="1068:1431" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+        <state relative-caret-position="379">
+          <caret line="425" column="21" selection-start-line="425" selection-start-column="21" selection-end-line="425" selection-end-column="21" />
         </state>
       </provider>
     </entry>

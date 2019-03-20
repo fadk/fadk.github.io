@@ -170,7 +170,6 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     display:flex;
     align-items: center;
     margin-top: 5.5%;
-    margin-bottom: 15%;
     background: linear-gradient(89.17deg, rgba(47, 128, 237, 0.5) 20.66%, rgba(255, 255, 255, 0) 92.69%);
 
 }
@@ -406,4 +405,25 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     a[href]:after {
         content: " (" attr(href) ") ";
     }
+}
+@media screen and (orientation:portrait) {
+    .gbs-owl-slide-text-container{
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+    .gbs-owl-slide-arrow-container{
+        margin-top: 30%;
+    }
+}
+@media screen and (max-height: 830px){
+    .gbs-owl-slide-text-container{
+        margin-top: 10%;
+    }
+
+}
+@media screen and (max-height: 680px){
+    .gbs-owl-slide-text-container{
+        margin-top: 5%;
+    }
+
 }
