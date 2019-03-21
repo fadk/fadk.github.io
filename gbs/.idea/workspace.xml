@@ -17,17 +17,26 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="551" column="20" selection-start-line="551" selection-start-column="20" selection-end-line="551" selection-end-column="20" />
+            <state relative-caret-position="337">
+              <caret line="488" column="28" selection-start-line="488" selection-start-column="28" selection-end-line="488" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partners.html">
+      <file leaf-file-name="patents.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patents.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="43" />
+            <state relative-caret-position="275">
+              <caret line="152" column="37" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mission.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mission.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="114" column="26" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="114" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -37,6 +46,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="101" column="42" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partners.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partners.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="107" column="40" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="107" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -53,7 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gbs-owl-slide-arrow-container</find>
       <find>viewport</find>
       <find>gbs-owl-slide</find>
       <find>gbs-owl-slid</find>
@@ -78,10 +95,11 @@
       <find>gbs-partners</find>
       <find>gbs-partners-columns</find>
       <find>gbs-text-container-partners</find>
-      <find>gbs-content-column</find>
       <find>part</find>
       <find>padding-left:4rem;</find>
       <find>padding-left:8rem;</find>
+      <find>gbs-mission-text-wrapper</find>
+      <find>gbs-content-column</find>
       <find>padding-left:2rem;</find>
     </findStrings>
   </component>
@@ -98,7 +116,6 @@
         <option value="$PROJECT_DIR$/technology.html" />
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/products.html" />
-        <option value="$PROJECT_DIR$/patents.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/company.html" />
         <option value="$PROJECT_DIR$/achievement.html" />
@@ -107,6 +124,7 @@
         <option value="$PROJECT_DIR$/mission.html" />
         <option value="$PROJECT_DIR$/css/bulma.css" />
         <option value="$PROJECT_DIR$/partners.html" />
+        <option value="$PROJECT_DIR$/patents.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -188,12 +206,12 @@
       <workItem from="1552854944440" duration="920000" />
       <workItem from="1552916946708" duration="26933000" />
       <workItem from="1553013618644" duration="20467000" />
-      <workItem from="1553163006474" duration="20909000" />
+      <workItem from="1553163006474" duration="23757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76180000" />
+    <option name="totallyTimeSpent" value="79028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -443,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/achievement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -474,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="109" column="42" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bulma.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -495,6 +499,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mission.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="114" column="26" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="114" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/company.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -504,15 +515,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partners.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="107" column="40" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="107" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="152" column="37" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="551" column="20" selection-start-line="551" selection-start-column="20" selection-end-line="551" selection-end-column="20" />
+        <state relative-caret-position="337">
+          <caret line="488" column="28" selection-start-line="488" selection-start-column="28" selection-end-line="488" selection-end-column="28" />
         </state>
       </provider>
     </entry>

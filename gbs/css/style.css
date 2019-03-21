@@ -127,7 +127,57 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 
-
+.gbs-patents-brands{
+    padding-left:8rem;
+    padding-right:8rem;
+    padding-top:45px;
+    padding-bottom:45px;
+    overflow: hidden;
+    background-color: #D7D7D7;
+}
+.gbs-patents-brands-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gbs-patents-brand{
+    width: 234px;
+    height: 127px;
+    margin-left: 17px;
+    margin-right: 17px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.gbs-patents-brand p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.gbs-patents-brand1{
+    background: linear-gradient(0deg, rgba(6, 121, 227, 0.5), rgba(6, 121, 227, 0.5)), url(../img/brand1.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+}
+.gbs-patents-brand2{
+    background: linear-gradient(0deg, rgba(241, 186, 82, 0.5), rgba(241, 186, 82, 0.5)),  url(../img/brand2.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+}
+.gbs-patents-brand3{
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../img/brand3.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+}
 .gbs-content-column{
     padding-top:45px;
     padding-bottom:70px;
@@ -330,9 +380,6 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .gbs-mission-text-wrapper{
     margin-left:-6px;
 }
-
-
-
 .gbs-divider {
     background-color: #0679E3;
     border: none;
@@ -434,6 +481,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 
 
 @media screen and (max-width: 768px){
+    .gbs-patents-brands-wrapper{
+        flex-direction: column;
+    }
+    .gbs-patents-brand{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
     .column.is-1{
         max-width: 8.33333%;
         min-width: fit-content;
@@ -463,6 +517,10 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding-right:4rem;
     }
     .gbs-content-column{
+        padding-left:4rem;
+        padding-right:4rem;
+    }
+    .gbs-patents-brands{
         padding-left:4rem;
         padding-right:4rem;
     }
@@ -546,6 +604,10 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         margin-left: 40px;
     }
     .footer{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
+    .gbs-patents-brands{
         padding-left:2rem;
         padding-right:2rem;
     }
