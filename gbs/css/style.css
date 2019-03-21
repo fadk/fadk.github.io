@@ -310,6 +310,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 .mission-circle-big-wrapper{
     width: 30%;
+
 }
 .mission-circle-big{
     position: absolute;
@@ -408,18 +409,16 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding:0.75rem;
         font-size: 18px;
     }
+    .mission-circle-big{
+        left:-8%;
+    }
 
 }
-@media screen and (max-width: 1010px){
 
-}
 
 @media screen and (max-width: 1000px){
     .gbs-tablet-hidden{
         display: none !important;
-    }
-    .mission-circle-big-wrapper{
-        width: 10%;
     }
     .mission-circle-big{
         left:-9%;
@@ -429,7 +428,15 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 
+@media screen and (max-width: 900px){
+    .mission-circle-big{
+        left:-10%;
+    }
+}
 @media screen and (max-width: 768px){
+    .mission-circle-big-wrapper {
+        width: 0%;
+    }
     .mission-circle-big{
         bottom:40%;
         left:-11%;
@@ -499,10 +506,27 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 
+@media screen and (max-width: 675px){
+    .mission-circle-big{
+        bottom:40%;
+        left:-13%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .mission-circle-big{
+        left:-15%;
+    }
+}
+@media screen and (max-width: 510px){
+    .mission-circle-big{
+        left:-17%;
+    }
+}
 @media screen and (max-width: 450px){
     .mission-circle-big{
-        position: fixed;
-        top:0%;
+        bottom:45%;
+        left:-20%;
     }
     .gbs-mission-text-wrapper p{
         margin-left: 40px;
@@ -520,6 +544,14 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
     .icon-carousel-arrow-video {
         margin-left: 5%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mission-circle-big {
+        display: none;
+    }
+    .gbs-mission {
+        padding-left: 2rem;
     }
 }
 @media screen and (max-width: 350px){
@@ -545,14 +577,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .gbs-owl-slide-arrow-container{
         margin-top: 30%;
     }
-    .mission-circle-big-wrapper{
-        width: 10%;
-    }
-    .mission-circle-big{
-        position: absolute;
-        bottom:32%;
-        left:-18%;
-    }
+
 }
 @media screen and (max-height: 1024px){
     .gbs-owl-slide-text-container{
