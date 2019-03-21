@@ -17,26 +17,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="440" column="30" selection-start-line="440" selection-start-column="30" selection-end-line="440" selection-end-column="30" />
+            <state relative-caret-position="235">
+              <caret line="551" column="20" selection-start-line="551" selection-start-column="20" selection-end-line="551" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bulma.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bulma.css">
+      <file leaf-file-name="partners.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="7779" selection-start-line="7779" selection-end-line="7785" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mission.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mission.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="109" column="42" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -45,16 +36,7 @@
         <entry file="file://$PROJECT_DIR$/company.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="101" column="42" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="40" />
+              <caret line="101" column="42" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -71,13 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hero-body</find>
-      <find>hero</find>
-      <find>owl</find>
-      <find>fa-long-arrow-alt-left</find>
-      <find>next</find>
-      <find>abso</find>
-      <find>gbs-owl-slide-text-container</find>
       <find>gbs-owl-slide-arrow-container</find>
       <find>viewport</find>
       <find>gbs-owl-slide</find>
@@ -89,7 +64,6 @@
       <find>gbs-text-container</find>
       <find>is-1</find>
       <find>svg-star</find>
-      <find>gbs-content-column</find>
       <find>gbs-hero-text-container</find>
       <find>slide</find>
       <find>gbs-mission-column</find>
@@ -101,6 +75,14 @@
       <find>portr</find>
       <find>mission-circle-big</find>
       <find>min-w</find>
+      <find>gbs-partners</find>
+      <find>gbs-partners-columns</find>
+      <find>gbs-text-container-partners</find>
+      <find>gbs-content-column</find>
+      <find>part</find>
+      <find>padding-left:4rem;</find>
+      <find>padding-left:8rem;</find>
+      <find>padding-left:2rem;</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -117,7 +99,6 @@
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/patents.html" />
-        <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/company.html" />
         <option value="$PROJECT_DIR$/achievement.html" />
@@ -125,6 +106,7 @@
         <option value="$PROJECT_DIR$/lab.html" />
         <option value="$PROJECT_DIR$/mission.html" />
         <option value="$PROJECT_DIR$/css/bulma.css" />
+        <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -206,12 +188,12 @@
       <workItem from="1552854944440" duration="920000" />
       <workItem from="1552916946708" duration="26933000" />
       <workItem from="1553013618644" duration="20467000" />
-      <workItem from="1553163006474" duration="19906000" />
+      <workItem from="1553163006474" duration="20909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75177000" />
+    <option name="totallyTimeSpent" value="76180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -468,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/achievement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -499,17 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partners.html">
+    <entry file="file://$PROJECT_DIR$/mission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="101" column="42" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="42" />
+        <state relative-caret-position="236">
+          <caret line="109" column="42" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -520,17 +488,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mission.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="109" column="42" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="42" />
+        <state relative-caret-position="425">
+          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="440" column="30" selection-start-line="440" selection-start-column="30" selection-end-line="440" selection-end-column="30" />
+        <state relative-caret-position="235">
+          <caret line="551" column="20" selection-start-line="551" selection-start-column="20" selection-end-line="551" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -286,13 +286,17 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-top:26px;
     margin-left:34px;
 }
+.gbs-partners{
 
-
-.gbs-text-container-partners{
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100% !important;
 }
+.gbs-partners-text-wrapper{
+    padding-top:45px;
+    padding-bottom:16px;
+    background-color:#C2C2C2;
+    padding-left:8rem;
+    padding-right:8rem;
+}
+
 .gbs-partners-list{
     background: rgba(255, 255, 255, 0.3);
     list-style-type:disc;
@@ -327,13 +331,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-left:-6px;
 }
 
-.gbs-partners-columns{
-    padding-top:45px;
-    padding-bottom:16px;
-    margin-top: 0px;
-    margin-bottom: 0px !important;
-    background-color:#C2C2C2;
-}
+
 
 .gbs-divider {
     background-color: #0679E3;
@@ -460,6 +458,10 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         display:flex;
         justify-content: center;
     }
+    .gbs-partners-text-wrapper{
+        padding-left:4rem;
+        padding-right:4rem;
+    }
     .gbs-content-column{
         padding-left:4rem;
         padding-right:4rem;
@@ -546,6 +548,14 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .footer{
         padding-left:2rem;
         padding-right:2rem;
+    }
+    .gbs-partners-h1{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
+    .gbs-partners-text-wrapper{
+        padding-left:0rem;
+        padding-right:0rem;
     }
     .gbs-content-column{
         padding-left:2rem;
