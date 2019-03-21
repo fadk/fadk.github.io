@@ -11,6 +11,7 @@ body{
     color: #323232;
     display: flex;
     flex-direction: column;
+
 }
 h1{
     font-size: 24px;
@@ -23,14 +24,15 @@ h1{
 }
 .footer {
     flex-shrink: 0;
+    overflow: hidden;
 }
 .header{
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .navbar {
     background-color: #F1F1F1;
-    width: 90%;
 }
 .navbar-item, .navbar-link {
     color: #000000;
@@ -125,6 +127,17 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 
+
+.gbs-content-column{
+    padding-top:45px;
+    padding-bottom:70px;
+    padding-left:8rem;
+    padding-right:8rem;
+    overflow: hidden;
+}
+.owl-carousel{
+    overflow: hidden;
+}
 .hero-body {
     padding: 0px;
     display: flex;
@@ -270,10 +283,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-top:26px;
     margin-left:34px;
 }
-.gbs-text-container{
-    padding-top:45px;
-    padding-bottom:70px;
-}
+
 .gbs-text-container-mission{
     margin-right: 0px;
 }
@@ -396,6 +406,26 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 @media screen and (max-width: 768px){
+    .svg-star{
+        display:flex;
+        justify-content: center;
+    }
+    .gbs-content-column{
+        padding-left:4rem;
+        padding-right:4rem;
+    }
+    .gbs-hero-text-container{
+        width: 150px;
+    }
+    .gbs-hero-text-container-header {
+        background-color: #273342;
+        position: absolute;
+        margin-left: -200px;
+    }
+    .footer{
+        padding-left:4rem;
+        padding-right:4rem;
+    }
     footer .columns{
          display: flex;
          flex-direction: column;
@@ -436,7 +466,16 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         background-image:url('../img/hero-patents-768x250-min.jpg');
     }
 }
+
 @media screen and (max-width: 450px){
+    .footer{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
+    .gbs-content-column{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
     .gbs-owl-slide-text-container h1{
         font-size: 24px;
     }
