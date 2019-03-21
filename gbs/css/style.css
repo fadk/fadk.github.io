@@ -487,6 +487,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .gbs-owl-slide-text-container{
         margin-top: 5%;
     }
+    .gbs-owl-slide-arrow-container {
+        margin-top: 5%;
+    }
 }
 @media screen and (max-height: 565px){
     .gbs-owl-slide-text-container{
