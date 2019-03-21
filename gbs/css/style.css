@@ -157,14 +157,14 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 0%;
 }
 .gbs-owl-slide-2{
     background-image:url('../img/index-slide-2-1920x1080-min.jpg');
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 0%;
 }
 .gbs-owl-slide-3{
     background-image:url('../img/index-slide-3-1920x1080-min.jpg');
@@ -329,7 +329,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .mission-circle-big{
     position: absolute;
     top:32%;
-    left:8%;
+    left:7%;
 }
 .gbs-divider {
     background-color: #0679E3;
@@ -393,6 +393,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 
 
 
+
+@media screen and (max-width: 1280px){
+    .mission-circle-big{
+        left:0%;
+    }
+}
 @media screen and (max-width: 1087px){
 
     .navbar-item, .navbar-link {
@@ -401,6 +407,10 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 
 }
+@media screen and (max-width: 1010px){
+
+}
+
 @media screen and (max-width: 1000px){
     .gbs-tablet-hidden{
         display: none !important;
@@ -417,14 +427,15 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding-left:4rem;
         padding-right:4rem;
     }
-    .gbs-hero-text-container{
+    .gbs-hero-text-container,.gbs-hero-text-container-technology{
         width: 150px;
     }
-    .gbs-hero-text-container-header {
+    .gbs-hero-text-container-header,.gbs-hero-text-container-header-technology {
         background-color: #273342;
         position: absolute;
         margin-left: -200px;
     }
+
     .footer{
         padding-left:4rem;
         padding-right:4rem;
