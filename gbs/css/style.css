@@ -287,9 +287,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-left:34px;
 }
 
-.gbs-text-container-mission{
-    margin-right: 0px;
-}
+
 .gbs-text-container-partners{
     margin-left: 0px;
     margin-right: 0px;
@@ -304,20 +302,29 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .gbs-partners-list li{
     margin-bottom: 30px;
 }
-.gbs-mission-text-wrapper{
-    margin-left:-18px;
+.gbs-mission{
+    display: flex;
+    padding-left:8rem;
+    overflow: hidden;
+    position:relative;
+}
+.mission-circle-big-wrapper{
+    width: 30%;
+}
+.mission-circle-big{
+    position: absolute;
+    bottom:32%;
+    left:7%;
 }
 .gbs-mission-wrapper{
     background: rgba(194, 194, 194, 0.2);
     padding-top:45px;
     padding-bottom:70px;
+    padding-right:8rem;
 }
-.gbs-mission-columns{
-    margin-top: 0px;
-    margin-bottom: 0px !important;
-    margin-right: 0px;
+.gbs-mission-text-wrapper{
+    margin-left:-6px;
 }
-
 
 .gbs-partners-columns{
     padding-top:45px;
@@ -326,11 +333,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-bottom: 0px !important;
     background-color:#C2C2C2;
 }
-.mission-circle-big{
-    position: absolute;
-    top:32%;
-    left:7%;
-}
+
 .gbs-divider {
     background-color: #0679E3;
     border: none;
@@ -396,7 +399,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 
 @media screen and (max-width: 1280px){
     .mission-circle-big{
-        left:0%;
+        left:2%;
     }
 }
 @media screen and (max-width: 1087px){
@@ -415,10 +418,25 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .gbs-tablet-hidden{
         display: none !important;
     }
-
+    .mission-circle-big-wrapper{
+        width: 10%;
+    }
+    .mission-circle-big{
+        left:-9%;
+    }
+    .gbs-mission-wrapper {
+        padding-right: 4rem;
+    }
 }
 
 @media screen and (max-width: 768px){
+    .mission-circle-big{
+        bottom:40%;
+        left:-11%;
+    }
+    .gbs-mission-text-wrapper p{
+        margin-left: 40px;
+    }
     .svg-star{
         display:flex;
         justify-content: center;
@@ -482,6 +500,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 @media screen and (max-width: 450px){
+    .mission-circle-big{
+        position: fixed;
+        top:0%;
+    }
+    .gbs-mission-text-wrapper p{
+        margin-left: 40px;
+    }
     .footer{
         padding-left:2rem;
         padding-right:2rem;
@@ -519,6 +544,14 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
     .gbs-owl-slide-arrow-container{
         margin-top: 30%;
+    }
+    .mission-circle-big-wrapper{
+        width: 10%;
+    }
+    .mission-circle-big{
+        position: absolute;
+        bottom:32%;
+        left:-18%;
     }
 }
 @media screen and (max-height: 1024px){
