@@ -412,10 +412,10 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .mission-circle-big{
         left:-8%;
     }
-
+    .gbs-mission {
+        padding-left: 5rem;
+    }
 }
-
-
 @media screen and (max-width: 1000px){
     .gbs-tablet-hidden{
         display: none !important;
@@ -433,13 +433,25 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         left:-10%;
     }
 }
+
+
 @media screen and (max-width: 768px){
+    .column.is-1{
+        max-width: 8.33333%;
+        min-width: fit-content;
+    }
+    .column.is-11{
+        max-width: 91.66667%;
+    }
+    .columns {
+        display: flex;
+    }
     .mission-circle-big-wrapper {
         width: 0%;
     }
     .mission-circle-big{
         bottom:40%;
-        left:-11%;
+        left:-13%;
     }
     .gbs-mission-text-wrapper p{
         margin-left: 40px;
@@ -509,18 +521,18 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 @media screen and (max-width: 675px){
     .mission-circle-big{
         bottom:40%;
-        left:-13%;
+        left:-14%;
     }
 }
 
 @media screen and (max-width: 600px){
     .mission-circle-big{
-        left:-15%;
+        left:-17%;
     }
 }
 @media screen and (max-width: 510px){
     .mission-circle-big{
-        left:-17%;
+        left:-19%;
     }
 }
 @media screen and (max-width: 450px){
