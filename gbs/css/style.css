@@ -24,8 +24,13 @@ h1{
 .footer {
     flex-shrink: 0;
 }
+.header{
+    display: flex;
+    justify-content: center;
+}
 .navbar {
     background-color: #F1F1F1;
+    width: 90%;
 }
 .navbar-item, .navbar-link {
     color: #000000;
@@ -376,9 +381,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 
 
 @media screen and (max-width: 1087px){
-    .navbar-brand {
-        width: fit-content;
-    }
+
     .navbar-item, .navbar-link {
         padding:0.75rem;
         font-size: 18px;
