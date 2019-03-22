@@ -160,8 +160,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding:40px;
     position: relative;
     width: 50%;
+    max-width: 610px;
     height: 65%;
-    right: -60px;
+    float:right;
 }
 .process-hero-materials-line{
     position: absolute;
@@ -461,6 +462,23 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.food{
+    width: 200px;
+    height: 200px;
+    background: url('../img/food-min.jpg');
+    position: relative;
+}
+.food-p{
+    width: 100%;
+    background: #FFD687;
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000
+}
 .forage{
     width: 200px;
     height: 200px;
@@ -478,6 +496,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     text-align: center;
     color: #000000
 }
+
 .forage-list{
     width: 100%;
     position: absolute;
@@ -502,7 +521,58 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    color: #000000
+    color: #000000;
+}
+.medicines{
+    width: 140px;
+    height: 200px;
+    background: url('../img/Medicines-min.jpg');
+    position: relative;
+}
+.medicines-p{
+    width: 100%;
+    background: #FFD687;
+    position: absolute;
+    top:0;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000;
+}
+.perfumery{
+    width: 140px;
+    height: 200px;
+    background: url('../img/perfumery-min.jpg');
+    position: relative;
+}
+.perfumery-p{
+    width: 100%;
+    background: #FFD687;
+    position: absolute;
+    top:30%;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000;
+}
+.cosmetics{
+    width: 140px;
+    height: 200px;
+    background: url('../img/cosmetics-min.jpg');
+    position: relative;
+}
+.cosmetics-p{
+    width: 100%;
+    background: #FFD687;
+    position: absolute;
+    bottom:0%;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000;
 }
 .tree-dna{
     width: 200px;
