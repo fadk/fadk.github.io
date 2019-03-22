@@ -18,6 +18,9 @@ h1{
     font-weight: bold;
     color: #0679E3;
 }
+.text-bold{
+    font-weight: bold;
+}
 .gbs-content {
     flex: 1 0 auto;
     background-color: #F1F1F1;
@@ -74,6 +77,42 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .owl-nav{
     position: absolute;
 }
+.gbs-products-table-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-self: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.gbs-products-table-wrapper table{
+    margin-top: 30px;
+}
+.gbs-products-table-wrapper table th{
+    background: #D0D0D0;
+    height: 71px;
+    vertical-align: middle;
+    text-align: center;
+}
+.gbs-products-table-wrapper table th:first-child{
+    background: #F1F1F1;
+
+}
+.gbs-products-table-wrapper table td{
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+.gbs-products-table-wrapper table td:first-child{
+    background: #D0D0D0;
+}
+.gbs-products-table-wrapper table tr:nth-child(odd){
+    background: rgba(139, 143, 140, 0.2);
+}
+.gbs-products-table-wrapper table tr:nth-child(odd) td{
+    border-right: 1px solid #F1F1F1;
+}
 .bg-image-hero-company{
     background-image:url('../img/hero-company-1920x350-min.jpg');
     overflow: hidden;
@@ -119,7 +158,23 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-position: center;
 }
 .bg-image-hero-patents{
-    background-image:url('../img/hero-patents-1920x350-min.jpg');
+    background-image: url('../img/hero-patents-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image-hero-products{
+    background-image:linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
+    url('../img/hero-products-1920x307-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image-hero-a-product{
+    background-image:linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
+    url('../img/hero-products-1920x307-min.jpg');
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,6 +182,27 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 
+.products-logo{
+    font-family: Lemon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 230px;
+    text-align: center;
+    color: #355643;
+}
+.products-name{
+    position: absolute;
+    top:65%;
+    left: 40%;
+    font-family: Lemon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 28px;
+    text-align: center;
+    color: #EEC067;
+}
 .gbs-patents-brands{
     padding-left:8rem;
     padding-right:8rem;
@@ -195,6 +271,132 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding: 0px;
     display: flex;
     justify-content: flex-end;
+}
+.hero-body-a-product{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.bg-image-hero-products{
+    padding-top: 59px;
+    padding-bottom: 59px;
+}
+.hero-body-products{
+    display: flex;
+    justify-content: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    flex-wrap: wrap;
+}
+.bg-image-hero-products h1{
+    padding-bottom: 1rem;
+    padding-left: 8rem;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 43px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    width: 243px;
+}
+.bg-product-card1{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    border-radius: 3px;
+    width: 243px;
+    height: 170px;
+    background:  url('../img/product-card1-min.jpg');
+}
+.bg-product-card2{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    border-radius: 3px;
+    width: 243px;
+    height: 170px;
+    background:  url('../img/product-card2-min.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.bg-product-card3{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    border-radius: 3px;
+    width: 243px;
+    height: 170px;
+    background:  url('../img/product-card3-min.jpg');
+}
+.bg-product-card4{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    border-radius: 3px;
+    width: 243px;
+    height: 170px;
+    background:  url('../img/product-card4-min.jpg');
+}
+.product-card p span{
+    font-family: Lemon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #EEC067;
+}
+.product-card p{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.17px;
+    color: #FFFFFF;
+}
+.product-h1{
+    font-family: Fira Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #222222
+}
+.img-products-duck{
+    float:right;
+    width: 45%;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.product-p{
+    width: 75%;
+}
+.product-card-button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0679E3;
+    text-align: center;
+    width: 145px;
+}
+.product-card-button:hover{
+    color: #fff;
+    background-image: linear-gradient(to right top, #0679e3, #0676db, #0772d3, #096fcc, #0b6bc4);
 }
 .gbs-hero-text-container{
     background-color: rgba(51, 67, 88, 0.9);
@@ -449,10 +651,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 @media screen and (max-width: 1087px){
-
     .navbar-item, .navbar-link {
         padding:0.75rem;
+        padding-left:3rem;
         font-size: 18px;
+    }
+    .navbar-dropdown .navbar-item {
+        padding-left: 5rem;
     }
     .mission-circle-big{
         left:-8%;
@@ -481,6 +686,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 
 
 @media screen and (max-width: 768px){
+    .product-p{
+        width: 100%;
+    }
     .gbs-patents-brands-wrapper{
         flex-direction: column;
     }
@@ -523,6 +731,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .gbs-patents-brands{
         padding-left:4rem;
         padding-right:4rem;
+    }
+    .hero-body-products{
+        padding-left:4rem;
+        padding-right:4rem;
+    }
+    .bg-image-hero-products h1 {
+        padding-left: 4rem;
     }
     .gbs-hero-text-container,.gbs-hero-text-container-technology{
         width: 150px;
@@ -576,6 +791,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .bg-image-hero-patents{
         background-image:url('../img/hero-patents-768x250-min.jpg');
     }
+    .bg-image-hero-products{linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
+        background-image:url('../img/hero-products-768x200-min.jpg');
+    }
+    .bg-image-hero-a-product{linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
+        background-image:url('../img/hero-products-768x200-min.jpg');
+    }
 }
 
 @media screen and (max-width: 675px){
@@ -623,6 +844,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding-left:2rem;
         padding-right:2rem;
     }
+    .hero-body-products{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
+    .bg-image-hero-products h1 {
+        padding-left: 2rem;
+    }
     .gbs-owl-slide-text-container h1{
         font-size: 24px;
     }
@@ -639,6 +867,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 @media screen and (max-width: 350px){
+    .product-h1{
+        font-size: 30px;
+    }
     .gbs-owl-slide-text-container h1{
         font-size: 22px;
     }
