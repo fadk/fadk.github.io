@@ -893,19 +893,41 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     align-items: center;
     margin-top: 5.5%;
     background: linear-gradient(89.17deg, rgba(47, 128, 237, 0.5) 20.66%, rgba(255, 255, 255, 0) 92.69%);
+}
+.slide-button{
+    background-color: transparent;
+    border:none;
+    display:flex;
+    align-items: center;
+    width: 300px;
+    cursor: pointer;
+}
+.box {
+    background-color: transparent;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.box iframe{
+    width: 100%;
+    height:auto;
 }
 .icon-carousel-arrow-video{
     margin-left:19%;
+    width:88px;
 }
 .gbs-owl-slide-arrow-container p{
-    margin-left:3%;
+    width: 200px;
+    margin-left:10%;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 24px;
     line-height: normal;
     letter-spacing: 1px;
     color: #FFFFFF;
-    opacity: 1;
+
 }
 .owl-carousel .owl-stage-outer {
     position: relative;

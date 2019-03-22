@@ -105,9 +105,12 @@
 
                                 </div>
                             </div>
+
                             <div class="gbs-owl-slide-arrow-container">
-                                <embed src='img/carousel-arrow-video.svg' class="icon-carousel-arrow-video">
-                                <p>Посмотреть <span>видео</span></p>
+                                <button class="slide-button modal-button" data-target="modal" aria-haspopup="true">
+                                    <embed src='img/carousel-arrow-video.svg' class="icon-carousel-arrow-video">
+                                    <p><nobr>Посмотреть <span>видео</span></nobr></p>
+                                </button>
                             </div>
                     </div>
                     <div class="gbs-owl-slide gbs-owl-slide-2" >
@@ -145,6 +148,19 @@
                         </div>
                     </div>
                 </div>
+        <div id="modal" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="box">
+
+                        <iframe src="https://www.youtube.com/watch?v=xGISK_AHDNc" >
+
+                        </iframe>
+
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
     </section>
 </div>
     <footer class="footer">
@@ -165,6 +181,9 @@
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
-    <script src="js/common.js"></script>
+
+<script src="https://bulma.io/vendor/js.cookie-2.1.4.min.js"></script>
+<script src="https://bulma.io/lib/main.js?v=201903212019"></script>
+<script src="js/common.js"></script>
 </body>
 </html>
