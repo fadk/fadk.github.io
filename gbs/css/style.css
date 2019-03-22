@@ -425,6 +425,16 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     align-items: center;
     justify-content: center;
 }
+.img-lab1, .img-lab2, .img-lab3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img-lab1{
+    margin-left: 0px;
+}
+.img-lab3{
+    margin-right: 0px;
+}
 .gbs-hero-text-container{
     background-color: rgba(51, 67, 88, 0.9);
     width: 345px;
@@ -846,6 +856,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 @media screen and (max-width: 600px){
     .mission-circle-big{
         left:-17%;
+    }
+    .img-lab1,.img-lab3{
+display: none;
     }
 }
 @media screen and (max-width: 510px){
