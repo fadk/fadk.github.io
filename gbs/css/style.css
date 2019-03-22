@@ -88,6 +88,8 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 .gbs-products-table-wrapper table{
     margin-top: 30px;
+    overflow: auto;
+    display: block;
 }
 .gbs-products-table-wrapper table th{
     background: #D0D0D0;
@@ -312,6 +314,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     width: 243px;
     height: 170px;
     background:  url('../img/product-card1-min.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .bg-product-card2{
     overflow: hidden;
@@ -326,6 +334,8 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .bg-product-card3{
     overflow: hidden;
@@ -336,6 +346,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     width: 243px;
     height: 170px;
     background:  url('../img/product-card3-min.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .bg-product-card4{
     overflow: hidden;
@@ -346,6 +362,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     width: 243px;
     height: 170px;
     background:  url('../img/product-card4-min.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .product-card p span{
     font-family: Lemon;
@@ -397,6 +419,11 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .product-card-button:hover{
     color: #fff;
     background-image: linear-gradient(to right top, #0679e3, #0676db, #0772d3, #096fcc, #0b6bc4);
+}
+.img-lab-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .gbs-hero-text-container{
     background-color: rgba(51, 67, 88, 0.9);
@@ -650,6 +677,16 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         left:2%;
     }
 }
+
+@media screen and (max-width: 1155px){
+    .gbs-products-table-wrapper{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+
+
 @media screen and (max-width: 1087px){
     .navbar-item, .navbar-link {
         padding:0.75rem;

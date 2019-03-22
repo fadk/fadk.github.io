@@ -17,8 +17,26 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="398" column="97" selection-start-line="398" selection-start-column="97" selection-end-line="398" selection-end-column="97" />
+            <state relative-caret-position="253">
+              <caret line="683" column="24" selection-start-line="683" selection-start-column="24" selection-end-line="683" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nameshop/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="339" column="4" lean-forward="true" selection-start-line="339" selection-start-column="4" selection-end-line="340" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="122" column="23" lean-forward="true" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -26,8 +44,8 @@
       <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="102" column="71" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="71" />
+            <state relative-caret-position="187">
+              <caret line="103" column="44" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -44,8 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mission-circle-big-wrapper</find>
-      <find>portr</find>
       <find>mission-circle-big</find>
       <find>min-w</find>
       <find>gbs-partners</find>
@@ -74,6 +90,8 @@
       <find>fira</find>
       <find>img-product-card</find>
       <find>product-card-button</find>
+      <find>hover</find>
+      <find>table</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -92,12 +110,12 @@
         <option value="$PROJECT_DIR$/technology.html" />
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lab.html" />
         <option value="$PROJECT_DIR$/mission.html" />
         <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/patents.html" />
         <option value="$PROJECT_DIR$/business.html" />
         <option value="$PROJECT_DIR$/company.html" />
+        <option value="$PROJECT_DIR$/lab.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -147,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nameshop/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nameshop/css/style.css" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -181,12 +199,12 @@
       <workItem from="1552916946708" duration="26933000" />
       <workItem from="1553013618644" duration="20467000" />
       <workItem from="1553163006474" duration="35010000" />
-      <workItem from="1553240686526" duration="2614000" />
+      <workItem from="1553240686526" duration="3416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92895000" />
+    <option name="totallyTimeSpent" value="93697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -412,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nameshop/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19922">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nameshop/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -468,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mission.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -510,17 +514,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="122" column="23" lean-forward="true" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="102" column="71" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="71" />
+        <state relative-caret-position="187">
+          <caret line="103" column="44" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nameshop/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="339" column="4" lean-forward="true" selection-start-line="339" selection-start-column="4" selection-end-line="340" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="398" column="97" selection-start-line="398" selection-start-column="97" selection-end-line="398" selection-end-column="97" />
+        <state relative-caret-position="253">
+          <caret line="683" column="24" selection-start-line="683" selection-start-column="24" selection-end-line="683" selection-end-column="24" />
         </state>
       </provider>
     </entry>
