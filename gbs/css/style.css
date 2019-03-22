@@ -189,7 +189,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-size: cover;
     background-position: center;
 }
-
+.bg-image-hero-tech{
+    background-image: url('../img/hero-tech-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .products-logo{
     font-family: Lemon;
     font-style: normal;
@@ -210,6 +216,16 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     line-height: 28px;
     text-align: center;
     color: #EEC067;
+}
+.gbs-tech-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gbs-tech-img{
+    display: flex;
+    align-self: center;
 }
 .gbs-patents-brands{
     padding-left:8rem;
@@ -323,6 +339,18 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding-right:8rem;
     overflow: hidden;
 }
+.gbs-tech-button-wrapper{
+    padding-top:45px;
+    padding-bottom:70px;
+    padding-left:8rem;
+    padding-right:8rem;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .gbs-content-column-team{
     padding-top:45px;
     padding-bottom:70px;
@@ -482,6 +510,19 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-color: #0679E3;
     text-align: center;
     width: 145px;
+}
+.process-button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0679E3;
+    text-align: center;
+    width: 145px;
+    margin-left: 40px;
 }
 .product-card-button:hover{
     color: #fff;
@@ -659,6 +700,10 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding: 27px 21px;
     padding-left:50px;
 }
+.gbs-tech-list{
+    list-style-type:disc;
+    padding-left: 20px;
+}
 .gbs-partners-list li{
     margin-bottom: 30px;
 }
@@ -785,6 +830,14 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding-left: 0rem;
         padding-right: 0rem;
     }
+    .gbs-tech-img-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .gbs-tech-img{
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -887,6 +940,10 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .bg-image-hero-products h1 {
         padding-left: 4rem;
     }
+    .gbs-tech-button-wrapper{
+        padding-left:4rem;
+        padding-right:4rem;
+    }
     .gbs-hero-text-container,.gbs-hero-text-container-technology{
         width: 150px;
     }
@@ -948,6 +1005,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .bg-image-hero-team{
         background-image:url('../img/hero-team-768x250-min.jpg');
     }
+    .bg-image-hero-tech{
+        background-image:url('../img/hero-tech-768x250-min.jpg');
+    }
 }
 
 @media screen and (max-width: 675px){
@@ -978,6 +1038,13 @@ display: none;
     }
 }
 @media screen and (max-width: 450px){
+    .gbs-tech-button-wrapper{
+        flex-direction: column;
+    }
+    .process-button{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
     .mission-circle-big{
         bottom:45%;
         left:-20%;
@@ -1015,6 +1082,10 @@ display: none;
     }
     .bg-image-hero-products h1 {
         padding-left: 2rem;
+    }
+    .gbs-tech-button-wrapper{
+        padding-left:2rem;
+        padding-right:2rem;
     }
     .gbs-owl-slide-text-container h1{
         font-size: 24px;
