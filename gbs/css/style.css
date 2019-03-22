@@ -182,7 +182,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-size: cover;
     background-position: center;
 }
-
+.bg-image-hero-team{
+    background-image: url('../img/hero-team-1920x350-min.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .products-logo{
     font-family: Lemon;
@@ -256,11 +262,72 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-size: cover;
     background-position: 50% 0%;
 }
+.team-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.team-card{
+    display: flex;
+    height: 315px;
+    width: 50%;
+}
+.team-card:first-child{
+    margin-right: 10px;
+}
+.team-card:last-child{
+    margin-left: 10px;
+}
+.team-card img{
+    width: 194px;
+    height: 315px;
+}
+
+.team-description{
+    display: flex;
+    flex-direction: column;
+    background: #DFDFDF;
+    padding:20px;
+}
+.team-description h6{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+.team-description p span{
+    font-style: italic;
+    font-size: 12px;
+
+}
+.team-description p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 7px;
+}
+.team-consultant-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.team-consultant-h1{
+    margin-left: 30px;
+}
+
 .gbs-content-column{
     padding-top:45px;
     padding-bottom:70px;
     padding-left:8rem;
     padding-right:8rem;
+    overflow: hidden;
+}
+.gbs-content-column-team{
+    padding-top:45px;
+    padding-bottom:70px;
+    padding-left:4rem;
+    padding-right:4rem;
     overflow: hidden;
 }
 .gbs-content-column p{
@@ -688,6 +755,31 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 
+@media screen and (max-width: 1250px){
+    .team-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team-card{
+        display: flex;
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .team-card:first-child{
+        margin-right: 0px;
+    }
+    .team-card:last-child{
+        margin-left: 0px;
+    }
+    .team-description p{
+        font-size: 1rem;
+    }
+
+}
+
+
 @media screen and (max-width: 1155px){
     .gbs-products-table-wrapper{
         padding-left: 0rem;
@@ -730,9 +822,18 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         left:-10%;
     }
 }
-
+@media screen and (max-width: 830px){
+    .gbs-content-column-team{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
 
 @media screen and (max-width: 768px){
+    .team-card {
+        flex-direction: column;
+        align-items: center;
+    }
     .product-p{
         width: 100%;
     }
@@ -844,6 +945,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .bg-image-hero-a-product{linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
         background-image:url('../img/hero-products-768x200-min.jpg');
     }
+    .bg-image-hero-team{
+        background-image:url('../img/hero-team-768x250-min.jpg');
+    }
 }
 
 @media screen and (max-width: 675px){
@@ -864,6 +968,13 @@ display: none;
 @media screen and (max-width: 510px){
     .mission-circle-big{
         left:-19%;
+    }
+    .team-consultant-wrapper{
+        flex-direction: column;
+    }
+    .team-consultant-h1{
+        margin-left: 0px;
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 450px){
@@ -895,6 +1006,10 @@ display: none;
         padding-right:2rem;
     }
     .hero-body-products{
+        padding-left:2rem;
+        padding-right:2rem;
+    }
+    .gbs-content-column-team{
         padding-left:2rem;
         padding-right:2rem;
     }
