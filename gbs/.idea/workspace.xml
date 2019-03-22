@@ -14,29 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="838" column="27" selection-start-line="838" selection-start-column="27" selection-end-line="838" selection-end-column="27" />
+            <state relative-caret-position="384">
+              <caret line="499" column="10" selection-start-line="499" selection-start-column="10" selection-end-line="499" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products.html">
+      <file leaf-file-name="process.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/process.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="112" column="84" lean-forward="true" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="84" />
+            <state relative-caret-position="245">
+              <caret line="155" column="48" selection-start-line="155" selection-start-column="48" selection-end-line="155" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technology.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technology.html">
+      <file leaf-file-name="company.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="64" />
+            <state relative-caret-position="391">
+              <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -53,26 +53,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>products-logo</find>
-      <find>products-name</find>
-      <find>gbs-products-table-wrapper</find>
-      <find>hero-bo</find>
-      <find>bg-image-hero-products</find>
-      <find>2rem</find>
-      <find>produ</find>
-      <find>hero-body-products</find>
-      <find>product-card</find>
-      <find>bg-image-hero-products{</find>
-      <find>produc</find>
       <find>fira</find>
       <find>img-product-card</find>
       <find>product-card-button</find>
       <find>hover</find>
-      <find>table</find>
       <find>tab</find>
       <find>img-lab</find>
       <find>bg-</find>
-      <find>gbs-content-column</find>
       <find>1250</find>
       <find>team</find>
       <find>bg-i</find>
@@ -80,9 +67,22 @@
       <find>4rem</find>
       <find>2re</find>
       <find>bu</find>
-      <find>butt</find>
       <find>gbs-tech-button-wrapper</find>
       <find>button</find>
+      <find>owl</find>
+      <find>proc</find>
+      <find>gbs-owl-slide-arrow-container</find>
+      <find>butt</find>
+      <find>process-hero-materials</find>
+      <find>process-button</find>
+      <find>process-hero</find>
+      <find>process-button-download</find>
+      <find>gbs-content-column</find>
+      <find>cc</find>
+      <find>gbs-tree-wrapper</find>
+      <find>rad</find>
+      <find>table</find>
+      <find>tree</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -108,7 +108,10 @@
         <option value="$PROJECT_DIR$/lab.html" />
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/technology.html" />
+        <option value="$PROJECT_DIR$/js/example1.js" />
+        <option value="$PROJECT_DIR$/js/jit-yc.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/process.html" />
       </list>
     </option>
   </component>
@@ -190,12 +193,12 @@
       <workItem from="1552916946708" duration="26933000" />
       <workItem from="1553013618644" duration="20467000" />
       <workItem from="1553163006474" duration="35010000" />
-      <workItem from="1553240686526" duration="11740000" />
+      <workItem from="1553240686526" duration="29436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102021000" />
+    <option name="totallyTimeSpent" value="119717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -445,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mission.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -494,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/achievement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -525,17 +514,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="108" column="108" lean-forward="true" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/technology.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="64" />
+        <state relative-caret-position="218">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jit-yc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="161336" selection-start-line="22" selection-start-column="161336" selection-end-line="22" selection-end-column="161336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/example1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="868" column="22" lean-forward="true" selection-start-line="868" selection-start-column="22" selection-end-line="868" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="838" column="27" selection-start-line="838" selection-start-column="27" selection-end-line="838" selection-end-column="27" />
+        <state relative-caret-position="384">
+          <caret line="499" column="10" selection-start-line="499" selection-start-column="10" selection-end-line="499" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="155" column="48" selection-start-line="155" selection-start-column="48" selection-end-line="155" selection-end-column="48" />
         </state>
       </provider>
     </entry>

@@ -115,6 +115,82 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .gbs-products-table-wrapper table tr:nth-child(odd) td{
     border-right: 1px solid #F1F1F1;
 }
+.process-hero{
+    display: flex;
+    background-color: #4780b5;
+    height: calc(100vh - 85px);
+    position: relative;
+    overflow: hidden;
+}
+.process-hero h1{
+    position: absolute;
+    color:#fff;
+    left:14rem;
+    top:3.5rem;
+}
+.process-hero p{
+    right:12rem;
+    top:8rem;
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.process-hero-molecule-ellipse{
+    padding-left: 14rem;
+    padding-right: 2rem;
+    padding-top: 8rem;
+}
+.process-hero-molecule{
+    position: absolute;
+    bottom:11%;
+    left:19%;
+}
+.process-hero-arrow{
+    padding-right: 2rem;
+    padding-top: 8rem;
+}
+.process-hero-materials{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    background: linear-gradient(182.2deg, rgba(6, 121, 227, 0.5) 0.8%, rgba(255, 255, 255, 0) 82.71%);
+    border-radius: 30px 0px 0px 0px;
+    padding:40px;
+    position: relative;
+    width: 50%;
+    height: 65%;
+    right: -60px;
+}
+.process-hero-materials-line{
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+.process-hero-materials h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFD687;
+    margin-bottom: 30px;
+}
+.process-hero-materials ol {
+    padding-left: 20px;
+    z-index: 9999;
+}
+.process-hero-materials ol li{
+     line-height: 30px;
+     color: #FFFFFF;
+ }
+.process-hero-materials ol li:first-child{
+    line-height: 15px;
+}
+.process-hero-materials ol li span{
+    font-size: 14px;
+    line-height: 30px;
+}
 .bg-image-hero-company{
     background-image:url('../img/hero-company-1920x350-min.jpg');
     overflow: hidden;
@@ -339,6 +415,143 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding-right:8rem;
     overflow: hidden;
 }
+.gbs-tree-wrapper{
+    padding-top:45px;
+    padding-bottom:70px;
+    padding-left:2rem;
+    padding-right:2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.microbial-protein{
+    width: 300px;
+    height: 213px;
+    background: linear-gradient(180deg, #206EB7 0%, rgba(255, 255, 255, 0) 100%), url('../img/tree-bacteria-min.jpg'), #C4C4C4;
+    border-radius: 30px;
+    position: relative;
+}
+.microbial-protein-p{
+    width: 100%;
+    background: #0679E3;
+    border-radius: 0px 0px 30px 30px;
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.waste{
+    width: 100%;
+    height: 213px;
+    background: url('../img/tree-waste-min.jpg'), #C4C4C4;
+    border-radius: 30px;
+    position: relative;
+}
+.waste-p{
+    width: 100%;
+    background: #0679E3;
+    border-radius: 0px 0px 30px 30px;
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.forage{
+    width: 200px;
+    height: 200px;
+    background: url('../img/tree-forage-min.jpg');
+    position: relative;
+}
+.forage-p{
+    width: 100%;
+    background: #FFD687;
+    position: absolute;
+    top:0;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000
+}
+.forage-list{
+    width: 100%;
+    position: absolute;
+    bottom:10px;
+    left:0;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bio-fertilizer{
+    width: 200px;
+    height: 200px;
+    background: url('../img/bio-fertilizer-min.jpg');
+    position: relative;
+}
+.bio-fertilizer-p{
+    width: 100%;
+    background: #FFD687;
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000
+}
+.tree-dna{
+    width: 200px;
+    height: 120px;
+    background: url('../img/tree-dna-min.jpg');
+    position: relative;
+}
+.tree-dna-p{
+    width: 100%;
+    position: absolute;
+    bottom:45px;
+    left:0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+.food-protein{
+    width: 200px;
+    height: 120px;
+    background: url('../img/food-protein-min.jpg');
+    position: relative;
+}
+.food-protein-p{
+    width: 100%;
+    position: absolute;
+    bottom:50px;
+    left:0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+.tree-rectangle{
+    padding:25px;
+    background-color: #5782AA;
+    color:#fff;
+}
+.tree-circle{
+    padding-top: 60px;
+    width: 160px;
+    height: 160px;
+    background-color: #5782AA;
+    color:#fff;
+    border-radius: 80px;
+}
+
 .gbs-tech-button-wrapper{
     padding-top:45px;
     padding-bottom:70px;
@@ -524,7 +737,24 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     width: 145px;
     margin-left: 40px;
 }
-.product-card-button:hover{
+.process-button-download{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #0679E3;
+    width: 350px;
+    z-index: 9999;
+    margin-left: 4rem;
+    margin-top: 10px;
+}
+.product-card-button:hover, .process-button:hover, .process-button-download:hover{
     color: #fff;
     background-image: linear-gradient(to right top, #0679e3, #0676db, #0772d3, #096fcc, #0b6bc4);
 }
@@ -858,6 +1088,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding-left: 5rem;
     }
 }
+@media screen and (max-width: 1010px){
+    .gbs-tree-wrapper{
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .gbs-tablet-hidden{
         display: none !important;
@@ -876,6 +1112,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 @media screen and (max-width: 830px){
+    .gbs-tree-wrapper {
+        width: 1010px;
+        overflow: auto;
+        display: block;
+    }
+
     .gbs-content-column-team{
         padding-left: 2rem;
         padding-right: 2rem;
@@ -1203,3 +1445,93 @@ display: none;
         bottom: 20px;
     }
 }
+
+.tree ul {
+    padding-top: 20px; position: relative;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li {
+    float: left; text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+    content: '';
+    position: absolute; top: 0; right: 50%;
+    border-top: 1px solid #0679E3;
+    width: 50%; height: 20px;
+}
+.tree li::after{
+    right: auto; left: 50%;
+    border-left: 1px solid #0679E3;
+}
+
+/*We need to remove left-right connectors from elements without
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+    border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+    border-right: 1px solid #0679E3;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid #0679E3;
+    width: 0; height: 20px;
+}
+
+.tree li a{
+    text-decoration: none;
+    font-size: 11px;
+    display: inline-block;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+    background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after,
+.tree li a:hover+ul li::before,
+.tree li a:hover+ul::before,
+.tree li a:hover+ul ul::before{
+    border-color:  #94a0b4;
+}
+
