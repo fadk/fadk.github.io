@@ -14,20 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="913" column="1" selection-start-line="913" selection-start-column="1" selection-end-line="913" selection-end-column="8" />
+            <state relative-caret-position="425">
+              <caret line="929" column="1" lean-forward="true" selection-start-line="929" selection-start-column="1" selection-end-line="929" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bulma.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bulma.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="155" column="139" selection-start-line="155" selection-start-column="139" selection-end-line="155" selection-end-column="139" />
+              <caret line="10452" column="18" selection-start-line="10452" selection-start-column="18" selection-end-line="10460" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -62,7 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product-card-button</find>
       <find>hover</find>
       <find>tab</find>
       <find>img-lab</find>
@@ -91,6 +99,7 @@
       <find>tree</find>
       <find>process-hero-materials</find>
       <find>slide</find>
+      <find>.hero-video</find>
       <find>iframe</find>
     </findStrings>
   </component>
@@ -119,8 +128,8 @@
         <option value="$PROJECT_DIR$/js/jit-yc.js" />
         <option value="$PROJECT_DIR$/process.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -203,12 +212,12 @@
       <workItem from="1553013618644" duration="20467000" />
       <workItem from="1553163006474" duration="35010000" />
       <workItem from="1553240686526" duration="34167000" />
-      <workItem from="1553361129879" duration="1048000" />
+      <workItem from="1553361129879" duration="2757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125496000" />
+    <option name="totallyTimeSpent" value="127205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -455,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bulma.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="7779" selection-start-line="7779" selection-end-line="7785" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a-product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -562,17 +564,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/bulma.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="913" column="1" selection-start-line="913" selection-start-column="1" selection-end-line="913" selection-end-column="8" />
+        <state relative-caret-position="184">
+          <caret line="10452" column="18" selection-start-line="10452" selection-start-column="18" selection-end-line="10460" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="155" column="139" selection-start-line="155" selection-start-column="139" selection-end-line="155" selection-end-column="139" />
+        <state relative-caret-position="150">
+          <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="929" column="1" lean-forward="true" selection-start-line="929" selection-start-column="1" selection-end-line="929" selection-end-column="1" />
         </state>
       </provider>
     </entry>
