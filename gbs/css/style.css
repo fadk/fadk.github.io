@@ -423,6 +423,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     justify-content: center;
     align-items: center;
 }
+.gbs-tree-wrapper table{
+    width: 100%;
+    min-width: 1440px;
+    display: block;
+    overflow: auto;
+}
 .microbial-protein{
     width: 300px;
     height: 213px;
