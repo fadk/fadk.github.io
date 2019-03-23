@@ -134,13 +134,11 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     position: absolute;
     font-weight: bold;
     font-size: 14px;
-    line-height: 40px;
     color: #FFFFFF;
 }
 .process-hero-molecule-ellipse{
     padding-left: 10%;
     padding-right: 2rem;
-    margin-right: auto;
 }
 .process-hero-molecule{
     position: absolute;
@@ -1135,6 +1133,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
     .process-button-download{
         margin-left: 0rem;
+        width: 300px;
     }
 }
 @media screen and (max-width: 1280px){
@@ -1166,8 +1165,6 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 
 }
-
-
 @media screen and (max-width: 1155px){
     .gbs-products-table-wrapper{
         padding-left: 0rem;
@@ -1183,8 +1180,6 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 
-
-
 @media screen and (max-width: 1087px){
     .navbar-item, .navbar-link {
         padding:0.75rem;
@@ -1199,6 +1194,19 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
     .gbs-mission {
         padding-left: 5rem;
+    }
+    .process-hero-arrow {
+        width: 100px;
+    }
+    .process-hero p {
+        right: 5rem;
+    }
+    .process-button-download {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .process-hero-materials{
+        padding: 40px;
     }
 }
 @media screen and (max-width: 1010px){
@@ -1220,11 +1228,28 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 @media screen and (max-width: 900px){
+
     .mission-circle-big{
         left:-10%;
     }
+    .process-hero-molecule{
+        width: 230px;
+    }
+    .process-hero-materials {
+        width: 50%;
+    }
+    .process-button-download {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 830px){
+    .process-hero p {
+        right: 20px;
+    }
+    .process-hero-molecule{
+        width: 200px;
+        top: 35%;
+    }
     .gbs-tree-wrapper {
         width: 1010px;
         overflow: auto;
@@ -1238,6 +1263,14 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 @media screen and (max-width: 768px){
+    .process-hero-materials {
+        width: 80%;
+    }
+    .process-hero-molecule{
+        width: 150px;
+        top: 38%;
+        left: 12%;
+    }
     .team-card {
         flex-direction: column;
         align-items: center;
@@ -1366,6 +1399,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 @media screen and (max-width: 675px){
+    .process-hero h1{
+        margin-right: 20px;
+    }
     .mission-circle-big{
         bottom:40%;
         left:-14%;
@@ -1373,6 +1409,14 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 
 @media screen and (max-width: 600px){
+    .process-hero-materials {
+        width: 100%;
+    }
+    .process-hero-molecule{
+        width: 100px;
+        top: 41%;
+        left: 12%;
+    }
     .mission-circle-big{
         left:-17%;
     }
@@ -1380,7 +1424,27 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 display: none;
     }
 }
+@media screen and (max-width: 530px){
+    .process-hero-molecule-ellipse {
+        padding-left: 8%;
+        padding-right: 2rem;
+    }
+    .process-hero-molecule{
+        width: 90px;
+        left: 10%;
+    }
+}
 @media screen and (max-width: 510px){
+    .process-hero-molecule{
+        width: 85px;
+        top: 43%;
+    }
+    .process-hero-arrow {
+        padding-right: 1rem;
+    }
+    .process-hero-molecule-ellipse {
+        padding-right: 1rem;
+    }
     .mission-circle-big{
         left:-19%;
     }
@@ -1391,8 +1455,46 @@ display: none;
         margin-left: 0px;
         margin-top: 30px;
     }
+    .process-hero p {
+        top: 240px;
+        left: 10%;
+    }
 }
+@media screen and (max-width: 490px){
+    .process-hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .process-hero-molecule-ellipse {
+        display: none;
+    }
+    .process-hero-molecule{
+        padding-right: 0rem;
+        padding-left: 0rem;
+        top:35%;
+    }
+    .process-hero-materials {
+        margin-top:100%;
+    }
+    .process-hero-arrow {
+        padding-right: 0rem;
+        position: absolute;
+        top:37%;
+        right:50px;
+    }
+}
+
+
 @media screen and (max-width: 450px){
+    .process-hero-arrow {
+        top:41%;
+    }
+    .process-hero-molecule{
+        top:39%;
+    }
+    .process-hero-materials {
+        margin-top: 120%;
+    }
     .gbs-tech-button-wrapper{
         flex-direction: column;
     }
@@ -1449,13 +1551,28 @@ display: none;
         margin-left: 5%;
     }
 }
+
+@media screen and (max-width: 430px){
+.process-hero-materials {
+    margin-top: 130%;
+}
+}
 @media screen and (max-width: 400px) {
+    .process-hero-materials {
+        margin-top: 135%;
+    }
     .mission-circle-big {
         display: none;
     }
     .gbs-mission {
         padding-left: 2rem;
     }
+}
+
+@media screen and (max-width: 360px){
+.process-hero-materials {
+    margin-top: 150%;
+}
 }
 @media screen and (max-width: 350px){
     .product-h1{
@@ -1494,6 +1611,11 @@ display: none;
     }
 
 }
+@media screen and (max-height: 885px){
+    .process-hero {
+        height: 885px;
+    }
+}
 @media screen and (max-height: 830px){
     .gbs-owl-slide-text-container{
         margin-top: 10%;
@@ -1523,6 +1645,8 @@ display: none;
         margin-top: 40px;
     }
 }
+
+
 @media screen and (orientation:landscape) and (max-height: 450px){
     .owl-nav{
         display: none;
