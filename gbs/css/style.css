@@ -423,12 +423,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     justify-content: center;
     align-items: center;
 }
-.gbs-tree-wrapper table{
-    width: 100%;
-    min-width: 1440px;
-    display: block;
-    overflow: auto;
-}
+
 .microbial-protein{
     width: 300px;
     height: 213px;
@@ -879,7 +874,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     height: calc(100vh - 85px);
 }
 .gbs-owl-slide-text-container{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 10%;
 }
 
@@ -1148,7 +1143,13 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     }
 }
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1255px){
+    .gbs-tree-wrapper{
+        flex-direction: column;
+    }
+    .tree2{
+        margin-top:80px;
+    }
     .team-wrapper {
         flex-direction: column;
         justify-content: center;
@@ -1215,9 +1216,9 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding: 40px;
     }
 }
-@media screen and (max-width: 1010px){
-    .gbs-tree-wrapper{
-        flex-direction: column;
+@media screen and (max-width: 1025px){
+    .forage,.food,.food-protein,.tree-dna {
+        width: 150px;
     }
 }
 
@@ -1232,7 +1233,11 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         padding-right: 4rem;
     }
 }
-
+@media screen and (max-width: 940px){
+    .forage,.food,.food-protein,.tree-dna,.cosmetics,.perfumery,.medicines {
+        width: 110px;
+    }
+}
 @media screen and (max-width: 900px){
 
     .mission-circle-big{
@@ -1248,6 +1253,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         width: 100%;
     }
 }
+
+@media screen and (max-width: 855px){
+    .gbs-tree-wrapper{
+        display: none;
+    }
+}
 @media screen and (max-width: 830px){
     .process-hero p {
         right: 20px;
@@ -1255,11 +1266,6 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .process-hero-molecule{
         width: 200px;
         top: 35%;
-    }
-    .gbs-tree-wrapper {
-        width: 1010px;
-        overflow: auto;
-        display: block;
     }
 
     .gbs-content-column-team{
@@ -1608,13 +1614,8 @@ display: none;
     }
 
 }
-@media screen and (max-height: 1024px){
-    .gbs-owl-slide-text-container{
-        margin-top: 30%;
-    }
-    .gbs-owl-slide-arrow-container {
-        margin-top: 20%;
-    }
+@media screen and (min-height: 1024px){
+
 
 }
 @media screen and (max-height: 885px){
@@ -1622,26 +1623,19 @@ display: none;
         height: 885px;
     }
 }
-@media screen and (max-height: 830px){
-    .gbs-owl-slide-text-container{
-        margin-top: 10%;
-    }
+@media screen and (max-height: 860px){
     .gbs-owl-slide-arrow-container {
-        margin-top: 10%;
+        margin-top: 4%;
     }
-
-}
-@media screen and (max-height: 680px){
-    .gbs-owl-slide-text-container{
-        margin-top: 5%;
-    }
-    .gbs-owl-slide-arrow-container {
-        margin-top: 5%;
+    .gbs-owl-slide-text-container {
+        margin-top: 7%;
     }
 }
 
 @media screen and (max-height: 610px){
-
+    .gbs-owl-slide-text-container{
+        margin-top: 40px;
+    }
     .gbs-owl-slide-arrow-container {
         margin-top: 20px;
     }
@@ -1652,11 +1646,12 @@ display: none;
     }
 }
 
-
-@media screen and (orientation:landscape) and (max-height: 450px){
+@media screen and (max-height: 550px){
     .owl-nav{
         display: none;
     }
+}
+@media screen and (orientation:landscape) and (max-height: 450px){
     .gbs-owl-slide{
         flex-direction: row;
         align-items: center;

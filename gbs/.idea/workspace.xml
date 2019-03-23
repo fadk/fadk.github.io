@@ -14,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="427" column="21" selection-start-line="427" selection-start-column="21" selection-end-line="427" selection-end-column="21" />
+            <state relative-caret-position="401">
+              <caret line="1268" column="5" selection-start-line="1268" selection-start-column="5" selection-end-line="1268" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="process.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
+            <state relative-caret-position="401">
+              <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -44,7 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tab</find>
       <find>img-lab</find>
       <find>bg-</find>
       <find>1250</find>
@@ -74,6 +73,7 @@
       <find>process-hero-materials</find>
       <find>margin-right: auto;</find>
       <find>table</find>
+      <find>tabl</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/js/jit-yc.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/process.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/process.html" />
       </list>
     </option>
   </component>
@@ -185,12 +185,12 @@
       <workItem from="1553013618644" duration="20467000" />
       <workItem from="1553163006474" duration="35010000" />
       <workItem from="1553240686526" duration="34167000" />
-      <workItem from="1553361129879" duration="9207000" />
+      <workItem from="1553361129879" duration="12195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133655000" />
+    <option name="totallyTimeSpent" value="136643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -544,17 +544,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="115" column="32" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="32" />
+        <state relative-caret-position="401">
+          <caret line="1268" column="5" selection-start-line="1268" selection-start-column="5" selection-end-line="1268" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/process.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="427" column="21" selection-start-line="427" selection-start-column="21" selection-end-line="427" selection-end-column="21" />
+        <state relative-caret-position="401">
+          <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
         </state>
       </provider>
     </entry>
