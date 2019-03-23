@@ -911,9 +911,8 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     justify-content: center;
 
 }
-.box iframe{
-    width: 100%;
-    height:auto;
+.vidresp{
+    width:100%;
 }
 .icon-carousel-arrow-video{
     margin-left:19%;
