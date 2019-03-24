@@ -1603,8 +1603,21 @@ display: none;
         display: none;
     }
 }
-
-
+@media screen and (max-width: 335px){
+    .process-hero-materials {
+        margin-top: 160%;
+    }
+}
+@media screen and (max-width: 320px){
+    .process-hero {
+        height: 960px !important;
+    }
+}
+@media screen and (max-width: 315px){
+    .process-hero-materials {
+        margin-top: 170%;
+    }
+}
 @media print {
     a[href]:after {
         content: " (" attr(href) ") ";
