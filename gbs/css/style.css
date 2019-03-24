@@ -1498,6 +1498,12 @@ display: none;
 
 
 @media screen and (max-width: 450px){
+    .process-hero {
+        height: 940px;
+    }
+    .process-button-download {
+        margin-top: 20px;
+    }
     .process-hero-arrow {
         top:41%;
     }
@@ -1620,7 +1626,10 @@ display: none;
 }
 @media screen and (max-height: 885px){
     .process-hero {
-        height: 885px;
+        height: 940px;
+    }
+    .process-button-download {
+        margin-top: 20px;
     }
 }
 @media screen and (max-height: 860px){
