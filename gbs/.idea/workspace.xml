@@ -14,11 +14,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="1612" column="33" selection-start-line="1612" selection-start-column="33" selection-end-line="1612" selection-end-column="33" />
+            <state relative-caret-position="388">
+              <caret line="935" column="17" selection-start-line="935" selection-start-column="17" selection-end-line="935" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img-lab</find>
       <find>bg-</find>
       <find>1250</find>
       <find>team</find>
@@ -57,7 +70,6 @@
       <find>button</find>
       <find>owl</find>
       <find>proc</find>
-      <find>gbs-owl-slide-arrow-container</find>
       <find>butt</find>
       <find>process-button</find>
       <find>process-hero</find>
@@ -70,10 +82,12 @@
       <find>.hero-video</find>
       <find>iframe</find>
       <find>process-hero-materials</find>
-      <find>margin-right: auto;</find>
+      <find />
       <find>table</find>
       <find>tabl</find>
       <find>process-button-download</find>
+      <find>gbs-owl-slide-arrow-container</find>
+      <find>slide-button</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -99,10 +113,10 @@
         <option value="$PROJECT_DIR$/technology.html" />
         <option value="$PROJECT_DIR$/js/example1.js" />
         <option value="$PROJECT_DIR$/js/jit-yc.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/process.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -112,7 +126,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="60" />
     <option name="y" value="-9" />
     <option name="width" value="1223" />
@@ -185,12 +199,12 @@
       <workItem from="1553013618644" duration="20467000" />
       <workItem from="1553163006474" duration="35010000" />
       <workItem from="1553240686526" duration="34167000" />
-      <workItem from="1553361129879" duration="13569000" />
+      <workItem from="1553361129879" duration="15333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138017000" />
+    <option name="totallyTimeSpent" value="139781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -530,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="150" column="37" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -553,8 +560,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="1612" column="33" selection-start-line="1612" selection-start-column="33" selection-end-line="1612" selection-end-column="33" />
+        <state relative-caret-position="388">
+          <caret line="935" column="17" selection-start-line="935" selection-start-column="17" selection-end-line="935" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

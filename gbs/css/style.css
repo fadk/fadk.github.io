@@ -892,6 +892,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     margin-top: 5.5%;
     background: linear-gradient(89.17deg, rgba(47, 128, 237, 0.5) 20.66%, rgba(255, 255, 255, 0) 92.69%);
 }
+
 .slide-button{
     background-color: transparent;
     border:none;
@@ -932,7 +933,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 }
 .gbs-owl-slide-arrow-container p{
     width: 200px;
-    margin-left:10%;
+    margin-left:3%;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 24px;
     line-height: normal;
