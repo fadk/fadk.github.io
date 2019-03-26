@@ -69,6 +69,19 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 .svg-hero{
     margin-left: 25px;
 }
+.hero-index {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+}
 .fa-sort-down{
     margin-left:7px;
     font-size: 11px;
@@ -189,6 +202,12 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     font-size: 14px;
     line-height: 30px;
 }
+.achievement-columns{
+    margin-bottom:0px !important;
+}
+.patents-columns{
+    margin-bottom:0px !important;
+}
 .bg-image-hero-company{
     background-image:url('../img/hero-company-1920x350-min.jpg');
     overflow: hidden;
@@ -247,6 +266,15 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.svg-list{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.svg-list embed{
+    margin-top: 2px;
 }
 .bg-image-hero-a-product{
     background-image:linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
@@ -1037,7 +1065,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     padding-left: 20px;
 }
 .gbs-partners-list li{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .gbs-mission{
     display: flex;
@@ -1318,10 +1346,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .gbs-mission-text-wrapper p{
         margin-left: 40px;
     }
-    .svg-star{
-        display:flex;
-        justify-content: center;
-    }
+
     .gbs-partners-text-wrapper{
         padding-left:4rem;
         padding-right:4rem;
@@ -1349,7 +1374,6 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
         width: 150px;
     }
     .gbs-hero-text-container-header,.gbs-hero-text-container-header-technology {
-        background-color: #273342;
         position: absolute;
         margin-left: -200px;
     }
@@ -1374,41 +1398,41 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     .owl-nav{
         display: none;
     }
-    .bg-image-hero-company{
-        background-image:url('../img/hero-company-768x250-min.jpg');
-    }
-    .bg-image-hero-achievement{
-        background-image:url('../img/hero-achievement-768x250-min.jpg');
-    }
-    .bg-image-hero-business{
-        background-image:url('../img/hero-business-768x250-min.jpg');
-    }
-    .bg-image-hero-lab{
-        background-image:
-                linear-gradient(304.59deg, rgba(67, 151, 103, 0.33) 3.77%, rgba(194, 194, 194, 0.33) 93.04%),
-                url('../img/hero-lab-768x250-min.jpg');
-    }
-    .bg-image-hero-mission{
-        background-image:url('../img/hero-mission-768x250-min.jpg');
-    }
-    .bg-image-hero-partners{
-        background-image:url('../img/hero-partners-768x250-min.jpg');
-    }
-    .bg-image-hero-patents{
-        background-image:url('../img/hero-patents-768x250-min.jpg');
-    }
-    .bg-image-hero-products{linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
-        background-image:url('../img/hero-products-768x200-min.jpg');
-    }
-    .bg-image-hero-a-product{linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),
-        background-image:url('../img/hero-products-768x200-min.jpg');
-    }
-    .bg-image-hero-team{
-        background-image:url('../img/hero-team-768x250-min.jpg');
-    }
-    .bg-image-hero-tech{
-        background-image:url('../img/hero-tech-768x250-min.jpg');
-    }
+    /*.bg-image-hero-company{*/
+        /*background-image:url('../img/hero-company-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-achievement{*/
+        /*background-image:url('../img/hero-achievement-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-business{*/
+        /*background-image:url('../img/hero-business-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-lab{*/
+        /*background-image:*/
+                /*linear-gradient(304.59deg, rgba(67, 151, 103, 0.33) 3.77%, rgba(194, 194, 194, 0.33) 93.04%),*/
+                /*url('../img/hero-lab-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-mission{*/
+        /*background-image:url('../img/hero-mission-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-partners{*/
+        /*background-image:url('../img/hero-partners-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-patents{*/
+        /*background-image:url('../img/hero-patents-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-products{linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),*/
+        /*background-image:url('../img/hero-products-768x200-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-a-product{linear-gradient(0deg, rgba(50, 133, 85, 0.8), rgba(50, 133, 85, 0.8)),*/
+        /*background-image:url('../img/hero-products-768x200-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-team{*/
+        /*background-image:url('../img/hero-team-768x250-min.jpg');*/
+    /*}*/
+    /*.bg-image-hero-tech{*/
+        /*background-image:url('../img/hero-tech-768x250-min.jpg');*/
+    /*}*/
 }
 
 @media screen and (max-width: 675px){
@@ -1499,6 +1523,9 @@ display: none;
 
 
 @media screen and (max-width: 450px){
+    .gbs-hero-text-container-header, .gbs-hero-text-container-header-technology {
+        margin-left: -150px;
+    }
     .process-hero {
         height: 940px;
     }
