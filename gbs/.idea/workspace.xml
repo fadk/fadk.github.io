@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="process.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/process.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="212" column="6" selection-start-line="212" selection-start-column="6" selection-end-line="212" selection-end-column="6" />
+            <state relative-caret-position="547">
+              <caret line="2182" lean-forward="true" selection-start-line="2182" selection-end-line="2182" />
             </state>
           </provider>
         </entry>
@@ -35,7 +35,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>2re</find>
       <find>bu</find>
       <find>gbs-tech-button-wrapper</find>
       <find>button</find>
@@ -65,6 +64,7 @@
       <find>ach</find>
       <find>svg-star</find>
       <find>.bg-image</find>
+      <find>href=&quot;#&quot;class=&quot;food&quot;</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -80,7 +80,6 @@
         <option value="$PROJECT_DIR$/js/example1.js" />
         <option value="$PROJECT_DIR$/js/jit-yc.js" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/achievement.html" />
         <option value="$PROJECT_DIR$/business.html" />
         <option value="$PROJECT_DIR$/technology.html" />
@@ -94,6 +93,7 @@
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/a-product.html" />
         <option value="$PROJECT_DIR$/process.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -177,12 +177,12 @@
       <workItem from="1553163006474" duration="35010000" />
       <workItem from="1553240686526" duration="34167000" />
       <workItem from="1553361129879" duration="17124000" />
-      <workItem from="1553592883645" duration="8465000" />
+      <workItem from="1553592883645" duration="9333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150037000" />
+    <option name="totallyTimeSpent" value="150905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -214,13 +214,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2686">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -452,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="1048" column="18" selection-start-line="1048" selection-start-column="18" selection-end-line="1048" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/achievement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -552,6 +538,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="212" column="6" selection-start-line="212" selection-start-column="6" selection-end-line="212" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/molecule.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="2182" lean-forward="true" selection-start-line="2182" selection-end-line="2182" />
         </state>
       </provider>
     </entry>
