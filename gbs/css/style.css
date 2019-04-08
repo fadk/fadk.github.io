@@ -1379,7 +1379,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 @supports (-webkit-overflow-scrolling: touch) {
     /* CSS specific to iOS devices */
     .gbs-hero-text-container-header{
-        top:100px;
+        top:70px;
     }
 }
 .gbs-hero-text-container-header-technology{
@@ -1399,7 +1399,7 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
 @supports (-webkit-overflow-scrolling: touch) {
     /* CSS specific to iOS devices */
     .gbs-hero-text-container-header-technology{
-        top:100px;
+        top:70px;
     }
 }
 .gbs-hero-text-container-header h1{
