@@ -1368,13 +1368,19 @@ a.navbar-item:hover,  a.navbar-item.is-active, .navbar-brand .navbar-link:hover,
     height: 81px;
     position: absolute;
     margin-left: -43px;
-    top:100px;
+    top:34px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */
+    .gbs-hero-text-container-header{
+        top:100px;
+    }
 }
 .gbs-hero-text-container-header-technology{
     background-color: #264D4D;
