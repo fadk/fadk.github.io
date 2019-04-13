@@ -661,7 +661,21 @@ font-size: 1.3rem;
 .shop-cart-page__remove{
     margin-left: 20px;
 }
-
+/*.shop-cart-page .table th:first-child {
+    width: 35%;
+}
+.shop-cart-page .table th:nth-child(2) {
+    width: 15%;
+}
+.shop-cart-page .table th:nth-child(3) {
+    width: 15%;
+}
+.shop-cart-page .table th:nth-child(4) {
+    width: 15%;
+}
+.shop-cart-page .table th:nth-child(5) {
+    width: 15%;
+}*/
 .shop-cart-page .table td, .table th {
     border: 1px solid #f3f3f3;
 }
@@ -795,6 +809,7 @@ span.irs-handle:before {
 
 #sync2 .item {
       padding: 10px;
+      /*margin: 10px;*/
       color: #FFF;
       text-align: center;
       cursor: pointer;
