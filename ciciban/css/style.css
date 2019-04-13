@@ -1,17 +1,20 @@
 @font-face{
-    font-family: 'CenturyGothic';
-    src: url('../fonts/century-gothic.ttf') format('truetype');
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins-Black.ttf') format('truetype');
-    font-weight: black;
+    font-family: 'CenturyGothic-Bold';
+    src: url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 body, input, select, textarea {
-    font-family: 'CenturyGothic';
+    font-family: 'Century Gothic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
 }
 .header{
     position: relative;
@@ -188,6 +191,9 @@ top:85px;
     border-radius: 60px;
 }*/
 .cici-owl-slide-text-container h1 {
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-style: normal;
     font-size: 72px;
     line-height: 82px;
     text-align: center;
@@ -255,7 +261,13 @@ top:85px;
 .cici-footer-column{
     display:flex;
     flex-direction: column;
-    padding:20px;
+    padding:25px;
+}
+.cici-footer-column:first-child{
+     padding-left:65px;
+}
+.cici-footer-column:last-child{
+    padding-right:65px;
 }
 .footer a .icon {
     margin-left: -4px;
@@ -269,10 +281,21 @@ top:85px;
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    padding:0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 @media screen and (max-width: 890px){
     .cici-footer-column{
         min-width: 50%;
+    }
+    .cici-footer-column:nth-child(odd){
+        padding-left:65px;
+    }
+    .cici-footer-column:last-child{
+        padding-right:25px;
     }
 }
 
@@ -302,7 +325,12 @@ top:85px;
 @media screen and (max-width: 500px){
     .cici-footer-column{
         min-width: 100%;
+        padding-left:50px;
     }
+    .cici-footer-column:nth-child(odd){
+        padding-left:50px;
+    }
+
 }
 @media screen and (max-width: 340px){
     .navbar-logo a {
