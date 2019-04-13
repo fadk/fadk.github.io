@@ -20,13 +20,16 @@ body, input, select, textarea {
 .header__info{
     padding: 7px 0 3px;
     background-color: #222;
-    color: #fff;
     display: flex;
     align-items: center;
-    font-size: 0.9rem;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: #ccc;
+    font-size: 0.9rem;
+}
+.header__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .header__info a{
     color: #ccc;
@@ -43,7 +46,8 @@ body, input, select, textarea {
 }
 .header__divider{
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 0px;
+    margin-top: -3px;
 }
 .header__text{
     margin-left: 15px;
@@ -147,6 +151,9 @@ button {
 }
 .cici-search-button{
     margin-left: -35px;
+}
+.modal-close{
+top:85px;
 }
 .cici-owl-slide{
     display:-webkit-box;
@@ -256,6 +263,38 @@ button {
 .footer a{
     color: #000;
 }
-@media screen and (max-width: 1240px){
-
+@media screen and (max-width: 740px){
+    .navbar-wrapper{
+        flex-direction: column;
+    }
+    .hero-index {
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 560px){
+    .header__divider{
+        display: none;
+    }
+    .header__item-left{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__text {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 340px){
+    .navbar-logo a {
+        width: 215px;
+        display: flex;
+        align-items: center;
+    }
+    .cici-search{
+        width: 190px;
+    }
+}
+@media print {
+    a[href]:after {
+        content: " (" attr(href) ") ";
+    }
 }
