@@ -67,6 +67,7 @@ a .icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, .8);
 }
 .cici-navbar-end{
     display: flex;
@@ -75,9 +76,7 @@ a .icon {
 }
 .navbar{
     height: 60px;
-}
-.navbar{
-    background-color: rgba(255, 255, 255, .8);
+    background-color: transparent;
 }
 .navbar-brand a{
     font-size: 1.5rem;
@@ -131,6 +130,9 @@ a.navbar-item:hover, a.navbar-item.is-active,
     position: absolute;
     width: 1px;
 
+}
+input{
+    border:none;
 }
 .simple-search-container input[type=search] {
     height: auto;
@@ -254,6 +256,6 @@ button {
 .footer a{
     color: #000;
 }
-@media screen and (max-width: 1290px){
+@media screen and (max-width: 1240px){
 
 }
