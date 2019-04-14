@@ -18,7 +18,7 @@ body, input, select, textarea {
 }
 .header{
     position: relative;
-    z-index: 777;
+    z-index: 30;
 }
 .header__info{
     padding: 7px 0 3px;
@@ -189,9 +189,7 @@ button {
 .cici-search-button{
     margin-left: -35px;
 }
-.modal-close{
-    top:15vh;
-}
+
 .cici-owl-slide{
     display:-webkit-box;
     display:-ms-flexbox;
@@ -274,6 +272,7 @@ button {
 }
 .vidresp{
     margin-top:20px;
+    margin-bottom:20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -282,12 +281,12 @@ button {
     width:50vw;
     height: 50vh;
 }
-.modal-content, .modal-card {
+.modal-content {
     margin: 0 20px;
-    min-height: 70vh;
+/*    min-height: 70vh;
     max-height: 70vh;
     min-width: 70vw;
-    max-width: 70vw;
+    max-width: 70vw;*/
     overflow: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -427,14 +426,11 @@ button {
         width: 190px;
     }
 }
+@media screen and (max-height: 770px){
 
+}
 @media screen and (max-height: 640px){
-    .modal-content{
-        margin: 0 20px;
-        min-height: 50vh;
-        min-width: 70vw;
-        max-width: 70vw;
-    }
+
 }
 @media print {
     a[href]:after {
