@@ -26,8 +26,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+            <state relative-caret-position="386">
+              <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -63,10 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header__text</find>
-      <find>header__wrapper</find>
-      <find>gbs-content</find>
-      <find>social</find>
       <find>navbar-item</find>
       <find>pri</find>
       <find>manu</find>
@@ -93,6 +89,10 @@
       <find>cici-owl-slide-text-container</find>
       <find>modal</find>
       <find>modal-content</find>
+      <find>vidr</find>
+      <find>box</find>
+      <find>.box</find>
+      <find>p{</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -112,8 +112,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="163" />
-    <option name="y" value="104" />
+    <option name="x" value="64" />
+    <option name="y" value="58" />
     <option name="width" value="1153" />
     <option name="height" value="687" />
   </component>
@@ -174,15 +174,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555154479507</updated>
-      <workItem from="1555154484344" duration="31738000" />
+      <workItem from="1555154484344" duration="32605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31738000" />
+    <option name="totallyTimeSpent" value="32605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="104" width="1153" height="687" extended-state="0" />
+    <frame x="64" y="58" width="1153" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20404573" />
@@ -290,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+        <state relative-caret-position="386">
+          <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
         </state>
       </provider>
     </entry>
