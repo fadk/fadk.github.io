@@ -356,6 +356,7 @@ button {
     padding:0px;
     padding-left: 15px;
     padding-right: 15px;
+    width:100vw;
 }
 @media screen and (max-width: 890px){
     .cici-footer-column{
