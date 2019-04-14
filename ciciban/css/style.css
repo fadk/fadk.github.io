@@ -190,7 +190,7 @@ button {
     margin-left: -35px;
 }
 .modal-close{
-    top:85px;
+    top:15vh;
 }
 .cici-owl-slide{
     display:-webkit-box;
@@ -284,8 +284,10 @@ button {
 }
 .modal-content, .modal-card {
     margin: 0 20px;
-    min-height: 90vh;
-    min-width: 90vw;
+    min-height: 70vh;
+    max-height: 70vh;
+    min-width: 70vw;
+    max-width: 70vw;
     overflow: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -423,6 +425,15 @@ button {
     }
     .cici-search{
         width: 190px;
+    }
+}
+
+@media screen and (max-height: 640px){
+    .modal-content{
+        margin: 0 20px;
+        min-height: 50vh;
+        min-width: 70vw;
+        max-width: 70vw;
     }
 }
 @media print {
