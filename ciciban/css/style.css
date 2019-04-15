@@ -180,6 +180,8 @@ input{
     padding: 6px 35px 6px 19px;
     margin: 0;
     font-weight: 700;
+    font-style: italic;
+    background-color: #f3f3f3;
 }
 button {
     padding:0;
@@ -204,7 +206,7 @@ button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: calc(100vh - 34px - 96px);
+    height: calc(100vh - 34px - 64px - 38px);
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -267,9 +269,6 @@ button {
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #fff;
 }
-.hero-index{
-    margin-top:-60px;
-}
 .vidresp{
     margin-top:20px;
     display: -webkit-box;
@@ -309,25 +308,6 @@ button {
     -ms-flex-align: start;
     align-items: flex-start;
 }
-.footer-logo img{
-    width: 125px;
-}
-.cici-footer-column{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding:15px;
-}
-.cici-footer-column:first-child{
-    padding-left:65px;
-}
-.cici-footer-column:last-child{
-    padding-right:65px;
-}
 .footer a .icon {
     margin-left: -4px;
     margin-right: 15px;
@@ -336,25 +316,68 @@ button {
     color: #000;
 }
 .footer{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     margin-right: auto;
     margin-left: auto;
-    padding:0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width:100vw;
+    padding:0;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: table-row;
+    background-color: #fff;
 }
-
+.footer-item.copy {
+    padding-left: 25px;
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+.footer-copy-wrapper {
+    margin-bottom: 10px;
+}
+.footer-item {
+    display: table-cell;
+}
+.footer-item.copy a {
+    display: inline-block;
+    padding: 0 20px 0 5px;
+    margin-top: 10px;
+}
+.footer-item.email-signup {
+    vertical-align: middle;
+}
+.footer-item.email-signup .form-row {
+    margin: 0 0 0 25px;
+}
+.form-row {
+    position: relative;
+    overflow: hidden;
+}
+.footer-item.email-signup .form-row input {
+    margin-bottom: 0;
+}
+.email-signup-form input[type=email] {
+    height: auto;
+    padding: 5px 30px 5px 5px;
+    border: none;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: .24px;
+    background-color: #ccc;
+    color: #666;
+}
+.email-signup-form .submit-email-btn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    line-height: 14px;
+    padding: 4px;
+    border: none;
+    font-size: 12px;
+    background: 0 0;
+    color: #000;
+    width: auto;
+}
+.email-signup-form .email-signup-confirmation {
+    color: #342e7d;
+    display: none;
+}
 @media screen and (max-width: 1241px){
     .navbar-item:not(:last-child) {
         border: none;

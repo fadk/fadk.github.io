@@ -13,7 +13,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,15 +45,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>manu</find>
-      <find>xs</find>
-      <find>size__checkbox_xs</find>
-      <find>butt</find>
       <find>button</find>
       <find>activ</find>
       <find>buttons</find>
       <find>hover</find>
-      <find>hero-index</find>
       <find>60</find>
       <find>navbar-logo a</find>
       <find>-owl-slide</find>
@@ -56,6 +70,11 @@
       <find>gbs-footer-column</find>
       <find>p {</find>
       <find>car</find>
+      <find>footer-</find>
+      <find>64</find>
+      <find>hero-index</find>
+      <find>calc</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -63,11 +82,11 @@
       <list>
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/css/bulma.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/bulma.js" />
         <option value="$PROJECT_DIR$/js/js-cookie.js" />
         <option value="$PROJECT_DIR$/../gbs/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -115,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ciciban-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -147,14 +166,16 @@
       <updated>1555154479507</updated>
       <workItem from="1555154484344" duration="35126000" />
       <workItem from="1555271216801" duration="167000" />
+      <workItem from="1555334385413" duration="3245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35299000" />
+    <option name="totallyTimeSpent" value="38544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="112" y="64" width="1153" height="687" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20404573" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -357,15 +378,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="238">
+          <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+        <state relative-caret-position="318">
+          <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
         </state>
       </provider>
     </entry>
