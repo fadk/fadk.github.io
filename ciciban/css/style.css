@@ -96,7 +96,7 @@ a .icon {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .94);
 }
 .sub-categories__wrapper{
     width: 100vw;
@@ -216,7 +216,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
 .navbar-item {
     border-right: 1px solid rgba(0,0,0,.2);
 }
-.navbar-end .navbar-item {
+.navbar-end .navbar-item:not(:first-child){
     border-left: 1px solid rgba(0,0,0,.2);
 }
 .navbar-end .navbar-dropdown .navbar-item {
@@ -399,6 +399,7 @@ button {
     padding-right: 60px;
     display: table-row;
     background-color: #fff;
+    position:relative;
 }
 .footer-item.copy {
     padding-left: 25px;
@@ -418,7 +419,9 @@ button {
     margin-top: 10px;
 }
 .footer-item.email-signup {
-    vertical-align: middle;
+    position: absolute;
+    top:10px;
+    right:85px;
 }
 .footer-item.email-signup .form-row {
     margin: 0 0 0 25px;
@@ -461,6 +464,25 @@ button {
         border: none;
     }
 }
+@media screen and (max-width: 1000px){
+    .footer-item.copy a {
+        display: block;
+    }
+    .footer {
+        padding: 20px 15px;
+        border-top: 1px solid #ccc;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-item.copy {
+        border:none;
+    }
+    .footer-item.email-signup {
+        top:28px;
+        right:50px;
+    }
+}
 @media screen and (max-width: 890px){
     .cici-footer-column{
         min-width: 50%;
@@ -484,20 +506,7 @@ button {
     .navbar-item {
         border:none;
     }
-    .footer-item.copy a {
-        display: block;
 
-    }
-    .footer {
-        padding: 20px 15px;
-        border-top: 1px solid #ccc;
-        margin-top: 0px;
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-item.copy {
-        border:none;
-    }
     .footer-item.email-signup .form-row {
         width: 170px;
         margin-left: auto;
@@ -532,6 +541,12 @@ button {
     .simple-search-container {
         max-width: 500px;
         position: relative;
+    }
+    .navbar-item .simple-search-container {
+        margin-left:23px;
+    }
+    .navbar-item .simple-search-container input[type=search] {
+        width: 230px;
     }
     .home-mobile-search fieldset {
         width: 100%;
@@ -627,7 +642,7 @@ button {
         text-align: center;
         letter-spacing: .9px;
         font-size: 18px;
-        background-color: rgba(255,255,255,.8);
+        background-color: rgba(255,255,255,.94);
         color: #666;
     }
     .home-mobile-slot-division {
@@ -666,6 +681,9 @@ button {
     .navbar-dropdown .fa-chevron-right{
         display: block;
         float:right;
+    }
+    hr {
+        background-color: transparent;
     }
 }
 
@@ -713,6 +731,11 @@ button {
         .season-mobile{
             font-size: 25px;
         }
+}
+@media screen and (max-width: 485px){
+    .footer-item.email-signup {
+        position:static;
+    }
 }
 @media screen and (max-width: 415px){
     .home-mobile-slots{

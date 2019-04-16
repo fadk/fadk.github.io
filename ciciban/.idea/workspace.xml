@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="246" column="10" lean-forward="true" selection-start-line="246" selection-start-column="10" selection-end-line="246" selection-end-column="10" />
+            <state relative-caret-position="301">
+              <caret line="297" column="54" selection-start-line="297" selection-start-column="54" selection-end-line="297" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="280" column="40" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
+            <state relative-caret-position="182">
+              <caret line="685" column="38" selection-start-line="685" selection-start-column="38" selection-end-line="685" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -63,11 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hero-index</find>
-      <find>border</find>
-      <find>input</find>
-      <find>TOggle</find>
-      <find>cici-navbar-end</find>
       <find>1241</find>
       <find>sub-</find>
       <find>.navbar</find>
@@ -91,8 +86,13 @@
       <find />
       <find>560</find>
       <find>hero</find>
-      <find>back</find>
       <find>calc</find>
+      <find>back</find>
+      <find>cici-button</find>
+      <find>button_no-border</find>
+      <find>76</find>
+      <find>email</find>
+      <find>:not</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -114,9 +114,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="65" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="106" />
+    <option name="y" value="28" />
     <option name="width" value="1180" />
     <option name="height" value="687" />
   </component>
@@ -184,15 +184,15 @@
       <updated>1555154479507</updated>
       <workItem from="1555154484344" duration="35126000" />
       <workItem from="1555271216801" duration="167000" />
-      <workItem from="1555334385413" duration="27772000" />
+      <workItem from="1555334385413" duration="30876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63071000" />
+    <option name="totallyTimeSpent" value="66175000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="65" width="1180" height="687" extended-state="0" />
+    <frame x="106" y="28" width="1180" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19931272" />
@@ -383,7 +383,7 @@
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -396,15 +396,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="246" column="10" lean-forward="true" selection-start-line="246" selection-start-column="10" selection-end-line="246" selection-end-column="10" />
+        <state relative-caret-position="301">
+          <caret line="297" column="54" selection-start-line="297" selection-start-column="54" selection-end-line="297" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="280" column="40" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
+        <state relative-caret-position="182">
+          <caret line="685" column="38" selection-start-line="685" selection-start-column="38" selection-end-line="685" selection-end-column="38" />
         </state>
       </provider>
     </entry>
