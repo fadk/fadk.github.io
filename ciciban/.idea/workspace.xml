@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="297" column="54" selection-start-line="297" selection-start-column="54" selection-end-line="297" selection-end-column="54" />
+            <state relative-caret-position="284">
+              <caret line="296" column="46" lean-forward="true" selection-start-line="296" selection-start-column="24" selection-end-line="296" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="685" column="38" selection-start-line="685" selection-start-column="38" selection-end-line="685" selection-end-column="38" />
+            <state relative-caret-position="284">
+              <caret line="533" column="26" selection-start-line="533" selection-start-column="26" selection-end-line="533" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -63,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1241</find>
       <find>sub-</find>
       <find>.navbar</find>
       <find>bor</find>
@@ -74,7 +73,7 @@
       <find>slide</find>
       <find>768</find>
       <find>home-mobile-slot-division</find>
-      <find />
+      <find>.home-mobile-search button</find>
       <find>sear</find>
       <find>коллек</find>
       <find>shopp</find>
@@ -83,7 +82,7 @@
       <find>cici-search</find>
       <find>search</find>
       <find>borde</find>
-      <find />
+      <find>о</find>
       <find>560</find>
       <find>hero</find>
       <find>calc</find>
@@ -92,6 +91,7 @@
       <find>button_no-border</find>
       <find>76</find>
       <find>email</find>
+      <find>hr</find>
       <find>:not</find>
     </findStrings>
   </component>
@@ -114,7 +114,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="106" />
     <option name="y" value="28" />
     <option name="width" value="1180" />
@@ -184,12 +184,12 @@
       <updated>1555154479507</updated>
       <workItem from="1555154484344" duration="35126000" />
       <workItem from="1555271216801" duration="167000" />
-      <workItem from="1555334385413" duration="30876000" />
+      <workItem from="1555334385413" duration="32406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66175000" />
+    <option name="totallyTimeSpent" value="67705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="28" width="1180" height="687" extended-state="0" />
@@ -396,15 +396,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="297" column="54" selection-start-line="297" selection-start-column="54" selection-end-line="297" selection-end-column="54" />
+        <state relative-caret-position="284">
+          <caret line="296" column="46" lean-forward="true" selection-start-line="296" selection-start-column="24" selection-end-line="296" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="685" column="38" selection-start-line="685" selection-start-column="38" selection-end-line="685" selection-end-column="38" />
+        <state relative-caret-position="284">
+          <caret line="533" column="26" selection-start-line="533" selection-start-column="26" selection-end-line="533" selection-end-column="26" />
         </state>
       </provider>
     </entry>

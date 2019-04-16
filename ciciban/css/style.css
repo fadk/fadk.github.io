@@ -526,12 +526,14 @@ button {
         top: 0;
         left: 0;
         z-index: -1;
-        width: 100%;
-        height: 100%;
     }
     .home-mobile-background img{
-        width: 100%;
-        height: 100%;
+        height: 875px;
+        width: 767px;
+        width: auto;
+        min-height: 426px;
+        display: flex;
+        align-self: center;
     }
     .home-mobile-search {
         width: auto;
