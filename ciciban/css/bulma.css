@@ -376,7 +376,7 @@ body {
 }
 
 a {
-  color: #3273dc;
+  color: #000;
   cursor: pointer;
   text-decoration: none;
 }
@@ -6332,7 +6332,7 @@ a.list-item {
   color: #0a0a0a;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-white .navbar-start > .navbar-item,
   .navbar.is-white .navbar-start .navbar-link,
   .navbar.is-white .navbar-end > .navbar-item,
@@ -6389,7 +6389,7 @@ a.list-item {
   color: white;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-black .navbar-start > .navbar-item,
   .navbar.is-black .navbar-start .navbar-link,
   .navbar.is-black .navbar-end > .navbar-item,
@@ -6446,7 +6446,7 @@ a.list-item {
   color: #363636;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-light .navbar-start > .navbar-item,
   .navbar.is-light .navbar-start .navbar-link,
   .navbar.is-light .navbar-end > .navbar-item,
@@ -6503,7 +6503,7 @@ a.list-item {
   color: whitesmoke;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-dark .navbar-start > .navbar-item,
   .navbar.is-dark .navbar-start .navbar-link,
   .navbar.is-dark .navbar-end > .navbar-item,
@@ -6560,7 +6560,7 @@ a.list-item {
   color: #fff;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-primary .navbar-start > .navbar-item,
   .navbar.is-primary .navbar-start .navbar-link,
   .navbar.is-primary .navbar-end > .navbar-item,
@@ -6617,7 +6617,7 @@ a.list-item {
   color: #fff;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-link .navbar-start > .navbar-item,
   .navbar.is-link .navbar-start .navbar-link,
   .navbar.is-link .navbar-end > .navbar-item,
@@ -6674,7 +6674,7 @@ a.list-item {
   color: #fff;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-info .navbar-start > .navbar-item,
   .navbar.is-info .navbar-start .navbar-link,
   .navbar.is-info .navbar-end > .navbar-item,
@@ -6731,7 +6731,7 @@ a.list-item {
   color: #fff;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-success .navbar-start > .navbar-item,
   .navbar.is-success .navbar-start .navbar-link,
   .navbar.is-success .navbar-end > .navbar-item,
@@ -6788,7 +6788,7 @@ a.list-item {
   color: rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-warning .navbar-start > .navbar-item,
   .navbar.is-warning .navbar-start .navbar-link,
   .navbar.is-warning .navbar-end > .navbar-item,
@@ -6845,7 +6845,7 @@ a.list-item {
   color: #fff;
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar.is-danger .navbar-start > .navbar-item,
   .navbar.is-danger .navbar-start .navbar-link,
   .navbar.is-danger .navbar-end > .navbar-item,
@@ -7096,7 +7096,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
   margin: 0.5rem 0;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 768px) {
   .navbar > .container {
     display: block;
   }
@@ -7146,7 +7146,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
   }
 }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 769px) {
   .navbar,
   .navbar-menu,
   .navbar-start,
