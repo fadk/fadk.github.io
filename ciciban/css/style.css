@@ -278,7 +278,7 @@ button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: calc(100vh - 34px - 64px - 38px);
+    height: calc(100vh - 34px - 60px - 58px);
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
