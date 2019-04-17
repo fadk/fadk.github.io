@@ -503,10 +503,18 @@ button {
     }
 }
 @media screen and (max-width: 768px){
+    .header{
+        width:100vw;
+        position: fixed;
+        top: 0;
+        margin-top:-1px;
+    }
+    .content_mobile{
+        margin-top:134px;
+    }
     .navbar-item {
         border:none;
     }
-
     .footer-item.email-signup .form-row {
         width: 170px;
         margin-left: auto;
@@ -710,12 +718,12 @@ button {
         font-size: 50px;
     }
 }
-@media screen and (max-width: 610px){
+@media screen and (max-width: 660px){
     .season-mobile{
         font-size: 35px;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 610px){
         .season-mobile{
             font-size: 30px;
         }
@@ -728,26 +736,24 @@ button {
     .cici-footer-column:nth-child(odd){
         padding-left:50px;
     }
-}
-@media screen and (max-width: 485px){
-        .season-mobile{
-            font-size: 25px;
-        }
+    .season-mobile{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 485px){
     .footer-item.email-signup {
         position:static;
     }
 }
-@media screen and (max-width: 415px){
+@media screen and (max-width: 450px){
     .home-mobile-slots{
-        margin: 15px 20px 40px;
+        margin: 15px 10px 40px;
     }
     .home-mobile-search {
-        margin: 40px 20px 18px;
+        margin: 40px 10px 18px;
     }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 430px){
         .season-mobile{
              font-size: 20px;
          }
