@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#index__carousel").owlCarousel({
+    $(".owl-carousel").owlCarousel({
         items: 1,
         loop: true,
         autoplay: false,
@@ -16,28 +16,6 @@ $(document).ready(function(){
             '<path d="M12.5 7.999l8.5 8.5-8.5 8.5" stroke="#fff" stroke-miterlimit="10" stroke-linejoin="bevel"/>' +
             '<path d="M1 16.5c0 8.56 6.94 15.499 15.5 15.499 8.56 0 15.499-6.94 15.499-15.5C31.999 7.94 25.059 1 16.499 1 7.94 1 1 7.94 1 16.5z" stroke="#fff" stroke-miterlimit="10"/></svg>'
         ]
-    });
-
-
-    $("#product__carousel").owlCarousel({
-        items : 3,
-        loop: true,
-        autoplay: false,
-        autoplayTimeout: 4500,
-        dots: true,
-        nav: true,
-        lazyLoad: true,
-        video: true,
-
-    });
-
-    $("#product__rec-carousel").owlCarousel({
-        items : 4,
-        loop: true,
-        autoplay: false,
-        dots: false,
-        nav: true,
-        lazyLoad: true,
     });
 });
 

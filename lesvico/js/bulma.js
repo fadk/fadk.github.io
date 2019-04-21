@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Sidebar links
 
-    var $categories = getAll('.bd-category');
+    var $categories = getAll('#categories .bd-category');
 
     if ($categories.length > 0) {
         $categories.forEach(function (el) {
@@ -30,40 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
             el.classList.remove('is-active');
         });
     }
-
-// Top links
-
-    $('.refine-by').click(function(){
-        $('.sidebar__category').toggle().toggleClass('vis');
-    });
-
-    $('.sort-by').click(function(){
-        $('.sort-by-content').toggle().toggleClass('vis');
-    });
-
-    $('.product__desc-header').click(function(){
-        $('.product__long-desc').toggle().toggleClass('vis');
-        $('.opened-text').toggle().toggleClass('vis');
-        $('.closed-text').toggle().toggleClass('closed');
-    });
-
-// select color
-    $('.select_color').click(function(e){
-        $(this).toggleClass('opened');
-    });
-    $('.select-color-picker-item').click(function(e){
-        var colorClass = $(this).find('span').attr('class');
-        var parent = $(this).closest('.select_color');
-
-        var selectColorPicker = parent.find('.select-color-picker');
-        var prevColorClass = selectColorPicker.find('span').attr('class');
-
-
-        console.log(prevColorClass)
-
-        selectColorPicker.find('span').toggleClass(prevColorClass + ' ' + colorClass);
-    });
-
 
     var anchors_ref_el = document.getElementById('anchorsReference');
     var anchors_el = document.getElementById('anchors');

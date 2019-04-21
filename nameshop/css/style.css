@@ -196,7 +196,6 @@ a:hover{
 }
 .product-card__image{
     width: 100%;
- 
 }
 .shop-cart-page .product-card__image{
     width: 115px;
@@ -540,7 +539,7 @@ font-size: 1.3rem;
 	position:relative;
     padding-left:25px;
     width: 100%;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
 .type__checkbox input[type=checkbox] {
 	display:none;
@@ -661,21 +660,7 @@ font-size: 1.3rem;
 .shop-cart-page__remove{
     margin-left: 20px;
 }
-/*.shop-cart-page .table th:first-child {
-    width: 35%;
-}
-.shop-cart-page .table th:nth-child(2) {
-    width: 15%;
-}
-.shop-cart-page .table th:nth-child(3) {
-    width: 15%;
-}
-.shop-cart-page .table th:nth-child(4) {
-    width: 15%;
-}
-.shop-cart-page .table th:nth-child(5) {
-    width: 15%;
-}*/
+
 .shop-cart-page .table td, .table th {
     border: 1px solid #f3f3f3;
 }
@@ -869,8 +854,6 @@ span.irs-handle:before {
 .select-color-wrap{
     border-radius: 0px;
     width: 100%;
-    /*height: 48px;*/
-    /*line-height: 28px;*/
     padding: 9px;
     padding-right: 2.5rem;
     background-color: #fff;
@@ -879,7 +862,6 @@ span.irs-handle:before {
     display: block;
     max-width: 100%;
     outline: 0;
-    cursor: pointer;
 }
 .select_color{
     border-radius: 0px;
@@ -926,7 +908,6 @@ span.irs-handle:before {
     background-color: white;
     border: 1px solid black;
 }
-
 .select-color-picker-inner{
     height: 48px;
     padding: 9px;
