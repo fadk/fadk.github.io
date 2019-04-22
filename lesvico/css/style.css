@@ -132,9 +132,6 @@ a .icon {
 .header__call-to-action i{
     margin-right: 15px;
 }
-.navbar-burger {
-    margin-left: 0px;
-}
 .navbar-burger:hover {
     background-color: #fff;
 }
@@ -232,10 +229,14 @@ button {
     border:none;
     background-color: transparent;
 }
+
 .cici-search-button{
     margin-left: -35px;
 }
 .hero-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top:-140px;
 }
 .cici-owl-slide{
@@ -421,7 +422,73 @@ button {
     color: #342e7d;
     display: none;
 }
+.les-content{
+    width: 66%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.les-content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.les-content p:first-child{
+    margin-top: 0px;
+}
+.les-content .menu-button-type{
+    height: 60px;
+    width: 200px;
+}
+.menu-button-type, .menu-button-info, .menu-button-list {
+    display: table;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    letter-spacing: .9px;
+    font-size: 18px;
+    background-color: rgba(255,255,255,.75);
+    color: #666;
+    padding: 10px;
+}
+.menu-button-type{
+    background-color: #fed700;
+    color: #222;
+    border-radius: 10px;
+    border:2px solid #fed700;
+    text-align: center;
+}
+.menu-button-type:hover{
+    background-color: #222;
+    color: #fff;
+}
+.menu-button-type:hover  i{
+    color: #fed700;
+}
+.menu-button-type i{
+    font-size: 26px;
+    margin-right: 15px;
+}
 
+.menu-button-list{
+    background-color: #fff;
+    text-align: center;
+    color: #222;
+}
+.fa-truck{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.menu-button-type, .menu-button-type span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
 @media screen and (max-width: 1000px){
     .footer-item.copy a {
         display: block;
@@ -475,6 +542,11 @@ button {
     }
     .navbar-item {
         border:none;
+        background: #fff;
+        width: 100vw;
+    }
+    .navbar-item:last-child {
+        display: none;
     }
     .footer-item.email-signup .form-row {
         width: 170px;
@@ -557,15 +629,7 @@ button {
         color: #fed700;
         text-decoration: underline;
     }
-    .menu-button-spring{
-        color: #75b671;
-        text-decoration: underline;
-    }
-    .menu-button-winter{
-        color: #6b8ce9;
-        text-decoration: underline;
-    }
-    .menu-button-summer span, .menu-button-spring span,.menu-button-winter span{
+    .menu-button-summer span{
         color:#333333;
     }
     .season-mobile{
@@ -605,28 +669,13 @@ button {
         padding-right: 5px;
     }
 
-    .menu-button-type, .menu-button-info {
-        display: table;
-        width: 100%;
-        height: 100px;
-        margin-bottom: 10px;
-        text-align: center;
-        letter-spacing: .9px;
-        font-size: 18px;
-        background-color: rgba(255,255,255,.75);
-        color: #666;
-    }
+
     .home-mobile-slot-division {
         margin: 15px 0;
     }
     .home-mobile-slot {
         margin-left: -5px;
         margin-right: -5px;
-    }
-    .home-mobile-slots .menu-button span {
-        display: table-cell;
-        vertical-align: middle;
-        font-weight: 600;
     }
     .navbar-dropdown-tablet, .navbar-link-question,.navbar-start{
         display: none;
