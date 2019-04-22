@@ -21,12 +21,15 @@ body, input, select, textarea {
     z-index: 30;
 }
 .header__info{
-    background-color: #222;
+    background-color: #fed700;
+    color: #292929;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.9rem;
+    font-weight: 900;
 }
+
 .inner-wrapper{
     width: 1200px;
     max-width: 1200px;
@@ -51,9 +54,6 @@ body, input, select, textarea {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-}
-.header__info a{
-    color: #fff;
 }
 .header__info a:hover{
     color: #bababa;
@@ -125,10 +125,7 @@ a .icon {
     margin-left:30px;
     margin-right:30px;
 }
-.header__call-to-action a{
-    color:#fed700;
-    font-weight: 900;
-}
+
 .header__call-to-action i{
     margin-right: 15px;
 }
@@ -177,9 +174,8 @@ a.navbar-item:hover, a.navbar-item.is-active,
 .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #fff;
 }
-.navbar-logo{
-    padding-top: 0;
-    padding-bottom: 0;
+.navbar-brand .header__logo{
+    display: none;
 }
 .navbar-item{
     text-transform: uppercase;
@@ -457,6 +453,8 @@ button {
     border-radius: 10px;
     border:2px solid #fed700;
     text-align: center;
+    padding-top:0;
+    padding-bottom:0;
 }
 .menu-button-type:hover{
     background-color: #222;
@@ -713,6 +711,7 @@ button {
         min-height: 38px;
         min-width: 112px;
         margin-bottom: 5px;
+        margin-left: 15px;
     }
     .header__slogan img {
         height: 14px;
@@ -726,12 +725,24 @@ button {
     .header__logo-wrapper .inner-wrapper div:last-child {
         margin-left: 0px;
     }
+    .header__logo-wrapper {
+        display: none;
+    }
+    .navbar-brand .header__logo{
+        display: block;
+        background-color: #fed700;
+        width: auto;
+    }
+    nav{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px){
-    .header__slogan {
+    .header__slogan, .header__item-left{
         display: none;
     }
+
 }
 @media screen and (max-width: 560px){
     .header__divider{

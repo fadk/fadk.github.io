@@ -17,8 +17,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="50" column="43" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="43" />
+            <state relative-caret-position="165">
+              <caret line="58" column="58" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="58" />
+              <folding>
+                <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,8 +29,20 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="732" column="22" selection-start-line="732" selection-start-column="22" selection-end-line="732" selection-end-column="22" />
+            <state relative-caret-position="276">
+              <caret line="713" column="25" selection-start-line="713" selection-start-column="25" selection-end-line="713" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ciciban/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="299" selection-start-line="299" selection-end-line="314" selection-end-column="18" />
+              <folding>
+                <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,11 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>об об</find>
-      <find>mobile-</find>
-      <find>@</find>
-      <find>calc</find>
-      <find>hero</find>
       <find>мага</find>
       <find>color</find>
       <find>logo-</find>
@@ -53,7 +63,7 @@
       <find>header__text</find>
       <find>что</find>
       <find>header__call-to-action</find>
-      <find>о ком</find>
+      <find />
       <find>pata</find>
       <find>new</find>
       <find>navbar-brand</find>
@@ -66,6 +76,11 @@
       <find>menu-button-list</find>
       <find>768</find>
       <find>текст</find>
+      <find>cicib</find>
+      <find>mobi</find>
+      <find>logo</find>
+      <find>600</find>
+      <find>navbar-logo</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -84,9 +99,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
-    <option name="y" value="48" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="80" />
+    <option name="y" value="106" />
     <option name="width" value="1180" />
     <option name="height" value="687" />
   </component>
@@ -116,7 +131,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/lesvico" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ciciban/index.html" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -147,15 +162,15 @@
       <updated>1555578569515</updated>
       <workItem from="1555578571300" duration="10705000" />
       <workItem from="1555604840367" duration="24000" />
-      <workItem from="1555874891805" duration="8860000" />
+      <workItem from="1555874891805" duration="11346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19589000" />
+    <option name="totallyTimeSpent" value="22075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="48" width="1180" height="687" extended-state="0" />
+    <frame x="80" y="106" width="1180" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -188,6 +203,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3944">
           <caret line="232" column="38" selection-start-line="232" selection-start-column="38" selection-end-line="232" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -231,17 +249,30 @@
         <state relative-caret-position="-1958" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ciciban/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="299" selection-start-line="299" selection-end-line="314" selection-end-column="18" />
+          <folding>
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="43" />
+        <state relative-caret-position="165">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="58" />
+          <folding>
+            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="732" column="22" selection-start-line="732" selection-start-column="22" selection-end-line="732" selection-end-column="22" />
+        <state relative-caret-position="276">
+          <caret line="713" column="25" selection-start-line="713" selection-start-column="25" selection-end-line="713" selection-end-column="25" />
         </state>
       </provider>
     </entry>

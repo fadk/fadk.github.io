@@ -32,7 +32,7 @@
         <div class="header__logo-wrapper">
             <div class="inner-wrapper">
                 <div class="header__logo">
-                    <a href="#" title="Ciciban Home">
+                    <a href="#" title="Lesviko Home">
                         <img src="img/logo-min-white.png" alt="Lesvico">
                     </a>
                 </div>
@@ -56,6 +56,9 @@
         <div class="navbar-wrapper">
             <nav class="navbar" aria-label="main navigation">
                     <div class="navbar-brand">
+                        <a class="navbar-item header__logo" href="#" title="Lesviko Home">
+                            <img src="img/logo-min.png" alt="Lesvico">
+                        </a>
                         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar">
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
@@ -173,6 +176,22 @@
         <section class="content_mobile">
             <div class="home-mobile-background">
                 <img alt="" src="img/mobile-bg.jpg" title="">
+            </div>
+            <div class="home-mobile-search simple-search-container">
+                <div class="search-form-wrapper">
+                    <form role="search" action="/search/" method="get" name="simpleSearch" class="simple-search" novalidate="novalidate">
+                        <fieldset>
+                            <input type="search" class="q" name="q" value="" placeholder="Что вы ищете?" autocomplete="off">
+                            <input type="hidden" name="lang" value="en_US">
+                            <button type="submit"><span class="visually-hidden">Search</span><i class="icon fas fa-search"></i></button>
+                        </fieldset>
+                    </form>
+                    <div class="sub-search-container">
+                        <div>
+                            <i class="glyphicon glyphicon-search"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="home-mobile-slots">
                 <hr class="home-mobile-slot-division">
