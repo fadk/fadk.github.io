@@ -14,7 +14,7 @@ body, input, select, textarea {
     font-family: 'Century Gothic';
     font-weight: normal;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
 }
 .header{
     position: relative;
@@ -744,11 +744,10 @@ button {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .header__slogan, .header__item-left{
         display: none;
     }
-
 }
 @media screen and (max-width: 560px){
     .header__divider{

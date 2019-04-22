@@ -29,8 +29,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -67,8 +67,8 @@
       <find>cicib</find>
       <find>mobi</find>
       <find>logo</find>
-      <find>600</find>
       <find>navbar-logo</find>
+      <find>600</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -150,12 +150,12 @@
       <updated>1555578569515</updated>
       <workItem from="1555578571300" duration="10705000" />
       <workItem from="1555604840367" duration="24000" />
-      <workItem from="1555874891805" duration="12636000" />
+      <workItem from="1555874891805" duration="13025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23365000" />
+    <option name="totallyTimeSpent" value="23754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="106" width="1180" height="687" extended-state="0" />
@@ -259,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
