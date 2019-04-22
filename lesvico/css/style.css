@@ -21,15 +21,18 @@ body, input, select, textarea {
     z-index: 30;
 }
 .header__info{
-    background-color: #fed700;
-    color: #292929;
+    background-color: #292929;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.9rem;
-    font-weight: 900;
 }
-
+.header__info a{
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
 .inner-wrapper{
     width: 1200px;
     max-width: 1200px;
@@ -87,6 +90,9 @@ body, input, select, textarea {
 }
 .header__call-to-action{
     margin-right: 30px;
+}
+.header__call-to-action a{
+    color:#fed700;
 }
 a .icon {
     margin-left: 15px;
