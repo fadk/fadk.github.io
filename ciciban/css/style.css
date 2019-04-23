@@ -1246,6 +1246,7 @@ button{
     font-size: 30px;
     line-height: 1.5em;
     color: #000000;
+    margin-bottom: 100px;
 }
 .product__reviews-button {
     padding-top: 8px;
@@ -1270,7 +1271,7 @@ button{
     background-color: #000;
     font-weight: bold;
     font-style: normal;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
