@@ -40,11 +40,12 @@ document.addEventListener('DOMContentLoaded', function () {
     $('.sort-by').click(function(){
         $('.sort-by-content').toggle().toggleClass('vis');
     });
-
+// Produck description
     $('.product__desc-header').click(function(){
         $('.product__long-desc').toggle().toggleClass('vis');
         $('.opened-text').toggle().toggleClass('vis');
         $('.closed-text').toggle().toggleClass('closed');
+        $('.product__learn-more-icon').toggle().toggleClass('close');
     });
 
 // select color

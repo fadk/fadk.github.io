@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Title</title>
 </head>
@@ -461,6 +462,9 @@
                 <div class="product__owl-slide"><img src="img/products/461642_bianco_003-min.jpg" alt=""></div>
                 <div class="product__owl-slide"><img src="img/products/461642_bianco_004-min.jpg" alt=""></div>
             </div>
+            <div class="product__mobile">
+
+            </div>
             <div class="product__description">
                 <p class="product__short-desc">Laika – серия элегантных балеток для юных модниц, которые хотят подчеркнуть свой изысканный стиль. </p>
             </div>
@@ -468,7 +472,7 @@
                 <div class="product__desc-header">
                     <span class="closed-text">Подробнее</span>
                     <span class="opened-text">Закрыть</span>
-                    <span class="fas fa-chevron-down"></span>
+                    <span class="fas fa-chevron-down product__learn-more-icon"></span>
                 </div>
                 <div class="product__long-desc">
                     <p>Красивая гладкая кожа балеток всегда украшена изящными деталями: тонким орнаментом, опрятным бантиком или кожаной вставкой.</p>
@@ -639,8 +643,41 @@
                 <div class="product__desc-header-reviews">
                     Отзывы
                 </div>
-                <a class="product__reviews-button">Написать отзыв</a>
             </div>
+            <a class="product__reviews-button">Написать отзыв</a>
+            <div class="product__review-wrapper">
+                <div class="product__review-author-avatar"><i class="fas fa-user-alt"></i></div>
+                <div class="product__review-content-wrapper">
+                    <div class="product__review-author">
+                        <div class="product__review-author-name">Галина Иванова</div>
+                        <fieldset class="rating">
+                            <div class="rating__group">
+                                <input class="rating__input" type="radio" name="ivanova" id="ivanova-1" value="1">
+                                <label class="rating__star" for="ivanova-1" aria-label="Ужасно"></label>
+                                <input class="rating__input" type="radio" name="ivanova" id="ivanova-2" value="2">
+                                <label class="rating__star" for="ivanova-2" aria-label="Сносно"></label>
+                                <input class="rating__input" type="radio" name="ivanova" id="ivanova-3" value="3">
+                                <label class="rating__star" for="ivanova-3" aria-label="Нормально"></label>
+                                <input class="rating__input" type="radio" name="ivanova" id="ivanova-4" value="4">
+                                <label class="rating__star" for="ivanova-4" aria-label="Хорошо"></label>
+                                <input class="rating__input" type="radio" name="ivanova" id="ivanova-5" value="5" checked>
+                                <label class="rating__star" for="ivanova-5" aria-label="Отлично"></label>
+                                <div class="rating__focus"></div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="product__review-content">
+                        <p>Всех приветствую! С наступлением холодов, приходиться менять босоножки на туфли. На этот раз мне Детская обувь Ciciban именно кеды. Смотрятся красиво и очень модно!
+                        </p>
+                        <p>Цвет - темно - синий, материал - ткань, поэтому не подходит для дождливых
+                            <span id="dots">...</span>
+                            <span id="more">деньков. Подошва твердая, отличная для растущей детской ножки. Застегиваются на липучку, удобно регулировать что бы не зажимало голень.</span>
+                            <button onclick="ReadMoreFunction()" id="moreBtn" class="read-more" data-position="closed">Читать далее</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
         </section>
 
     </div>

@@ -310,13 +310,8 @@ button {
     padding: 15px;
     color:#fff;
 }
-/*.cici-owl-slide-text-container h1 span {
-    background: url('../img/slider_01-2017_12.png');
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    display: block;
-}*/
-.owl-nav{
+
+#index__carousel .owl-nav{
     display: none;
 }
 .owl-dots{
@@ -974,6 +969,8 @@ select{
     width: 238px;
     position: relative;
     padding: 40px 22px;
+    display: flex;
+    flex-direction: column;
 }
 .product__details .product__name {
     text-transform: capitalize;
@@ -1206,9 +1203,11 @@ button{
     margin-left: 30px;
 }
 .product__owl-slide{
-    display: flex;
-    flex-direction: column;
     padding: 10px;
+    max-width: 370px;
+    max-height: 370px;
+    margin-left: auto;
+    margin-right: auto
 }
 .product__owl-slide-text{
     display: flex;
@@ -1271,12 +1270,94 @@ button{
     background-color: #000;
     font-weight: bold;
     font-style: normal;
-    margin-top: 100px;
     margin-bottom: 20px;
 }
+.product__review-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+}
+.product__review-wrapper .rating__group {
+    margin-left: 0;
+}
+.product__review-author{
 
-
-
+}
+.product__review-author-name{
+    color:#ed1c24;
+}
+.product__review-author-avatar{
+    color: #a2a2a2;
+    background: #2F3675;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+    border-radius: 50%;
+    padding: 12px;
+}
+.product__review-author-avatar i, #topBtn i{
+    font-size: 20px;
+}
+.product__review-content{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.read-more{
+    white-space: nowrap;
+    color: #2f84ed;
+    cursor: pointer;
+    letter-spacing: normal;
+    text-transform: none;
+}
+#more {
+    display: none;
+}
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    color: #fff;
+    background: #999999;
+    width: 30px;
+    height: 30px;
+    margin-right: 0px;
+    border-radius: 50%;
+    padding: 6px;
+}
+#topBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+    color: inherit;
+}
+.product__content .owl-prev{
+    position: absolute;
+    left:0;
+    top:50%
+}
+.product__content .owl-next{
+    position: absolute;
+    right:0;
+    top:50%
+}
+.product__desc-header .close {
+    display: block!important;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    transition-duration: 86ms;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+}
 @media screen and (max-width: 1241px){
     .navbar-item:not(:last-child) {
         border: none;
@@ -1307,6 +1388,19 @@ button{
     }
 }
 @media only screen and (max-width: 991px){
+
+    .product__content{
+        width: 100%;
+        margin: 0;
+    }
+    .product__details{
+        width: 100%;
+        border: none;
+        padding: 0px;
+        padding-bottom: 15px;
+        position: static;
+        display: none;
+    }
     .product-list__wrapper {
         flex-direction: column;
     }

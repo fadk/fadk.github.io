@@ -14,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="57">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="1247" column="19" selection-start-line="1247" selection-start-column="19" selection-end-line="1247" selection-end-column="19" />
+            <state relative-caret-position="184">
+              <caret line="1207" column="19" selection-start-line="1207" selection-start-column="16" selection-end-line="1207" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -35,15 +35,18 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8347">
-              <caret line="641" column="49" selection-start-line="641" selection-start-column="26" selection-end-line="641" selection-end-column="49" />
+            <state relative-caret-position="187">
+              <caret line="11" column="105" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="105" />
               <folding>
+                <element signature="n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -53,8 +56,8 @@
       <file leaf-file-name="bulma.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/bulma.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2669">
-              <caret line="157" column="47" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="47" />
+            <state relative-caret-position="235">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -89,15 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>refine-by</find>
-      <find>768</find>
-      <find>238</find>
-      <find>name</find>
-      <find>size</find>
-      <find>product-card__price</find>
-      <find>select colo</find>
-      <find>opened</find>
-      <find>bd-category-list</find>
       <find>product-list__wrapper</find>
       <find>sync1</find>
       <find>product__content</find>
@@ -111,14 +105,23 @@
       <find>product__description</find>
       <find>owl</find>
       <find>sli</find>
-      <find>product__owl-slide</find>
       <find>rat</find>
       <find>pat</find>
       <find>size__checkbox</find>
-      <find>product__desc-header</find>
       <find>rari</find>
       <find>pata</find>
       <find>product__n</find>
+      <find>caro</find>
+      <find>owl-n</find>
+      <find>product__owl-slide</find>
+      <find>closed-text</find>
+      <find>product__desc-header</find>
+      <find>product__rec-carousel</find>
+      <find>sort-by-content</find>
+      <find>990</find>
+      <find>product__details</find>
+      <find>370</find>
+      <find>подро</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -129,16 +132,17 @@
         <option value="$PROJECT_DIR$/../gbs/index.html" />
         <option value="$PROJECT_DIR$/js/new" />
         <option value="$PROJECT_DIR$/css/extra-bulma.css" />
-        <option value="$PROJECT_DIR$/product-list.html" />
         <option value="$PROJECT_DIR$/../nameshop/shop-products-name.html" />
         <option value="$PROJECT_DIR$/../nameshop/css/style.css" />
-        <option value="$PROJECT_DIR$/js/bulma.js" />
-        <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/img/star_on.svg" />
         <option value="$PROJECT_DIR$/css/bulma.css" />
-        <option value="$PROJECT_DIR$/product.html" />
+        <option value="$PROJECT_DIR$/js/bulma.js" />
+        <option value="$PROJECT_DIR$/../lesvico/js/common.js" />
+        <option value="$PROJECT_DIR$/product-list.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/product.html" />
+        <option value="$PROJECT_DIR$/js/common.js" />
       </list>
     </option>
   </component>
@@ -148,7 +152,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="84" />
     <option name="width" value="1180" />
     <option name="height" value="687" />
@@ -185,7 +189,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesvico" />
+    <property name="last_opened_file_path" value="F:/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -222,15 +226,15 @@
       <workItem from="1555578515636" duration="53000" />
       <workItem from="1555604866877" duration="51944000" />
       <workItem from="1555951307134" duration="7475000" />
-      <workItem from="1556013177624" duration="615000" />
+      <workItem from="1556013177624" duration="15664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132352000" />
+    <option name="totallyTimeSpent" value="147401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16983895" />
@@ -259,29 +263,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/extra-bulma.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57137">
-          <caret line="3361" column="23" selection-start-line="3361" selection-start-column="18" selection-end-line="3361" selection-end-column="23" />
-          <folding>
-            <element signature="e#266438#267234#2" expanded="true" />
-            <element signature="e#267300#268206#2" expanded="true" />
-            <element signature="e#268270#269037#2" expanded="true" />
-            <element signature="e#269415#270211#2" expanded="true" />
-            <element signature="e#270258#271164#2" expanded="true" />
-            <element signature="e#271209#271976#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21199">
-          <caret line="1247" column="19" lean-forward="true" selection-start-line="1247" selection-start-column="19" selection-end-line="1247" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nameshop/shop-products-name.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20366">
@@ -420,23 +401,9 @@
     <entry file="file://$PROJECT_DIR$/../gbs/css/style.css" />
     <entry file="file://$PROJECT_DIR$/../gbs/index.html" />
     <entry file="file://$PROJECT_DIR$/js/new" />
-    <entry file="file://$PROJECT_DIR$/../lesvico/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nameshop/leftsidebar.html" />
     <entry file="file://$PROJECT_DIR$/../nameshop/css/style.css" />
     <entry file="file://$PROJECT_DIR$/../nameshop/shop-products-name.html" />
-    <entry file="file://$PROJECT_DIR$/js/bulma.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="157" column="47" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/extra-bulma.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57137">
@@ -452,13 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="703" column="39" selection-start-line="703" selection-start-column="39" selection-end-line="703" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bulma.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -468,22 +428,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="249" column="36" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/chevron-left-solid.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/chevron-right-solid.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bulma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lesvico/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="81" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="81" />
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lesvico/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="669" column="11" selection-start-line="669" selection-start-column="11" selection-end-line="669" selection-end-column="11" />
+          <folding>
+            <element signature="n#div#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#fieldset#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#fieldset#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1207" column="19" selection-start-line="1207" selection-start-column="16" selection-end-line="1207" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8347">
-          <caret line="641" column="49" selection-start-line="641" selection-start-column="26" selection-end-line="641" selection-end-column="49" />
+        <state relative-caret-position="187">
+          <caret line="11" column="105" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="105" />
           <folding>
+            <element signature="n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#1;n#div#4;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -491,15 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="1247" column="19" selection-start-line="1247" selection-start-column="19" selection-end-line="1247" selection-end-column="19" />
+        <state relative-caret-position="57">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
