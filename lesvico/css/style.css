@@ -10,6 +10,12 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 body, input, select, textarea {
     font-family: 'Century Gothic';
     font-weight: normal;
@@ -19,6 +25,9 @@ body, input, select, textarea {
 .header{
     position: relative;
     z-index: 30;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 .header__info{
     background-color: #292929;
@@ -210,8 +219,8 @@ a.navbar-item:hover, a.navbar-item.is-active,
     font-weight: 900;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-right: 1px solid #292929;
     background: #fed700;
+    justify-content: center;
 }
 .navbar-item:last-child {
     border:none;
@@ -285,7 +294,7 @@ button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: calc(100vh - 34px);
+    height: calc(100vh - 30px);
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
