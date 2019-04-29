@@ -204,7 +204,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
     padding-left: 1rem;
     padding-right: 1rem;
     background: #fff;
-    justify-content: center;
+  
 }
 .navbar-item:last-child {
     border:none;
@@ -476,6 +476,7 @@ button {
 .les-content p{
     margin-top: 20px;
     margin-bottom: 20px;
+    letter-spacing: 1.5px;
 }
 .les-content p:first-child{
     margin-top: 0px;
@@ -604,6 +605,7 @@ button {
 }
 .banner-item p{
     font-size: 30px;
+    letter-spacing: 3.5px;
 }
 .round {
     width: 14em;
