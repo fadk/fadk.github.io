@@ -159,7 +159,7 @@ a .icon {
     border: none;
 }
 .navbar{
-    height: 60px;
+    height: 40px;
     background-color: transparent;
 }
 .navbar-brand a{
@@ -337,7 +337,7 @@ button {
     -webkit-transition: opacity 200ms ease;
     -o-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
-    border-radius: 30px;
+    border-radius: 0px;
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
@@ -487,8 +487,9 @@ button {
     margin-top: 0px;
 }
 .les-content .menu-button-type{
-    height: 60px;
+    height: 80px;
     width: 200px;
+    margin-bottom: 30px;
 }
 .menu-button-type, .menu-button-info, .menu-button-list {
     display: table;
@@ -635,6 +636,53 @@ button {
 .les-product-link i{
     margin-left: 5px;
 }
+.index__tile{
+    max-width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.index__tile img {
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.index__tile h3 {
+    display: block;
+    text-transform: uppercase;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    background: #262626;
+    color: #fed700;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    transition: ease-in-out .3s;
+}
+.index__tile div {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 40px;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    opacity: 0;
+    transition: visibility 0s,opacity 0.3s linear;
+    overflow: hidden;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 1210px){
     .footer-item.copy a {
