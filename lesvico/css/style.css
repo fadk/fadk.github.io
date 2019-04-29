@@ -4,6 +4,7 @@ body, input, select, textarea {
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
+    letter-spacing: 0.5px;
 }
 .header{
     position: relative;
@@ -476,7 +477,9 @@ button {
 .les-content p{
     margin-top: 20px;
     margin-bottom: 20px;
-    letter-spacing: 1.5px;
+}
+.les-content a p{
+    letter-spacing: 2px;
 }
 .les-content p:first-child{
     margin-top: 0px;
