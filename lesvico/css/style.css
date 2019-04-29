@@ -10,6 +10,7 @@ body, input, select, textarea {
     z-index: 30;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    letter-spacing: 1.5px;
 }
 .header__info{
     background-color: #292929;
@@ -27,7 +28,6 @@ body, input, select, textarea {
 }
 .header__info a{
     color: #fff;
-    text-transform: uppercase;
 }
 .inner-wrapper{
     width: 1200px;
