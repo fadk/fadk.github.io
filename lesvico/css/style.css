@@ -1,23 +1,6 @@
-@font-face{
-    font-family: 'Century Gothic';
-    src: url('../fonts/CenturyGothic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face{
-    font-family: 'CenturyGothic-Bold';
-    src: url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face{
-    font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
+
 body, input, select, textarea {
-    font-family: 'Century Gothic';
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
@@ -26,7 +9,6 @@ body, input, select, textarea {
     position: relative;
     z-index: 30;
     font-family: 'Roboto', sans-serif;
-    font-weight: 800;
     font-style: normal;
 }
 .header__info{
@@ -45,7 +27,6 @@ body, input, select, textarea {
 }
 .header__info a{
     color: #fff;
-    font-weight: 900;
     text-transform: uppercase;
 }
 .inner-wrapper{
@@ -266,6 +247,9 @@ button {
 .cici-search-button{
     margin-left: -35px;
 }
+.cici-search-button i{
+   color: #777;
+}
 .content__desktop{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -316,7 +300,6 @@ button {
     margin-top:100px;
 }
 .cici-owl-slide-text-container h1 {
-    font-family: 'Century Gothic';
     font-weight: bold;
     font-style: normal;
     font-size: 72px;
@@ -324,8 +307,11 @@ button {
     text-align: center;
     padding: 15px;
     color:#fff;
+    letter-spacing: 3.5px;
 }
-
+.navbar-item, .navbar-link {
+    color: #222;
+}
 .owl-nav{
     display: none;
 }
