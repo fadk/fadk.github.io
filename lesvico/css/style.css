@@ -327,11 +327,11 @@ button {
     left:40px;
 }
 .owl-theme .owl-dots .owl-dot span {
-    width: 12px;
-    height: 12px;
-    margin: 6px;
-    background: transparent;
-    border:1px solid #fff;
+    width: 18px;
+    height: 18px;
+    margin: 9px;
+    background: #fff;
+    border:2px solid #fff;
     display: block;
     -webkit-backface-visibility: visible;
     -webkit-transition: opacity 200ms ease;

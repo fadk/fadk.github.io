@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="333" column="25" selection-start-line="333" selection-start-column="21" selection-end-line="333" selection-end-column="25" />
+              <caret line="333" column="12" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -90,7 +90,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="72" />
     <option name="y" value="5" />
     <option name="width" value="1180" />
@@ -156,12 +156,12 @@
       <workItem from="1555874891805" duration="13354000" />
       <workItem from="1555951292488" duration="10000" />
       <workItem from="1556013195830" duration="2563000" />
-      <workItem from="1556449360652" duration="18327000" />
+      <workItem from="1556449360652" duration="18460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44983000" />
+    <option name="totallyTimeSpent" value="45116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -339,7 +339,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="333" column="25" selection-start-line="333" selection-start-column="21" selection-end-line="333" selection-end-column="25" />
+          <caret line="333" column="12" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="12" />
         </state>
       </provider>
     </entry>
