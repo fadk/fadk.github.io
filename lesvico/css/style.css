@@ -109,7 +109,7 @@ a .icon {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #fed700;
+    background-color: #fff;
 }
 .header__logo-wrapper{
     background: rgba(0,0,0,0.6);
@@ -178,7 +178,7 @@ a .icon {
     align-items: center;
 }
 .navbar-menu{
-    font-size: 14px;
+    font-size: 18px;
     color: #292929;
 }
 .navbar-start > a.navbar-item:hover {
@@ -200,7 +200,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
     font-weight: 900;
     padding-left: 1rem;
     padding-right: 1rem;
-    background: #fed700;
+    background: #fff;
     justify-content: center;
 }
 .navbar-item:last-child {
