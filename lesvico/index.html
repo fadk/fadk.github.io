@@ -191,8 +191,8 @@
                             <div class="index__tile-hidden" v-show="upHere">
                                 <p>Наша компания производит и продает профилированный брус и другие строительные материалы.</p>
                             </div>
-                        </transition>
-                    </div>
+
+                    </div </transition>>
                 </div>
 
 
@@ -203,22 +203,32 @@
 
             </article>
             <section class="bg-image-hero-page-no-sidebar hero ">
-                <div class="banner-body">
-                    <div class="banner-item">
-                        <div class="round"><i class="fas fa-images"></i></div>
-                        <p>НАШИ ДОМА - ФОТОГАЛЕРЕЯ</p>
-                        <span>Фото домов и объектов малой архитектурной формы</span>
+                <div class="columns banner-body">
+                    <div class="column banner-item banner-item1"
+                         @mouseover="isHovering = true"
+                         @mouseout="isHovering = false"
+                         :class="{hovering: isHovering}">
+                        <div class="round"><i class="fas fa-people-carry"></i></div>
+                        <p>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
+                        <span>Бригады для строительство домов бань</span>
                     </div>
-                    <div class="banner-item">
+                    <div class="column banner-item banner-item2"
+                         @mouseover="isHovering = true"
+                         @mouseout="isHovering = false"
+                         :class="{hovering: isHovering}">
                         <div class="round"><i class="fas fa-hammer"></i></div>
                         <p>СВОЕ ПРОИЗВОДСТВО</p>
                         <span>1500м<sup>2</sup> территории в Дмитровском районе</span>
                     </div>
-                    <div class="banner-item">
+                    <div class="column banner-item banner-item3"
+                         @mouseover="isHovering = true"
+                         @mouseout="isHovering = false"
+                         :class="{hovering: isHovering}">
                         <div class="round"><i class="fas fa-warehouse"></i></div>
                         <p>СТЕНОВЫЕ КОМПЛЕКТЫ</p>
-                        <span>Красивый и продуманный до мелочей дом-конструктор</span>
+                        <span>Продуманный до мелочей дом-конструктор</span>
                     </div>
+
                 </div>
             </section>
             <article class="les-content has-text-centered">
