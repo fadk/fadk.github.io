@@ -388,84 +388,46 @@ button {
     -ms-flex-align: start;
     align-items: flex-start;
 }
-.footer a .icon {
-    margin-left: -4px;
-    margin-right: 15px;
-}
 .footer a{
-    color: #292929;
+    color: #fff;
 }
-
 .footer{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     margin-top:40px;
-    float: left;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 60px;
-    padding-right: 60px;
-    display: table-row;
-    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    background-color: #262626;
     position:relative;
     font-size: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content:center;
 }
-.footer-item.copy {
-    padding-left: 25px;
-    border-right: 1px solid rgba(0,0,0,.2);
-}
-.footer-copy-wrapper {
-    margin-bottom: 10px;
+.inner-wrapper-footer{
+    width: 1200px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
 }
 .footer-item {
-    display: table-cell;
+    display: flex;
+    flex-direction: column;
     padding-top:10px;
     padding-bottom:10px;
 }
-.footer-item.copy a {
-    display: inline-block;
-    padding: 0 20px 0 5px;
-    margin-top: 10px;
+.footer-item a{
+    padding-bottom: 10px;
 }
-.footer-item.email-signup {
-    position: absolute;
-    top:10px;
-    right:85px;
+.footer__call a i{
+    margin-right: 20px;
+    color:#fed700;
 }
-.footer-item.email-signup .form-row {
-    margin: 0 0 0 25px;
-}
-.form-row {
-    position: relative;
-    overflow: hidden;
-}
-.footer-item.email-signup .form-row input {
-    margin-bottom: 0;
-}
-.email-signup-form input[type=email] {
-    height: auto;
-    padding: 5px 30px 5px 5px;
-    border: none;
-    letter-spacing: .24px;
-    background-color: #ccc;
-    color: #666;
-}
-.email-signup-form .submit-email-btn {
-    position: absolute;
-    top: 0;
-    right: 5px;
-    line-height: 14px;
-    padding: 4px;
-    border: none;
-    font-size: 12px;
-    background: 0 0;
-    color: #292929;
-    width: auto;
-}
-.email-signup-form .email-signup-confirmation {
-    color: #342e7d;
-    display: none;
+.footer__call a{
+    font-size: 30px;
+    margin-left:-10px;
 }
 .les-content{
     max-width: 1200px;
@@ -483,15 +445,12 @@ button {
     align-items: center;
 }
 .les-content p{
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 .les-content a p{
     letter-spacing: 1px;
 }
-.les-content p:first-child{
-    margin-top: 0px;
-}
+
 .les-content .menu-button-type{
     height: 60px;
     width: fit-content;
