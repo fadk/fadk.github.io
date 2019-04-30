@@ -259,18 +259,11 @@
                             <button type="submit"><span class="visually-hidden">Search</span><i class="icon fas fa-search"></i></button>
                         </fieldset>
                     </form>
-                    <div class="sub-search-container">
-                        <div>
-                            <i class="glyphicon glyphicon-search"></i>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="home-mobile-slots">
                 <hr class="home-mobile-slot-division">
                 <div class="home-mobile-slot">
-
-
                     <div class="full-column sale-mobile">
                         <a href="" class="menu-button menu-button-sale">
                             <span>
@@ -281,31 +274,86 @@
 
                     <hr class="home-mobile-slot-division">
 
-                    <div class="half-column">
-                        <a class="menu-button menu-button-type" href="">
-                            <span>
-                                <i class="fas fa-list"></i>
-                                <p>Профилированный брус</p>
-                            </span>
-                        </a>
-                    </div>
 
-                    <div class="half-column">
-                        <a class="menu-button menu-button-type" href="">
-                            <span>
-                                <i class="fas fa-images"></i>
-                                <p>Дома из бруса</p>
-                            </span>
-                        </a>
+                        <div class=" index__tile index__tile1" @mouseover="upHere = true" @mouseleave="upHere = false">
+                            <img class="" src="img/index-tile1-min.jpg" alt="" >
+                            <h3>Профилированный брус</h3>
+                            <transition name="fade">
+                                <div class="index__tile-hidden" v-show="upHere">
+                                    <p>Преимущества профилированного бруса - экологичность, экономичность, эстетичность.</p>
+                                    <p>Дом из этого стройматериала не продувается и долго сохраняет тепло.</p>
+                                </div>
+                            </transition>
+                        </div>
+                        <div class=" index__tile index__tile2" @mouseover="upHere = true" @mouseleave="upHere = false">
+                            <img class="" src="img/index-tile2-min.jpg" alt="" >
+                            <h3>Строительство домов</h3>
+                            <transition name="fade">
+                                <div class="index__tile-hidden" v-show="upHere">
+                                    <p>Дома из профилированного бруса актуальны для многих регионов России.</p>
+                                    <p>Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. </p>
+                                </div>
+                            </transition>
+                        </div>
+
+                    <article class="full-column article-bg">
+                            <p>Компания «ЛесВиКо» специализируется на производстве профилированного бруса и других экологически чистых пиломатериалов.</p>
+                    </article>
+                    <article class="full-column article-bg">
+                            <p>Многие жители Москвы и Московской области мечтают жить в собственном доме из современных и обязательно экологичных материалов. </p>
+                    </article>
+                    <div class=" index__tile index__tile3" @mouseover="upHere = true" @mouseleave="upHere = false">
+                        <img class="" src="img/index-tile3-min.jpg" alt="" >
+                        <h3>Проекты домов</h3>
+                        <transition name="fade">
+                            <div class="index__tile-hidden" v-show="upHere">
+                                <p>Наша компания производит и продает профилированный брус и другие строительные материалы.</p>
+                            </div>
+                        </transition>
                     </div>
-                    <article class="full-column">
-                        <a class="menu-button menu-button-info" href="">
-                            <span>
-                                <p>
-                                    Компания «ЛесВиКо» специализируется на производстве профилированного бруса и других экологически чистых пиломатериалов. Сегодня многие жители Москвы и московской области мечтают жить в собственном доме, с использованием современных и обязательно экологичных материалов. Для многих желающих возвести свой дом такие материалы, как кирпич и бетон, являются очень дорогими, но выход всегда есть – у нас вы можете приобрести брус профилированный недорого. Данный строительный материал может позволить себе семья даже с небольшим бюджетом на строительство дома, коттеджа, бани и прочее.
-                                </p>
-                            </span>
-                        </a>
+                    <div class="half-column-wrapper">
+                        <div class="half-column">
+                            <a class="menu-button menu-button-list" href="">
+                                <span>
+                                    <p>
+                                        Погрузка - БЕСПЛАТНО
+                                    </p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="half-column">
+                            <a class="menu-button menu-button-list" href="">
+                                <span>
+                                    <p>
+                                        Доставка до заказчика
+                                    </p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="half-column">
+                            <a class="menu-button menu-button-list" href="">
+                                <span>
+                                    <p>
+                                        Брус из материала заказчика
+                                    </p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="half-column">
+                            <a class="menu-button menu-button-list" href="">
+                                <span>
+                                    <p>
+                                        Строганный брус и пиломатериалы
+                                    </p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <article class="full-column  article-bg">
+                            <p>Для многих желающих возвести свой дом такие материалы, как кирпич и бетон, являются очень дорогими, но выход всегда есть – у нас вы можете приобрести брус профилированный недорого.</p>
+                    </article>
+                    <article class="full-column  article-bg">
+                        <p>Данный строительный материал может позволить себе семья даже с небольшим бюджетом на строительство дома, коттеджа, бани и прочее.</p>
                     </article>
                     <div class="full-column">
                         <a class="menu-button menu-button-type" href="">
@@ -317,49 +365,12 @@
                     </div>
                     <article class="full-column">
                         <a class="menu-button menu-button-info" href="">
-                            <span>
                                 <p>
                                     Изготовление профилированного бруса осуществляется из материалов высокой плотности, который поставляются из северных регионов России, в частности, из Кирова, Вологды и Архангельска. Лес, произрастающий в тяжелых северных условиях, в качестве строительного материала ценится намного выше, чем лесоматериалы родом из умеренных зон. Профилированный брус при производстве изначально сортируется, после чего проходит обработку на современных станках. В результате дерево обрабатывается с высочайшей точностью и получает необходимые размеры и заданный профиль.
                                 </p>
-                            </span>
                         </a>
                     </article>
-                    <div class="half-column">
-                        <a class="menu-button menu-button-list" href="">
-                            <span>
-                                <p>
-                                    Погрузка - БЕСПЛАТНО
-                                </p>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="half-column">
-                        <a class="menu-button menu-button-list" href="">
-                            <span>
-                                <p>
-                                    Доставка до заказчика
-                                </p>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="half-column">
-                        <a class="menu-button menu-button-list" href="">
-                            <span>
-                                <p>
-                                    Брус из материала заказчика
-                                </p>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="half-column">
-                        <a class="menu-button menu-button-list" href="">
-                            <span>
-                                <p>
-                                    Строганный брус и пиломатериалы
-                                </p>
-                            </span>
-                        </a>
-                    </div>
+<div class="half-column-wrapper">
                     <div class="half-column">
                         <a class="menu-button menu-button-list" href="">
                             <span>
@@ -378,6 +389,7 @@
                             </span>
                         </a>
                     </div>
+</div>
                 </div>
             </div>
         </section>

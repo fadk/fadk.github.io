@@ -456,7 +456,7 @@ button {
     width: fit-content;
     margin-bottom: 30px;
 }
-.menu-button-type, .menu-button-info, .menu-button-list {
+.menu-button-type, .menu-button-info, .menu-button-list, .article-bg {
     display: table;
     width: 100%;
     height: 100px;
@@ -693,7 +693,6 @@ button {
         justify-content: flex-end;
     }
     .navbar-item {
-        border:none;
         background: #fff;
         width: 100vw;
         padding: 8px 30px;
@@ -742,8 +741,6 @@ button {
     .content_mobile{
         margin-top:174px;
     }
-
-
     .navbar-logo{
         display: block;
         margin-left: auto;
@@ -811,10 +808,7 @@ button {
         margin: 15px 43px 40px;
     }
     .full-column{
-        margin-bottom: 30px;
-        margin-top: 20px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 20px 0;
     }
     .menu-button-summer{
         color: #fed700;
@@ -835,6 +829,7 @@ button {
         background-color: #FFFFFF;
         color:#fed700;
         font-weight:600;
+        font-size: 26px;
     }
     .sale-mobile{
         background-color: #ffffff;
@@ -858,19 +853,19 @@ button {
         margin-bottom: 0;
     }
     .home-mobile-slot .half-column {
-        position: relative;
-        float: left;
-        width: 50%;
-        min-height: 1px;
-        padding-left: 5px;
-        padding-right: 5px;
+        width: 48%;
     }
     .home-mobile-slot-division {
         margin: 15px 0;
     }
     .home-mobile-slot {
-        margin-left: -5px;
-        margin-right: -5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .half-column-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .navbar-dropdown-tablet, .navbar-link-question,.navbar-start{
         display: none;
@@ -933,10 +928,39 @@ button {
         width: 100%;
     }
 }
-
+@media screen and (max-width: 800px){
+    .inner-wrapper-footer{
+        flex-direction: column;
+        position: relative;
+    }
+    .footer-item{
+        padding: 0;
+    }
+    .footer__call{
+        position: absolute;
+        top:0;
+        right: 0;
+    }
+}
 @media screen and (max-width: 700px){
     .header__slogan, .header__item-left{
         display: none;
+    }
+}
+@media screen and (max-width: 690px){
+    .footer__call{
+        position: static;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 660px){
+    .season-mobile{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 610px){
+    .season-mobile{
+        font-size: 30px;
     }
 }
 @media screen and (max-width: 560px){
@@ -959,16 +983,7 @@ button {
         font-size: 50px;
     }
 }
-@media screen and (max-width: 660px){
-    .season-mobile{
-        font-size: 35px;
-    }
-}
-@media screen and (max-width: 610px){
-    .season-mobile{
-        font-size: 30px;
-    }
-}
+
 @media screen and (max-width: 500px){
     .cici-footer-column{
         min-width: 100%;
@@ -997,6 +1012,16 @@ button {
 @media screen and (max-width: 430px){
     .season-mobile{
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 370px){
+    .footer__call a {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 320px){
+    .footer__call a {
+        font-size: 21px;
     }
 }
 @media screen and (max-width: 305px){
