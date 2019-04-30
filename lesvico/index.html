@@ -158,7 +158,8 @@
                 </div>
             </div>
             <article class="les-content has-text-centered">
-                <p>Наша компания производит и продает профилированный брус и другие строительные материалы. Мы можем гарантировать своим покупателям высокое качество материалов для домов, коттеджей, дач, бань и других строений.</p>
+                <p>Мы можем гарантировать своим покупателям высокое качество материалов для домов, коттеджей, дач, бань и других строений.</p>
+
                 <a class="menu-button menu-button-type" href="">
                             <span>
                                 <i class="icon fas fa-phone"></i>
@@ -166,18 +167,27 @@
                             </span>
                 </a>
                 <div class="columns index__tile-wrapper">
-                    <div class="column index__tile" >
-                        <img class="trigger" src="img/index-tile1-min.jpg" alt="" >
+                    <div class="column index__tile index__tile1" @mouseover="upHere = true" @mouseleave="upHere = false">
+                        <img class="" src="img/index-tile1-min.jpg" alt="" >
                         <h3>Профилированный брус</h3>
-                        <div class="hidden">
+                        <div class="index__tile-hidden" v-show="upHere">
                             <p>Преимущества профилированного бруса - экологичность, экономичность, эстетичность.</p>
+                            <p>Дом из этого стройматериала не продувается и долго сохраняет тепло.</p>
                         </div>
                     </div>
-                    <div class="column index__tile" >
-                        <img class="trigger" src="img/index-tile2-min.jpg" alt="" >
+                    <div class="column index__tile index__tile2" @mouseover="upHere = true" @mouseleave="upHere = false">
+                        <img class="" src="img/index-tile2-min.jpg" alt="" >
                         <h3>Строительство домов</h3>
-                        <div class="hidden">
-                            <p>Дом из этого стройматериала не продувается и долго сохраняет тепло.</p>
+                        <div class="index__tile-hidden" v-show="upHere">
+                            <p>Дома из профилированного бруса актуальны для многих регионов России.</p>
+                            <p>Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. </p>
+                        </div>
+                    </div>
+                    <div class="column index__tile index__tile3" @mouseover="upHere = true" @mouseleave="upHere = false">
+                        <img class="" src="img/index-tile3-min.jpg" alt="" >
+                        <h3>Проекты домов</h3>
+                        <div class="index__tile-hidden" v-show="upHere">
+                            <p>Наша компания производит и продает профилированный брус и другие строительные материалы.</p>
                         </div>
                     </div>
                 </div>
@@ -209,7 +219,7 @@
                 </div>
             </section>
             <article class="les-content has-text-centered">
-                <p>Дома из профилированного бруса актуальны для многих регионов России. Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. На производстве наш брус обрабатывается с высокой точностью - практически шлифуется. Поэтому он готов к применению и даже не требует дополнительных внутренних отделочных работ. </p>
+                <p>На производстве наш брус обрабатывается с высокой точностью - практически шлифуется. Поэтому он готов к применению и даже не требует дополнительных внутренних отделочных работ. </p>
             </article>
 
             <div id="modal" class="modal">

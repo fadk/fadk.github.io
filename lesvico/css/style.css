@@ -204,7 +204,6 @@ a.navbar-item:hover, a.navbar-item.is-active,
     font-weight: 900;
     padding:0 30px;
     background: #fed700;
-
 }
 .navbar-item:last-child {
     border:none;
@@ -314,6 +313,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: 2px 2px #e8c400;
 }
 .navbar-item, .navbar-link {
     color: #222;
@@ -646,6 +646,7 @@ button {
     width: 100%;
     display: block;
     position: relative;
+    z-index: 1;
 }
 .index__tile h3 {
     display: block;
@@ -662,20 +663,23 @@ button {
     padding: 0;
     transition: ease-in-out .3s;
 }
-.index__tile div {
+.index__tile-hidden {
     display: block;
     position: absolute;
-    z-index: 1;
-    top: 0;
+    z-index: 3;
+    top:0px;
+    left:0px;
     bottom: 40px;
-    width: 100%;
+    width: calc(100% - 24px);
     background: rgba(0,0,0,.7);
     color: white;
-    margin: 0;
+    margin: 12px;
     padding: 10px;
-    opacity: 0;
     transition: visibility 0s,opacity 0.3s linear;
     overflow: hidden;
+    text-shadow: 2px 2px #262626;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 

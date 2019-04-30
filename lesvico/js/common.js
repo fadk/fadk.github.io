@@ -21,4 +21,22 @@ $(document).ready(function(){
 });
 
 
+new Vue({
+    el: '.index__tile1',
+    data : {
+        upHere : false
+    }
 
+});
+new Vue({
+    el: '.index__tile2',
+    data : {
+        upHere : false
+    }
+});
+new Vue({
+    el: '.index__tile3',
+    data : {
+        upHere : false
+    }
+});
