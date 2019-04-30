@@ -688,28 +688,24 @@ button {
 
 
 
-@media screen and (max-width: 1210px){
-    .footer-item.copy a {
-        display: block;
+@media screen and (max-width: 1200px){
+    .navbar-wrapper{
+        justify-content: flex-end;
     }
-    .footer {
-        padding: 20px 15px;
-        border-top: 1px solid #ccc;
-        margin-top: 0px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .footer-item.copy {
+    .navbar-item {
         border:none;
+        background: #fff;
+        width: 100vw;
+        padding: 8px 30px;
     }
-    .footer-item.email-signup {
-        top:28px;
-        right:50px;
+    .navbar-item:last-child {
+        display: none;
+    }
+    .les-product-link{
+        padding-left: 30px;
+    }
+    .navbar-dropdown .navbar-item {
+        padding-left: 3rem;
     }
 }
 @media screen and (max-width: 890px){
@@ -737,17 +733,6 @@ button {
 }
 @media screen and (max-width: 880px){
 
-    .navbar-dropdown .navbar-item {
-        padding-left: 3rem;
-    }
-    .les-product-link{
-        padding-left: 1rem;
-    }
-    .navbar-wrapper {
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
-    }
     .header{
         width:100vw;
         position: fixed;
@@ -757,19 +742,8 @@ button {
     .content_mobile{
         margin-top:174px;
     }
-    .navbar-item {
-        border:none;
-        background: #fff;
-        width: 100vw;
-    }
-    .navbar-item:last-child {
-        display: none;
-    }
-    .footer-item.email-signup .form-row {
-        width: 170px;
-        margin-left: auto;
-        margin-right: auto
-    }
+
+
     .navbar-logo{
         display: block;
         margin-left: auto;
