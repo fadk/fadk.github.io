@@ -172,11 +172,11 @@ a .icon {
     font-size: 1.5rem;
 }
 .navbar-brand{
-    height: 60px;
+    height: 52px;
 }
 .navbar-burger {
-    height: 60px;
-    width: 60px;
+    height: 52px;
+    width: 52px;
 }
 .navbar-logo a{
     width:180px;
@@ -516,6 +516,7 @@ button {
     text-align: center;
     padding-top:0;
     padding-bottom:0;
+    transition: 0.3s;
 }
 .menu-button-type:hover{
     background-color: #222;
@@ -635,10 +636,7 @@ button {
 .banner-item .round{
     margin-bottom: 30px;
 }
-.round:hover{
-    background-color: #222;
-    color: #fff;
-}
+
 .round .fas{
     font-size: 70px;
 }
@@ -691,7 +689,25 @@ button {
     font-weight: 600;
     font-size: 18px;
 }
-
+.owl-slide-text-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fed700;
+    border-radius: 30px;
+    border: 2px solid #fed700;
+    text-align: center;
+    padding: 60px;
+}
+.owl-slide-text-bg i{
+    margin-right: 10px;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
 
 
 

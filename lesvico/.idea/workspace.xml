@@ -23,20 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="710" lean-forward="true" selection-start-line="710" selection-end-line="710" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="164" column="42" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
+            <state relative-caret-position="167">
+              <caret line="189" column="46" selection-start-line="189" selection-start-column="42" selection-end-line="189" selection-end-column="46" />
               <folding>
                 <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -49,9 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>menu-button-list</find>
-      <find>текст</find>
-      <find>cicib</find>
       <find>mobi</find>
       <find>logo</find>
       <find>navbar-logo</find>
@@ -64,13 +61,12 @@
       <find>hero</find>
       <find>769</find>
       <find>hero-body</find>
-      <find>menu-button-type</find>
       <find>content__desctop</find>
       <find>footer</find>
       <find>1200</find>
       <find>banner-bo</find>
       <find>les-content-has</find>
-      <find />
+      <find>width: 1200px;</find>
       <find>les-product-link</find>
       <find>34p</find>
       <find>header</find>
@@ -79,6 +75,10 @@
       <find>header__call-to-action</find>
       <find>visua</find>
       <find>.owl-dot</find>
+      <find>search</find>
+      <find>header__search</find>
+      <find>menu-button-type</find>
+      <find>banner-item</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -88,8 +88,8 @@
         <option value="$PROJECT_DIR$/css/bulma.css" />
         <option value="$PROJECT_DIR$/../ciciban/404.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -99,7 +99,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="72" />
     <option name="y" value="5" />
     <option name="width" value="1180" />
@@ -170,12 +170,12 @@
       <workItem from="1555874891805" duration="13354000" />
       <workItem from="1555951292488" duration="10000" />
       <workItem from="1556013195830" duration="2563000" />
-      <workItem from="1556449360652" duration="28827000" />
+      <workItem from="1556449360652" duration="31785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55483000" />
+    <option name="totallyTimeSpent" value="58441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -347,21 +347,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="710" lean-forward="true" selection-start-line="710" selection-end-line="710" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="164" column="42" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
+        <state relative-caret-position="167">
+          <caret line="189" column="46" selection-start-line="189" selection-start-column="42" selection-end-line="189" selection-end-column="46" />
           <folding>
             <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
         </state>
       </provider>
     </entry>

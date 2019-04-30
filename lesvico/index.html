@@ -36,18 +36,14 @@
                         <img src="img/logo-min-white.png" alt="Lesvico">
                     </a>
                 </div>
-                <div class="header__search">
                     <div class="simple-search-container">
-                        <div class="search-form-wrapper">
                             <form role="search" action="/search/" method="get" name="simpleSearch" class="simple-search" novalidate="novalidate">
                                 <fieldset class="valid">
                                     <input type="search" class="q valid" name="q" value="" placeholder="Поиск" autocomplete="off" aria-invalid="false">
                                     <button class="cici-search-button" type="submit"><span class="visually-hidden">Search</span><i class="icon fas fa-search"></i></button>
                                 </fieldset>
                             </form>
-                        </div>
                     </div>
-                </div>
                 <div  class="header__slogan">
                     <img src="img/slogan-min-white.png" alt="Воплощай мечты с нами!">
                 </div>
@@ -129,16 +125,16 @@
             <div class="owl-carousel owl-theme" >
                 <div class="cici-owl-slide cici-owl-slide-1">
                     <div class="cici-owl-slide-text-container">
-                        <a href="" class="menu-button menu-button-type">
+                        <a href="" class="owl-slide-text-bg">
                             <h1 class="title">
-                                Акции ЛесВиКо
+                                Акции
                             </h1>
                         </a>
                     </div>
                 </div>
                 <div class="cici-owl-slide cici-owl-slide-2">
                     <div class=" cici-owl-slide-text-container">
-                        <a href="" class="menu-button menu-button-type">
+                        <a href="" class="owl-slide-text-bg">
                             <h1 class="title">
                                 Скидки
                             </h1>
@@ -147,7 +143,7 @@
                 </div>
                 <div class="cici-owl-slide cici-owl-slide-3">
                     <div class=" cici-owl-slide-text-container">
-                        <a class="modal-button menu-button menu-button-type" data-target="modal" aria-haspopup="true">
+                        <a class="modal-button owl-slide-text-bg" data-target="modal" aria-haspopup="true">
                                 <h1 class="title">
                                     <i class="fas fa-play"></i>
                                     Видео
@@ -166,29 +162,36 @@
                                 <p>ЗАКАЗАТЬ ЗВОНОК</p>
                             </span>
                 </a>
+
                 <div class="columns index__tile-wrapper">
                     <div class="column index__tile index__tile1" @mouseover="upHere = true" @mouseleave="upHere = false">
                         <img class="" src="img/index-tile1-min.jpg" alt="" >
                         <h3>Профилированный брус</h3>
-                        <div class="index__tile-hidden" v-show="upHere">
-                            <p>Преимущества профилированного бруса - экологичность, экономичность, эстетичность.</p>
-                            <p>Дом из этого стройматериала не продувается и долго сохраняет тепло.</p>
-                        </div>
+                        <transition name="fade">
+                            <div class="index__tile-hidden" v-show="upHere">
+                                <p>Преимущества профилированного бруса - экологичность, экономичность, эстетичность.</p>
+                                <p>Дом из этого стройматериала не продувается и долго сохраняет тепло.</p>
+                            </div>
+                        </transition>
                     </div>
                     <div class="column index__tile index__tile2" @mouseover="upHere = true" @mouseleave="upHere = false">
                         <img class="" src="img/index-tile2-min.jpg" alt="" >
                         <h3>Строительство домов</h3>
-                        <div class="index__tile-hidden" v-show="upHere">
-                            <p>Дома из профилированного бруса актуальны для многих регионов России.</p>
-                            <p>Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. </p>
-                        </div>
+                        <transition name="fade">
+                            <div class="index__tile-hidden" v-show="upHere">
+                                <p>Дома из профилированного бруса актуальны для многих регионов России.</p>
+                                <p>Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. </p>
+                            </div>
+                        </transition>
                     </div>
                     <div class="column index__tile index__tile3" @mouseover="upHere = true" @mouseleave="upHere = false">
                         <img class="" src="img/index-tile3-min.jpg" alt="" >
                         <h3>Проекты домов</h3>
-                        <div class="index__tile-hidden" v-show="upHere">
-                            <p>Наша компания производит и продает профилированный брус и другие строительные материалы.</p>
-                        </div>
+                        <transition name="fade">
+                            <div class="index__tile-hidden" v-show="upHere">
+                                <p>Наша компания производит и продает профилированный брус и другие строительные материалы.</p>
+                            </div>
+                        </transition>
                     </div>
                 </div>
 
