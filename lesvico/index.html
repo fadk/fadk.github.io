@@ -156,11 +156,9 @@
             <article class="les-content has-text-centered">
                 <p>Мы можем гарантировать своим покупателям высокое качество материалов для домов, коттеджей, дач, бань и других строений.</p>
 
-                <a class="menu-button menu-button-type" href="">
-                            <span>
+                <a class="call-button" href="">
                                 <i class=" fas fa-phone"></i>
                                 ЗАКАЗАТЬ ЗВОНОК
-                            </span>
                 </a>
 
                 <div class="columns index__tile-wrapper">
@@ -203,8 +201,8 @@
 
             </article>
             <section class="bg-image-hero-page-no-sidebar hero ">
-                <div class="columns banner-body">
-                    <div class="column banner-item banner-item1"
+                <div class="banner-body">
+                    <div class=" banner-item banner-item1"
                          @mouseover="isHovering = true"
                          @mouseout="isHovering = false"
                          :class="{hovering: isHovering}">
@@ -212,7 +210,7 @@
                         <p>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
                         <span>Бригады для строительство домов бань</span>
                     </div>
-                    <div class="column banner-item banner-item2"
+                    <div class=" banner-item banner-item2"
                          @mouseover="isHovering = true"
                          @mouseout="isHovering = false"
                          :class="{hovering: isHovering}">
@@ -220,7 +218,7 @@
                         <p>СВОЕ ПРОИЗВОДСТВО</p>
                         <span>1500м<sup>2</sup> территории в Дмитровском районе</span>
                     </div>
-                    <div class="column banner-item banner-item3"
+                    <div class=" banner-item banner-item3"
                          @mouseover="isHovering = true"
                          @mouseout="isHovering = false"
                          :class="{hovering: isHovering}">
@@ -264,15 +262,9 @@
             <div class="home-mobile-slots">
                 <hr class="home-mobile-slot-division">
                 <div class="home-mobile-slot">
-                    <div class="full-column sale-mobile">
-                        <a href="" class="menu-button menu-button-sale">
-                            <span>
+                        <a href="" class="full-column sale-mobile">
                                 Спешите! Скидки!
-                            </span>
                         </a>
-                    </div>
-
-                    <hr class="home-mobile-slot-division">
 
 
                         <div class=" index__tile index__tile1" @mouseover="upHere = true" @mouseleave="upHere = false">
@@ -285,20 +277,7 @@
                                 </div>
                             </transition>
                         </div>
-                        <div class=" index__tile index__tile2" @mouseover="upHere = true" @mouseleave="upHere = false">
-                            <img class="" src="img/index-tile2-min.jpg" alt="" >
-                            <h3>Строительство домов</h3>
-                            <transition name="fade">
-                                <div class="index__tile-hidden" v-show="upHere">
-                                    <p>Дома из профилированного бруса актуальны для многих регионов России.</p>
-                                    <p>Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. </p>
-                                </div>
-                            </transition>
-                        </div>
 
-                    <article class="full-column article-bg">
-                            <p>Компания «ЛесВиКо» специализируется на производстве профилированного бруса и других экологически чистых пиломатериалов.</p>
-                    </article>
                     <article class="full-column article-bg">
                             <p>Многие жители Москвы и Московской области мечтают жить в собственном доме из современных и обязательно экологичных материалов. </p>
                     </article>
@@ -308,88 +287,64 @@
                         <transition name="fade">
                             <div class="index__tile-hidden" v-show="upHere">
                                 <p>Наша компания производит и продает профилированный брус и другие строительные материалы.</p>
+                                <p>Лес, произрастающий в тяжелых северных условиях, в качестве строительного материала ценится намного выше, чем лесоматериалы родом из умеренных зон.</p>
                             </div>
                         </transition>
                     </div>
                     <div class="half-column-wrapper">
-                        <div class="half-column">
-                            <a class="menu-button menu-button-list" href="">
-                                <span>
-                                    <p>
-                                        Погрузка - БЕСПЛАТНО
-                                    </p>
-                                </span>
+                            <a class="half-column check-tile" href="">
+                                <i class="fas fa-check"></i>
+                                <p>Погрузка - БЕСПЛАТНО</p>
                             </a>
-                        </div>
-                        <div class="half-column">
-                            <a class="menu-button menu-button-list" href="">
-                                <span>
-                                    <p>
-                                        Доставка до заказчика
-                                    </p>
-                                </span>
+                            <a class="half-column check-tile" href="">
+                                <i class="fas fa-check"></i>
+                                <p>Доставка до заказчика</p>
                             </a>
-                        </div>
-                        <div class="half-column">
-                            <a class="menu-button menu-button-list" href="">
-                                <span>
-                                    <p>
-                                        Брус из материала заказчика
-                                    </p>
-                                </span>
+                            <a class="half-column check-tile" href="">
+                                <i class="fas fa-check"></i>
+                                <p>Брус из материала заказчика</p>
                             </a>
-                        </div>
-                        <div class="half-column">
-                            <a class="menu-button menu-button-list" href="">
-                                <span>
-                                    <p>
-                                        Строганный брус и пиломатериалы
-                                    </p>
-                                </span>
+                            <a class="half-column check-tile" href="">
+                                <i class="fas fa-check"></i>
+                                <p>Строганный брус и пиломатериалы</p>
                             </a>
-                        </div>
                     </div>
                     <article class="full-column  article-bg">
                             <p>Для многих желающих возвести свой дом такие материалы, как кирпич и бетон, являются очень дорогими, но выход всегда есть – у нас вы можете приобрести брус профилированный недорого.</p>
                     </article>
+                    <div class=" index__tile index__tile2" @mouseover="upHere = true" @mouseleave="upHere = false">
+                        <img class="" src="img/index-tile2-min.jpg" alt="" >
+                        <h3>Строительство домов</h3>
+                        <transition name="fade">
+                            <div class="index__tile-hidden" v-show="upHere">
+                                <p>Дома из профилированного бруса актуальны для многих регионов России.</p>
+                                <p>Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. </p>
+                            </div>
+                        </transition>
+                    </div>
                     <article class="full-column  article-bg">
                         <p>Данный строительный материал может позволить себе семья даже с небольшим бюджетом на строительство дома, коттеджа, бани и прочее.</p>
                     </article>
-                    <div class="full-column">
-                        <a class="menu-button menu-button-type" href="">
-                            <span>
+                        <a class="full-column delivery-button" href="">
                                 <i class="fas fa-truck"></i>
                                 <p>Доставка по Москве и области - 80 р./км</p>
-                            </span>
                         </a>
-                    </div>
-                    <article class="full-column">
-                        <a class="menu-button menu-button-info" href="">
-                                <p>
-                                    Изготовление профилированного бруса осуществляется из материалов высокой плотности, который поставляются из северных регионов России, в частности, из Кирова, Вологды и Архангельска. Лес, произрастающий в тяжелых северных условиях, в качестве строительного материала ценится намного выше, чем лесоматериалы родом из умеренных зон. Профилированный брус при производстве изначально сортируется, после чего проходит обработку на современных станках. В результате дерево обрабатывается с высочайшей точностью и получает необходимые размеры и заданный профиль.
-                                </p>
-                        </a>
+                    <article class="full-column article-bg">
+                        <p>Мы изготавливаем профилированный брус из материалов высокой плотности, которые поставляются из северных регионов России: из Кирова, Вологды и Архангельска.</p>
                     </article>
-<div class="half-column-wrapper">
-                    <div class="half-column">
-                        <a class="menu-button menu-button-list" href="">
-                            <span>
+                    <div class="half-column-wrapper">
+                            <a class="half-column check-tile" href="">
                                 <p>
                                     Рассмотрим ваши идеи и предложения
                                 </p>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="half-column">
-                        <a class="menu-button menu-button-list" href="">
-                            <span>
+                            </a>
+                            <a class="half-column check-tile" href="">
                                 <p>
                                     Бригады для строительства домов бань
                                 </p>
-                            </span>
-                        </a>
+                            </a>
                     </div>
-</div>
+
                 </div>
             </div>
         </section>
