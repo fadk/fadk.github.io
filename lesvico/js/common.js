@@ -40,6 +40,7 @@ new Vue({
         upHere : false
     }
 });
+
 new Vue({
     el: ".banner-item1",
     data:{

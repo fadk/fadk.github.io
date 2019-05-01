@@ -83,11 +83,11 @@ body, input, select, textarea {
 .header__text{
     margin-left: 15px;
 }
-.cici-button a {
+.menu__search-button a {
     margin-left: 15px;
     margin-right: 15px;
 }
-.cici-button .navbar-link{
+.menu__search-button .navbar-link{
     text-shadow: none;
 }
 .header__text a .icon{
