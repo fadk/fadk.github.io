@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -43,7 +40,7 @@
                             <form role="search" action="/search/" method="get" name="simpleSearch" class="simple-search" novalidate="novalidate">
                                 <fieldset class="valid">
                                     <input type="search" class="q valid" name="q" value="" placeholder="Поиск" autocomplete="off" aria-invalid="false">
-                                    <button class="cici-search-button" type="submit"><span class="visually-hidden">Search</span><i class="icon fas fa-search"></i></button>
+                                    <button class="les-search-button" type="submit"><span class="visually-hidden">Search</span><i class="icon fas fa-search"></i></button>
                                 </fieldset>
                             </form>
                     </div>
@@ -136,10 +133,9 @@
             </vueper-slides>
         </div>
         <section class="content__desktop">
-
             <article class="les-content has-text-centered">
+                <h5>Контроль качества</h5>
                 <p>Мы можем гарантировать своим покупателям высокое качество материалов для домов, коттеджей, дач, бань и других строений.</p>
-
                 <a class="call-button" href="">
                                 <i class=" fas fa-phone"></i>
                                 ЗАКАЗАТЬ ЗВОНОК
@@ -175,7 +171,6 @@
                     </div>
                 </div>
 
-
                 <p>Хватит мечтать о доме из натуральных материалов, мы поможем реализовать вашу мечту!</p>
                 <span class="has-text-weight-bold">
                     Мы работаем 7 дней в неделю!
@@ -189,7 +184,7 @@
                          @mouseout="isHovering = false"
                          :class="{hovering: isHovering}">
                         <div class="round"><i class="fas fa-people-carry"></i></div>
-                        <p>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
+                        <h4>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h4>
                         <span>Бригады для строительства</span>
                     </div>
                     <div class=" banner-item banner-item2"
@@ -197,7 +192,7 @@
                          @mouseout="isHovering = false"
                          :class="{hovering: isHovering}">
                         <div class="round"><i class="fas fa-hammer"></i></div>
-                        <p>СВОЕ ПРОИЗВОДСТВО</p>
+                        <h4>СВОЕ ПРОИЗВОДСТВО</h4>
                         <span>1500м<sup>2</sup> территории в Дмитровском районе</span>
                     </div>
                     <div class=" banner-item banner-item3"
@@ -205,13 +200,14 @@
                          @mouseout="isHovering = false"
                          :class="{hovering: isHovering}">
                         <div class="round"><i class="fas fa-warehouse"></i></div>
-                        <p>СТЕНОВЫЕ КОМПЛЕКТЫ</p>
+                        <h4>СТЕНОВЫЕ КОМПЛЕКТЫ</h4>
                         <span>Продуманный до мелочей дом-конструктор</span>
                     </div>
 
                 </div>
             </section>
             <article class="les-content has-text-centered">
+                <h5>Тщательная обработка</h5>
                 <p>На производстве наш брус обрабатывается с высокой точностью - практически шлифуется. Поэтому он готов к применению и даже не требует дополнительных внутренних отделочных работ. </p>
             </article>
 
@@ -220,7 +216,6 @@
                 <div class="modal-content">
                     <div class="box">
                         <p>Текст для Лесвико</p>
-                         <iframe src="https://www.youtube.com/embed/YT18lp8vZU4" class="vidresp" allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <button class="modal-close is-large" aria-label="close"></button>
@@ -259,7 +254,8 @@
                         </div>
 
                     <article class="full-column article-bg">
-                            <p>Многие жители Москвы и Московской области мечтают жить в собственном доме из современных и обязательно экологичных материалов. </p>
+                        <h2>Поможем построить дом</h2>
+                        <p>Многие жители Москвы и Московской области мечтают жить в собственном доме из современных и обязательно экологичных материалов. </p>
                     </article>
                     <div class=" index__tile index__tile3" @mouseover="upHere = true" @mouseleave="upHere = false">
                         <img class="" src="img/index-tile3-min.jpg" alt="" >
@@ -351,7 +347,6 @@
 
 
 <script src="js/jquery.min.js"></script>
-<script src="js/owl.carousel.js"></script>
 <script src="js/js-cookie.js"></script>
 <script src="js/bulma.js"></script>
 <script src="js/common.js"></script>

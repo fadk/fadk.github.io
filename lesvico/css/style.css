@@ -257,10 +257,10 @@ button {
     background-color: transparent;
 }
 
-.cici-search-button{
+.les-search-button{
     margin-left: -45px;
 }
-.cici-search-button i{
+.les-search-button i{
    color: #777;
 }
 .content__desktop{
@@ -317,31 +317,6 @@ button {
 }
 .navbar-item, .navbar-link {
     color: #000;
-}
-.owl-nav{
-    display: none;
-}
-.owl-dots{
-    position: absolute;
-    bottom: 40px;
-    left:40px;
-}
-.owl-theme .owl-dots .owl-dot span {
-    width: 18px;
-    height: 18px;
-    margin: 9px;
-    background: #fff;
-    border:2px solid #fff;
-    display: block;
-    -webkit-backface-visibility: visible;
-    -webkit-transition: opacity 200ms ease;
-    -o-transition: opacity 200ms ease;
-    transition: opacity 200ms ease;
-    border-radius: 0px;
-}
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-    background: #fed700;
 }
 .vidresp{
     margin-top:20px;
@@ -446,12 +421,8 @@ button {
     letter-spacing: 1px;
 }
 .article-bg {
-    display: table;
     width: 100%;
-    height: 100px;
     margin-bottom: 10px;
-    letter-spacing: .9px;
-    font-size: 18px;
     background-color: rgba(255,255,255,.92);
     color: #666;
     padding: 10px;
@@ -569,9 +540,15 @@ button {
     text-align: center;
     width: 30%;
 }
-.banner-item p{
+.banner-item h4, .les-content h5{
     font-size: 30px;
     letter-spacing: 3.5px;
+    font-weight: 900;
+}
+.article-bg h2{
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 900;
 }
 .banner-item span{
     font-size: 21px;
@@ -612,9 +589,11 @@ button {
     box-shadow:none;
 }
 .index__tile img {
-    height: auto;
+    min-height: 300px;
     width: 100%;
-    display: block;
+    object-fit:cover;
+    display: flex;
+    align-self: center;
     position: relative;
     z-index: 1;
 }
@@ -647,23 +626,9 @@ button {
     transition: visibility 0s,opacity 0.3s linear;
     overflow: hidden;
     text-shadow: 2px 2px #262626;
-
 }
 .index__tile-hidden  p {
     margin-bottom: 10px;
-}
-.owl-slide-text-bg{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fed700;
-    border-radius: 30px;
-    border: 2px solid #fed700;
-    text-align: center;
-    padding: 20px;
-}
-.owl-slide-text-bg i{
-    margin-right: 10px;
 }
 .fade-enter-active, .fade-leave-active {
     transition: opacity .5s;
@@ -736,17 +701,7 @@ button {
         line-height: 14em;
     }
 }
-@media screen and (max-width: 890px){
-    .cici-footer-column{
-        min-width: 50%;
-    }
-    .cici-footer-column:nth-child(odd){
-        padding-left:65px;
-    }
-    .cici-footer-column:last-child{
-        padding-right:25px;
-    }
-}
+
 @media screen and (min-width: 881px){
     .content_mobile, .navbar-dropdown .fa-chevron-right{
         display: none;
@@ -998,25 +953,6 @@ button {
     .header__text {
         margin-left: 0px;
     }
-    .cici-owl-slide-text-container h1 {
-        font-size: 50px;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .cici-footer-column{
-        min-width: 100%;
-        padding-left:50px;
-    }
-    .cici-footer-column:nth-child(odd){
-        padding-left:50px;
-    }
-
-}
-@media screen and (max-width: 485px){
-    .footer-item.email-signup {
-        position:static;
-    }
 }
 @media screen and (max-width: 450px){
     .home-mobile-slots{
@@ -1026,9 +962,7 @@ button {
         margin: 40px 10px 18px;
     }
 }
-@media screen and (max-width: 430px){
 
-}
 @media screen and (max-width: 370px){
     .footer__call a {
         font-size: 25px;
@@ -1051,9 +985,6 @@ button {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-    }
-    .cici-search{
-        width: 190px;
     }
 }
 @media screen and (max-height: 775px){
