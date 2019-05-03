@@ -7,6 +7,11 @@ body, input, select, textarea {
     letter-spacing: 0.5px;
     word-spacing: 8px;
 }
+/*quasar-framework*/
+.shadow-1{
+    box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+}
+/*quasar-framework*/
 .header{
     position: relative;
     z-index: 30;
@@ -269,49 +274,27 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top:-126px;
     padding-bottom: 100px;
 }
-.cici-owl-slide{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: calc(100vh - 30px);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 0%;
+.vueperslides__parallax-wrapper{
+    margin-top: -126px;
 }
-.cici-owl-slide-1{
-    background-image:url('../img/dreamstime4_2000-min.jpg');
+.vueperslide__content-wrapper{
+    top: 57%!important;
+    background-color: #fed700;
+    padding:15px;
+    border-radius: 30px;
+    /*quasar-framework shadow-1*/
+    box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
 }
-.cici-owl-slide-2{
-    background-image:url('../img/dreamstime2_2000-min.jpg');
+.vueperslides__arrows .vueperslides__arrow{
+    top:57% !important;
 }
-.cici-owl-slide-3{
-    background-image:url('../img/dreamstime3_2000-min.jpg');
-}
-.cici-owl-slide-4{
-    background-image:url('../img/dreamstime_2000-min.jpg');
-}
-.cici-owl-slide-text-container{
-    margin-top:100px;
-}
-.cici-owl-slide-text-container h1 {
+.vueperslide__title, .vueperslide__content{
+    line-height: 1;
     font-weight: bold;
     font-style: normal;
     font-size: 72px;
-    line-height: 82px;
     text-align: center;
     padding: 15px;
     color:#fff;
@@ -320,6 +303,17 @@ button {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px #e8c400;
+}
+.vueperslide__content{
+    font-size: 36px;
+}
+.vueperslides__bullets .vueperslides__bullet {
+    border-radius: 0px;
+    /*quasar-framework shadow-1*/
+    box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+}
+.vueperslides__bullets .vueperslides__bullet--active {
+    border: 6px solid #fed700;
 }
 .navbar-item, .navbar-link {
     color: #000;
@@ -428,6 +422,7 @@ button {
 .footer__call a{
     font-size: 30px;
     margin-left:-10px;
+    margin-top: 10px;
 }
 .les-content{
     max-width: 1200px;
@@ -477,6 +472,8 @@ button {
     text-align: center;
     padding: 0 20px 0;
     transition: 0.3s;
+    /*quasar-framework shadow-1*/
+    box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
 }
 .delivery-button  i{
     margin-right: 15px;
@@ -484,6 +481,7 @@ button {
 .call-button:hover{
     background-color: #222;
     color: #fff;
+    box-shadow:none;
 }
 .call-button:hover  i{
     color: #fed700;
@@ -586,6 +584,8 @@ button {
     border-radius: 50%;
     line-height: 16em;
     text-align: center;
+    /*quasar-framework shadow-22*/
+    box-shadow: 0 10px 14px -6px rgba(0,0,0,.2), 0 22px 35px 3px rgba(0,0,0,.14), 0 8px 42px 7px rgba(0,0,0,.12);
 }
 .banner-item .round{
     margin-bottom: 30px;
@@ -597,10 +597,19 @@ button {
 .les-product-link i{
     margin-left: 5px;
 }
+.index__tile-wrapper{
+    display: flex;
+}
 .index__tile{
     max-width: 100%;
-    margin-bottom: 30px;
     position: relative;
+    margin:12px;
+    margin-bottom: 30px;
+    /*quasar-framework shadow-1*/
+    box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+}
+.index__tile:hover{
+    box-shadow:none;
 }
 .index__tile img {
     height: auto;
@@ -632,16 +641,16 @@ button {
     top:0px;
     left:0px;
     bottom: 40px;
-    width: calc(100% - 24px);
     background: rgba(0,0,0,.7);
     color: white;
-    margin: 12px;
     padding: 10px;
     transition: visibility 0s,opacity 0.3s linear;
     overflow: hidden;
     text-shadow: 2px 2px #262626;
-    font-weight: 600;
-    font-size: 18px;
+
+}
+.index__tile-hidden  p {
+    margin-bottom: 10px;
 }
 .owl-slide-text-bg{
     display: flex;
@@ -674,12 +683,13 @@ button {
     left: 0;
     background-color: rgba(255,255,255, .7);
     z-index: 1;
-    margin: -10px;
+    margin: -70px -10px -70px;
+    /*quasar-framework shadow-1*/
+    box-shadow: 0 1px 3px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
 }
 .banner-item div, .banner-item p, .banner-item span{
     z-index: 2;
 }
-
 
 
 
@@ -738,18 +748,19 @@ button {
     }
 }
 @media screen and (min-width: 881px){
-    .content_mobile{
+    .content_mobile, .navbar-dropdown .fa-chevron-right{
         display: none;
     }
-    .navbar-dropdown .fa-chevron-right{
-        display: none;
-    }
+
     .navbar-dropdown {
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
     }
 }
 @media screen and (max-width: 880px){
+    #les-slider{
+        display: none;
+    }
     .check-tile{
         display: flex;
         color: #222;
@@ -757,7 +768,7 @@ button {
         align-items: center;
         justify-content: right;
         font-size: 21px;
-        height: 100px;
+        height: 140px;
     }
     .check-tile i{
         margin-right: 15px;
@@ -838,23 +849,13 @@ button {
     .home-mobile-slots {
         margin: 15px 43px 40px;
     }
+    .home-mobile-slot .index__tile{
+        margin:0;
+        margin-bottom: 30px;
+    }
     .full-column{
         margin-top:20px;
         margin-bottom: 20px;
-    }
-    .menu-button-summer{
-        color: #fed700;
-        text-decoration: underline;
-    }
-    .menu-button-summer span{
-        color:#333333;
-    }
-
-    .menu-button-sale{
-        background-color: #FFFFFF;
-        color:#fed700;
-        font-weight:600;
-        font-size: 26px;
     }
     .sale-mobile{
         background-color: #ffffff;

@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vueperslides"></script>
+    <link href="https://unpkg.com/vueperslides/dist/vueperslides.css" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
@@ -49,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="navbar-wrapper">
+        <div class="navbar-wrapper shadow-1">
             <nav class="navbar" aria-label="main navigation">
                     <div class="navbar-brand">
                         <a class="navbar-item header__logo" href="#" title="Lesviko Home">
@@ -120,38 +123,20 @@
         </div>
     </header>
     <main>
+        <div id="les-slider" >
+            <vueper-slides :touchable="true" fixed-height="96vh">
+                <vueper-slide
+                        v-for="(slide, i) in slides"
+                        :key="i"
+                        :image="'img/' + slide.image"
+                        :title="'# ' + slide.title"
+                        :content="slide.content"
+                        :link="slide.link">
+                </vueper-slide>
+            </vueper-slides>
+        </div>
         <section class="content__desktop">
-            <div class="owl-carousel owl-theme" >
-                <div class="cici-owl-slide cici-owl-slide-1">
-                    <div class="cici-owl-slide-text-container">
-                        <a href="" class="owl-slide-text-bg">
-                            <h1 class="title">
-                                Акции
-                            </h1>
-                        </a>
-                    </div>
-                </div>
-                <div class="cici-owl-slide cici-owl-slide-2">
-                    <div class=" cici-owl-slide-text-container">
-                        <a href="" class="owl-slide-text-bg">
-                            <h1 class="title">
-                                Скидки
-                            </h1>
-                        </a>
-                    </div>
-                </div>
-                <div class="cici-owl-slide cici-owl-slide-3">
-                    <div class=" cici-owl-slide-text-container">
-                        <a class="modal-button owl-slide-text-bg" data-target="modal" aria-haspopup="true">
-                                <h1 class="title">
-                                    <i class="fas fa-play"></i>
-                                    Видео
-                                </h1>
 
-                        </a>
-                    </div>
-                </div>
-            </div>
             <article class="les-content has-text-centered">
                 <p>Мы можем гарантировать своим покупателям высокое качество материалов для домов, коттеджей, дач, бань и других строений.</p>
 
@@ -160,28 +145,26 @@
                                 ЗАКАЗАТЬ ЗВОНОК
                 </a>
 
-                <div class="columns index__tile-wrapper">
-                    <div class="column index__tile index__tile1" @mouseover="upHere = true" @mouseleave="upHere = false">
+                <div class=" index__tile-wrapper">
+                    <div class=" index__tile index__tile1" @mouseover="upHere = true" @mouseleave="upHere = false">
                         <img class="" src="img/index-tile1-min.jpg" alt="" >
                         <h3>Профилированный брус</h3>
                         <transition name="fade">
                             <div class="index__tile-hidden" v-show="upHere">
                                 <p>Преимущества профилированного бруса - экологичность, экономичность, эстетичность.</p>
-                                <p>Дом из этого стройматериала не продувается и долго сохраняет тепло.</p>
                             </div>
                         </transition>
                     </div>
-                    <div class="column index__tile index__tile2" @mouseover="upHere = true" @mouseleave="upHere = false">
+                    <div class=" index__tile index__tile2" @mouseover="upHere = true" @mouseleave="upHere = false">
                         <img class="" src="img/index-tile2-min.jpg" alt="" >
                         <h3>Строительство домов</h3>
                         <transition name="fade">
                             <div class="index__tile-hidden" v-show="upHere">
-                                <p>Дома из профилированного бруса актуальны для многих регионов России.</p>
                                 <p>Мы продаем самые востребованные размеры профилированного бруса: 100х100, 100х150, 150х150 и 200х200. </p>
                             </div>
                         </transition>
                     </div>
-                    <div class="column index__tile index__tile3" @mouseover="upHere = true" @mouseleave="upHere = false">
+                    <div class=" index__tile index__tile3" @mouseover="upHere = true" @mouseleave="upHere = false">
                         <img class="" src="img/index-tile3-min.jpg" alt="" >
                         <h3>Проекты домов</h3>
                         <transition name="fade">
@@ -201,13 +184,13 @@
             </article>
             <section class="bg-image-hero-page-no-sidebar hero ">
                 <div class="banner-body">
-                    <div class=" banner-item banner-item1"
+                    <div class="banner-item banner-item1"
                          @mouseover="isHovering = true"
                          @mouseout="isHovering = false"
                          :class="{hovering: isHovering}">
                         <div class="round"><i class="fas fa-people-carry"></i></div>
                         <p>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
-                        <span>Бригады для строительство домов бань</span>
+                        <span>Бригады для строительства</span>
                     </div>
                     <div class=" banner-item banner-item2"
                          @mouseover="isHovering = true"
@@ -261,11 +244,9 @@
             <div class="home-mobile-slots">
                 <hr class="home-mobile-slot-division">
                 <div class="home-mobile-slot">
-                        <a href="" class="full-column sale-mobile">
+                        <a href="" class="full-column sale-mobile shadow-1">
                                 Спешите! Скидки!
                         </a>
-
-
                         <div class=" index__tile index__tile1" @mouseover="upHere = true" @mouseleave="upHere = false">
                             <img class="" src="img/index-tile1-min.jpg" alt="" >
                             <h3>Профилированный брус</h3>
@@ -291,19 +272,19 @@
                         </transition>
                     </div>
                     <div class="half-column-wrapper">
-                            <a class="half-column check-tile" href="">
+                            <a class="half-column check-tile shadow-1" href="">
                                 <i class="fas fa-check"></i>
                                 <p>Погрузка - БЕСПЛАТНО</p>
                             </a>
-                            <a class="half-column check-tile" href="">
+                            <a class="half-column check-tile shadow-1" href="">
                                 <i class="fas fa-check"></i>
                                 <p>Доставка до заказчика</p>
                             </a>
-                            <a class="half-column check-tile" href="">
+                            <a class="half-column check-tile shadow-1" href="">
                                 <i class="fas fa-check"></i>
                                 <p>Брус из материала заказчика</p>
                             </a>
-                            <a class="half-column check-tile" href="">
+                            <a class="half-column check-tile shadow-1" href="">
                                 <i class="fas fa-check"></i>
                                 <p>Строганный брус и пиломатериалы</p>
                             </a>
@@ -332,12 +313,12 @@
                         <p>Мы изготавливаем профилированный брус из материалов высокой плотности, которые поставляются из северных регионов России: из Кирова, Вологды и Архангельска.</p>
                     </article>
                     <div class="half-column-wrapper">
-                            <a class="half-column check-tile" href="">
+                            <a class="half-column check-tile shadow-1 has-text-centered" href="">
                                 <p>
                                     Рассмотрим ваши идеи и предложения
                                 </p>
                             </a>
-                            <a class="half-column check-tile" href="">
+                            <a class="half-column check-tile shadow-1 has-text-centered" href="">
                                 <p>
                                     Бригады для строительства домов бань
                                 </p>
@@ -370,7 +351,6 @@
 
 
 <script src="js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/js-cookie.js"></script>
 <script src="js/bulma.js"></script>

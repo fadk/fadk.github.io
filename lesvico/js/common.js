@@ -59,3 +59,13 @@ new Vue({
         isHovering: false
     }
 })
+new Vue({
+    el: "#les-slider",
+    data: () => ({
+        slides: [
+            { title: 'Акции', content: 'Проект в подарок!', link: '#link-to-article-1', image:'dreamstime4_2000-min.jpg' },
+            { title: 'Скидки', link: '#link-to-article-1', image:'dreamstime2_2000-min.jpg' },
+            { title: 'Видео', link: '#link-to-article-1', image:'dreamstime3_2000-min.jpg' },
+        ]
+    })
+})
