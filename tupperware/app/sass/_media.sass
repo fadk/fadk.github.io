@@ -1,0 +1,358 @@
+@import "vars"
+
+
+@media (max-width: 1650px)
+
+  .navbar-item
+    &:not(:first-child)
+      padding-left: 33px
+    &:not(:last-child)
+      padding-right: 33px
+
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+    width: 1350px
+
+  .features__wrapper, .swiper-container-recent__wrapper
+    width: 1300px
+
+  .bestsellers__title, .recent1__title
+    &:before
+      right: -30px
+
+  .reviews__slide
+    align-items: flex-end
+
+  .reviews__author, .reviews__date
+    width: 280px
+
+  .reviews__text
+    width: 280px
+    &:before
+      right: -50px
+
+@media (max-width: 1520px)
+  .reviews__text
+    &:before
+      right: -70px
+
+  .footer__columns
+    flex-wrap: wrap
+    position: relative
+
+  .footer__column
+    width: 25%
+    &:last-child
+      width: 35%
+      position: absolute
+      top: 0
+      right: 0
+
+
+@media (max-width: 1475px)
+
+  .navbar-item
+    &:not(:first-child)
+      padding-left: 20px
+    &:not(:last-child)
+      padding-right: 20px
+
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+    width: 1200px
+
+  .features__wrapper, .swiper-container-recent__wrapper
+    width: 1150px
+
+  .bestsellers__title, .recent1__title
+    &:before
+      display: none
+
+@media (max-width: 1380px)
+  .header__search-input
+    width: 238px
+  .logo
+    width: 178px
+    height: 28px
+
+  .navbar-item
+    &:not(:first-child)
+      padding-left: 11px
+    &:not(:last-child)
+      padding-right: 11px
+
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+    width: 1100px
+
+  .features__wrapper, .swiper-container-recent__wrapper
+    width: 1050px
+
+  .reviews__author, .reviews__date
+    width: 230px
+
+  .reviews__text
+    width: 230px
+    &:before
+      right: -50px
+
+  .features__description
+    &:before
+      width: 150px
+      left: 12px
+
+@media (max-width: 1350px)
+  #mainnav
+    #menu
+      display: block;
+      font-size: 40px
+
+  #mainnav
+    ul
+      display: none;
+      text-align: left;
+      top: 10px
+      left: 50px
+      position: absolute
+      z-index: 9
+      padding-left: 40px
+      padding-right: 40px
+      background-color: #fff
+      li
+        display: block;
+        a
+         display: block;
+
+
+
+
+@media (max-width: 1210px)
+  .header__search-wrapper
+    position: absolute
+    top: 53px
+    right: -28px
+  .about__tile
+    width: 46%
+
+@media (max-width: 1200px)
+
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+    width: 960px
+
+  .features__wrapper, .swiper-container-recent__wrapper
+    width: 900px
+
+  .reviews__slide
+    align-items: center
+
+  .reviews__text
+    &:before
+      display: none
+
+  .about__logo
+    width: 280px
+    height: 43px
+
+@media (max-width: 1100px)
+
+  .about__tile
+    width: 100%
+    min-height: 400px
+    margin-bottom: 0
+
+  .about__tile:nth-child(odd)
+    margin-right: 0
+
+  .about__tile:nth-child(even)
+    margin-left: 0
+
+  .about__text
+    padding: 0
+
+  .reviews
+    h3
+      margin-top: 150px
+
+@media (max-width: 1000px)
+
+  .sale__product--3
+    display: none
+
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+    width: 90%
+
+  .features__wrapper, .swiper-container-recent__wrapper
+    width: 100%
+
+  .sale__content p:first-child
+    font-size: 40px;
+
+  .sale__content p
+    font-size: 90px;
+
+  .features__description
+    &:before
+      width: 100px
+      left: 40px
+
+@media (max-width: 950px)
+   .footer__navbar
+     display: none
+
+@media (max-width: 900px)
+  .footer__column
+    width: 40%
+    &:last-child
+      width: 45%
+      position: absolute
+      top: 0
+      right: 0
+
+  .features__wrapper
+    flex-wrap: wrap
+
+@media (max-width: 800px)
+
+  .features__point
+    width: 48%
+
+  .reviews__author, .reviews__date
+    width: 80%
+
+  .reviews__text
+    width: 80%
+
+@media (max-width: 768px)
+  main
+    width: 100%
+
+  .about, .news, .text, ul.breadcrumb
+    padding-left: 20px
+    padding-right: 20px
+
+  .catalog-page__category
+    width: 100%
+    &:nth-child(odd)
+     margin-right: 0
+
+  .catalog-page
+    .catalog__button
+      font-size: 18px;
+    h1
+      font-size: 20px;
+
+  .text
+    h2
+      font-size: 20px;
+    h4
+      font-size: 20px;
+  .recent
+    h3
+      font-size: 20px;
+  .news
+    h3
+      font-size: 20px;
+
+  .features__wrapper, .swiper-container-recent__wrapper
+    width: 90%
+
+@media (max-width: 700px)
+  .hero__content
+    h1
+      font-size: 60px
+      line-height: 60px
+  .confidentiality
+    font-size: 12px
+  .news
+    button
+      height: 39px
+
+    input[type="text"]
+      width: 200px
+      height: 40px
+
+  .header__location, .header__location-popup, .header__location-popup-triangle, .boxclose
+   display: none
+
+@media (max-width: 550px)
+
+  .confidentiality
+    flex-direction: column
+    text-align: center
+
+  .hero__content
+    margin-left: 20px
+
+  .logo
+    width: 100px
+    height: 16px
+    margin-bottom: 4px;
+
+  .footer__column
+    width: 100%;
+    &:last-child
+      width: 100%;
+      position: static;
+      top: 0;
+      right: 0;
+
+@media (max-width: 500px)
+  .subscribe
+    display: flex
+    flex-direction: column
+
+
+  .news
+    button
+      margin-left: 0
+      margin-top: 20px
+
+@media (max-width: 450px)
+
+  .features
+    h2
+      font-size: 22px
+
+  h3
+    font-size: 20px
+
+  .recent__title
+    font-size: 12px;
+
+  .catalog__button
+    font-size: 18px
+
+  .bestsellers__title, .recent1__title
+    font-size: 12px;
+
+  .sale__product--1
+    display: none
+
+  .hero__content
+    h1
+      font-size: 50px
+      line-height: 50px
+
+    h4
+      font-size: 20px
+      line-height: 20px
+
+@media (max-width: 400px)
+
+  .features__point
+    width: 90%
+
+@media (max-width: 350px)
+  .header__search-input
+    width: 200px
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+
+
+// ≤768px
+
+
+// ≤992px
+
+
+// ≤1200px
+
