@@ -99,7 +99,7 @@ function topFunction() {
 
 
 (function(){  // анонимная функция (function(){ })(), чтобы переменные "a" и "b" не стали глобальными
-    var a = document.querySelector('.cart__summary'), b = null;  // селектор блока, который нужно закрепить
+    var a = document.querySelector('.cart__summary-slot-bottom'), b = null;  // селектор блока, который нужно закрепить
     window.addEventListener('scroll', Ascroll, false);
     document.body.addEventListener('scroll', Ascroll, false);  // если у html и body высота равна 100%
     function Ascroll() {
@@ -119,9 +119,12 @@ function topFunction() {
             }
             a.style.height = b.getBoundingClientRect().height + 'px';  // если под скользящим элементом есть другие блоки, можно своё значение
             a.style.padding = '0';
-            a.style.border = '0';  // если элементу присвоен padding или border
+            a.style.border = '0';
+            a.style.boxShadow = 'none';  
+            a.style.backgroundColor = '#f5f5f5'; 
+            // если элементу присвоен padding или border
         }
-        if (a.getBoundingClientRect().top <= 0) { // elem.getBoundingClientRect() возвращает в px координаты элемента относительно верхнего левого угла области просмотра окна браузера
+        if (a.getBoundingClientRect().top <= 100) { // elem.getBoundingClientRect() возвращает в px координаты элемента относительно верхнего левого угла области просмотра окна браузера
             b.className = 'sticky';
         } else {
             b.className = '';
