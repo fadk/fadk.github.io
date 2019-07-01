@@ -901,6 +901,7 @@ select{
 .product-list__price{
     margin-right: 0px;
     font-size: 12px;
+    margin-top: 25px;
 }
 .rating{
     margin-top: 10px;
@@ -1490,7 +1491,7 @@ button{
 .cart__main{
     background-color: #f5f5f5;
 }
-.cart__main .breadcrumb{
+main{
     padding-top: 100px;
 }
 .cart__body{
@@ -1641,6 +1642,24 @@ button{
 .card-image img{
     width: 130px;
     height: 130px;
+}
+.cart__main-after-submit .card-image img{
+    width: 73px;
+    height: 73px;
+}
+.cart__main-after-submit .cart__color {
+    font-size: 12px;
+    
+}
+.cart__main-after-submit .added-to-cart__description p{
+    color: #666;
+    line-height: 18px;
+}
+.cart__main-after-submit .cart__img-content{
+    border: none;
+}
+.cart__main-after-submit .cart__body{
+    margin-bottom: 0;
 }
 .cart__continue-shopping-wrapper{
     display: flex;
