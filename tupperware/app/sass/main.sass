@@ -161,9 +161,15 @@ a.boxclose
 	transform: rotate(-45deg);
 
 
-
+.header__search-wrapper 
+	position: relative
 .header__search-button
-	margin-right: -35px
+	// margin-right: -35px
+	position: absolute
+	top: 50%
+	left: 20px
+	transform: translateY(-50%)
+
 
 .header__search-input
 	height: 35px
@@ -210,18 +216,31 @@ a.boxclose
 			a
 				display: inline-block;
 
+#menubtn
+	display: none
+	cursor: pointer
+	font-size: 50px
+	line-height: 50px
 .navbar
 	width: 1400px
 	height: 51px
 	margin: 0 auto
 	display: flex
 	align-items: center
-	justify-content: space-between
+	// justify-content: space-between
+
+.navbar-list
+	display: block
+	padding-left: 0!important
 
 .navbar-item
 	text-transform: uppercase
 	font-size: 15px
 	letter-spacing: normal
+	display: inline-block
+	line-height: 18px
+	width: auto!important
+	padding: 0 !important
 	&:not(:first-child)
 		padding-top: 13px
 		padding-bottom: 8px
@@ -232,9 +251,55 @@ a.boxclose
 .navbar-link
 	border-bottom: 4px solid transparent
 	padding-bottom: 2px
+	font-family: "TupperPRO-Regular"
 	&.active, &:hover
 		border-bottom: 4px solid #1EB5DA
 
+.swiper-container-menu
+	overflow: hidden
+	width: 100%
+	&::selection 
+		background: transparent
+	&::-moz-selection 
+		background: transparent
+
+.swiper-container-wrapper--buttons-outside_menu 
+	margin-left: 70px!important
+
+.header__navbar-wrapper .swiper-container-wrapper--buttons-outside 
+	width: calc(100% - 180px)!important
+	position: relative
+
+.header__navbar-wrapper .swiper-button-prev
+	background: none
+	outline: none
+	&:after
+		content: ''
+		position: absolute
+		width: 8px
+		height: 8px
+		border-top: 1px solid #BDBDBD
+		border-left: 1px solid #BDBDBD
+		top: calc(50% - 8px)
+		left: 50%
+		transform: rotate(-45deg) translateX(-50%) 
+
+.header__navbar-wrapper .swiper-button-next
+	background: none
+	outline: none
+	&:after
+		content: ''
+		position: absolute
+		width: 8px
+		height: 8px
+		border-top: 1px solid #BDBDBD
+		border-right: 1px solid #BDBDBD
+		top: calc(50% - 2px)
+		left: 50%
+		transform: rotate(45deg) translateX(-50%) 
+
+
+	
 main
 	width: 1400px
 	margin: 0 auto

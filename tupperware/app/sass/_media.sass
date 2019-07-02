@@ -172,10 +172,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
 
-  .header__search-wrapper
-    position: absolute
-    top: 59px
-    right: -28px
+  // .header__search-wrapper
+  //   position: absolute
+  //   top: 59px
+  //   right: -28px
   .about__tile
     width: 46%
 
@@ -268,6 +268,16 @@
     &:before
       width: 100px
       left: 40px
+
+@media (max-width: 920px)
+  .header__location span 
+    display: none
+  .header__search-wrapper 
+    padding-left: 10px
+  .swiper-container-wrapper--buttons-outside_menu
+    margin-left: 30px !important
+  .header__navbar-wrapper .swiper-container-wrapper--buttons-outside
+    width: calc(100% - 140px)!important
 
 @media (max-width: 950px)
    .footer__navbar
@@ -408,12 +418,27 @@
 
   .header__location, .header__location-popup, .header__location-popup-triangle, .boxclose
    display: none
+@media (max-width: 678px)
+  #menubtn
+    display: block
+    // width: 90%
+    // margin: 0 auto
+  #menu
+    display: none
+    .navbar-link 
+      // width: 100%
+  .header__navbar-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 90%
 
 @media (max-width: 650px)
 
   .product-page__features-wrapper
     flex-direction: column
-
+  .header__search-wrapper  
+    display: none
 
 @media (max-width: 625px)
 
