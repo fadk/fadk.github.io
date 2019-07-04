@@ -11,6 +11,7 @@
 
 
 @media (max-width: 1650px)
+
   .catalog-page__category
     .swiper-container-wrapper--buttons-outside
       width: 60%;
@@ -27,7 +28,7 @@
   .news
 	  margin-left: calc( (-1) * ((100vw - 1350px) / 2 ))
 
-  .features__wrapper, .swiper-container-recent__wrapper
+  .features__wrapper
     width: 1300px
 
   .bestsellers__title, .recent1__title
@@ -62,6 +63,14 @@
 
 @media (max-width: 1475px)
 
+  .category-tiles__tile
+    padding-left: 15px
+    padding-right: 15px
+
+  .category-tiles__tile-title
+    &:before
+      right: -30px
+
   .product-page__order-wrapper
     flex-direction: column
     width: 200px
@@ -92,7 +101,7 @@
   .news
 	  margin-left: calc( (-1) * ((100vw - 1200px) / 2 ))
 
-  .features__wrapper, .swiper-container-recent__wrapper
+  .features__wrapper
     width: 1150px
 
   .bestsellers__title, .recent1__title
@@ -113,6 +122,29 @@
     line-height: 100px;
 
 @media (max-width: 1380px)
+
+  .category-tiles__tile-title
+    &:before
+      right: -15px
+
+  .category-tiles__wrapper
+    justify-content: flex-start
+
+  .category-tiles__tile
+    width: 33%
+    padding-left: 25px
+    padding-right: 25px
+
+  .category-tiles__tile3
+    .category-tiles__tile-title
+      &:before
+        display: block
+
+  .category-tiles__tile2, .category-tiles__tile5
+    .category-tiles__tile-title
+      &:before
+        display: none       
+
   .header__search-input
     width: 238px
   .logo
@@ -131,7 +163,7 @@
   .news
 	  margin-left: calc( (-1) * ((100vw - 1100px) / 2 ))
 
-  .features__wrapper, .swiper-container-recent__wrapper
+  .features__wrapper
     width: 1050px
 
   .reviews__author, .reviews__date
@@ -199,13 +231,18 @@
 
 @media (max-width: 1200px)
 
+  .category-tiles__tile
+    .category-tiles__tile-title
+      &:before
+        display: none
+
   .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
     width: 960px
 
   .news
 	  margin-left: calc( (-1) * ((100vw - 960px) / 2 ))
 
-  .features__wrapper, .swiper-container-recent__wrapper
+  .features__wrapper
     width: 900px
 
   .reviews__slide
@@ -240,6 +277,18 @@
       margin-top: 150px
 
 @media (max-width: 1000px)
+
+  .category-tiles__tile
+    width: 49%
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 60px
+
+  .category-tiles__img-wrapper
+    margin-bottom: 20px
+
+  .category-tiles__tile-description
+    margin-bottom: 10px
 
   .product-page__product
     .swiper-container-wrapper--buttons-outside
@@ -276,7 +325,7 @@
   .news
 	  margin-left: calc( (-1) * (5vw))
 
-  .features__wrapper, .swiper-container-recent__wrapper
+  .features__wrapper
     width: 100%
 
   .features__description
@@ -285,6 +334,7 @@
       left: 40px
 
 @media (max-width: 920px)
+      
   .header__location span 
     display: none
   .header__search-wrapper 
@@ -325,6 +375,16 @@
     padding-top: 30px
 
 @media (max-width: 768px)
+
+  .category-tiles__tile
+    margin-bottom: 10px
+
+  .category-tiles__tile-description
+    margin-top: 10px
+    margin-bottom: 0
+
+  .category-tiles__price-button
+    flex-direction: column
 
   .product-page__product
     .swiper-container-wrapper--buttons-outside
@@ -372,13 +432,6 @@
   .reviews__text
     width: 60%;
 
-  main
-    width: 100%
-
-  .about, .news, .text, ul.breadcrumb, .reviews, .no-found-content, .search-content
-    padding-left: 20px
-    padding-right: 20px
-
   .catalog-page__category
     width: 100%
     &:nth-child(odd)
@@ -402,7 +455,7 @@
     h3
       font-size: 20px;
 
-  .features__wrapper, .swiper-container-recent__wrapper
+  .features__wrapper
     width: 90%
 
 @media (max-width: 750px)
@@ -417,12 +470,23 @@
     font-size: 20px
 
 @media (max-width: 700px)
+
+  .category-text__img-text
+    margin-bottom: 70px
+    img
+      width: 100%
+      height: auto
+      float: none
+      margin-right: 0
+      margin-bottom: 50px
+
   .hero__content
     h1
       font-size: 60px
       line-height: 60px
   .confidentiality
     font-size: 12px
+
   .news
     button
       height: 39px
@@ -436,12 +500,9 @@
 @media (max-width: 678px)
   #menubtn
     display: block
-    // width: 90%
-    // margin: 0 auto
   #menu
     display: none
-    .navbar-link 
-      // width: 100%
+
   .header__navbar-wrapper
     display: flex
     align-items: center
@@ -479,6 +540,11 @@
     margin-top: 38px
 
 @media (max-width: 550px)
+
+  .category-tiles__tile
+    width: 100%
+    margin-left: 0
+    margin-right: 0
 
   .tabs
     a
@@ -564,9 +630,11 @@
 
   .sale
     flex-wrap: wrap
+    width: 100vw
+    margin-left: calc( (-1) * 5vw)
 
   .sale__product
-    width: 100%;
+    width: 100%
 
   .features
     h2
