@@ -129,6 +129,18 @@
 
 @media (max-width: 1380px)
 
+  .cart-popup__confidentiality-buttons
+    margin-top: 30px
+    .confidentiality
+      margin-top: 0px;
+      input, .checkmark
+        margin-top: 15px;
+
+
+  .cart-popup__confidentiality-buttons
+    flex-direction: column
+    align-items: flex-start
+
   .cart-popup__photo
     width: 12%
 
@@ -239,6 +251,20 @@
 
 
 @media (max-width: 1200px)
+  .cp-page
+    .cart-popup__total
+      flex-direction: column
+      align-items: flex-start
+      margin-top: 60px
+      border: none
+      &:after
+        top: -260px
+      &:before
+        top: -185px
+
+  .cart-popup__discount-coupon
+    p, span
+      line-height: 20px
 
   .cart-popup__product-wrapper
     font-size: 18px
@@ -372,6 +398,21 @@
       width: 100px
       left: 40px
 
+@media (max-width: 995px)
+  .cp-page
+   .tabs
+    ul
+      li
+        width: 50%
+        display: flex
+        flex-grow: 1
+        a
+          width: 100%;
+          margin-right: 0
+          text-align: center
+          padding-right: 15px
+          padding-left: 15px
+
 @media (max-width: 920px)
       
   .header__location span 
@@ -413,11 +454,38 @@
   .features__wrapper
     flex-wrap: wrap
 
+@media (max-width: 838px)
+  .cp-page
+    .cart-popup__total
+      &:after
+        top: -300px
+      &:before
+        top: -225px
+
 @media (max-width: 815px)
+  .cart-popup__quantity-wrapper
+    margin-block-start: 1em
+    .cart-popup__quantity-icon
+      margin-top: -15px
+   
+		  
+
+  .cp-page
+    .cart-popup__total
+      &:after
+        display: none
+      &:before
+        display: none
+    .cart-popup__quantity-wrapper
+      padding-top: 1em
+      .cart-popup__quantity-icon
+        margin-top: -30px
 
   .cart-popup__product-wrapper
     flex-direction: column
     align-items: center
+    padding-left: 10px
+    padding-right: 10px
     div 
       justify-content: center
       display: flex
@@ -427,8 +495,10 @@
       border-bottom: 1px solid #f0f0f0
       text-align: center
       text-align: left
+      padding-left: 0
       padding-right: 0
       p
+        text-align: center
         &:first-child
           display: none
           
@@ -445,7 +515,9 @@
     align-items: center
 
   .cart-popup__close
-    left: 500px;
+    right: 40px;
+    left: auto
+    top: 40%
 
   .cart-popup__header	
     &:before
@@ -471,10 +543,6 @@
     span 
       font-size: 30px;
       margin-left: 10%;
-
-
-  .swiper-container-tabs
-    width: 400px
 
   .category-tiles__tile
     margin-bottom: 10px
@@ -569,6 +637,17 @@
   .catalog__description
     font-size: 20px
 
+@media (max-width: 720px)
+  .cp-page  
+    .cart-popup__buttons
+      flex-direction: column
+      align-items: flex-end
+      margin-right: 0
+      margin-left: auto
+    .cart-popup__continue-button
+      margin-right: 0
+
+
 @media (max-width: 700px)
 
   .cart-popup__buttons
@@ -620,6 +699,9 @@
 
 @media (max-width: 650px)
 
+  .tab-content
+	  margin-top: 0
+
   .tabs
     ul
       margin-bottom: 0
@@ -633,9 +715,6 @@
           text-align: center
           padding-right: 15px
           padding-left: 15px
-
-  .tabs.is-boxed li.is-active a
-    border-bottom: none
 
   .product-page__features-wrapper
     flex-direction: column
@@ -657,9 +736,7 @@
     font-size: 50px;
     line-height: 35px;
 
-@media (max-width: 600px)
-  div.cart-popup__quantity-wrapper
-    padding-left: 7%
+
 
 @media (max-width: 580px)
 
@@ -673,6 +750,16 @@
     margin-top: 38px
 
 @media (max-width: 550px)
+
+  .cp-page
+    .cart-popup__discount-coupon
+      flex-direction: column
+      align-items: flex-start
+      input
+        margin-left: 0
+        margin-top: 15px
+    .confidentiality
+      text-align: left
 
   .category-tiles__tile
     width: 100%
@@ -714,14 +801,10 @@
       right: 0;
 
 
-@media (max-width: 525px)
-  .cart-popup__close
-    left: 400px;
-
-  div.cart-popup__quantity-wrapper
-    padding-left: 10%
-
 @media (max-width: 500px)
+  .cp-page
+    .cart-popup__total 
+      line-height: 98px;
 
   .cart-popup__sale, .cart-popup__header, .cart-popup__total 
     line-height: 30px;
@@ -756,10 +839,13 @@
         height: 100px
 
 @media (max-width: 450px)
+  .modal__close
+    right: 30px;
+    top: 0
 
   .tabs
         a
-          font-size: 16px
+          font-size: 15px
 
   .search-page__search-wrapper
     button
@@ -819,17 +905,13 @@
       line-height: 20px
 
 
-@media (max-width: 420px)
-
-
-  div.cart-popup__quantity-wrapper
-    padding-left: 0
-
-  .cart-popup__close 
-    left: 300px;
-
 
 @media (max-width: 400px)
+
+  .cart-popup__discount-coupon 
+    width: 100%
+    input 
+      width: 100%
 
   .product-page__icon
     margin-right: 10px;
@@ -847,14 +929,35 @@
 
 @media (max-width: 370px)
 
+  .cp-page
+    .tab-content
+      padding-right: 20px
+      padding-left: 20px
+
+  .tab-content
+    box-sizing: border-box
+    width: 100vw
+    margin-left: calc( (-1) * (5vw))
+    padding-right: 20px
+    padding-left: 20px
+
   .tabs
+    width: 100vw
+    margin-left: calc( (-1) * (5vw))
     ul
       margin-top: 0
       li       
         a
           padding: 10px
-        
-          font-size: 13px
+
+  .cp-page
+    .tabs
+      
+      ul
+        li       
+          a
+            padding: 10px   
+            font-size: 15px       
 
   .cart-popup__buttons
     margin-right: 15px
@@ -877,9 +980,12 @@
   .header__search-input
     width: 200px
 
-@media (max-width: 315px)
-  .cart-popup__close 
-    left: 280px;
+
+
+
+
+
+
 /*==========  Mobile First  ==========*/
 
 // ≤576px

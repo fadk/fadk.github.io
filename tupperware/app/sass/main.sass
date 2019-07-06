@@ -278,9 +278,6 @@ a.boxclose
 	&::-moz-selection 
 		background: transparent
 
-.cp-page__tabs
-	width: 760px
-
 .swiper-container-wrapper--buttons-outside_menu 
 	margin-left: 70px!important
 
@@ -1219,6 +1216,9 @@ h2, h4
 .news-wrapper
 	padding-left: 4%
 	padding-right: 4%
+	display: flex
+	flex-direction: column
+	align-items: center
 
 .news
 	width: 100vw
@@ -1253,7 +1253,7 @@ h2, h4
 		text-transform: uppercase
 		font-family: "TupperPRO-Light"
 		letter-spacing: normal
-		margin-left: 10px
+		margin-left: 40px
 		border: none
 	input[type="text"]
 		width: 342px
@@ -1614,6 +1614,7 @@ ul.breadcrumb li a:hover
 		font-size: 1.3rem;
 
 .tab-content
+	margin-top: 13px;
 	border: 1px solid #F0F0F0;
 	padding: 40px;
 	padding-top: 18px
@@ -1653,7 +1654,6 @@ ul.breadcrumb li a:hover
 
 .tabs.is-boxed li.is-active a
 	background-color: #fff
-	border-bottom: 5px solid #fff
 	color: $accent
 
 .tab-pane
@@ -1948,10 +1948,13 @@ input:checked+.cart-modal
 	color: #808894
 	left: 15px
 	font-size: 25px
+	width: 10px
 
-div.cart-popup__quantity-wrapper
+.cart-popup__quantity-wrapper
 	display: flex
 	border-bottom: none
+	p
+		margin-block-start: 0
 
 .cart-popup__quantity-icon
 	margin-top: 15px
@@ -1979,23 +1982,105 @@ div.cart-popup__quantity-wrapper
     cursor: pointer;
 
 .cp-page
+	.news
+		margin-top: 110px
+	.cart-popup__buttons
+		height: fit-content
+		margin-right: 0
+	.cart-popup__continue-button, .cart-popup__order-button
+		margin-top: 0	
+	.cart-popup__total
+		display: flex
+		justify-content: space-between
+		border-bottom: none
+		margin-top: 0
+		padding: 0
+		position: relative
+		text-align: left
+		&:after
+			display: block
+			position: absolute
+			content: ""
+			height: 1px
+			width: 100%
+			background: #f0f0f0
+			left: 0
+			top: -185px
+		&:before
+			display: block
+			position: absolute
+			content: ""
+			height: 1px
+			width: 100%
+			background: #f0f0f0
+			left: 0
+			top: -110px
+		span
+			margin-left: 0
+		p
+			margin-top: 0
+			margin-bottom: 0
+			&:last-child
+				text-align: right
+				margin-top: 3px
 	.tab-content
 		border: none
-	.tabs.is-boxed 
+		padding-top: 25px
+		padding-bottom: 30px
+		padding-left: 0
+		padding-right: 0
+		margin-bottom: 0
+	.tabs
 		li.is-active 
 			a 
 				background-color: $accent;
-				border-bottom: 5px solid #fff;
 				color: #fff;
 		li
 			a 
-				padding-top: 14px;
-				padding-bottom: 14px;
+				padding-top: 17px;
+				padding-bottom: 17px;
+				padding-left: 35px
+				padding-right: 35px
 				background-color: #F7F8FC	
 				font-size: 15px	
+				margin-right: 45px
 	h1
 		margin-top: 45px
-		margin-bottom: 84px
+		margin-bottom: 100px
+		&:before
+			display: none
+
+.cart-popup__discount-coupon
+	display: flex
+	align-items: center
+	p
+		font-size: 18px
+	input
+		border: 0
+		width: 359px;
+		height: 42px;
+		background: #F7F7F7;
+		border-radius: 2px;
+		margin-left: 25px
+.cart-popup__confidentiality-buttons
+	display: flex
+	justify-content: space-between
+	.confidentiality
+		padding-left: 60px
+		display: flex
+		align-items: center
+		margin-top: -20px;
+		margin-bottom: 0
+		p
+			font-size: 16px;
+		
+		input, .checkmark
+			margin-top: 20px;
+
+.checkout-page
+	h1
+		margin-top: 45px
+		margin-bottom: 92px
 		&:before
 			display: none
 

@@ -92,108 +92,52 @@
     </div>
 </header>
 
-<main class="cp-page">
+<main class="checkout-page">
 
     <ul class="breadcrumb">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Личный кабинет</a></li>
-        <li>Корзина</li>
+        <li><a href="#">Заказы</a></li>
+        <li>Оформление заказа </li>
     </ul>
 
-    <h1>Корзина</h1>
+    <h1>Оформление заказа</h1>
 
 
-    <section class="cp-page__tabs-wrapper">
-            <div class="tabs is-boxed">
-                <ul>
-                    <li class="is-active">
-                        <a id="1">
-                            <span><nobr>Мои данные</nobr></span>
-                        </a>
-                    </li>
-                    <li class="" >
-                        <a id="2">
-                            <span><nobr>Мои заказы</nobr></span>
-                        </a>
-                    </li>
-                    <li class="" >
-                        <a id="3">
-                            <span><nobr>Моя корзина</nobr></span>
-                        </a>
-                    </li>
-                    <li class="" >
-                        <a id="4">
-                            <span><nobr>Мои товары</nobr></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-      
-        <div class="tab-content">
-            <div class="tab-pane is-active" id="1">
-                <p class="product-page__highlighted">Мои данные</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iste sed nihil cumque nemo in aliquid, magnam ratione tempora accusamus ipsam quam perspiciatis unde? Consequuntur, consequatur delectus? Maxime, vel culpa?</p>
-            </div>
-            <div class="tab-pane" id="2">
-                <p class="product-page__highlighted">Мои заказы</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iste sed nihil cumque nemo in aliquid, magnam ratione tempora accusamus ipsam quam perspiciatis unde? Consequuntur, consequatur delectus? Maxime, vel culpa?</p>
-            </div>
-            <div class="tab-pane" id="3">
-                <div class="cp-page__cart">
-  
-                        <div class="cart-popup__product-wrapper"> 
-                            <div class="cart-popup__photo">
-                                <p>Фото</p>
-                                <a class="cart-popup__close">×</a>
-                                <img src="img/cart-popup__photo-min.jpg" alt="">
-                            </div>   
-                            <div class="cart-popup__name">
-                                <p>Наименование</p>
-                                <p>Охлаждающие лотки (450 мл), 4 шт</p>
-                            </div>  
-                            <div class="cart-popup__delivery">
-                                <p>Доставка</p>
-                                <p>11 июня</p>
-                            </div>                                           
-                            <div class="cart-popup__quantity">
-                                <p>Количество</p>
-                                <div class="cart-popup__quantity-wrapper">
-                                        <embed src='img/cart-popup__quantity-less.svg' class="cart-popup__quantity-icon">
-                                        <p>1 шт.</p> 
-                                        <embed src='img/cart-popup__quantity-more.svg' class="cart-popup__quantity-icon">
-                                </div> 
-                            </div>
-                            <div class="cart-popup__sum">
-                                <p>Сумма</p>
-                                <p>1 699 руб.</p>
-                            </div>                       
-                        </div>
-                        <div class="cart-popup__total">
-                            <div class="cart-popup__discount-coupon">
-                                <p>Введите код купона для скидки:</p>
-                                <input type="text">
-                            </div>
-                            <p>Общая сумма <span><nobr>1 699 руб.</nobr></span></p>   
-                        </div>
-                        <div class="cart-popup__confidentiality-buttons">
-                            <label class="confidentiality"><p>Я принимаю  <a href="#"> «Условия конфиденциальности и правила сервиса»</a></p> 
-                                <input type="checkbox" id="confidentiality" name="confidentiality">
-                                <span class="checkmark"></span>
-                            </label>
-                            <div class="cart-popup__buttons">
-                                <a class="cart-popup__continue-button" href="#">Продолжить покупки</a>
-                                <a class="cart-popup__order-button" href="#">Перейти в корзину</a>                                                          
-                            </div>
-                         </div>
-</div>
+    <section class="checkout-page__form">
+        <p>Вы уже заказывали у нас? Тогда Авторизуйтесь.</p>
+        <form action="" method="post" name="" id="" class="application__form application__form__submit" novalidate="novalidate"><h1>Заявка</h1>
+            <div class="form-box">
+            <table>
+                 <tr>
+                    <td><label for="contact">Эл. почта</label></td>
+                    <td class="application__form__element"><div><input name="contact" id="contact" value="" class="req inputbox inputbox__cycle" type="email" alt="Эл. почта"/><span class="error__message error__message_hide">Неверный формат эл. почты</span></div><div class="desc">Вышлем на нее коммерческое предложение</div></td>
+                </tr>
+                <tr>
+                    <td><label for="name" >Фамилия</label></td>
+                    <td class="application__form__element"><div><input name="name" id="name" value="" class="req inputbox inputbox__cycle" type="text" alt="Имя"/><span class="error__message error__message_hide">Неверный формат имени</span></div></td>
+                </tr>
+                <tr>
+                    <td><label for="name" >Имя</label></td>
+                    <td class="application__form__element"><div><input name="name" id="name" value="" class="req inputbox inputbox__cycle" type="text" alt="Имя"/><span class="error__message error__message_hide">Неверный формат имени</span></div></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Телефон</label></td>
+                    <td class="application__form__element"><div><input name="phone" id="phone" value="" class="req inputbox inputbox__cycle" type="tel" placeholder="+7 (___) ___-__-__" alt="Телефон"/><span class="error__message error__message_hide">Неверный формат</span></div></td>
+                </tr>
+
+
+
                 
-
+                <tr>
+                    <td></td>
+                    <td><button type="submit" class="btn-orange" value="submit" alt="Отправить"><span>Отправить</span></button></td>
+                </tr>
+            </table>
             </div>
-            <div class="tab-pane" id="4">
-                <p class="product-page__highlighted">Мои товары</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iste sed nihil cumque nemo in aliquid, magnam ratione tempora accusamus ipsam quam perspiciatis unde? Consequuntur, consequatur delectus? Maxime, vel culpa?</p>
-            </div>
-        </div>
+        </form>
+      
+        
     </section>
     <section class="recent">
         <h3>С этим товаром покупают</h3>
