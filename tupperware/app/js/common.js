@@ -38,11 +38,28 @@ $(function() {
         },
     });
 
+    var tabSlide = new Swiper('.swiper-container-tabs', {
+        
+        simulateTouch: true, 
+        watchOverflow: true,
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        breakpoints: {
+            768: {
+                loop: true,
+                spaceBetween: 30,
+            },
+        },
+    });
+
+
     var swiperHero = new Swiper('.swiper-container-hero', {
         loop: true,
+        loopedSlides: 20,
     });
 
     var swiperCatalog = new Swiper('.swiper-container-catalog', {
+        loopedSlides: 20,
         slidesPerView: 2,
         slidesPerColumn: 2,
         spaceBetween: 20,
@@ -289,7 +306,7 @@ $(function() {
             for(let x = 0; x< tabs[i].children[0].children.length; x++ ) {
                 tabs[i].children[0].children[x].addEventListener('click', function(e) {
                     for(let z = 0; z < tabs[i].children[0].children.length;z++) {
-                        tabs[i].children[0].children[z].className=""
+                        tabs[i].children[0].children[z].classList.remove("is-active")
                     }
                     for(let y = 0; y < tabs[i].nextElementSibling.children.length; y++) {
                         tabs[i].nextElementSibling.children[y].className="tab-pane"
@@ -303,5 +320,13 @@ $(function() {
         }
 
 
+
+        var like = $("svg.product-page__svg > *");
+
+        like.on("click", function() {
+        
+          $(this).toggleClass("like-on");
+          
+        });
 });
 

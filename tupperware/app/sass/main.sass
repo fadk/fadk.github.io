@@ -130,6 +130,7 @@ header
 .display-none
 	display: none
 
+
 a.boxclose
 	z-index: 10
 	position: absolute;
@@ -268,6 +269,17 @@ a.boxclose
 		background: transparent
 	&::-moz-selection 
 		background: transparent
+
+.swiper-container-tabs
+	overflow: hidden
+	width: 590px
+	&::selection 
+		background: transparent
+	&::-moz-selection 
+		background: transparent
+
+.cp-page__tabs
+	width: 760px
 
 .swiper-container-wrapper--buttons-outside_menu 
 	margin-left: 70px!important
@@ -1459,7 +1471,9 @@ ul.breadcrumb li a:hover
 	font-size: 40px;
 	line-height: 30px;
 
-.product-page__order-button
+.product-page__order-button, 
+.cart-popup__continue-button,
+.cart-popup__order-button
 	border: none
 	background-color: $accent
 	color: #fff
@@ -1468,20 +1482,40 @@ ul.breadcrumb li a:hover
 	padding-left: 45px
 	padding-right: 45px
 	margin-right: 8px
+	text-transform: uppercase
+
+.cart-popup__continue-button,
+.cart-popup__order-button
+	padding-left: 35px
+	padding-right: 35px
+	padding-top: 4px
+	padding-bottom: 4px
+	margin-top: 10px
+	margin-bottom: 10px
+	border-radius: 2px;
+	font-size: 16px
+	margin-right: 0px
+
+.cart-popup__continue-button
+	background: #93A3A7;
+	margin-right: 20px
 
 .product-page__like
 	border: none
 	background-color: #fff
 	padding-top: 13px
 	padding-bottom: 13px
-	padding-left: 40px
-	padding-right: 40px
+	padding-left: 33px
+	padding-right: 33px
 	margin-right: 10px
 	display: flex
 	align-items: center
 
-.like-svg
-	margin-right: 12px
+.product-page__span
+	padding-left: 12px
+
+.like-on
+  fill: $accent
 
 .availability
 	font-size: 16px;
@@ -1602,18 +1636,20 @@ ul.breadcrumb li a:hover
 		line-height: 22px;
 		text-transform: uppercase
 		margin-right: 20px
-
 .tabs
 	ul
 		list-style: none;
 		align-items: center;
 		display: flex;
+		flex-wrap: wrap;
 		flex-grow: 1;
 		flex-shrink: 0;
 		justify-content: flex-start;
 		padding-inline-start: 0
 		margin-block-end: 0
 		margin-bottom: 10px
+		li
+			display: inline-block
 
 .tabs.is-boxed li.is-active a
 	background-color: #fff
@@ -1774,8 +1810,194 @@ a.footer__tel
 .footer__author
 	font-size: 12px
 
+.cart-modal 
+    position: fixed
+    bottom: 0
+    top: 0px
+    padding-top: 0px
+    padding-bottom: 0px
+    z-index: 900
+    left: 0
+    right: 0
+    opacity: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: #fff
+    pointer-events: none
+    background-color: rgba(0,0,0,.31)
 
+.modal-check 
+ 	display: none
 
+.modal__back 
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+
+input:checked+.cart-modal 
+	opacity: 1;
+	z-index: 9999;
+	pointer-events: auto
+
+.page-scroll 
+    width: calc(100% + 25px)
+    overflow: auto;
+
+.cart-popup
+	border-radius: 2px
+	overflow: auto
+	height: 100vh;
+	width: 1400px
+	background: #fff
+ 	z-index: 800
+ 	position: absolute
+	overflow-x: hidden;
+
+.cart-popup__header, .cart-popup__total, .cart-popup__sale
+	background: #FBFBFB;
+	border-bottom: 1px solid #F0F0F0;
+	font-size: 18px;
+	line-height: 69px;
+	padding-left: 36px
+	padding-right: 36px
+	margin-top: 0
+	margin-bottom: 0
+
+.cart-popup__header	
+	position: relative
+	&:before
+			display: block
+			position: absolute
+			content: ""
+			height: 1px
+			width: 100%
+			background: #f0f0f0
+			left: 0
+			bottom: -70px
+
+.cart-popup__sale
+	color: #FC5474
+	border-top: 1px solid #F0F0F0;
+	font-size: 20px;
+
+.cart-popup__total
+	margin-top: 50px
+	border-top: 1px solid #F0F0F0;
+	background: #ffffff
+	text-align: center
+	line-height: 98px;
+	span
+		font-size: 40px;
+		margin-left: 17%
+
+.cart-popup__product-wrapper
+	display: flex
+	div
+		line-height: 40px
+
+.cart-popup__buttons
+	height: 110px
+	display: flex
+	align-items: center
+	justify-content: flex-end
+	margin-right: 34px
+
+.cart-popup__sale-products
+	display: flex
+	flex-wrap: wrap
+	padding-top: 30px
+	padding-left: 10px
+	padding-right: 10px
+	.category-tiles__tile
+		margin-left: 20px
+		margin-right: 20px
+		background: #fff
+		.category-tiles__tile-title
+			margin-top: 10px
+			&:before
+				display: none
+		.category-tiles__price
+			display: flex
+			flex-direction: column
+			align-items: center
+			p
+				font-size: 22px;
+				margin-top: 10px
+				&:last-child
+					margin-top: -10px
+					font-size: 18px;
+					text-decoration: line-through		
+		.category-tiles__price-button
+			margin-top: 38px	
+			height: 44px
+
+.cart-popup__photo
+	padding-left: 55px
+	width: 19%
+	position: relative
+
+.cart-popup__name
+	width: 37%
+
+.cart-popup__close
+	position: absolute;
+	color: #808894
+	left: 15px
+	font-size: 25px
+
+div.cart-popup__quantity-wrapper
+	display: flex
+	border-bottom: none
+
+.cart-popup__quantity-icon
+	margin-top: 15px
+
+.cart-popup__quantity-icon
+	margin-left: 10px
+	margin-right: 10px
+
+.cart-popup__delivery
+	width: 16%
+
+.cart-popup__quantity
+	width: 14%
+
+.modal__close 
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    color: #fff;
+    font-size: 36px;
+    z-index: 2;
+    line-height: 23px;
+    text-align: center;
+    font-family: serif;
+    cursor: pointer;
+
+.cp-page
+	.tab-content
+		border: none
+	.tabs.is-boxed 
+		li.is-active 
+			a 
+				background-color: $accent;
+				border-bottom: 5px solid #fff;
+				color: #fff;
+		li
+			a 
+				padding-top: 14px;
+				padding-bottom: 14px;
+				background-color: #F7F8FC	
+				font-size: 15px	
+	h1
+		margin-top: 45px
+		margin-bottom: 84px
+		&:before
+			display: none
 
 
 

@@ -22,7 +22,7 @@
     &:not(:last-child)
       padding-right: 33px
 
-  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns, .cart-popup
     width: 1350px
 
   .news
@@ -48,6 +48,9 @@
 
 @media (max-width: 1520px)
 
+  .modal__close
+    right: 30px;
+
   .footer__columns
     flex-wrap: wrap
     position: relative
@@ -62,6 +65,9 @@
 
 
 @media (max-width: 1475px)
+
+  .product-page__like
+    padding-left: 0
 
   .category-tiles__tile
     padding-left: 15px
@@ -95,7 +101,7 @@
     &:not(:last-child)
       padding-right: 20px
 
-  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns, .cart-popup
     width: 1200px
 
   .news
@@ -122,6 +128,9 @@
     line-height: 100px;
 
 @media (max-width: 1380px)
+
+  .cart-popup__photo
+    width: 12%
 
   .category-tiles__tile-title
     &:before
@@ -157,7 +166,7 @@
     &:not(:last-child)
       padding-right: 11px
 
-  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns, .cart-popup
     width: 1100px
 
   .news
@@ -231,12 +240,31 @@
 
 @media (max-width: 1200px)
 
+  .cart-popup__product-wrapper
+    font-size: 18px
+    justify-content: space-between
+
+  .cart-popup__quantity, .cart-popup__name, .cart-popup__photo 
+    width: auto
+    padding-left: 20px
+    padding-right: 20px  
+
+  .cart-popup__photo 
+    padding-left: 55px;
+  
+  .cart-popup__sum
+    padding-right: 55px;
+
+  .cart-popup__delivery, .cart-popup__quantity
+    width: 14%;
+
+
   .category-tiles__tile
     .category-tiles__tile-title
       &:before
         display: none
 
-  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns, .cart-popup
     width: 960px
 
   .news
@@ -255,6 +283,10 @@
   .about__logo
     width: 280px
     height: 43px
+
+@media (max-width: 1180px)
+  .modal__close
+    right: 10px;
 
 @media (max-width: 1100px)
 
@@ -277,6 +309,13 @@
       margin-top: 150px
 
 @media (max-width: 1000px)
+
+  .cart-popup__product-wrapper
+    font-size: 16px
+
+  .cart-popup__sale-products
+	  .category-tiles__tile
+      width: 45%
 
   .category-tiles__tile
     width: 49%
@@ -319,7 +358,7 @@
   .sale__product--3
     display: none
 
-  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns
+  .header__inner-wrapper, .navbar, main, .footer__navbar, .footer__columns, .cart-popup
     width: 90%
 
   .news
@@ -348,7 +387,21 @@
    .footer__navbar
      display: none
 
+@media (max-width: 915px)
+  .cart-popup__sale-products 
+    justify-content: center
+    .category-tiles__tile 
+      width: 450px
+
+
 @media (max-width: 900px)
+
+  .cart-popup__product-wrapper
+    font-size: 14px
+
+  .cart-popup__sum
+    padding-right: 20px
+
   .footer__column
     width: 40%
     &:last-child
@@ -359,6 +412,44 @@
 
   .features__wrapper
     flex-wrap: wrap
+
+@media (max-width: 815px)
+
+  .cart-popup__product-wrapper
+    flex-direction: column
+    align-items: center
+    div 
+      justify-content: center
+      display: flex
+      height: auto
+      line-height: 20px;
+      width: 100%
+      border-bottom: 1px solid #f0f0f0
+      text-align: center
+      text-align: left
+      padding-right: 0
+      p
+        &:first-child
+          display: none
+          
+      &:last-child
+        border: none
+
+  .cart-popup__quantity
+    padding-left: 0
+
+  .cart-popup__quantity-icon
+    margin-top: 0
+
+  .cart-popup__quantity-wrapper
+    align-items: center
+
+  .cart-popup__close
+    left: 500px;
+
+  .cart-popup__header	
+    &:before
+        display: none
 
 @media (max-width: 800px)
 
@@ -376,6 +467,15 @@
 
 @media (max-width: 768px)
 
+  .cart-popup__total 
+    span 
+      font-size: 30px;
+      margin-left: 10%;
+
+
+  .swiper-container-tabs
+    width: 400px
+
   .category-tiles__tile
     margin-bottom: 10px
 
@@ -383,8 +483,8 @@
     margin-top: 10px
     margin-bottom: 0
 
-  .category-tiles__price-button
-    flex-direction: column
+  .product-page__like
+      padding-left: 33px
 
   .product-page__product
     .swiper-container-wrapper--buttons-outside
@@ -395,10 +495,6 @@
 
   .product-page__controls
     margin-top: 0
-
-  .product-page__social, .product-page h1
-    padding-left: 20px
-    padding-right: 20px
 
   .product-page__table
     width: 70%
@@ -460,6 +556,10 @@
 
 @media (max-width: 750px)
 
+  .modal__close
+    right: 60px;
+    color: gray
+
   .catalog__button
     right: 72px;
 
@@ -470,6 +570,13 @@
     font-size: 20px
 
 @media (max-width: 700px)
+
+  .cart-popup__buttons
+    flex-direction: column
+    align-items: flex-end
+
+  .cart-popup__continue-button  
+    margin-right: 0
 
   .category-text__img-text
     margin-bottom: 70px
@@ -509,7 +616,26 @@
     justify-content: space-between
     width: 90%
 
+
+
 @media (max-width: 650px)
+
+  .tabs
+    ul
+      margin-bottom: 0
+      li
+        width: 50%
+        display: flex
+        flex-grow: 1
+        a
+          width: 100%;
+          margin-right: 0
+          text-align: center
+          padding-right: 15px
+          padding-left: 15px
+
+  .tabs.is-boxed li.is-active a
+    border-bottom: none
 
   .product-page__features-wrapper
     flex-direction: column
@@ -531,12 +657,19 @@
     font-size: 50px;
     line-height: 35px;
 
+@media (max-width: 600px)
+  div.cart-popup__quantity-wrapper
+    padding-left: 7%
+
 @media (max-width: 580px)
 
- .product-page__order-wrapper
+  .product-page__like
+    padding-left: 0
+
+  .product-page__order-wrapper
     flex-direction: column
 
- .product-page__controls
+  .product-page__controls
     margin-top: 38px
 
 @media (max-width: 550px)
@@ -545,13 +678,6 @@
     width: 100%
     margin-left: 0
     margin-right: 0
-
-  .tabs
-    a
-      font-size: 14px
-      padding-left: 15px
-      padding-right: 15px
-      margin-right: 5px
 
   .reviews__text
     width: 90%;
@@ -587,7 +713,26 @@
       top: 0;
       right: 0;
 
+
+@media (max-width: 525px)
+  .cart-popup__close
+    left: 400px;
+
+  div.cart-popup__quantity-wrapper
+    padding-left: 10%
+
 @media (max-width: 500px)
+
+  .cart-popup__sale, .cart-popup__header, .cart-popup__total 
+    line-height: 30px;
+    padding-top: 20px
+    padding-bottom: 20px
+
+  .cart-popup__sale
+    margin-top: 20px
+
+  .cart-popup__total 
+    margin-bottom: 30px
 
   .product-page__product
     .swiper-container-wrapper--buttons-outside
@@ -602,7 +747,19 @@
       margin-left: 0
       margin-top: 20px
 
+@media (max-width: 465px)
+
+  .cart-popup__sale-products 
+    .category-tiles__tile
+      .category-tiles__price-button
+        flex-direction: column
+        height: 100px
+
 @media (max-width: 450px)
+
+  .tabs
+        a
+          font-size: 16px
 
   .search-page__search-wrapper
     button
@@ -661,6 +818,17 @@
       font-size: 20px
       line-height: 20px
 
+
+@media (max-width: 420px)
+
+
+  div.cart-popup__quantity-wrapper
+    padding-left: 0
+
+  .cart-popup__close 
+    left: 300px;
+
+
 @media (max-width: 400px)
 
   .product-page__icon
@@ -678,12 +846,23 @@
       width: 70%
 
 @media (max-width: 370px)
+
   .tabs
-    a
-      font-size: 14px
-      padding-left: 10px
-      padding-right: 10px
-      margin-right: 0
+    ul
+      margin-top: 0
+      li       
+        a
+          padding: 10px
+        
+          font-size: 13px
+
+  .cart-popup__buttons
+    margin-right: 15px
+
+  .cart-popup__continue-button, .cart-popup__order-button
+    padding-right: 15px
+    padding-left: 15px
+
 
   .product-page__table
     margin-left: 0
@@ -698,6 +877,9 @@
   .header__search-input
     width: 200px
 
+@media (max-width: 315px)
+  .cart-popup__close 
+    left: 280px;
 /*==========  Mobile First  ==========*/
 
 // ≤576px
