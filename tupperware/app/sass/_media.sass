@@ -64,7 +64,14 @@
       right: 0
 
 
+@media (max-width: 1485px) 
+  .form-box__description-a
+    top: 50px
+
 @media (max-width: 1475px)
+
+  .form-box__description
+	  width: 30vw
 
   .product-page__like
     padding-left: 0
@@ -113,6 +120,10 @@
   .bestsellers__title, .recent1__title
     &:before
       display: none
+
+@media (max-width: 1455px)
+  .form-box__description-tel
+    top: -20px
 
 @media (max-width: 1385px)
 
@@ -251,12 +262,21 @@
 
 
 @media (max-width: 1200px)
+
+  .form-box__description-tel
+    top: -60px
+
+  .form-box__description-a
+    top: 90px
+
+  .form-box__description
+	  width: 20vw
+
   .cp-page
     .cart-popup__total
       flex-direction: column
       align-items: flex-start
       margin-top: 60px
-      border: none
       &:after
         top: -260px
       &:before
@@ -333,6 +353,10 @@
   .reviews
     h3
       margin-top: 150px
+
+@media (max-width: 1080px)
+  .form-box__description
+    display: none
 
 @media (max-width: 1000px)
 
@@ -481,6 +505,16 @@
       .cart-popup__quantity-icon
         margin-top: -30px
 
+
+  .checkout-page 
+    .cart-popup__product-wrapper 
+      p:not(:first-child) 
+        margin-top: 15px;
+      .cart-popup__quantity-wrapper
+        p
+          margin-top: 0
+
+
   .cart-popup__product-wrapper
     flex-direction: column
     align-items: center
@@ -519,11 +553,19 @@
     left: auto
     top: 40%
 
+  .cart-popup__photo
+    padding-top: 10px
+    padding-bottom: 10px
+
   .cart-popup__header	
     &:before
         display: none
 
 @media (max-width: 800px)
+
+  .select-wrapper p 
+    width: 200px;
+
 
   .features__point
     width: 48%
@@ -623,6 +665,19 @@
     width: 90%
 
 @media (max-width: 750px)
+  .checkout-page
+    .error__message
+      width: 50vw
+      line-height: 25px
+      top: -35px;
+      text-align: left
+
+  .form-box 
+    table 
+      label 
+        padding: 5px 30px 0 0;
+      .inputbox,  textarea 
+        width: 55vw;
 
   .modal__close
     right: 60px;
@@ -638,6 +693,9 @@
     font-size: 20px
 
 @media (max-width: 720px)
+
+
+
   .cp-page  
     .cart-popup__buttons
       flex-direction: column
@@ -722,6 +780,15 @@
     display: none
 
 @media (max-width: 625px)
+  .select-wrapper 
+    position: relative
+    p 
+      position: absolute
+      bottom: 47px
+      font-size: 14px
+
+  .delivery-address-description
+    display: none
 
   .sale__content
     padding-left: 30px
@@ -802,6 +869,19 @@
 
 
 @media (max-width: 500px)
+  .application__form-sex
+    flex-direction: column
+
+  .checkout-page .cart-popup__total div .text-align-right 
+    margin-right: 5vw;
+
+
+  .checkout-page .cart-popup__total div 
+    span
+      font-size: 25px
+    p
+        line-height: 25px
+
   .cp-page
     .cart-popup__total 
       line-height: 98px;
@@ -832,6 +912,17 @@
 
 @media (max-width: 465px)
 
+  .checkout-page
+    .error__message
+      width: 45vw
+
+  .form-box 
+    table 
+      label 
+        padding: 5px 15px 0 0;
+      .inputbox,  textarea 
+        width: 45vw;
+
   .cart-popup__sale-products 
     .category-tiles__tile
       .category-tiles__price-button
@@ -839,6 +930,13 @@
         height: 100px
 
 @media (max-width: 450px)
+
+  .select-wrapper-apartment
+    .custom-select, input
+      width: 47%
+    .custom-select
+      margin-right: 6%
+
   .modal__close
     right: 30px;
     top: 0
@@ -907,6 +1005,11 @@
 
 
 @media (max-width: 400px)
+  .my-data__buttons
+    flex-direction: column
+    align-items: flex-end
+    .cart-popup__order-button
+      margin-right: 0
 
   .cart-popup__discount-coupon 
     width: 100%
@@ -919,6 +1022,12 @@
   .features__point
     width: 90%
 
+@media (max-width: 384px)
+  .checkout-page
+    .error__message
+      width: 45vw
+      top: -50px;
+
 @media (max-width: 375px)
   .pagination
     p
@@ -928,6 +1037,42 @@
       width: 70%
 
 @media (max-width: 370px)
+
+  .checkout-page
+    .error__message
+      display: none
+
+  
+
+  .form-box 
+    table
+      .inputbox, textarea
+        width: 80vw
+      label
+        position: absolute
+        margin-top: -45px
+        font-size: 14px
+        margin-left: 5px
+      .application__form-sex
+        position: relative
+        .radio-description
+          margin-left: 30px
+
+      .application__form-sex-male
+        left: 0
+        top: 18px
+      .application__form-sex-female
+        left: 130px
+        top: 18px
+      .sex-label
+        display: none
+
+ 
+    .time-comments
+      .comment-label
+        margin-top: -84px
+        
+        
 
   .cp-page
     .tab-content
@@ -980,8 +1125,12 @@
   .header__search-input
     width: 200px
 
-
-
+@media (max-width: 330px)
+  .select-wrapper-apartment
+    .custom-select
+      width: 54%
+    input
+      width: 40%
 
 
 

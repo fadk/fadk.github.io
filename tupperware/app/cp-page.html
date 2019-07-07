@@ -100,7 +100,7 @@
         <li>Корзина</li>
     </ul>
 
-    <h1>Корзина</h1>
+    <h1 class="change-title">Корзина</h1>
 
 
     <section class="cp-page__tabs-wrapper">
@@ -130,9 +130,99 @@
             </div>
       
         <div class="tab-content">
-            <div class="tab-pane is-active" id="1">
-                <p class="product-page__highlighted">Мои данные</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iste sed nihil cumque nemo in aliquid, magnam ratione tempora accusamus ipsam quam perspiciatis unde? Consequuntur, consequatur delectus? Maxime, vel culpa?</p>
+            <div class="tab-pane is-active my-data" id="1">
+                    <form action="" method="post" name="" id="" class="application__form application__form__submit" novalidate="novalidate">
+                           
+                            <div class="form-box">
+                                <table>
+                                    <tr>
+                                        <td><label for="contact">Электронная почта*</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form__element-wrapper">
+                                                <input name="contact" id="contact" value="" class="req inputbox inputbox__cycle" type="email" alt="Эл. почта"/>
+                                                <span class="error__message error__message_hide">Неверный формат электронной почты</span>
+                                                <span class="form-box__description">Убедитесь в том, что Ваш e-mail правильно написан. Если Вы забудете логин или пароль, мы сможем восстановить его для Вас, послав по указанному Вами адресу.</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="pass" >Сменить пароль</label></td>
+                                        <td class="application__form__element"><div><input name="pass" id="pass" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="confirmPass" >Подтвердить пароль</label></td>
+                                        <td class="application__form__element"><div><input name="confirmPass" id="confirmPass" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="lastName" >Фамилия</label></td>
+                                        <td class="application__form__element"><div><input name="lastName" id="lastName" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="name" >Имя</label></td>
+                                        <td class="application__form__element"><div><input name="name" id="name" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="birthday" >День рождения</label></td>
+                                        <td class="application__form__element"><div><input name="birthday" id="birthday" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="sex-label" for="sex" >Пол</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form-sex">
+                                                    <label class="radio-label application__form-sex-male">                 
+                                                            <input type="radio" name="delivery" checked="checked">
+                                                            <span class="radio-checkmark"></span>                               
+                                                            <div class="radio-description">
+                                                                <p>Мужской</p>                
+                                                            </div>
+                                                    </label>
+                                                    <label class="radio-label application__form-sex-female">                 
+                                                            <input type="radio" name="delivery">
+                                                            <span class="radio-checkmark"></span>                               
+                                                            <div class="radio-description">
+                                                                <p>Женский</p>
+                                                            </div>
+                                                    </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><label for="phone">Телефон*</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form__element-wrapper">
+                                                <input name="phone" id="phone" value="" class="req inputbox inputbox__cycle" type="tel" alt="Телефон"/>
+                                                <span class="error__message error__message_hide">Неверный формат</span>
+                                                <span class="form-box__description form-box__description-tel">Укажите контактный телефон, по которому Вы будете доступны на момент оформления и получения заказа.</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="address">Адрес</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form__element-wrapper application__form-address">
+                                                <input name="address" id="address" value="" class="inputbox inputbox__cycle" type="tel" alt="Телефон"/>
+                                                <span class="form-box__description">Добавить или удалить текст Вы сможете в процессе оформления заказа.</span>
+                                                <a class="form-box__description form-box__description-a" href="#">Добавить новый адрес</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+
+                                    <div class="my-data__buttons">
+                                        <a type="submit" value="submit" alt="Сохранить" class="cart-popup__order-button" href="#">Сохранить</a>
+                                        <a class="cart-popup__continue-button" href="#">Сбросить</a>
+                                                                                                  
+                                    </div>
+                            </div>
+                
+                
+                
+                        </form>
+
+
+
             </div>
             <div class="tab-pane" id="2">
                 <p class="product-page__highlighted">Мои заказы</p>

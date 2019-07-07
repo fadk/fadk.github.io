@@ -106,38 +106,208 @@
 
     <section class="checkout-page__form">
         <p>Вы уже заказывали у нас? Тогда Авторизуйтесь.</p>
-        <form action="" method="post" name="" id="" class="application__form application__form__submit" novalidate="novalidate"><h1>Заявка</h1>
+        <form action="" method="post" name="" id="" class="application__form application__form__submit" novalidate="novalidate">
+            <h4>Описание</h4>
             <div class="form-box">
-            <table>
-                 <tr>
-                    <td><label for="contact">Эл. почта</label></td>
-                    <td class="application__form__element"><div><input name="contact" id="contact" value="" class="req inputbox inputbox__cycle" type="email" alt="Эл. почта"/><span class="error__message error__message_hide">Неверный формат эл. почты</span></div><div class="desc">Вышлем на нее коммерческое предложение</div></td>
-                </tr>
-                <tr>
-                    <td><label for="name" >Фамилия</label></td>
-                    <td class="application__form__element"><div><input name="name" id="name" value="" class="req inputbox inputbox__cycle" type="text" alt="Имя"/><span class="error__message error__message_hide">Неверный формат имени</span></div></td>
-                </tr>
-                <tr>
-                    <td><label for="name" >Имя</label></td>
-                    <td class="application__form__element"><div><input name="name" id="name" value="" class="req inputbox inputbox__cycle" type="text" alt="Имя"/><span class="error__message error__message_hide">Неверный формат имени</span></div></td>
-                </tr>
-                <tr>
-                    <td><label for="phone">Телефон</label></td>
-                    <td class="application__form__element"><div><input name="phone" id="phone" value="" class="req inputbox inputbox__cycle" type="tel" placeholder="+7 (___) ___-__-__" alt="Телефон"/><span class="error__message error__message_hide">Неверный формат</span></div></td>
-                </tr>
-
-
-
-                
-                <tr>
-                    <td></td>
-                    <td><button type="submit" class="btn-orange" value="submit" alt="Отправить"><span>Отправить</span></button></td>
-                </tr>
-            </table>
+                <table>
+                    <tr>
+                        <td><label for="contact">Электронная почта*</label></td>
+                        <td class="application__form__element">
+                            <div class="application__form__element-wrapper">
+                                <input name="contact" id="contact" value="" class="req inputbox inputbox__cycle" type="email" alt="Эл. почта"/>
+                                <span class="error__message error__message_hide">Неверный формат электронной почты</span>
+                                <span class="form-box__description">Убедитесь в том, что Ваш e-mail правильно написан. Если Вы забудете логин или пароль, мы сможем восстановить его для Вас, послав по указанному Вами адресу.</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastName" >Фамилия*</label></td>
+                        <td class="application__form__element"><div><input name="lastName" id="lastName" value="" class="req inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name" >Имя*</label></td>
+                        <td class="application__form__element"><div><input name="name" id="name" value="" class="req inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Телефон*</label></td>
+                        <td class="application__form__element">
+                            <div class="application__form__element-wrapper">
+                                <input name="phone" id="phone" value="" class="req inputbox inputbox__cycle" type="tel" alt="Телефон"/>
+                                <span class="error__message error__message_hide">Неверный формат</span>
+                                <span class="form-box__description">Укажите контактный телефон, по которому Вы будете доступны на момент оформления и получения заказа.</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <h4 class="delivery-method">Способ доставки</h4>
+                <label class="radio-label">                 
+                        <input type="radio" name="delivery" checked="checked">
+                        <span class="radio-checkmark"></span>                               
+                        <div class="radio-description">
+                            <p>Доставка заказа консультантом компании</p>                
+                            <p>Мы привезем заказ по любому удобному вам адресу. Пожалуйста, укажите дату и время доставки. Доставка бесплатная при заказе от 3000 руб. При заказе менее 3000 рублей стоимость доставки 300 руб.</p>
+                        </div>
+                </label>
+                <label class="radio-label">                 
+                        <input type="radio" name="delivery">
+                        <span class="radio-checkmark"></span>                               
+                        <div class="radio-description">
+                                <p>Самостоятельно заберу в Дистрибьюторном центре</p>
+                                <p>Вы можете самостоятельно забрать из ближайшего к вам Дистрибьюторного центра. Услуга бесплатная! Резерв товара сохраняется 3 дня.</p>
+                        </div>
+                </label>
+  
+                <h4 class="delivery-address">Адрес доставки</h4>
+                <div class="select-wrapper">
+                    <p>Местоположение</p>
+                    <p class="delivery-address-description">Для поиска введите первые 2 буквы</p>
+                    <div class="custom-select">
+                        <select>
+                            <option value="0">Россия</option>
+                            <option value="1">Россия</option>
+                            <option value="2">Литва</option>
+                            <option value="2">Белоруссия</option>
+                            <option value="2">Азербайджан</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="select-wrapper">
+                    <p></p>
+                    <div class="custom-select">
+                        <select>
+                            <option value="0">Москва</option>
+                            <option value="1">Москва</option>
+                            <option value="2">Нижний Новгород</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="select-wrapper">
+                    <p></p>
+                    <div class="custom-select">
+                        <select>
+                            <option value="0">Выберите улицу...</option>
+                            <option value="1">Лубянка</option>
+                            <option value="2">Уральская</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="select-wrapper">
+                        <p>Дом</p>
+                    <input type="text">
+                </div>
+                <div class="select-wrapper">
+                        <p>Корпус</p>
+                    <input type="text">
+                </div>
+                <div class="select-wrapper">
+                        <p>Строение</p>
+                    <input type="text">
+                </div>
+                <div class="select-wrapper select-wrapper-apartment">
+                        <p>Квартира</p>
+                        <div class="custom-select">
+                            <select>
+                                <option value="0">Квартира</option>
+                                <option value="1">Квартира</option>
+                                <option value="2">Частный дом</option>
+                            </select>  
+                        </div>  
+                        <input type="text">
+                </div>
+                <div class="select-wrapper">
+                        <p>Индекс</p>
+                    <input type="text">
+                </div>
+                <label class="confidentiality checkout-page__confidentiality">Я принимаю  <a href="#"> «Условия конфиденциальности и правила сервиса»</a>
+                    <input type="checkbox" id="confidentiality" name="confidentiality" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="confidentiality checkout-page__confidentiality">Я согласен/сна получать новости компании Tupperware на свой e-mail.</a>
+                    <input type="checkbox" id="confidentiality" >
+                    <span class="checkmark"></span>
+                </label>
+                <h4 class="payment-method">Способ оплаты</h4>
+                <label class="radio-label">                 
+                        <input type="checkbox" checked="checked">
+                        <span class="radio-checkmark"></span>                               
+                    <div class="radio-description">
+                        <p>Наличный расчет</p>
+                        <p>Оплата в рублях производится консультанту компании Tupperware при получении заказа.</p>
+                    </div>
+                </label>
+                <div class="cart-popup__product-wrapper"> 
+                        <div class="cart-popup__photo">
+                            <p>Фото</p>
+                            <img src="img/cart-popup__photo-min.jpg" alt="">
+                        </div>   
+                        <div class="cart-popup__name">
+                            <p>Наименование</p>
+                            <p>Охлаждающие лотки (450 мл), 4 шт</p>
+                        </div>  
+                        <div class="cart-popup__delivery">
+                            <p>Доставка</p>
+                            <p>11 июня</p>
+                        </div>                                           
+                        <div class="cart-popup__quantity">
+                            <p>Количество</p>
+                            <div class="cart-popup__quantity-wrapper">
+                                    <embed src='img/cart-popup__quantity-less.svg' class="cart-popup__quantity-icon">
+                                    <p>1 шт.</p> 
+                                    <embed src='img/cart-popup__quantity-more.svg' class="cart-popup__quantity-icon">
+                            </div> 
+                        </div>
+                        <div class="cart-popup__sum">
+                            <p>Сумма</p>
+                            <p>1 699 руб.</p>
+                        </div>                       
+                    </div>
+                    <div class="cart-popup__total">
+                        <div>
+                            <p class="text-align-right">Общая сумма заказа</p> 
+                            <p><span><nobr>1 699 руб.</nobr></span></p> 
+                        </div>
+                        <div class="">
+                            <p class="text-align-right">Стоимость доставки</p> 
+                            <p><span><nobr>300 руб.</nobr></span></p>
+                        </div>
+                        <div class="">
+                            <p class="text-align-right">Итого к оплате</p> 
+                            <p><span><nobr>1 999 руб.</nobr></span></p>
+                        </div>  
+                    </div>
+                    <table class="time-comments">
+                            <tr>
+                                <td><label for="deliveryTime">Удобное время доставки</label></td>
+                                <td class="application__form__element">
+                                    <div class="application__form__element-wrapper">
+                                        <input name="deliveryTime" id="deliveryTime" value="" class="inputbox inputbox__cycle" type="text" alt="Удобное время доставки"/>
+                                        <span class="form-box__description">Убедитесь в том, что время правильно написано.</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label class="comment-label" for="orderComment" >Комментарий к заказу</label></td>
+                                <td class="application__form__element">
+                                    <div class="application__form__element-wrapper">
+                                        <textarea name="orderComment" id="orderComment"></textarea>
+                                        <span class="form-box__description">Можете написать комментарий к заказу, пожелания... </span>
+                                    </div>
+                                </td>
+                            </tr>
+                    </table>
+                    <div class="cart-popup__buttons">
+                        <a class="cart-popup__continue-button" href="#">Продолжить покупки</a>
+                        <a  type="submit" value="submit" alt="Перейти в корзину" class="cart-popup__order-button" href="#">Перейти в корзину</a>                                                          
+                    </div>
             </div>
+
+
+
         </form>
-      
         
+        
+
+
     </section>
     <section class="recent">
         <h3>С этим товаром покупают</h3>

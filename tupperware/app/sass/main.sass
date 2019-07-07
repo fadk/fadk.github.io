@@ -1309,10 +1309,6 @@ h2, h4
 .confidentiality:hover input ~ .checkmark
 	background-color: #fff
 
-.confidentiality input:checked ~ .checkmark
-	background-color: $accent
-	border: 1.5px solid $accent
-
 .checkmark:after
 	content: ""
 	position: absolute
@@ -1326,8 +1322,8 @@ h2, h4
 	top: 0
 	width: 4px
 	height: 10px
-	border: solid white
-	border-width: 0 3px 3px 0
+	border: solid #4B4B4B
+	border-width: 0 2px 2px 0
 	-webkit-transform: rotate(45deg)
 	-ms-transform: rotate(45deg)
 	transform: rotate(45deg)
@@ -1886,7 +1882,6 @@ input:checked+.cart-modal
 
 .cart-popup__total
 	margin-top: 50px
-	border-top: 1px solid #F0F0F0;
 	background: #ffffff
 	text-align: center
 	line-height: 98px;
@@ -1896,6 +1891,7 @@ input:checked+.cart-modal
 
 .cart-popup__product-wrapper
 	display: flex
+	border: 1px solid #F0F0F0;
 	div
 		line-height: 40px
 
@@ -1939,6 +1935,9 @@ input:checked+.cart-modal
 	padding-left: 55px
 	width: 19%
 	position: relative
+	
+
+
 
 .cart-popup__name
 	width: 37%
@@ -1982,6 +1981,8 @@ input:checked+.cart-modal
     cursor: pointer;
 
 .cp-page
+	form
+		margin-top: 10px
 	.news
 		margin-top: 110px
 	.cart-popup__buttons
@@ -1997,15 +1998,6 @@ input:checked+.cart-modal
 		padding: 0
 		position: relative
 		text-align: left
-		&:after
-			display: block
-			position: absolute
-			content: ""
-			height: 1px
-			width: 100%
-			background: #f0f0f0
-			left: 0
-			top: -185px
 		&:before
 			display: block
 			position: absolute
@@ -2062,6 +2054,7 @@ input:checked+.cart-modal
 		background: #F7F7F7;
 		border-radius: 2px;
 		margin-left: 25px
+		padding-left: 15px
 .cart-popup__confidentiality-buttons
 	display: flex
 	justify-content: space-between
@@ -2078,11 +2071,296 @@ input:checked+.cart-modal
 			margin-top: 20px;
 
 .checkout-page
+	.cart-popup__buttons
+		margin-right: 0
+		height: auto
+		margin-bottom: 110px
+	.cart-popup__quantity-icon
+		margin-top: 25px
+	.cart-popup__product-wrapper
+		margin-top: 55px
+		p
+			&:not(:first-child)
+				margin-top: 30px
+		.cart-popup__quantity-wrapper	
+			p
+				margin-top: 10px
+	.cart-popup__photo
+		padding-left: 20px
+	.cart-popup__total
+		border: none
+		padding: 0
+		display: flex
+		flex-direction: column
+		line-height: 45px
+		margin-top: 15px
+		div
+			display: flex
+			span
+				margin-left: 1vw
+			p
+				width: 50%
+				text-align: left
+			.text-align-right
+				text-align: right
+				margin-right: 11vw
+			&:not(:last-child)
+				border-bottom: 1px solid #f0f0f0;
+	.checkout-page__confidentiality
+		margin-top: 30px
+		margin-bottom: -10px
+		padding-left: 60px
+		a
+			margin-left: 10px
+
 	h1
 		margin-top: 45px
 		margin-bottom: 92px
 		&:before
 			display: none
+	h4
+		font-size: 18px	
+		margin-top: 40px
+		margin-bottom: 13px
+	.delivery-method
+		margin-top: 28px
+		margin-bottom: 20px	
+	.payment-method
+		margin-top: 74px
+		margin-bottom: 20px
+
+.error__message  
+	box-sizing: border-box  
+	position: absolute  
+	top: -15px
+	left: -335px
+	width: 445px                                      
+	display: block;
+	text-align: center
+	background-color: #dc2020;
+	color: #fff;
+	padding-top: 0
+	padding-bottom: 0
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: -30px;
+	margin-left: 335px;
+	font-size: 16px
+.error__message_hide                                               
+	display: none;
+
+.form-box 
+	table 
+		.inputbox, textarea
+			width: 438px;
+			height: 42px;
+			background: #F7F7F7;
+			padding: 0 4px;
+			border: none                   
+			border-radius: 2px;
+			font-size: 18px;
+			&:focus 
+				border-color: #fff;
+				box-shadow: 0 0 15px rgba(250, 223, 108, 1);
+		textarea
+			height: 109px;
+			resize: none
+
+		label 
+			display: block;
+			padding: 5px 87px 0 0;
+			line-height: 20px;
+			color: #333;
+			font-size: 18px
+		tr 
+			td 
+				padding-bottom: 25px;
+	.time-comments
+		margin-top: 25px
+		label
+			padding: 5px 45px 0 0;
+		.comment-label
+			margin-top: -50px				
+
+.application__form__element-wrapper
+	position: relative
+
+.form-box__description
+	font-size: 16px;
+	line-height: 150%;
+	position: absolute
+	top: 0
+	left: 480px
+	width: 40vw
+
+.radio-description
+	margin-left: 40px
+	font-size: 18px;
+
+.radio-label
+	display: flex
+	margin-bottom: 20px
+	position: relative
+	user-select: none;
+	input
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+
+	p
+		margin-top: 7px
+		margin-bottom: 5px
+		line-height: 24px
+		&:first-child
+			font-weight: bold
+
+.radio-checkmark 
+	position: absolute;
+	top: 9px;
+	left: 0;
+	height: 19px;
+	width: 19px;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 1.5px solid #C4C4C4;
+	&:after 
+		content: "";
+		position: absolute;
+		display: none;
+
+.radio-label .radio-checkmark:after 
+	top: 5px;
+	left: 5px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #4B4B4B;
+
+.radio-label input:checked ~ .radio-checkmark:after 
+  display: block;
+
+
+.select-wrapper	
+	display: flex
+	align-items: center
+	font-size: 18px
+	position: relative
+	p
+		width: 280px
+		margin: 0
+	input
+		box-sizing: border-box
+		margin-top: 15px
+		margin-bottom: 13px
+		width: 438px;
+		height: 42px;
+		background: #F7F7F7;
+		border-radius: 2px;
+		border: none
+		padding-left: 14px
+
+.custom-select
+	position: relative;	
+	width: 438px	
+	select
+		display: none;
+	.select-hide 
+ 		display: none;
+	.select-items div:hover, .same-as-selected 
+  		background-color: rgba(0, 0, 0, 0.1);
+	.select-selected
+		margin-top: 15px
+		margin-bottom: 13px
+		background-color: #F7F7F7;
+		padding: 3px 
+		padding-left: 15px
+		cursor: pointer;
+		user-select: none;
+		&:after 
+			position: absolute;
+			content: "";
+			top: 35px
+			right: 16px;
+			width: 0;
+			height: 0;
+			border: 6px solid transparent;
+			border-color: #919191 transparent transparent transparent;
+	.select-arrow-active
+		&:after 
+			border-color: transparent transparent #919191 transparent;
+			top: 25px;
+	.select-items 
+		position: absolute;
+		background-color: #e3f6fa;
+		top: 100%;
+		left: 0;
+		right: 0;
+		z-index: 99;
+		margin-top: -13px
+		div 
+			padding: 3px 
+			padding-left: 15px
+			border: 1px solid transparent;
+			border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+			cursor: pointer;
+			user-select: none;
+
+.select-wrapper-apartment
+	input
+		width: 265px;
+	.custom-select
+		width: 153px
+		margin-right: 20px
+		
+
+h4.delivery-address
+	margin-top: 58px
+	margin-bottom: 0
+	
+.delivery-address-description
+	position: absolute
+	top: 58px
+	line-height: 20px
+
+.form-box 
+	table 
+		.application__form-sex
+			label
+				margin-bottom: 0
+    			padding: 5px 30px 0 0
+				
+
+				
+
+.application__form-sex
+	display: flex
+	p
+		font-size: 18px
+	.radio-label p:first-child 
+    	font-weight: 400
+
+.application__form-address
+	a
+		color: $accent
+		text-decoration: underline 
+		text-decoration-style: dashed
+
+.form-box__description-a
+	top: 30px
+
+
+.my-data__buttons
+	display: flex
+	align-items: center
+	justify-content: flex-start
+	margin-top: 30px
+	.cart-popup__order-button
+		margin-right: 35px
+	.cart-popup__continue-button
+		margin-right: 0
+
+
+
 
 
 
