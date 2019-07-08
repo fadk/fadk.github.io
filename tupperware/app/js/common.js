@@ -317,11 +317,10 @@ $(function() {
 
 
         var tabTitle = $("li.is-active > *");
-        var pageTitle = $(".change-title");
-
-        console.log(tabTitle.text())
     
         $(".change-title").html(tabTitle.text());
+
+        
 
      
 

@@ -70,6 +70,11 @@
 
 @media (max-width: 1475px)
 
+  .my-orders__wrapper
+    div
+      &:last-child
+        margin-right: 0
+
   .form-box__description
 	  width: 30vw
 
@@ -438,6 +443,17 @@
           padding-left: 15px
 
 @media (max-width: 920px)
+
+  .my-orders__wrapper
+    flex-direction: column
+    align-items: center
+    text-align: center
+    border: none
+    &:before
+      display: none
+    div
+      width: 100%
+      border-bottom: 1px solid #f0f0f0
       
   .header__location span 
     display: none

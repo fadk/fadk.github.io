@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>OptimizedHTML 4</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="header__inner-wrapper">
+        <a href="#" class="header__brand"><embed src='img/logo.svg' class="logo" ></a>
+        <form class="header__search-wrapper">
+            <button class="header__search-button" type="submit"><span class="visually-hidden">Search</span><embed src='img/search.svg' class="search"></button>
+            <input class="header__search-input" type="search">
+        </form>
+        <div class="header__location">
+            <embed src='img/location.svg' class="location-icon">Нижний Новгород
+        </div>
+        <a href="#" class="header__login">Личный кабинет</a>
+        <div class="header__cart"><embed src='img/cart.svg' class="cart">14</div>
+        <div class="header__location-popup">
+            <p>Ваш город</br>Москва?</p>
+            <a href="#">Да</a>
+            <a href="#">Другой</a>
+        </div>
+        <div class="header__location-popup-triangle"></div>
+        <a class="boxclose" id="boxclose"></a>
+    </div>
+    <div id="" class="header__navbar-wrapper">
+        <a href="#" class="has-icon active"><embed src='img/home.svg' class="home"></a>
+        <div id="menubtn">&#x2261;</div>
+        <nav id="menu"  class="navbar">
+                <div class="swiper-container-wrapper--buttons-outside swiper-container-wrapper--buttons-outside_menu">
+                <div class="swiper-button-prev swiper-container-menu_prev"></div>
+
+            <div id="mainnavs" class="swiper-container-menu swiper-container">
+                
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Хранение и транспортировка</a>
+                    </li>
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Сервировка</a>
+                    </li>
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Кухонные изделия</a>
+                    </li>
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Готовим в СВЧ</a>
+                    </li>
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Готовим в духовке</a>
+                    </li>
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Кухонные изделия 1</a>
+                    </li>
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Готовим в СВЧ 1</a>
+                    </li>
+                    <li class="swiper-slide navbar-item">
+                        <a href="#" class="navbar-link">Готовим в духовке 1</a>
+                    </li>
+                </ul>
+                            
+            </div>
+            <div class="swiper-button-next swiper-container-menu_next"></div>		
+
+        </div>
+        </nav>
+    </div>
+</header>
+
+<main class="cp-page">
+
+    <ul class="breadcrumb">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Личный кабинет</a></li>
+        <li>Корзина</li>
+    </ul>
+
+    <h1 class="change-title">Корзина</h1>
+
+
+    <section class="cp-page__tabs-wrapper">
+            <div class="tabs is-boxed">
+                <ul>
+                    <li class="is-active">
+                        <a id="1">
+                            <span><nobr>Мои данные</nobr></span>
+                        </a>
+                    </li>
+                    <li class="" >
+                        <a id="2">
+                            <span><nobr>Мои заказы</nobr></span>
+                        </a>
+                    </li>
+                    <li class="" >
+                        <a id="3">
+                            <span><nobr>Моя корзина</nobr></span>
+                        </a>
+                    </li>
+                    <li class="" >
+                        <a id="4">
+                            <span><nobr>Мои товары</nobr></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+      
+        <div class="tab-content">
+            <div class="tab-pane is-active my-data" id="1">
+                    <form action="" method="post" name="" id="" class="application__form application__form__submit" novalidate="novalidate">
+                           
+                            <div class="form-box">
+                                <table>
+                                    <tr>
+                                        <td><label for="contact">Электронная почта*</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form__element-wrapper">
+                                                <input name="contact" id="contact" value="" class="req inputbox inputbox__cycle" type="email" alt="Эл. почта"/>
+                                                <span class="error__message error__message_hide">Неверный формат электронной почты</span>
+                                                <span class="form-box__description">Убедитесь в том, что Ваш e-mail правильно написан. Если Вы забудете логин или пароль, мы сможем восстановить его для Вас, послав по указанному Вами адресу.</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="pass" >Сменить пароль</label></td>
+                                        <td class="application__form__element"><div><input name="pass" id="pass" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="confirmPass" >Подтвердить пароль</label></td>
+                                        <td class="application__form__element"><div><input name="confirmPass" id="confirmPass" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="lastName" >Фамилия</label></td>
+                                        <td class="application__form__element"><div><input name="lastName" id="lastName" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="name" >Имя</label></td>
+                                        <td class="application__form__element"><div><input name="name" id="name" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="birthday" >День рождения</label></td>
+                                        <td class="application__form__element"><div><input name="birthday" id="birthday" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="sex-label" for="sex" >Пол</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form-sex">
+                                                    <label class="radio-label application__form-sex-male">                 
+                                                            <input type="radio" name="delivery" checked="checked">
+                                                            <span class="radio-checkmark"></span>                               
+                                                            <div class="radio-description">
+                                                                <p>Мужской</p>                
+                                                            </div>
+                                                    </label>
+                                                    <label class="radio-label application__form-sex-female">                 
+                                                            <input type="radio" name="delivery">
+                                                            <span class="radio-checkmark"></span>                               
+                                                            <div class="radio-description">
+                                                                <p>Женский</p>
+                                                            </div>
+                                                    </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><label for="phone">Телефон*</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form__element-wrapper">
+                                                <input name="phone" id="phone" value="" class="req inputbox inputbox__cycle" type="tel" alt="Телефон"/>
+                                                <span class="error__message error__message_hide">Неверный формат</span>
+                                                <span class="form-box__description form-box__description-tel">Укажите контактный телефон, по которому Вы будете доступны на момент оформления и получения заказа.</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="address">Адрес</label></td>
+                                        <td class="application__form__element">
+                                            <div class="application__form__element-wrapper application__form-address">
+                                                <input name="address" id="address" value="" class="inputbox inputbox__cycle" type="tel" alt="Телефон"/>
+                                                <span class="form-box__description">Добавить или удалить текст Вы сможете в процессе оформления заказа.</span>
+                                                <a class="form-box__description form-box__description-a" href="#">Добавить новый адрес</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+
+                                    <div class="my-data__buttons">
+                                        <a type="submit" value="submit" alt="Сохранить" class="cart-popup__order-button" href="#">Сохранить</a>
+                                        <a class="cart-popup__continue-button" href="#">Сбросить</a>
+                                                                                                  
+                                    </div>
+                            </div>
+                
+                        </form>
+
+            </div>
+            <div class="tab-pane my-orders" id="2">
+                    <div class="my-orders__wrapper"> 
+                            <div >
+                                <p>№ Заказа</p>
+                                <a href="order.html">16888</a>
+                            </div>   
+                            <div>
+                                <p>Дата заказа </p>
+                                <p>11.06.2019 12:08:43 </p>
+                            </div>  
+                            <div >
+                                <p>Состояние</p>
+                                <p>Поступил</p>
+                            </div>                                           
+                            <div >
+                                <p>Сумма</p>
+                                <p>1 699 руб.</p> 
+                            </div>
+                            <div >
+                                <p>Форма оплаты</p>
+                                <p>Наличные</p>
+                            </div>                       
+                        </div>
+                        
+
+
+            </div>
+            <div class="tab-pane" id="3">
+                <div class="cp-page__cart">
+  
+                        <div class="cart-popup__product-wrapper"> 
+                            <div class="cart-popup__photo">
+                                <p>Фото</p>
+                                <a class="cart-popup__close">×</a>
+                                <img src="img/cart-popup__photo-min.jpg" alt="">
+                            </div>   
+                            <div class="cart-popup__name">
+                                <p>Наименование</p>
+                                <p>Охлаждающие лотки (450 мл), 4 шт</p>
+                            </div>  
+                            <div class="cart-popup__delivery">
+                                <p>Доставка</p>
+                                <p>11 июня</p>
+                            </div>                                           
+                            <div class="cart-popup__quantity">
+                                <p>Количество</p>
+                                <div class="cart-popup__quantity-wrapper">
+                                        <embed src='img/cart-popup__quantity-less.svg' class="cart-popup__quantity-icon">
+                                        <p>1 шт.</p> 
+                                        <embed src='img/cart-popup__quantity-more.svg' class="cart-popup__quantity-icon">
+                                </div> 
+                            </div>
+                            <div class="cart-popup__sum">
+                                <p>Сумма</p>
+                                <p>1 699 руб.</p>
+                            </div>                       
+                        </div>
+                        <div class="cart-popup__total">
+                            <div class="cart-popup__discount-coupon">
+                                <p>Введите код купона для скидки:</p>
+                                <input type="text">
+                            </div>
+                            <p>Общая сумма <span><nobr>1 699 руб.</nobr></span></p>   
+                        </div>
+                        <div class="cart-popup__confidentiality-buttons">
+                            <label class="confidentiality"><p>Я принимаю  <a href="#"> «Условия конфиденциальности и правила сервиса»</a></p> 
+                                <input type="checkbox" id="confidentiality" name="confidentiality">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="cart-popup__buttons">
+                                <a class="cart-popup__continue-button" href="#">Продолжить покупки</a>
+                                <a class="cart-popup__order-button" href="#">Перейти в корзину</a>                                                          
+                            </div>
+                         </div>
+</div>
+                
+
+            </div>
+            <div class="tab-pane" id="4">
+                <p class="product-page__highlighted">Мои товары</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iste sed nihil cumque nemo in aliquid, magnam ratione tempora accusamus ipsam quam perspiciatis unde? Consequuntur, consequatur delectus? Maxime, vel culpa?</p>
+            </div>
+        </div>
+    </section>
+    <section class="recent">
+        <h3>С этим товаром покупают</h3>
+
+        <div class="swiper-container swiper-container-recent1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide recent1__slide recent1__slide--1">
+                    <a href="#"><img class="recent1__img" src="img/recent1-1-min.jpg" alt="Подарочный набор Микромания"></a>
+                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                    <p class="recent1__price">2 999 руб.</p>
+                </div>
+                <div class="swiper-slide recent1__slide recent1__slide--2">
+                    <a href="#"><img class="recent1__img" src="img/recent1-2-min.jpg" alt="Подарочный набор Микромания"></a>
+                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                    <p class="recent1__price">2 999 руб.</p>
+                </div>
+                <div class="swiper-slide recent1__slide recent1__slide--3">
+                    <a href="#"><img class="recent1__img" src="img/recent1-3-min.jpg" alt="Подарочный набор Микромания"></a>
+                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                    <p class="recent1__price">2 999 руб.</p>
+                </div>
+                <div class="swiper-slide recent1__slide recent1__slide--4">
+                    <a href=""><img class="recent1__img" src="img/recent1-4-min.jpg" alt="Подарочный набор Микромания"></a>
+                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                    <p class="recent1__price">2 999 руб.</p>
+                </div>
+                <div class="swiper-slide recent1__slide recent1__slide--5">
+                    <a href=""><img class="recent1__img" src="img/recent1-5-min.jpg" alt="Подарочный набор Микромания"></a>
+                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                    <p class="recent1__price">2 999 руб.</p>
+                </div>
+            </div>
+            <div class="swiper-button-prev4"></div>
+            <div class="swiper-button-next4"></div>
+        </div>
+
+    </section>
+
+    <section class="news">
+            <div class="news-wrapper">
+                <h3>Подпишитесь на новости</h3>
+                <p>Будьте в курсе новостей вместе с нами - актуальные тенденции, новые поступления!</p>
+                <form class="subscribe">
+                    <input type="text" placeholder="Ваш e-mail">
+                    <button>подписаться</button>
+                </form>
+                <label class="confidentiality">Я принимаю  <a href="#"> «Условия конфиденциальности и правила сервиса»</a>
+                    <input type="checkbox" id="confidentiality" name="confidentiality">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </section>
+</main>
+
+<footer>
+    <div class="footer__navbar-wrapper">
+        <nav class="footer__navbar">
+            <div class="footer__navbar-item"><a href="#" class="footer__navbar-link">Спецпредложения</a></div>
+            <div class="footer__navbar-item"><a href="#" class="footer__navbar-link">О Tupperware</a></div>
+            <div class="footer__navbar-item"><a href="#" class="footer__navbar-link">Наш сервис</a></div>
+            <div class="footer__navbar-item"><a href="#" class="footer__navbar-link">Каталог Tupperware</a></div>
+            <div class="footer__navbar-item"><a href="#" class="footer__navbar-link">Доставка и оплата</a></div>
+            <div class="footer__navbar-item"><a href="#" class="footer__navbar-link">Контакты</a></div>
+        </nav>
+    </div>
+    <div class="footer__columns">
+        <div class="footer__column">
+            <h5 class="footer__links">Полезные ссылки</h5>
+            <a href="#">Мои данные</a>
+            <a href="#">Мои заказы</a>
+            <a href="#">Моя корзина</a>
+            <a href="#">Мои товары</a>
+        </div>
+        <div class="footer__column">
+            <h5 class="footer__about">О Tupperware</h5>
+            <a href="#">О бренде</a>
+            <a href="#">Как мы работаем</a>
+            <a href="#">Стать консультантом</a>
+            <a href="#">Пресса о нас</a>
+            <a href="#">Вопросы и ответы</a>
+        </div>
+        <div class="footer__column">
+            <h5 class="footer__service">Наш сервис</h5>
+            <a href="#">Стандарты сервиса</a>
+            <a href="#">Конфиденциальность</a>
+        </div>
+        <div class="footer__column">
+            <h5 class="footer__contact">Контакты</h5>
+            <a href="#">Контакты</a>
+            <a href="#">Дистрибьюторные центры</a>
+            <a href="#">Для СМИ</a>
+            <a href="#">Для партнеров</a>
+            <a href="#">Карта сайта</a>
+        </div>
+        <div class="footer__column">
+            <div class="footer__social">
+                <a href="#" class="footer__icon fb"><embed src='img/fb.svg'></a>
+                <a href="#" class="footer__icon vk"><embed src='img/vk.svg'></a>
+                <a href="#" class="footer__icon inst"><embed src='img/inst.svg'></a>
+                <a href="#" class="footer__icon ok"><embed src='img/ok.svg'></a>
+            </div>
+            <a href="tel:8-800-200-6000" class="footer__tel">8-800-200-6000</a>
+            <p class="footer__disclaimer">Звонок бесплатный по всей России</p>
+            <p class="footer__copy">Copyright © www.tupperware.ru 2019</br>Все права защищены | Tupperware</p>
+            <p class="footer__author">Создание сайта ДиВиЕР</p>
+        </div>
+    </div>
+</footer>
+<script src="js/scripts.min.js"></script>
+
+
+</body>
+</html>
