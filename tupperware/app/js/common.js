@@ -11,6 +11,41 @@ $(function() {
         $('#boxclose').removeClass('display-none');
     });
     
+
+    var swiperFooter = new Swiper('.swiper-container-footer', {
+        loopedSlides: 20,
+        slidesPerView: 7,
+        spaceBetween: 20,
+        loop: true,
+        breakpoints: {
+            1200: {
+                slidesPerView: 6, 
+            },
+            1000: {
+                slidesPerView: 5, 
+            },
+            855: {
+                slidesPerView: 4, 
+            },
+            680: {
+                slidesPerView: 3, 
+            },
+            550: {
+                slidesPerView: 2, 
+            },
+            355: {
+                slidesPerView: 1, 
+            },
+        },
+        navigation: {
+            nextEl: '.swiper-button-next12',
+            prevEl: '.swiper-button-prev12',
+        },
+    });
+
+
+
+
     var menuSlide = new Swiper('.swiper-container-menu', {
         slidesPerView: 'auto',
         spaceBetween: 90,

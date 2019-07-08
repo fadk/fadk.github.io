@@ -548,7 +548,8 @@ h2, h4
 .swiper-button-prev11
 	background-image: url("../img/prev.svg")
 
-.swiper-button-prev3
+.swiper-button-prev3,
+.swiper-button-prev12
 	background-image: url("../img/prev-sm.svg")
 
 .swiper-button-next--big
@@ -566,7 +567,8 @@ h2, h4
 .swiper-button-next11
 	background-image: url("../img/next.svg")
 
-.swiper-button-next3
+.swiper-button-next3,
+.swiper-button-next12
 	background-image: url("../img/next-sm.svg")
 
 .swiper-button-prev--big,
@@ -592,7 +594,9 @@ h2, h4
 .swiper-button-prev10,
 .swiper-button-next10,
 .swiper-button-prev11,
-.swiper-button-next11
+.swiper-button-next11,
+.swiper-button-prev12,
+.swiper-button-next12
 	position: absolute;
 	top: 50%;
 	width: 19px;
@@ -611,9 +615,15 @@ h2, h4
 	top: 41%;
 
 .swiper-button-prev3,
-.swiper-button-next3
+.swiper-button-next3,
+.swiper-button-prev12,
+.swiper-button-next12
 	background-size: 8px 17px;
 	top: 60%;
+
+.swiper-button-prev12,
+.swiper-button-next12
+	top: 30%
 
 .swiper-button-prev--big,
 .swiper-container-rtl .swiper-button-next--big,
@@ -636,7 +646,9 @@ h2, h4
 .swiper-button-prev10,
 .swiper-container-rtl .swiper-button-next10,
 .swiper-button-prev11,
-.swiper-container-rtl .swiper-button-next11
+.swiper-container-rtl .swiper-button-next11,
+.swiper-button-prev12,
+.swiper-container-rtl .swiper-button-next12
 	left: 10px;
 	right: auto;
 
@@ -670,6 +682,8 @@ h2, h4
 .swiper-container-rtl .swiper-button-prev10,
 .swiper-button-next11,
 .swiper-container-rtl .swiper-button-prev11
+.swiper-button-next12,
+.swiper-container-rtl .swiper-button-prev12
 	right: 10px;
 	left: auto;
 
@@ -768,10 +782,13 @@ h2, h4
 	align-items: center
 
 .bestsellers__img, .recent1__img, .sale__img, 
-.no-found-content__img, .category-tiles__img
+.no-found-content__img, .category-tiles__img, 
 	max-width: 100%
 	height: auto
 	
+.footer__img
+	height: 100%
+	width: auto
 
 .category-text__img-text
 	margin-bottom: 70px
@@ -1278,7 +1295,7 @@ h2, h4
 	font-family: "TupperPRO-Medium"
 	display: flex
 	align-items: center
-	margin-top: 35px
+	margin-top: 45px
 	margin-bottom: 80px
 	font-size: 16px
 	line-height: 19px
@@ -1305,6 +1322,7 @@ h2, h4
 	border: 1.5px solid #C4C4C4
 	box-sizing: border-box
 	border-radius: 2px
+	background-color: #fff
 
 .confidentiality:hover input ~ .checkmark
 	background-color: #fff
@@ -1805,6 +1823,17 @@ a.footer__tel
 
 .footer__author
 	font-size: 12px
+
+.footer__images
+	width: 1500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	display: flex
+	justify-content: space-between
+	align-items: center
+	
+	
 
 .cart-modal 
     position: fixed
@@ -2386,7 +2415,10 @@ h4.delivery-address
 		left: 0
 		top: 82px
 
-
+.swiper-container-footer
+	.swiper-slide
+		display: flex
+		justify-content: center
 
 
 
