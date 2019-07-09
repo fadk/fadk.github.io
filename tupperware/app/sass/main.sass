@@ -246,7 +246,7 @@ a.boxclose
 	letter-spacing: normal
 	display: inline-block
 	line-height: 18px
-	width: auto!important
+	width: auto
 	padding: 0 !important
 	&:not(:first-child)
 		padding-top: 13px
@@ -681,7 +681,7 @@ h2, h4
 .swiper-button-next10,
 .swiper-container-rtl .swiper-button-prev10,
 .swiper-button-next11,
-.swiper-container-rtl .swiper-button-prev11
+.swiper-container-rtl .swiper-button-prev11,
 .swiper-button-next12,
 .swiper-container-rtl .swiper-button-prev12
 	right: 10px;
@@ -925,6 +925,9 @@ h2, h4
 	&:nth-child(even)
 		margin-left: 20px
 
+.about-page__img
+	background-image: url('../img/about-page__img-min.jpg')
+	background-size: cover
 
 .about__img--1
 	background-image: url('../img/about1-min.jpg')
@@ -1509,6 +1512,7 @@ ul.breadcrumb li a:hover
 	border-radius: 2px;
 	font-size: 16px
 	margin-right: 0px
+	line-height: 36px
 
 .cart-popup__continue-button
 	background: #93A3A7;
@@ -2419,6 +2423,109 @@ h4.delivery-address
 	.swiper-slide
 		display: flex
 		justify-content: center
+
+.order__wrapper
+	display: flex
+	margin-top: 18px
+	font-size: 16px
+	margin-bottom: 30px
+	
+
+.order__column
+	display: flex
+	flex-direction: column
+	&:first-child
+		width: 23vw
+
+.order__column-row
+	display: flex
+	p
+		margin-bottom: 0
+		margin-top: 0
+		&:first-child
+			width: 12vw
+
+.order
+	margin-top: 18px
+	.cart-popup__continue-button
+		padding-left: 42px
+		padding-right: 42px
+		padding-top: 13px
+		padding-bottom: 13px
+	.cart-popup__product-wrapper
+		margin-top: 50px
+	.cart-popup__photo 
+    	padding-left: 30px;
+	.cart-popup__total
+		justify-content: center
+		margin-top: -15px
+		margin-bottom: -50px
+		span
+			margin-left: 10vw;
+			font-size: 40px
+		    
+			
+
+.padding-top-35
+	padding-top: 35px
+
+.back-to-orders
+	font-size: 18px
+	font-weight: 600
+
+
+
+.about-page	
+	.product-page__description
+		margin-top: -20px
+		li
+			margin-bottom: 5px
+	h1
+		margin-top: 50px
+		margin-bottom: 90px
+		&:before
+			display: none
+	h2
+		margin-top: 50px		
+	h3
+		margin-top: 50px
+		text-align: left
+		margin-block-end: 0.83em
+		&:before
+			display: none		
+	h4
+	p
+		margin-block-end: 38px
+
+
+.cp-page_valide-purchase
+	.recent
+		margin-bottom: 100px
+	h1
+		margin-top: 50px
+		margin-bottom: 90px
+		&:before
+			display: none
+	.cart-popup__buttons
+		height: auto
+		margin-top: -10px
+		margin-right: 0
+		justify-content: flex-start
+	.cart-popup__order-button
+		margin-right: 25px
+
+.valide-purchase-p
+	margin-block-end: 40px
+	font-size: 22px;
+	a
+		color: $accent
+
+.cp-page_valide-purchase-wrapper
+	margin-bottom: 105px
+
+
+
+
 
 
 

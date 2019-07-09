@@ -1,5 +1,15 @@
 @import "vars"
 
+@media (max-width: 1780px)
+  .order__column
+    &:first-child
+      width: 30vw
+
+  .order__column-row
+    p
+      &:first-child
+        width: 15vw
+
 
 @media (max-width: 1655px)
 
@@ -134,6 +144,12 @@
       display: none
 
 @media (max-width: 1455px)
+
+  .order__column-row
+    p
+      &:first-child
+        width: 17vw
+
   .form-box__description-tel
     top: -20px
 
@@ -278,6 +294,22 @@
 
 @media (max-width: 1200px)
 
+
+
+  .order__wrapper
+    flex-direction: column
+
+  .order__column
+    width: 100%
+    &:first-child
+      width: 100%
+
+  .order__column-row
+    margin-top: 20px
+    p
+      &:first-child
+        width: 30vw
+
   .form-box__description-tel
     top: -60px
 
@@ -296,6 +328,7 @@
         top: -260px
       &:before
         top: -185px
+
 
   .cart-popup__discount-coupon
     p, span
@@ -376,7 +409,50 @@
   .form-box__description
     display: none
 
+
+
+
+@media (min-width: 1001px)
+
+  #menu-mobile
+    display: none
+
 @media (max-width: 1000px)
+
+  .header__navbar-wrapper
+    position: relative
+    min-height: 51px
+    .has-icon
+      position: absolute
+      left: 15px
+      top: 15px
+
+  #menubtn
+    display: block
+    position: absolute
+    right: 20px
+    top: 0
+
+  #menu
+    display: none
+
+  #menu-mobile
+    padding-left: 50px
+    padding-right: 50px
+    display: none
+    .navbar-item
+      width: 100%
+
+
+  .header__navbar-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+
+
+
+
 
   .cart-popup__product-wrapper
     font-size: 16px
@@ -493,6 +569,12 @@
 
 @media (max-width: 900px)
 
+  .order__column-row
+    p
+      width: 50vw
+      &:first-child
+        width: 40vw
+
   .cart-popup__product-wrapper
     font-size: 14px
 
@@ -594,6 +676,9 @@
         display: none
 
 @media (max-width: 800px)
+
+ 
+        
 
   .select-wrapper p 
     width: 200px;
@@ -726,7 +811,10 @@
 
 @media (max-width: 720px)
 
-
+  .cp-page_valide-purchase
+    .cart-popup__buttons
+      flex-direction: column
+      align-items: flex-start
 
   .cp-page  
     .cart-popup__buttons
@@ -773,17 +861,8 @@
 
   .header__location, .header__location-popup, .header__location-popup-triangle, .boxclose
    display: none
-@media (max-width: 678px)
-  #menubtn
-    display: block
-  #menu
-    display: none
 
-  .header__navbar-wrapper
-    display: flex
-    align-items: center
-    justify-content: space-between
-    width: 90%
+
 
 
 
@@ -849,6 +928,19 @@
     margin-top: 38px
 
 @media (max-width: 550px)
+
+  .order 
+    .cart-popup__total 
+      span 
+        margin-left: 7vw;
+        font-size: 30px;
+
+  .order__column-row
+    flex-direction: column
+    p
+      width: 100%
+      &:first-child
+        width: 100%
 
   .cp-page
     .cart-popup__discount-coupon
@@ -1069,6 +1161,11 @@
       width: 70%
 
 @media (max-width: 370px)
+
+  .order .cart-popup__total span
+    margin-left: 5vw;
+    font-size: 20px;
+    font-weight: 600
 
   .checkout-page
     .error__message

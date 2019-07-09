@@ -266,57 +266,128 @@
 
 
 <main class="cart__main-after-submit">
-    <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-            <li class="is-active breadcrumb__cart"><a href="#" aria-current="page"> <i class="fas fa-chevron-left"></i>Продолжить покупки</a></li>
-        </ul>
-    </nav>
+    
     <div class="cart__wrapper">
-        <h2 class="cart__title">Ваша корзина</h2>
+        <h1 class="cart__title">Ваша корзина</h1>
         <div class="cart__body-summary-wrapper">
             <div class="cart__body-wrapper">
+                    <div class="tabs is-centered">
+                            <ul>
+                                <li class="is-active">
+                                    <a >
+                                        <span>1.Доставка</span>
+                                    </a>
+                                </li>
+                                <li class="" >
+                                    <a id="2">
+                                        <span>2.Оплата</span>
+                                    </a>
+                                </li>
+                                <li class="" >
+                                    <a >
+                                        <span>3.Заказ</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                    </div>
+                  
                 <div class="cart__body-after-submit">
+                    <h2>Введите адрес доставки</h2>
                     <div class="field">
-                        <label class="label">Ваше имя *</label>
+                        <label class="label">Ваше имя*</label>
                         <div class="control">
-                            <input class="input" type="text" placeholder="Ваше имя" required>
+                            <input class="input" type="text" required>
                         </div>
                     </div>
                     <div class="field">
-                        <label class="label">Email *</label>
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input is-danger" type="email" placeholder="Email input" value="hello@" required>
-                            <span class="icon is-small is-left">
-                              <i class="fas fa-envelope"></i>
-                            </span>
-                            <span class="icon is-small is-right">
-                              <i class="fas fa-exclamation-triangle"></i>
-                            </span>
-                        </div>
-                        <p class="help is-danger">This email is invalid</p>
+                            <label class="label">Фамилия*</label>
+                            <div class="control">
+                                <input class="input" type="text" required>
+                            </div>
                     </div>
                     <div class="field">
-                        <label class="label">Телефон *</label>
+                        <label class="label">Email*</label>
+                        <div class="control ">
+                            <input class="input" type="email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                            <label class="label">Компания</label>
+                            <div class="control">
+                                <input class="input" type="text" required>
+                            </div>
+                    </div>
+                    <div class="field">
+                            <label class="label">Адрес*</label>
+                            <div class="control">
+                                <input class="input" type="text" required>
+                            </div>
+                    </div>
+                    <div class="field">
+                            <label class="label">Город*</label>
+                            <div class="control">
+                                <input class="input" type="text" required>
+                            </div>
+                    </div>
+                    <div class="field">
+                            <label class="label">Почтовый индекс*</label>
+                            <div class="control">
+                                <input class="input" type="text" required>
+                            </div>
+                    </div>
+                    <div class="field">
+                            <label class="label">Страна*</label>
+                            <div class="control">
+                                <input class="input" type="text" required>
+                            </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Телефон*</label>
                         <div class="control">
                             <input type="tel" class="input mask-tel e-popup_form_text" name="phone" placeholder="+7 (___) ___-__-__" required>
                         </div>
                     </div>
+                    <p class="gift-p">Покупаете подарок? Напишите текст открытки.</p>
+                    <div class="radio-wrapper">
+                        <label class="container">Да
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Нет
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>  
                     <div class="field">
-                        <label class="label">Адрес доставки *</label>
-                        <div class="control">
-                            <textarea class="textarea" placeholder="Адрес доставки"></textarea>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Пожелания</label>
-                        <div class="control">
-                            <textarea class="textarea" placeholder="Пожелания"></textarea>
-                        </div>
-                    </div>
-                    <button class="cart-after-submit-disabled" disabled="disabled">Продолжить</button>
+                            <label class="label">Сообщение</label>
+                            <div class="control">                                
+                                <textarea name="" id="" ></textarea>
+                            </div>
+                    </div>  
+                    <hr>
+                    <h3>Выберите метод доставки</h3>
+                    <div class="radio-wrapper radio-wrapper-vertical">
+                            <label class="container">Почта России <span class="radio-wrapper-description">(2-7 рабочих дней)</span>
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Pony Express <span class="radio-wrapper-description">(2 рабочих дня)</span>
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">СДЕК <span class="radio-wrapper-description">(1 рабочий день)</span>
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div> 
+                    <button class="cart__after-submit-checkout-btn" >Оплатить</button>
                 </div>
             </div>
             <div class="cart__summary-slot-bottom">
+                    <div class="cart__summary-header">
+                            <h2>Итого</h2><span>Изменить</span>
+                        </div>
                     <div class="cart__body">
                         <div class="cart__img-content">
                             <div class="card-image">

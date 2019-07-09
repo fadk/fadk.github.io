@@ -89,6 +89,36 @@
 
         </div>
         </nav>
+        <nav id="menu-mobile"  class="navbar-mobile">
+                <ul >
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Хранение и транспортировка</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Сервировка</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Кухонные изделия</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Готовим в СВЧ</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Готовим в духовке</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Кухонные изделия 1</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Готовим в СВЧ 1</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Готовим в духовке 1</a>
+                    </li>
+                </ul>             
+            </div>
+</div>
+</nav>
     </div>
 </header>
 
@@ -97,32 +127,32 @@
     <ul class="breadcrumb">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Личный кабинет</a></li>
-        <li>Корзина</li>
+        <li>Заказы</li>
     </ul>
 
-    <h1 class="change-title">Корзина</h1>
+    <h1 class="change-title">Мои заказы</h1>
 
 
     <section class="cp-page__tabs-wrapper">
             <div class="tabs is-boxed">
                 <ul>
-                    <li class="is-active">
-                        <a id="1">
+                    <li class="">
+                        <a href="cp-page_my-data.html">
                             <span><nobr>Мои данные</nobr></span>
                         </a>
                     </li>
-                    <li class="" >
+                    <li class="is-active" >
                         <a id="2">
                             <span><nobr>Мои заказы</nobr></span>
                         </a>
                     </li>
                     <li class="" >
-                        <a id="3">
+                        <a href="cp-page_cart.html">
                             <span><nobr>Моя корзина</nobr></span>
                         </a>
                     </li>
                     <li class="" >
-                        <a id="4">
+                        <a href="cp-page_my-products.html">
                             <span><nobr>Мои товары</nobr></span>
                         </a>
                     </li>
@@ -130,217 +160,82 @@
             </div>
       
         <div class="tab-content">
-            <div class="tab-pane is-active my-data" id="1">
-                    <form action="" method="post" name="" id="" class="application__form application__form__submit" novalidate="novalidate">
-                           
-                            <div class="form-box">
-                                <table>
-                                    <tr>
-                                        <td><label for="contact">Электронная почта*</label></td>
-                                        <td class="application__form__element">
-                                            <div class="application__form__element-wrapper">
-                                                <input name="contact" id="contact" value="" class="req inputbox inputbox__cycle" type="email" alt="Эл. почта"/>
-                                                <span class="error__message error__message_hide">Неверный формат электронной почты</span>
-                                                <span class="form-box__description">Убедитесь в том, что Ваш e-mail правильно написан. Если Вы забудете логин или пароль, мы сможем восстановить его для Вас, послав по указанному Вами адресу.</span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><label for="pass" >Сменить пароль</label></td>
-                                        <td class="application__form__element"><div><input name="pass" id="pass" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label for="confirmPass" >Подтвердить пароль</label></td>
-                                        <td class="application__form__element"><div><input name="confirmPass" id="confirmPass" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label for="lastName" >Фамилия</label></td>
-                                        <td class="application__form__element"><div><input name="lastName" id="lastName" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label for="name" >Имя</label></td>
-                                        <td class="application__form__element"><div><input name="name" id="name" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label for="birthday" >День рождения</label></td>
-                                        <td class="application__form__element"><div><input name="birthday" id="birthday" value="" class=" inputbox inputbox__cycle" type="text" alt="Имя"/></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="sex-label" for="sex" >Пол</label></td>
-                                        <td class="application__form__element">
-                                            <div class="application__form-sex">
-                                                    <label class="radio-label application__form-sex-male">                 
-                                                            <input type="radio" name="delivery" checked="checked">
-                                                            <span class="radio-checkmark"></span>                               
-                                                            <div class="radio-description">
-                                                                <p>Мужской</p>                
-                                                            </div>
-                                                    </label>
-                                                    <label class="radio-label application__form-sex-female">                 
-                                                            <input type="radio" name="delivery">
-                                                            <span class="radio-checkmark"></span>                               
-                                                            <div class="radio-description">
-                                                                <p>Женский</p>
-                                                            </div>
-                                                    </label>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td><label for="phone">Телефон*</label></td>
-                                        <td class="application__form__element">
-                                            <div class="application__form__element-wrapper">
-                                                <input name="phone" id="phone" value="" class="req inputbox inputbox__cycle" type="tel" alt="Телефон"/>
-                                                <span class="error__message error__message_hide">Неверный формат</span>
-                                                <span class="form-box__description form-box__description-tel">Укажите контактный телефон, по которому Вы будете доступны на момент оформления и получения заказа.</span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><label for="address">Адрес</label></td>
-                                        <td class="application__form__element">
-                                            <div class="application__form__element-wrapper application__form-address">
-                                                <input name="address" id="address" value="" class="inputbox inputbox__cycle" type="tel" alt="Телефон"/>
-                                                <span class="form-box__description">Добавить или удалить текст Вы сможете в процессе оформления заказа.</span>
-                                                <a class="form-box__description form-box__description-a" href="#">Добавить новый адрес</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                                
-
-                                    <div class="my-data__buttons">
-                                        <a type="submit" value="submit" alt="Сохранить" class="cart-popup__order-button" href="#">Сохранить</a>
-                                        <a class="cart-popup__continue-button" href="#">Сбросить</a>
-                                                                                                  
-                                    </div>
+            <div class="tab-pane order  is-active" id="2">
+                <div class="padding-top-35">
+                    <a class="back-to-orders" href="cp-page_my-orders.html">В список заказов</a>
+                    <div class="order__wrapper">
+                        <div class="order__column">
+                            <div class="order__column-row">
+                                    <p>№ заказа:</p>
+                                    <p>16888</p>
                             </div>
-                
-                        </form>
-
-            </div>
-            <div class="tab-pane my-orders" id="2">
-                    <div class="my-orders__wrapper"> 
-                            <div >
-                                <p>№ Заказа</p>
-                                <a href="order.html">16888</a>
-                            </div>   
-                            <div>
-                                <p>Дата заказа </p>
-                                <p>11.06.2019 12:08:43 </p>
-                            </div>  
-                            <div >
-                                <p>Состояние</p>
-                                <p>Поступил</p>
-                            </div>                                           
-                            <div >
-                                <p>Сумма</p>
-                                <p>1 699 руб.</p> 
+                            <div class="order__column-row">
+                                    <p>Дата заказа:</p>
+                                    <p>11.06.2019</p>
                             </div>
-                            <div >
-                                <p>Форма оплаты</p>
-                                <p>Наличные</p>
-                            </div>                       
-                        </div>
-                        
-
-
-            </div>
-            <div class="tab-pane" id="3">
-                <div class="cp-page__cart">
+                            <div class="order__column-row">
+                                    <p>Статус заказа:</p>
+                                    <p>Принято</p>
+                            </div>
+                        </div> 
+                        <div class="order__column">
+                                <div class="order__column-row">
+                                        <p>Способ оплаты:</p>
+                                        <p>Наличные</p>
+                                </div>
+                                <div class="order__column-row">
+                                        <p>Способ доставки:</p>
+                                        <p>Самостоятельно заберу в Дистрибьюторном центре</p>
+                                </div>
+                                <div class="order__column-row">
+                                        <p>Название ДЦ:</p>
+                                        <p>Студия Инги Рудер</p>
+                                </div>
+                                <div class="order__column-row">
+                                        <p>Адрес ДЦ:</p>
+                                        <p>Россия, Москва, 1 Олимпийский проспект, д. 30 стр. 1</p>
+                                </div>
+                        </div> 
+                    </div>
+                          <a class="cart-popup__continue-button" href="">Отменить</a>                       
   
-                        <div class="cart-popup__product-wrapper"> 
-                            <div class="cart-popup__photo">
-                                <p>Фото</p>
-                                <a class="cart-popup__close">×</a>
-                                <img src="img/cart-popup__photo-min.jpg" alt="">
-                            </div>   
-                            <div class="cart-popup__name">
-                                <p>Наименование</p>
-                                <p>Охлаждающие лотки (450 мл), 4 шт</p>
-                            </div>  
-                            <div class="cart-popup__delivery">
-                                <p>Доставка</p>
-                                <p>11 июня</p>
-                            </div>                                           
-                            <div class="cart-popup__quantity">
-                                <p>Количество</p>
-                                <div class="cart-popup__quantity-wrapper">
-                                        <embed src='img/cart-popup__quantity-less.svg' class="cart-popup__quantity-icon">
-                                        <p>1 шт.</p> 
-                                        <embed src='img/cart-popup__quantity-more.svg' class="cart-popup__quantity-icon">
-                                </div> 
-                            </div>
-                            <div class="cart-popup__sum">
-                                <p>Сумма</p>
-                                <p>1 699 руб.</p>
-                            </div>                       
-                        </div>
-                        <div class="cart-popup__total">
-                            <div class="cart-popup__discount-coupon">
-                                <p>Введите код купона для скидки:</p>
-                                <input type="text">
-                            </div>
-                            <p>Общая сумма <span><nobr>1 699 руб.</nobr></span></p>   
-                        </div>
-                        <div class="cart-popup__confidentiality-buttons">
-                            <label class="confidentiality"><p>Я принимаю  <a href="#"> «Условия конфиденциальности и правила сервиса»</a></p> 
-                                <input type="checkbox" id="confidentiality" name="confidentiality">
-                                <span class="checkmark"></span>
-                            </label>
-                            <div class="cart-popup__buttons">
-                                <a class="cart-popup__continue-button" href="#">Продолжить покупки</a>
-                                <a class="cart-popup__order-button" href="#">Перейти в корзину</a>                                                          
-                            </div>
-                         </div>
-</div>
+                                <div class="cart-popup__product-wrapper"> 
+                                    <div class="cart-popup__photo">
+                                        <p>Фото</p>
+                                        <img src="img/cart-popup__photo-min.jpg" alt="">
+                                    </div>   
+                                    <div class="cart-popup__name">
+                                        <p>Наименование</p>
+                                        <p>Охлаждающие лотки (450 мл), 4 шт</p>
+                                    </div>  
+                                    <div class="cart-popup__delivery">
+                                        <p>Доставка</p>
+                                        <p>11 июня</p>
+                                    </div>                                           
+                                    <div class="cart-popup__quantity">
+                                        <p>Количество</p>
+                                        <div class="cart-popup__quantity-wrapper">
+                                                <embed src='img/cart-popup__quantity-less.svg' class="cart-popup__quantity-icon">
+                                                <p>1 шт.</p> 
+                                                <embed src='img/cart-popup__quantity-more.svg' class="cart-popup__quantity-icon">
+                                        </div> 
+                                    </div>
+                                    <div class="cart-popup__sum">
+                                        <p>Сумма</p>
+                                        <p>1 699 руб.</p>
+                                    </div>                       
+                                </div>
+                                <div class="cart-popup__total">
+                                    <p>Общая сумма <span><nobr>1 699 руб.</nobr></span></p>   
+                                </div>
+                                
+                   
+                </div>
                 
-
-            </div>
-            <div class="tab-pane" id="4">
-                <p class="product-page__highlighted">Мои товары</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iste sed nihil cumque nemo in aliquid, magnam ratione tempora accusamus ipsam quam perspiciatis unde? Consequuntur, consequatur delectus? Maxime, vel culpa?</p>
             </div>
         </div>
     </section>
-    <section class="recent">
-        <h3>С этим товаром покупают</h3>
-
-        <div class="swiper-container swiper-container-recent1">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide recent1__slide recent1__slide--1">
-                    <a href="#"><img class="recent1__img" src="img/recent1-1-min.jpg" alt="Подарочный набор Микромания"></a>
-                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
-                    <p class="recent1__price">2 999 руб.</p>
-                </div>
-                <div class="swiper-slide recent1__slide recent1__slide--2">
-                    <a href="#"><img class="recent1__img" src="img/recent1-2-min.jpg" alt="Подарочный набор Микромания"></a>
-                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
-                    <p class="recent1__price">2 999 руб.</p>
-                </div>
-                <div class="swiper-slide recent1__slide recent1__slide--3">
-                    <a href="#"><img class="recent1__img" src="img/recent1-3-min.jpg" alt="Подарочный набор Микромания"></a>
-                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
-                    <p class="recent1__price">2 999 руб.</p>
-                </div>
-                <div class="swiper-slide recent1__slide recent1__slide--4">
-                    <a href=""><img class="recent1__img" src="img/recent1-4-min.jpg" alt="Подарочный набор Микромания"></a>
-                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
-                    <p class="recent1__price">2 999 руб.</p>
-                </div>
-                <div class="swiper-slide recent1__slide recent1__slide--5">
-                    <a href=""><img class="recent1__img" src="img/recent1-5-min.jpg" alt="Подарочный набор Микромания"></a>
-                    <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
-                    <p class="recent1__price">2 999 руб.</p>
-                </div>
-            </div>
-            <div class="swiper-button-prev4"></div>
-            <div class="swiper-button-next4"></div>
-        </div>
-
-    </section>
-
+    
     <section class="news">
             <div class="news-wrapper">
                 <h3>Подпишитесь на новости</h3>
@@ -410,6 +305,38 @@
             <p class="footer__author">Создание сайта ДиВиЕР</p>
         </div>
     </div>
+    <div class="footer__images">
+            <div class="swiper-container swiper-container-footer">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="footer__img" src="img/footer1-min.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="footer__img" src="img/footer2-min.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="footer__img" src="img/footer3-min.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="footer__img" src="img/footer4-min.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="footer__img" src="img/footer5-min.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="footer__img" src="img/footer6-min.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="footer__img" src="img/footer7-min.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev12"></div>
+				    <div class="swiper-button-next12"></div>
+                </div>
+        
+    </div>
+    
+
 </footer>
 <script src="js/scripts.min.js"></script>
 
