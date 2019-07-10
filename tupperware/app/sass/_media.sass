@@ -294,7 +294,17 @@
 
 @media (max-width: 1200px)
 
+  .one-center__tile
+	  width: 50%
 
+  .one-center__tile-map
+    width: 50%
+
+  .distributor-centers-address-cell1
+    width: 157px
+
+  .distributor-centers-address-cell3
+    width: 245px
 
   .order__wrapper
     flex-direction: column
@@ -409,7 +419,8 @@
   .form-box__description
     display: none
 
-
+  .about-shop__img
+    height: 200px
 
 
 @media (min-width: 1001px)
@@ -601,6 +612,20 @@
         top: -225px
 
 @media (max-width: 815px)
+
+  .distributor-centers-address
+    flex-direction: column
+
+  .distributor-centers-address-cell1,
+  .distributor-centers-address-cell2,
+  .distributor-centers-address-cell3
+    width: 100%
+    box-sizing: border-box
+
+  .distributor-centers-address-cell
+	  &:not(:last-child)
+      border: none
+
   .cart-popup__quantity-wrapper
     margin-block-start: 1em
     .cart-popup__quantity-icon
@@ -782,6 +807,17 @@
     width: 90%
 
 @media (max-width: 750px)
+
+  .one-center-page__wrapper
+    flex-direction: column
+
+  .one-center__tile
+	  width: 100%
+
+  .one-center__tile-map
+    justify-content: center
+    width: 100%
+
   .checkout-page
     .error__message
       width: 50vw
@@ -891,6 +927,15 @@
     display: none
 
 @media (max-width: 625px)
+
+  .outer
+    overflow-x: scroll;
+
+  .about-shop__page
+    table
+      width: 553px
+
+
   .select-wrapper 
     position: relative
     p 
@@ -1055,6 +1100,9 @@
 
 @media (max-width: 450px)
 
+  .about-shop__img-left, .about-shop__img-right
+    width: 100%
+
   .select-wrapper-apartment
     .custom-select, input
       width: 47%
@@ -1161,6 +1209,10 @@
       width: 70%
 
 @media (max-width: 370px)
+
+  .distributor-centers-page, .one-center-page
+    h1
+      font-size: 25px
 
   .order .cart-popup__total span
     margin-left: 5vw;
