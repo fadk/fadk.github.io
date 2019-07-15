@@ -1586,7 +1586,7 @@ main{
     align-items: center;
     justify-content: space-between;
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 800;
     width: 100%;
     margin-bottom: 10px;
@@ -1654,6 +1654,24 @@ button.cart__after-submit-checkout-btn{
     font-weight: 800;
     text-transform: none;
 }
+
+
+.cart__main-after-submit .cart__slot-bottom-item{
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.cart__main-after-submit .cart__slot-bottom-item a{
+    margin: 8px 15px;
+    color: #000;
+    text-decoration: underline;
+} 
+
+.cart__main-after-submit .cart__slot-bottom{
+    flex-direction: column
+}
+
 .cart__main-after-submit .cart__summary-header span {
     color: #000;
     font-weight: 600
@@ -2122,6 +2140,89 @@ hr {
 .inner__content{
     padding:15px;
 }
+
+.custom-select {
+    position: relative;
+  }
+  
+.custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+.select-selected {
+    background-color: #fff;
+
+  }
+  
+  /* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    display: block;
+    content: ' ';
+    background-image: url('../img/chevron-down-solid.svg');
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+    top: 4px;
+    right: 10px;
+
+  }
+  
+
+  
+  /* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+    color: #000;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+.select-items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+  }
+  
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+.select-wrapper{
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1241px){
     .navbar-item:not(:last-child) {
         border: none;

@@ -263,7 +263,25 @@
         a
          display: block;
 
+@media (max-width: 1270px)
 
+  .order-list__row
+    flex-direction: column
+    align-items: flex-end
+
+
+  .view-order__table-wrapper
+    flex-direction: column
+
+  .view-order__table-cell
+    width: 100%;
+
+  .view-order__table-cell
+    &:last-child
+      width: 100%;  
+
+  .select-wrapper__table-order-status
+    width: 100%
 
 
 @media (max-width: 1210px)
@@ -293,6 +311,14 @@
 
 
 @media (max-width: 1200px)
+
+
+
+  .outer
+    overflow-x: scroll;
+    
+  .view-order__order-list
+      width: 1100px
 
   .special-offer-page
     .special-offer__price
@@ -437,6 +463,15 @@
     display: none
 
 @media (max-width: 1000px)
+
+  .order-list__row
+    align-items: flex-start
+
+  .order-list__sort
+    flex-direction: column
+
+  .order-list__sort-wrapper
+    margin-left: 0
 
   .header__navbar-wrapper
     position: relative
@@ -645,6 +680,11 @@
         top: -225px
 
 @media (max-width: 815px)
+  .order-list__table
+    width: 733px 
+
+  .view-order__shipping-information
+    width: 733px
 
   .distributor-centers-address
     flex-direction: column
@@ -914,9 +954,12 @@
 
 @media (max-width: 700px)
 
+
   .cart-popup__buttons
     flex-direction: column
     align-items: flex-end
+    .primary-button
+      margin-right: 0
 
   .cart-popup__continue-button  
     margin-right: 0
@@ -938,8 +981,8 @@
     font-size: 12px
 
   .news
-    button
-      height: 39px
+    .primary-button
+      height: 39px!important
 
     input[type="text"]
       width: 200px
@@ -978,8 +1021,20 @@
 
 @media (max-width: 625px)
 
-  .outer
-    overflow-x: scroll;
+  .select-wrapper__payment-method, .view-order__sum, .view-order__comment
+    margin-top: 20px
+
+  .view-order__sum
+    p
+      &:last-child
+        left: 120px
+        top: 20px
+
+  .view-order__comment-description
+    display: none
+
+  .view-order__save
+    margin-top: 30px
 
   .about-shop__page
     table
@@ -992,6 +1047,7 @@
       position: absolute
       bottom: 47px
       font-size: 14px
+
 
   .delivery-address-description
     display: none
@@ -1012,6 +1068,10 @@
 
 
 @media (max-width: 580px)
+
+  .view-order__links-wrapper
+    flex-direction: column
+    width: fit-content
 
   
   .special-offer__img-wrapper
@@ -1124,6 +1184,15 @@
 
 
 @media (max-width: 500px)
+
+  .news
+    .primary-button
+      margin-left: 0!important
+      margin-top: 20px!important
+
+  .select-wrapper__table-order-status
+    width: 450px
+
   .application__form-sex
     flex-direction: column
 
@@ -1160,10 +1229,7 @@
     display: flex
     flex-direction: column
 
-  .news
-    button
-      margin-left: 0
-      margin-top: 20px
+
 
 @media (max-width: 465px)
 
@@ -1204,7 +1270,7 @@
           font-size: 15px
 
   .search-page__search-wrapper
-    button
+    .primary-button
       padding-left: 20px
       padding-right: 20px
       margin-left: 0px
@@ -1266,7 +1332,7 @@
   .my-data__buttons
     flex-direction: column
     align-items: flex-end
-    .cart-popup__order-button
+    .primary-button
       margin-right: 0
 
   .cart-popup__discount-coupon 
@@ -1295,6 +1361,8 @@
       width: 70%
 
 @media (max-width: 370px)
+
+
 
   .distributor-centers-page, .one-center-page
     h1
@@ -1339,8 +1407,7 @@
       .comment-label
         margin-top: -84px
         
-        
-
+      
   .cp-page
     .tab-content
       padding-right: 20px
@@ -1373,18 +1440,26 @@
 
   .cart-popup__buttons
     margin-right: 15px
-
-  .cart-popup__continue-button, .cart-popup__order-button
-    padding-right: 15px
-    padding-left: 15px
+    .cart-popup__continue-button, .primary-button
+      padding-right: 15px
+      padding-left: 15px
 
 
   .product-page__table
     margin-left: 0
     width: 100%
 
+  .special-offer-page
+    h1
+      font-size: 25px
+
+
 
 @media (max-width: 350px)
+
+  .order-list__sort 
+    .custom-select
+      width: 200px;
 
   .special-offer-page 
     .special-offer__price

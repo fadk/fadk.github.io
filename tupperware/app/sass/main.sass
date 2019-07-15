@@ -785,7 +785,7 @@ h2, h4
 
 .bestsellers__img, .recent1__img, .sale__img, 
 .no-found-content__img, .category-tiles__img, 
-.special-offer__img
+.special-offer__img, .view-order__img
 	max-width: 100%
 	height: auto
 	
@@ -872,7 +872,7 @@ h2, h4
 	line-height: 22px;
 	text-align: center;
 
-.bestsellers__button, .no-found-content__button, .category-tiles__button
+.primary-button
 	background-color: $accent
 	color: #FFF
 	border-radius: 2px
@@ -885,10 +885,37 @@ h2, h4
 	text-align: center;
 	text-transform: uppercase;
 	border: none
+	cursor: pointer
 
-.category-tiles__button
-	padding-left: 30px
-	padding-right: 30px
+
+
+
+.search-page__search-wrapper
+	.primary-button
+		height: 44px;
+		padding-left: 46px;
+		padding-right: 46px;
+		margin-left: 15px;	
+
+.cp-page
+	.primary-button
+		margin-top: 0;
+		margin-bottom: 10px;
+
+.checkout-page
+	.primary-button
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		line-height: 36px
+
+.category-page
+	.primary-button
+		padding-left: 30px
+		padding-right: 30px
 
 .category-tiles__price-button
 	margin-top: auto
@@ -1028,6 +1055,9 @@ h2, h4
 
 .space50
 	height: 50px
+
+.space30
+	height: 30px	
 
 .search-page
 	h1
@@ -1272,21 +1302,13 @@ h2, h4
 		margin-block-end: 0
 		margin-top: -30px
 		text-align: center
-	button
+	.primary-button
 		height: 50px
-		width: fit-content
-		padding-left: 24px
-		padding-right: 24px
-		background: $accent
-		color: #ffffff
-		font-size: 16px
-		line-height: 19px
-		text-align: center
-		text-transform: uppercase
-		font-family: "TupperPRO-Light"
-		letter-spacing: normal
-		margin-left: 40px
-		border: none
+		padding-left: 24px!important
+		padding-right: 24px!important
+		margin-left: 40px!important
+		margin-top: 0!important
+		margin-bottom: 0!important
 	input[type="text"]
 		width: 342px
 		height: 52px
@@ -1466,6 +1488,12 @@ ul.breadcrumb li a:hover
 		margin-top: 60px
 
 .product-page
+	.primary-button
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 45px;
+		padding-right: 45px;
+		margin-right: 8px;
 	h1
 		margin-top: 48px
 
@@ -1500,21 +1528,8 @@ ul.breadcrumb li a:hover
 	font-size: 40px;
 	line-height: 30px;
 
-.product-page__order-button, 
-.cart-popup__continue-button,
-.cart-popup__order-button
-	border: none
-	background-color: $accent
-	color: #fff!important
-	padding-top: 13px
-	padding-bottom: 13px
-	padding-left: 45px
-	padding-right: 45px
-	margin-right: 8px
-	text-transform: uppercase
 
-.cart-popup__continue-button,
-.cart-popup__order-button
+.cart-popup__continue-button
 	padding-left: 35px
 	padding-right: 35px
 	padding-top: 4px
@@ -1525,6 +1540,11 @@ ul.breadcrumb li a:hover
 	font-size: 16px
 	margin-right: 0px
 	line-height: 36px
+	border: none
+	background-color: $accent
+	color: #fff!important
+	text-transform: uppercase
+	cursor: pointer
 
 .cart-popup__continue-button
 	background: #93A3A7;
@@ -2053,7 +2073,7 @@ input:checked+.cart-modal
 	.cart-popup__buttons
 		height: fit-content
 		margin-right: 0
-	.cart-popup__continue-button, .cart-popup__order-button
+	.cart-popup__continue-button
 		margin-top: 0	
 	.cart-popup__total
 		display: flex
@@ -2393,8 +2413,6 @@ input:checked+.cart-modal
 					width: 153px
 					margin-right: 20px	
 				
-						
-
 
 
 .select-wrapper-phone
@@ -2447,7 +2465,7 @@ h4.delivery-address
 	align-items: center
 	justify-content: flex-start
 	margin-top: 30px
-	.cart-popup__order-button
+	.primary-button
 		margin-right: 35px
 	.cart-popup__continue-button
 		margin-right: 0
@@ -2589,7 +2607,7 @@ px
 	height: 44px
 
 .about-shop__page
-	.hero__btn, .cart-popup__order-button, .catalog__content-button,
+	.hero__btn, .primary-button, .catalog__content-button,
 	.cart-popup__continue-button
 		margin-top: 0
 		margin-bottom: 20px
@@ -2664,8 +2682,7 @@ px
 				display: block				
 	p
 		margin-block-end: 38px
-	a
-		color: $accent
+
 
 .about-shop__list
 	margin-left: 40px
@@ -2806,6 +2823,8 @@ px
 	h1
 		margin-top: 50px
 		margin-bottom: 85px
+		&:before
+			display: none
 
 
 .cp-page_valide-purchase
@@ -2821,7 +2840,7 @@ px
 		margin-top: -10px
 		margin-right: 0
 		justify-content: flex-start
-	.cart-popup__order-button
+	.primary-button
 		margin-right: 25px
 
 .valide-purchase-p
@@ -2840,7 +2859,7 @@ px
 .header__cart, .header__cart-count
 	cursor: pointer
 
-.header__cart-count, .special-offer__disclimer
+.header__cart-count, .special-offer__disclimer, .color-accent
 	color: $accent
 
 .special-offer__attention
@@ -2903,10 +2922,10 @@ px
 		p
 			margin-block-end: 0
 			margin-block-start: 0
-	.cart-popup__order-button, .product-page__like
+	.primary-button, .product-page__like
 		margin: 0
 		font-size: 16px
-	.cart-popup__order-button	
+	.primary-button	
 		padding-left: 40px
 		padding-right: 40px
 	.product-page__like
@@ -2915,6 +2934,8 @@ px
 	h1
 		margin-top: 50px
 		margin-bottom: 90px
+		&:before
+			display: none
 	p	
 		margin-block-end: 35px
 
@@ -2925,8 +2946,6 @@ px
 			display: none
 	.recent
 		margin-top: 100px
-	.cart-popup__order-button
-		margin-top: 30px
 	.confidentiality
 		margin-top: 20px
 		margin-bottom: 20px
@@ -2938,6 +2957,9 @@ px
 	p
 		font-size: 16px
 		line-height: 19px;
+
+.log-in__links-wrapper	
+	margin-bottom: 20px	
 
 .log-in-page
 	.recent
@@ -2953,9 +2975,11 @@ px
 		table 
 			label
 				font-size: 16px
-	.cart-popup__order-button
+	.primary-button
 		margin-top: 35px
 		margin-bottom: -10px
+		padding-top: 12px
+		padding-bottom: 12px
 	.confidentiality
 		margin-top: 10px
 		margin-bottom: 50px
@@ -2967,7 +2991,6 @@ px
 	.cart-popup__continue-button
 		padding-top: 12px;
 		padding-bottom: 12px;
-
 .log-in__social
 	display: flex
 	span
@@ -2983,10 +3006,199 @@ px
 
 
 .view-order__page
-	.cart-popup__order-button
-		line-height: 36px
+	.recent
+		margin-top: 120px
+	h4
+		font-size: 18px
+	h1
+		margin-top: 50px
+		&:bafore
+			display: none
+	.primary-button, .cart-popup__continue-button
+		padding-top: 10px
+		padding-bottom: 10px				
+		line-height: 20px
 		padding-bottom: 12px
 		padding-top: 12px;
+	.primary-button
+		margin-top: 0
+		margin-bottom: 10px
+	.select-wrapper__p-order-status
+		margin-top: 40px
+		margin-bottom: 30px	
+
+
+.print-svg
+	margin-right: 15px
+
+.view-order__links-wrapper
+	display: flex
+	justify-content: space-between
+	width: 100%
+	font-size: 16px
+
+.view-order__table-wrapper
+	display: flex
+	justify-content: space-between
+
+.view-order__table-cell
+	width: 50%
+	&:last-child
+		width: 40%
+
+.view-order__shipping-information
+	margin-top: -8px
+	font-size: 18px
+	tr
+		td
+			vertical-align: top
+			padding-bottom: 12px
+			&:first-child
+				width: 40%
+
+.select-wrapper__table-order-status
+	border-collapse: collapse
+	margin-top: -15px
+	font-size: 18px
+	tr
+		td
+			vertical-align: top
+			padding-bottom: 12px
+			&:first-child
+				width: 70%
+	tr
+		&:last-child
+			td
+				border-bottom: 1px solid #F0F0F0;
+
+
+
+
+.view-order__consultant
+	margin-top: -20px 
+	p
+		width: auto
+		margin-right: 20px
+    	
+.select-wrapper__order-status
+	margin-top: -20px
+	margin-bottom: 10px
+	.custom-select
+		width: 160px;
+	p
+		width: 150px
+		margin-right: 20px
+
+.select-wrapper__payment-method
+	.custom-select
+		width: 193px;
+	p
+		width: 260px
+
+.view-order__sum
+	p
+		width: 260px
+		&:last-child
+			margin-left: 10px
+			width: auto
+	input
+		width: 109px;
+
+
+.view-order__comment
+	position: relative
+	p
+		width: 260px
+	input
+		width: 193px;
+
+.view-order__comment-description
+	position: absolute
+	width: 260px
+	left: 260px
+	top: 80px
+	line-height: 25px
+
+.view-order__save
+	margin-top: 100px
+
+.view-order__order-list
+	width: 100%
+	font-size: 18px
+	border-collapse: collapse
+	margin-bottom: 30px
+	tr
+		td
+			padding: 12px
+			vertical-align: top
+			border-bottom: 1px solid #F0F0F0;
+
+
+.view-order__h4-order-list
+	margin-top: 52px
+
+.password-recovery__page
+	.recent
+		margin-top: 120px
+	font-size: 16px
+	.enter-email
+		font-size: 20px
+	h1
+		margin-top: 50px
+		&:before
+			display: none
+	.primary-button
+		padding-top: 12px
+		padding-bottom: 12px
+
+.order-list__page
+	.recent
+		margin-top: 120px
+	font-size: 18px
+	h1
+		margin-top: 50px
+		&:before
+			display: none
+
+.order-list__sort
+	.custom-select
+		width: 305px
+	.select-wrapper
+		p
+    		width: 130px;
+	display: flex
+
+
+.order-list__sort-wrapper
+	margin-left: 20px
+	margin-right: 20px
+	input
+		width: 117px
+		margin-left: 20px
+		margin-right: 20px
+
+.order-list__row
+	margin-top: 30px
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+.order-list__table
+	margin-top: 35px
+	width: 100%
+	border-collapse: collapse
+	td
+		border-bottom: 1px solid #F0F0F0;
+		padding-top: 16px
+		padding-bottom: 16px
+
+
+
+
+
+
+
+
 
 
 

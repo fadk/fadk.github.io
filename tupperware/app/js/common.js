@@ -127,7 +127,7 @@ $(function() {
             900: {
                 slidesPerView: 2,
             },
-            400: {
+            515: {
                 slidesPerView: 1,
             },
         },

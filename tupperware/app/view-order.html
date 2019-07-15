@@ -142,62 +142,284 @@
 
     <section class="view-order__wrapper">
 
-            <a  alt="Список заказов" class="cart-popup__order-button" href="#">Список заказов</a>
-        
+        <div class="view-order__links-wrapper">   
+            <a  alt="Список заказов" class="primary-button" href="#">Список заказов</a>
+            <a class="view-order__print" href="">
+                <svg class="print-svg" width="15" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.333 2.63v-.143c0-.502.012-1.005 0-1.507a.915.915 0 0 1 .623-.92C3.066.024 3.2 0 3.31 0h8.355c.367 0 .66.143.868.442.097.144.134.311.134.479v1.697h1.026c.5 0 .892.215 1.148.634.11.18.159.383.159.586V8.93a.56.56 0 0 1-.574.562c-.55-.012-1.087 0-1.637 0-.098 0-.122.024-.122.12v3.395c0 .442-.232.765-.66.92a.93.93 0 0 1-.317.048H3.298c-.415 0-.77-.227-.916-.61a1.165 1.165 0 0 1-.061-.358V9.624c0-.143 0-.143-.147-.143-.525 0-1.05-.012-1.575 0C.219 9.54 0 9.23 0 8.93c.012-.586 0-1.16 0-1.734 0-1.1 0-2.212.012-3.311 0-.515.245-.885.709-1.124.17-.084.354-.12.55-.12h.94c.024-.012.061-.012.122-.012zm.843 4.986v5.416c0 .155.037.19.195.19h8.258c.17 0 .207-.035.207-.202V7.723c0-.036 0-.071-.012-.107H3.176zm8.648-4.986v-.107V.98c0-.155-.037-.19-.195-.19H3.37c-.17 0-.195.035-.195.19v1.65h8.648zm.012 1.937c0 .31.171.478.477.502.28.012.513-.275.513-.49a.53.53 0 0 0-.513-.514c-.281-.012-.477.203-.477.502z" fill="#009ABE"/><path d="M7.474 12.506H4.421a.451.451 0 0 1-.38-.168c-.097-.131-.097-.275-.048-.418a.399.399 0 0 1 .379-.24h6.144c.159 0 .28.037.379.168.11.132.11.275.048.418-.06.144-.195.228-.366.24H7.474zM7.476 9.302H4.41a.47.47 0 0 1-.367-.156.404.404 0 0 1-.049-.418c.074-.168.22-.251.403-.251h6.132c.147 0 .27.035.367.143.122.132.134.287.06.442a.416.416 0 0 1-.39.24h-3.09zM7.476 10.88H4.41c-.208 0-.38-.108-.428-.288a.388.388 0 0 1 .195-.478.671.671 0 0 1 .27-.048h6.057c.16 0 .306.024.404.168.183.25.024.598-.293.645H7.476z" fill="#009ABE"/></svg>
+                Распечатать заказ
+            </a>
+        </div> 
+
+<div class="view-order__table-wrapper">
+    <div class="view-order__table-cell">
+        <h4>Данные по доставке</h4>
+
         <div class="outer">
-          
-                <table>
+        <table class="view-order__shipping-information">
+            <tr>
+                <td>Получатель</td>
+                <td>Анастасия Пономарева</td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>anastasia.pyshkina@mail.ru</td>
+            </tr>
+            <tr>
+                <td>Телефон</td>
+                <td>+7 9832130604</td>
+            </tr>
+            <tr>
+                <td>Местоположение</td>
+                <td>Россия, Кемеровская область, Кемерово, Институтская улица</td>
+            </tr>
+            <tr>
+                <td>Улица</td>
+                <td>Институтская улица</td>
+            </tr>
+            <tr>
+                <td>Дом</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Квартира</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Индекс</td>
+                <td>152402</td>
+            </tr>
+            <tr>
+                <td>ID_местоположения</td>
+                <td>152402</td>
+            </tr>
+            <tr>
+                <td>Комментарий покупателя</td>
+                <td>Нет комментария</td>
+            </tr>
+            <tr>
+                <td>Ваш комментарий</td>
+                <td>Нет комментария</td>
+            </tr>
+        </table>
+    </div>
+        <h4>Способ доставки</h4>
+        <p>Доставка заказа консультантом компании - 0 руб.</p>
+    </div>
+    <div class="view-order__table-cell">
+        <h4>Консультант</h4>
+        <div class="select-wrapper view-order__consultant">
+            <p>Консультант</p>
+            <input type="text">
+        </div>
+        <h4>Статус заказа</h4>
+        
+        <div class="select-wrapper select-wrapper__order-status">
+                <p>Статус заказа</p>
+                <div class="custom-select">
+                    <select>
+                        <option value="0">Поступил</option>
+                        <option value="1">Поступил</option>
+                        <option value="2">Выполнен</option>
+                    </select>  
+                </div>           
+        </div>
+
+        <a class="cart-popup__continue-button" href="#">Изменить статус</a>
+
+        <h4 class="select-wrapper__p-order-status">Статус заказа</h4>
+
+        <div class="outer">
+        <table class="select-wrapper__table-order-status">
+            <tr>
+                <td>Выбранный способ оплаты</td>
+                <td>Наличные</td>
+            </tr>
+            <tr>
+                <td>Статус</td>
+                <td>Неоплачено</td>
+            </tr>
+            <tr>
+                <td>Оплачено</td>
+                <td>0 руб.</td>
+            </tr>
+            <tr>
+                <td>Общая стоимость</td>
+                <td>3 195 руб.</td>
+            </tr>
+            <tr>
+                <td>Общая стоимость</td>
+                <td>3 195 руб.</td>
+            </tr>
+        </table>
+    </div>
+
+        <div class="select-wrapper select-wrapper__payment-method">
+                <p>Способ оплаты</p>
+                <div class="custom-select">
+                    <select>
+                        <option value="0">Наличные</option>
+                        <option value="1">Наличные</option>
+                        <option value="2">Перевод</option>
+                    </select>  
+                </div>           
+        </div>
+        <div class="select-wrapper view-order__sum">
+                <p>Сумма</p>
+                <input type="text" placeholder="0">
+                <p>руб.</p>
+        </div>
+
+        <div class="select-wrapper view-order__comment">
+                <p>Комментарий</p>
+                <input type="text" placeholder="Наличные">
+                <p class="view-order__comment-description">Добавьте в комментарий номер счета или чека для более удобного контроля оплат.</p>
+        </div>
+
+        <button class="bestsellers__button view-order__save">Сохранить</button>
+    </div>
+</div>
+
+<h4 class="view-order__h4-order-list">Состав заказа</h4>
+
+        <div class="outer">
+                <table class="view-order__order-list">
                     <tr>
+                        <td>Фото</td>
+                        <td>Наименование</td>
                         <td>Код изделия</td>
-                        <td>Тип</td>
-                        <td>Объем</td>
-                        <td>Материал</td>
+                        <td>Цена</td>
+                        <td>Количество</td>
+                        <td>Итого</td>
                     </tr>
                     <tr>
-                            <td>Г47</td>
-                        <td>Контейнер</td>
-                        <td>2 л.</td>
-                        <td>Полимер</td>
+                        <td>
+                            <img class="view-order__img" src="img/view-order1-min.jpg" alt="Контейнер «Кубикс» (1 л)">
+                        </td>
+                        <td>Контейнер «Кубикс» (1 л)</td>
+                        <td>А34</td>
+                        <td>599 руб.</td>
+                        <td>1 шт.</td>
+                        <td>599 руб.</td>
                     </tr>
                     <tr>
-                            <td>Г47</td>
-                            <td>Контейнер</td>
-                            <td>2 л.</td>
-                            <td>Полимер</td>
+                        <td>Фото</td>
+                        <td>Наименование</td>
+                        <td>Код изделия</td>
+                        <td>Цена</td>
+                        <td>Количество</td>
+                        <td>Итого</td>
                     </tr>
                     <tr>
-                            <td>Г47</td>
-                        <td>Контейнер</td>
-                        <td>2 л.</td>
-                        <td>Полимер</td>
+                        <td>
+                            <img class="view-order__img" src="img/view-order2-min.jpg" alt="Контейнер «Кубикс» (650 мл)">
+                        </td>
+                        <td>Контейнер «Кубикс» (650 мл)</td>
+                        <td>А33</td>
+                        <td>499 руб.</td>
+                        <td>1 шт.</td>
+                        <td>499 руб.</td>
                     </tr>
                     <tr>
-                            <td>Г47</td>
-                        <td>Контейнер</td>
-                        <td>2 л.</td>
-                        <td>Полимер</td>
+                        <td>Фото</td>
+                        <td>Наименование</td>
+                        <td>Код изделия</td>
+                        <td>Цена</td>
+                        <td>Количество</td>
+                        <td>Итого</td>
                     </tr>
                     <tr>
-                            <td>Г47</td>
-                        <td>Контейнер</td>
-                        <td>2 л.</td>
-                        <td>Полимер</td>
+                        <td>
+                            <img class="view-order__img" src="img/view-order3-min.jpg" alt="Эко-бутылка (1 л) в салатовом цвете">
+                        </td>
+                        <td>Эко-бутылка (1 л) в салатовом цвете</td>
+                        <td>И70</td>
+                        <td>899 руб.</td>
+                        <td>1 шт.</td>
+                        <td>899 руб.</td>
                     </tr>
                     <tr>
-                            <td>Г47</td>
-                        <td>Контейнер</td>
-                        <td>2 л.</td>
-                        <td>Полимер</td>
+                        <td>Фото</td>
+                        <td>Наименование</td>
+                        <td>Код изделия</td>
+                        <td>Цена</td>
+                        <td>Количество</td>
+                        <td>Итого</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="view-order__img" src="img/view-order4-min.jpg" alt="Эко-бутылка (750 мл) в голубом цвете">
+                        </td>
+                        <td>Эко-бутылка (750 мл) в голубом цвете</td>
+                        <td>И97</td>
+                        <td>599 руб.</td>
+                        <td>1 шт.</td>
+                        <td>599 руб.</td>
                     </tr>
                 </table>
             </div>
     
- 
+            <a class="cart-popup__continue-button" href="#">В список заказов</a>
             
 
     </section>
     
-    
+    <section class="recent">
+			<h3>вы недавно просматривали</h3>
+			<div class="swiper-container-wrapper--buttons-outside swiper-container-recent__wrapper">
+                <div class="swiper-container swiper-container-recent">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide recent__slide recent__slide--1">
+                            <a href="#" class="recent__title" data-collection="collection1"><nobr>Коллекция «Охлаждающие лотки»</nobr></a>
+                        </div>
+                        <div class="swiper-slide recent__slide recent__slide--2">
+                            <a href="#" class="recent__title active"  data-collection="collection2"><nobr>Коллекция кухонных приборов «Диско»</nobr></a>
+                        </div>
+                        <div class="swiper-slide recent__slide recent__slide--3">
+                            <a href="#" class="recent__title"  data-collection="collection3"><nobr>Инновационные изделия</nobr></a>
+                        </div>
+                        <div class="swiper-slide recent__slide recent__slide--4">
+                            <a href="#" class="recent__title"  data-collection="collection4"><nobr>Контейнеры «Свежесть» и «Дыхание»</nobr></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev3"></div>
+                <div class="swiper-button-next3"></div>
+            </div>
+            <div class="swiper-container-wrapper--buttons-outside swiper-container-recent1__wrapper">
+                <div class="swiper-container swiper-container-recent1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide recent1__slide recent1__slide--1">
+                            <a href="#"><img class="recent1__img" src="img/recent1-1-min.jpg" alt="Подарочный набор Микромания"></a>
+                            <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                            <p class="recent1__price">2 999 руб.</p>
+                        </div>
+                        <div class="swiper-slide recent1__slide recent1__slide--2">
+                            <a href="#"><img class="recent1__img" src="img/recent1-2-min.jpg" alt="Подарочный набор Микромания"></a>
+                            <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                            <p class="recent1__price">2 999 руб.</p>
+                        </div>
+                        <div class="swiper-slide recent1__slide recent1__slide--3">
+                            <a href="#"><img class="recent1__img" src="img/recent1-3-min.jpg" alt="Подарочный набор Микромания"></a>
+                            <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                            <p class="recent1__price">2 999 руб.</p>
+                        </div>
+                        <div class="swiper-slide recent1__slide recent1__slide--4">
+                            <a href=""><img class="recent1__img" src="img/recent1-4-min.jpg" alt="Подарочный набор Микромания"></a>
+                            <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                            <p class="recent1__price">2 999 руб.</p>
+                        </div>
+                        <div class="swiper-slide recent1__slide recent1__slide--5">
+                            <a href=""><img class="recent1__img" src="img/recent1-5-min.jpg" alt="Подарочный набор Микромания"></a>
+                            <a href="#" class="recent1__title">Подарочный набор «Микромания»</a>
+                            <p class="recent1__price">2 999 руб.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-prev4"></div>
+                <div class="swiper-button-next4"></div>
+            </div>
+		</section>
 
     <section class="news">
             <div class="news-wrapper">
@@ -205,7 +427,7 @@
                 <p>Будьте в курсе новостей вместе с нами - актуальные тенденции, новые поступления!</p>
                 <form class="subscribe">
                     <input type="text" placeholder="Ваш e-mail">
-                    <button>подписаться</button>
+                    <button class="primary-button">подписаться</button>
                 </form>
                 <label class="confidentiality">Я принимаю  <a href="#"> «Условия конфиденциальности и правила сервиса»</a>
                     <input type="checkbox" id="confidentiality" name="confidentiality">
