@@ -359,13 +359,13 @@ $(function() {
 
         var tabs = document.getElementsByClassName('tabs')
 
-        for(let i = 0; i < tabs.length; i++) {
-            for(let x = 0; x< tabs[i].children[0].children.length; x++ ) {
+        for(var i = 0; i < tabs.length; i++) {
+            for(var x = 0; x< tabs[i].children[0].children.length; x++ ) {
                 tabs[i].children[0].children[x].addEventListener('click', function(e) {
-                    for(let z = 0; z < tabs[i].children[0].children.length;z++) {
+                    for(var z = 0; z < tabs[i].children[0].children.length;z++) {
                         tabs[i].children[0].children[z].classList.remove("is-active")
                     }
-                    for(let y = 0; y < tabs[i].nextElementSibling.children.length; y++) {
+                    for(var y = 0; y < tabs[i].nextElementSibling.children.length; y++) {
                         tabs[i].nextElementSibling.children[y].className="tab-pane"
                         if(tabs[i].nextElementSibling.children[y].id == this.children[0].id) {
                             this.className="is-active"
