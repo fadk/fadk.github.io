@@ -464,6 +464,11 @@
 
 @media (max-width: 1000px)
 
+  .header__home-link
+    position: absolute
+    top: 15px
+    left: 15px
+
   .order-list__row
     align-items: flex-start
 
@@ -575,20 +580,77 @@
 
 @media (max-width: 995px)
   .cp-page
-   .tabs
-    ul
-      li
-        width: 50%
+    .cart-popup__product-wrapper
+      flex-direction: column
+      align-items: center
+      padding-left: 10px
+      padding-right: 10px
+      div 
+        justify-content: center
         display: flex
-        flex-grow: 1
-        a
-          width: 100%;
-          margin-right: 0
+        height: auto
+        line-height: 20px;
+        width: 100%
+        border-bottom: 1px solid #f0f0f0
+        text-align: center
+        text-align: left
+        padding-left: 0
+        padding-right: 0
+        p
           text-align: center
-          padding-right: 15px
-          padding-left: 15px
+          &:first-child
+            display: none
+            
+        &:last-child
+          border: none
+    .cart-popup__quantity
+      padding-left: 0
+
+    .cart-popup__quantity-icon
+      margin-top: 0
+
+    .cart-popup__quantity-wrapper
+      align-items: center
+
+    .cart-popup__close
+      right: 40px;
+      left: auto
+      top: 40%
+
+    .cart-popup__photo
+      padding-top: 10px
+      padding-bottom: 10px
+    .cart-popup__total
+      &:after
+        display: none
+      &:before
+        display: none
+    .cart-popup__quantity-wrapper
+      padding-top: 1em
+      .cart-popup__quantity-icon
+        margin-top: -30px
+    .tabs
+      ul
+        li
+          width: 50%
+          display: flex
+          flex-grow: 1
+          a
+            width: 100%;
+            margin-right: 0
+            text-align: center
+            padding-right: 15px
+            padding-left: 15px
+
+
+@media (max-width: 950px)
+  .footer__navbar
+    display: none            
 
 @media (max-width: 920px)
+
+  .location-icon
+    display: none
 
   .my-orders__wrapper
     flex-direction: column
@@ -610,9 +672,7 @@
   .header__navbar-wrapper .swiper-container-wrapper--buttons-outside
     width: calc(100% - 140px)!important
 
-@media (max-width: 950px)
-   .footer__navbar
-     display: none
+
 
 @media (max-width: 915px)
   .cart-popup__sale-products 
@@ -622,6 +682,7 @@
 
 
 @media (max-width: 900px)
+
 
   .order__column-row
     p
@@ -704,19 +765,6 @@
     .cart-popup__quantity-icon
       margin-top: -15px
    
-		  
-
-  .cp-page
-    .cart-popup__total
-      &:after
-        display: none
-      &:before
-        display: none
-    .cart-popup__quantity-wrapper
-      padding-top: 1em
-      .cart-popup__quantity-icon
-        margin-top: -30px
-
 
   .checkout-page 
     .cart-popup__product-wrapper 
@@ -796,6 +844,12 @@
 
 @media (max-width: 768px)
 
+  .category-page 
+    .primary-button 
+      padding-left: 20px;
+      padding-right: 20px;
+
+
   .cart-popup__total 
     span 
       font-size: 30px;
@@ -874,12 +928,15 @@
       font-size: 20px;
   .news
     h3
-      font-size: 20px;
+      font-size: 20px!important
 
   .features__wrapper
     width: 90%
 
 @media (max-width: 750px)
+
+  .header__location, .header__location-popup, .header__location-popup-triangle, .boxclose
+    display: none
 
   .check-in-page	
     .form-box 
@@ -928,6 +985,12 @@
     font-size: 20px
 
 @media (max-width: 720px)
+
+  .category-tiles__tile
+    width: 100%
+    margin-left: 0
+    margin-right: 0
+    margin-bottom: 30px
 
   .log-in__social-icon
     margin-bottom: 20px
@@ -988,8 +1051,7 @@
       width: 200px
       height: 40px
 
-  .header__location, .header__location-popup, .header__location-popup-triangle, .boxclose
-   display: none
+
 
 
 
@@ -1020,6 +1082,8 @@
     display: none
 
 @media (max-width: 625px)
+
+
 
   .select-wrapper__payment-method, .view-order__sum, .view-order__comment
     margin-top: 20px
@@ -1143,10 +1207,7 @@
     .confidentiality
       text-align: left
 
-  .category-tiles__tile
-    width: 100%
-    margin-left: 0
-    margin-right: 0
+
 
   .reviews__text
     width: 90%;
@@ -1184,6 +1245,8 @@
 
 
 @media (max-width: 500px)
+
+
 
   .news
     .primary-button
@@ -1228,6 +1291,7 @@
   .subscribe
     display: flex
     flex-direction: column
+    margin-top: 0
 
 
 
@@ -1251,6 +1315,13 @@
         height: 100px
 
 @media (max-width: 450px)
+
+  .category-tiles__tile
+    padding-left: 30px
+    padding-right: 30px
+
+  .news
+    height: auto
 
   .about-shop__img-left, .about-shop__img-right
     width: 100%
@@ -1329,6 +1400,14 @@
 
 
 @media (max-width: 400px)
+
+  .catalog-page__category
+    .swiper-container-wrapper--buttons-outside
+      width: 68%
+      padding-left: 50px
+      padding-right: 50px
+
+
   .my-data__buttons
     flex-direction: column
     align-items: flex-end
@@ -1454,8 +1533,33 @@
       font-size: 25px
 
 
+@media (max-width: 356px)
+  .catalog-page__category
+    .swiper-container-wrapper--buttons-outside
+      width: 74%
+      padding-left: 40px
+      padding-right: 40px
+
+  .swiper-button-next5, .swiper-button-next6, 
+  .swiper-button-next7,.swiper-button-next8,
+  .swiper-button-next9, .swiper-button-next10
+    right: 5px
+    
+  .swiper-button-prev5, .swiper-button-prev6, 
+  .swiper-button-prev7,.swiper-button-prev8,
+  .swiper-button-prev9, .swiper-button-prev10
+    left: 5px
+
+
+
+
 
 @media (max-width: 350px)
+
+
+  .category-tiles__tile
+    padding-left: 20px
+    padding-right: 20px
 
   .order-list__sort 
     .custom-select
@@ -1483,7 +1587,165 @@
       width: 40%
 
 
+  .catalog-page__category
+    .swiper-container-wrapper--buttons-outside
+      width: 82%
+      padding-left: 30px
+      padding-right: 30px
+      margin-left: -5px
 
+  .swiper-button-next5, .swiper-button-next6, 
+  .swiper-button-next7,.swiper-button-next8,
+  .swiper-button-next9, .swiper-button-next10
+    right: 5px
+    
+  .swiper-button-prev5, .swiper-button-prev6, 
+  .swiper-button-prev7,.swiper-button-prev8,
+  .swiper-button-prev9, .swiper-button-prev10
+    left: 5px
+
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+  /* IE10+ CSS styles go here */
+  .header__inner-wrapper
+    width: 80%
+    margin-left: -10%
+
+  .delivery-address-description
+    left: 0
+
+
+  .catalog__content-button
+    width: 158px
+
+@media all and (-ms-high-contrast: none) and (max-width: 1280px), (-ms-high-contrast: active) and (max-width: 1280px)
+  .header__inner-wrapper
+    margin-left: -5%
+
+@media all and (-ms-high-contrast: none) and (max-width: 1183px), (-ms-high-contrast: active) and (max-width: 1183px)
+  .header__inner-wrapper
+    margin-left: 0
+
+@media all and (-ms-high-contrast: none) and (max-width: 1120px), (-ms-high-contrast: active) and (max-width: 1120px)
+  .header__inner-wrapper
+    width: 85%
+
+@media all and (-ms-high-contrast: none) and (max-width: 1020px), (-ms-high-contrast: active) and (max-width: 1020px)
+  .header__inner-wrapper
+    width: 90%
+
+@media all and (-ms-high-contrast: none) and (max-width: 950px), (-ms-high-contrast: active) and (max-width: 950px)
+  .header__inner-wrapper
+    margin-left: 5%
+
+
+@media all and (-ms-high-contrast: none) and (max-width: 830px), (-ms-high-contrast: active) and (max-width: 830px)
+  .news-wrapper
+    width: 85%
+    h3, p
+      width: 100%
+    .confidentiality, a
+      width: 70%
+
+@media all and (-ms-high-contrast: none) and (max-width: 762px), (-ms-high-contrast: active) and (max-width: 762px)
+
+  .cp-page
+    .cart-popup__discount-coupon
+      flex-direction: column
+      align-items: flex-start
+      input
+        margin-left: 0
+        margin-top: 10px
+
+@media all and (-ms-high-contrast: none) and (max-width: 650px), (-ms-high-contrast: active) and (max-width: 650px)
+  .header__inner-wrapper
+    margin-left: -20%
+
+  .cp-page
+    .confidentiality
+      p
+        width: 80%  
+        margin-left: -20px
+
+@media all and (-ms-high-contrast: none) and (max-width: 590px), (-ms-high-contrast: active) and (max-width: 590px)
+  .header__inner-wrapper
+    margin-left: -15%
+
+@media all and (-ms-high-contrast: none) and (max-width: 550px), (-ms-high-contrast: active) and (max-width: 550px)
+  .header__inner-wrapper
+    margin-left: -25%
+
+
+@media all and (-ms-high-contrast: none) and (max-width: 550px), (-ms-high-contrast: active) and (max-width: 550px)
+
+  .cp-page
+    .cart-popup__confidentiality-buttons 
+      .confidentiality
+        padding-left: 0
+        p
+          width: 70%
+          margin-left: -60px
+          
+
+
+
+
+@media all and (-ms-high-contrast: none) and (max-width: 510px), (-ms-high-contrast: active) and (max-width: 510px)
+  .header__inner-wrapper
+    margin-left: -20%
+
+@media all and (-ms-high-contrast: none) and (max-width: 500px), (-ms-high-contrast: active) and (max-width: 500px)
+
+  .subscribe
+    margin-top: 35px
+
+
+@media all and (-ms-high-contrast: none) and (max-width: 460px), (-ms-high-contrast: active) and (max-width: 460px)
+  .header__inner-wrapper
+    margin-left: -15%    
+
+@media all and (-ms-high-contrast: none) and (max-width: 430px), (-ms-high-contrast: active) and (max-width: 430px)
+  .header__inner-wrapper
+    margin-left: -10%  
+
+  .cp-page
+    .cart-popup__discount-coupon
+      input  
+        width: auto
+
+@media all and (-ms-high-contrast: none) and (max-width: 405px), (-ms-high-contrast: active) and (max-width: 405px)
+  .header__inner-wrapper
+    margin-left: -5%
+
+@media all and (-ms-high-contrast: none) and (max-width: 380px), (-ms-high-contrast: active) and (max-width: 380px)
+  .header__inner-wrapper
+    margin-left: 0
+
+
+@media all and (-ms-high-contrast: none) and (max-width: 360px), (-ms-high-contrast: active) and (max-width: 360px)
+  .header__inner-wrapper
+    margin-left: 5%    
+
+
+@media all and (-ms-high-contrast: none) and (max-width: 345px), (-ms-high-contrast: active) and (max-width: 345px)
+
+   .cp-page
+    .cart-popup__confidentiality-buttons 
+      .confidentiality
+        p
+          width: 50%
+          margin-left: -90px
+           
+
+@media all and (-ms-high-contrast: none) and (max-width: 321px), (-ms-high-contrast: active) and (max-width: 321px)
+
+  .cp-page
+    .cart-popup__total
+      width: 100%
+      p
+        width: 90%
+        margin-left: 0
 
 /*==========  Mobile First  ==========*/
 
