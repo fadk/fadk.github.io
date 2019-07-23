@@ -235,7 +235,7 @@
                     </div>
                 </div>
         </nav>
-        <div class="button_no-border shopping-cart ">
+        <div class="button_no-border shopping-cart has-products">
             <a href="">
                 <i class="fas fa-shopping-cart "></i>
                 <span class="mini-cart-quantity">
@@ -381,10 +381,11 @@
                                 <span class="checkmark"></span>
                             </label>
                         </div> 
-                    <button class="cart__after-submit-checkout-btn" >Оплатить</button>
+                    <a  href="cart-after-submit-billing.html" class="cart__after-submit-checkout-btn" >Оплатить</a>
                 </div>
             </div>
             <div class="cart__summary-slot-bottom">
+                    <p class="cart__order-number">Заказ № 5477658</p>
                     <div class="cart__summary-header">
                             <h2>Итого</h2><span>Изменить</span>
                         </div>
@@ -426,22 +427,21 @@
                         </div>                        
                     </div>
 
-                   
-                            
-                            <div class="cart__summary-details">
-                                
-                                    <div class="cart__summary-details-detail">
-                                        <p>Стоимость</p> <span>2 540 р.</span>
-                                    </div>
-                                    <div class="cart__summary-details-detail">
-                                        <p>Доставка</p> <span>350 р.</span>
-                                    </div>
-                                
-                                <div class="cart__summary-details-separator"></div>
-                                <div class="cart__summary-total">
-                                    <div class="cart__summary-total-header"><p>Итого:</p> <span>2 540 р.</span></div>
-                                </div>
-                            </div>
+                    <table class="after-submit-total">
+                            <tr>
+                                <td class="after-submit-total__sum">Стоимость</td>
+                                <td class="after-submit-total__sum">2 540 р.</td>
+                            </tr>
+                            <tr>
+                                <td>Доставка</td>
+                                <td>0 р.</td>
+                            </tr>
+                            <tr>
+                                <td class="after-submit-total__total">Итого</td>
+                                <td class="after-submit-total__total">2 540 р.</td>
+                            </tr>
+    
+                    </table>                          
                   
 
                     <div class="cart__slot-bottom">
@@ -462,6 +462,30 @@
     <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 </main>
 
+<footer class="footer">
+        <div class="footer-item copy">
+            <div class="footer-copy-wrapper">
+               
+                    <a href="">О Ciciban</a>
+                    <a href="">Об обуви</a>
+                    <a href="">Интернет-магазин</a>
+                    <a href="">Где купить</a>
+                    <a href="">Оплата</a>
+                    <a href="">Доставка</a>
+                    <a href="">Контакты</a>
+               
+            </div>
+        </div>
+        <div class="footer-item email-signup">
+            <form class="email-signup-form desktop-email-signup" action="#" method="post" novalidate="novalidate">
+                <div class="form-row">
+                    <input name="emailaddress" id="footer-more-menu-email-address" class="email-address" type="email" placeholder="Узнать о скидках">
+                    <button class="submit-email-btn"><i class="fas fa-chevron-right"></i></button>
+                    <div class="email-signup-confirmation">Thanks for signing up!</div>
+                </div>
+            </form>
+        </div>
+    </footer>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.js"></script>

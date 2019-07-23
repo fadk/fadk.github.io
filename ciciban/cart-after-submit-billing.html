@@ -265,7 +265,7 @@
 </header>
 
 
-<main class="cart__main-after-submit">
+<main class="cart__main-after-submit cart__main-after-submit-billing">
     
     <div class="cart__wrapper">
         <h1 class="cart__title">Ваша корзина</h1>
@@ -390,13 +390,14 @@
 
 
                    
-                    <button class="cart__after-submit-checkout-btn" >Оплатить</button>
+                    <a href="cart-after-submit-place-order.html" class="cart__after-submit-checkout-btn" >Оплатить</a>
                 </div>
             </div>
             <div class="cart__summary-slot-bottom">
+                    <p class="cart__order-number">Заказ № 5477658</p>
                     <div class="cart__summary-header">
                             <h2>Итого</h2><span>Изменить</span>
-                        </div>
+                    </div>
                     <div class="cart__body">
                         <div class="cart__img-content">
                             <div class="card-image">
@@ -434,6 +435,34 @@
                             </div>
                         </div>                        
                     </div>
+                    <table class="after-submit-total">
+                            <tr>
+                                <td class="after-submit-total__sum">Стоимость</td>
+                                <td class="after-submit-total__sum">2 540 р.</td>
+                            </tr>
+                            <tr>
+                                <td>Доставка</td>
+                                <td>0 р.</td>
+                            </tr>
+                            <tr>
+                                <td class="after-submit-total__total">Итого</td>
+                                <td class="after-submit-total__total">2 540 р.</td>
+                            </tr>
+    
+                    </table>  
+                    <div class="cart__summary-header">
+                            <h2>Адрес доставки</h2><span>Изменить</span>
+                    </div> 
+
+                    <div class="cart__summary-info">
+                            <p>Почта России</p>
+                    
+                            <p>Иванов Иван</p>
+                        
+                            <p>456789, Москва, ул. Уссурийская, д.47, кв.765</p>
+                    </div>
+                    
+  
                     <div class="cart__slot-bottom">
                         <div class="cart__slot-bottom-item">
                                 <p>Наша продукция защищена гарантией</p>
