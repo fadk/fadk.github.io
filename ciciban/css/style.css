@@ -466,6 +466,7 @@ main {
 .breadcrumb {
     padding-left: 15px;
     padding-top: 24px;
+    margin-bottom: 44px!important
 }
 .product-list__wrapper, .product__wrapper, .page__wrapper, .inner__wrapper {
     display: flex;
@@ -1917,13 +1918,14 @@ p.cart__name,
 }
 .page__content {
     display: flex;
-    width: calc(100% - 238px);
+    width: calc(100% - 280px);
     flex-direction: column;
 }
 .page__details{
-    width: 238px;
+    width: 280px;
     position: relative;
-    padding: 40px 22px;
+    padding-left: 22px;
+    padding-right: 22px;
     display: flex;
     flex-direction: column;
 }
@@ -1932,9 +1934,8 @@ p.cart__name,
 }
 .page__heading{
     margin-bottom: 10px;
-    line-height: 45px;
     letter-spacing: 1.5px;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
     color: #000;
 }
@@ -1964,7 +1965,7 @@ hr {
     margin: 0 0 10px;
 }
 .page__content-wrapper{
-    padding: 0 30px 100px;
+    padding: 50px 0px 100px;
 }
 .bg-image-hero-page {
     background-image: url(../img/dunes-1936086_1920-min.jpg);
@@ -1987,11 +1988,15 @@ hr {
     background-size: cover;
     background-position: center;
 }
-.hero {
-    height: calc(100vh - 100px);
+.group-of-pages .hero {
     width: 100vw;
     margin-left: -15px;
 }
+
+.hero {
+    height: calc(100vh - 100px);
+}
+
 .group-of-pages__content {
     display: flex;
     width: 100%;
@@ -2017,8 +2022,9 @@ hr {
     justify-content: center;
 }
 .group-of-pages__section-header{
+    width: 100%;
     border-top: 1px solid #ccc;
-    margin: 80px 15px 20px;
+    margin: 80px 15px 25px;
     text-align: center;
 }
 .group-of-pages__section-header h2 {
@@ -2037,22 +2043,31 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     line-height: 20px;
-    margin-top: 15px;
+    margin-top: 15px
 }
+
+.group-of-pages .columns:last-child{
+    margin-bottom: 100px;
+}
+
+
 .group-of-pages__title{
     letter-spacing: .15em;
     text-transform: uppercase;
     font-weight: 900;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .group-of-pages__link{
     font-weight: 900;
     color: #ed1c24;
 }
 .group-of-pages__article p{
-    margin-top: 15px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .page-no-sidebar__content-wrapper{
     padding:50px;
@@ -2370,6 +2385,32 @@ hr {
     font-size: 14px;
 }
 
+.embed-responsive-item{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.product-video{
+    height: 650px;
+    max-height: 100vh;
+    width: 100%;
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.product-details__container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.product__mobile{
+    display: none;
+}
+
+
 
 
 
@@ -2435,13 +2476,50 @@ hr {
         margin: 0;
     }
     .product__details{
-        width: 100%;
-        border: none;
-        padding: 0px;
-        padding-bottom: 15px;
-        position: static;
         display: none;
     }
+
+    .product__mobile{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .product-page .product__price{
+        text-align: center
+    }
+
+    .product-page .product__features .rating__group {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product-page .has-addons{
+        justify-content: center;
+    }
+
+    .product-page .field,
+    .product-page .product__price{
+        margin-top: 30px;
+    }
+
+    .product-page .product__name{
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center
+    }
+
+    .product-page .product__price{
+        color: #000;
+        font-size: 21px;
+    }
+
+
+
     .product-list__wrapper, .inner__wrapper {
         flex-direction: column;
     }
@@ -2488,9 +2566,16 @@ hr {
     .sidebar__category{
         display: none;
     }
-    .product__details .sidebar__category{
+    .product__mobile .sidebar__category{
         display: block;
     }
+
+    .add-to-cart-disabled{
+        padding: 18px 30px;
+        font-size: 16px;
+    }
+
+
     .product-list__banner {
         margin: 0 auto 15px;
     }
@@ -2577,7 +2662,6 @@ hr {
     }
 }
 @media screen and (max-width: 768px){
-
 
 
 

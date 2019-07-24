@@ -100,10 +100,16 @@ $(document).ready(function(){
 
 
     $("#product__carousel").owlCarousel({
-        items : 1,
+        items : 3,
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:3
+            },
+        },
         loop: true,
-        autoplay: true,
-        autoplayTimeout: 4500,
         dots: false,
         nav: true,
         lazyLoad: true,
@@ -114,6 +120,8 @@ $(document).ready(function(){
     });
 
     $("#product__rec-carousel").owlCarousel({
+
+        items : 3,
         responsive:{
             0:{
                 items:1
@@ -128,7 +136,6 @@ $(document).ready(function(){
                 items:4
             }
         },
-        items : 3,
         loop: true,
         autoplay: false,
         dots: false,
