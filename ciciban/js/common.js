@@ -148,81 +148,25 @@ $(document).ready(function(){
     });
 
 
-});
-
-
-function ReadMoreFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("moreBtn");
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Читать далее";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Свернуть";
-        moreText.style.display = "inline";
-    }
-}
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("topBtn").style.display = "block";
-    } else {
-        document.getElementById("topBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-
-(function(){  // анонимная функция (function(){ })(), чтобы переменные "a" и "b" не стали глобальными
-    var a = document.querySelector('.cart__main .cart__summary-slot-bottom'), b = null;  // селектор блока, который нужно закрепить
-    window.addEventListener('scroll', Ascroll, false);
-    document.body.addEventListener('scroll', Ascroll, false);  // если у html и body высота равна 100%
-    function Ascroll() {
-        if (b == null) {  // добавить потомка-обёртку, чтобы убрать зависимость с соседями
-            var Sa = getComputedStyle(a, ''), s = '';
-            for (var i = 0; i < Sa.length; i++) {  // перечислить стили CSS, которые нужно скопировать с родителя
-                if (Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
-                    s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; '
-                }
-            }
-            b = document.createElement('div');  // создать потомка
-            b.style.cssText = s + ' box-sizing: border-box; width: ' + a.offsetWidth + 'px;';
-            a.insertBefore(b, a.firstChild);  // поместить потомка в цепляющийся блок
-            var l = a.childNodes.length;
-            for (var i = 1; i < l; i++) {  // переместить во вновь созданного потомка всех остальных потомков плавающего блока (итого: создан потомок-обёртка)
-                b.appendChild(a.childNodes[1]);
-            }
-            a.style.height = b.getBoundingClientRect().height + 'px';  // если под скользящим элементом есть другие блоки, можно своё значение
-            a.style.padding = '0';
-            a.style.border = '0';
-            a.style.boxShadow = 'none';  
-            a.style.backgroundColor = '#f5f5f5'; 
-            // если элементу присвоен padding или border
-        }
-        if (a.getBoundingClientRect().top <= 100) { // elem.getBoundingClientRect() возвращает в px координаты элемента относительно верхнего левого угла области просмотра окна браузера
-            b.className = 'sticky';
+    function ReadMoreFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("moreBtn");
+    
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Читать далее";
+            moreText.style.display = "none";
         } else {
-            b.className = '';
+            dots.style.display = "none";
+            btnText.innerHTML = "Свернуть";
+            moreText.style.display = "inline";
         }
-        window.addEventListener('resize', function() {
-            a.children[0].style.width = getComputedStyle(a, '').width
-        }, false);  // если изменить размер окна браузера, измениться ширина элемента
     }
-})()
+    
+    
 
 
-$(document).ready(function() {
     $('#tabs li').on('click', function() {
         var tab = $(this).data('tab');
 
@@ -232,4 +176,76 @@ $(document).ready(function() {
         $('#tab-content div').removeClass('is-active');
         $('div[data-content="' + tab + '"]').addClass('is-active');
     });
+
+
+
+
+    $('#boxclose').click(function(){
+        $('.added-to-cart__wrapper').css("display","none");
+    });
+
+
+
+
+
+
+
 });
+
+
+
+
+window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("topBtn").style.display = "block";
+        } else {
+            document.getElementById("topBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    
+    
+    (function(){  // анонимная функция (function(){ })(), чтобы переменные "a" и "b" не стали глобальными
+        var a = document.querySelector('.cart__main .cart__summary-slot-bottom'), b = null;  // селектор блока, который нужно закрепить
+        window.addEventListener('scroll', Ascroll, false);
+        document.body.addEventListener('scroll', Ascroll, false);  // если у html и body высота равна 100%
+        function Ascroll() {
+            if (b == null) {  // добавить потомка-обёртку, чтобы убрать зависимость с соседями
+                var Sa = getComputedStyle(a, ''), s = '';
+                for (var i = 0; i < Sa.length; i++) {  // перечислить стили CSS, которые нужно скопировать с родителя
+                    if (Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
+                        s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; '
+                    }
+                }
+                b = document.createElement('div');  // создать потомка
+                b.style.cssText = s + ' box-sizing: border-box; width: ' + a.offsetWidth + 'px;';
+                a.insertBefore(b, a.firstChild);  // поместить потомка в цепляющийся блок
+                var l = a.childNodes.length;
+                for (var i = 1; i < l; i++) {  // переместить во вновь созданного потомка всех остальных потомков плавающего блока (итого: создан потомок-обёртка)
+                    b.appendChild(a.childNodes[1]);
+                }
+                a.style.height = b.getBoundingClientRect().height + 'px';  // если под скользящим элементом есть другие блоки, можно своё значение
+                a.style.padding = '0';
+                a.style.border = '0';
+                a.style.boxShadow = 'none';  
+                a.style.backgroundColor = '#f5f5f5'; 
+                // если элементу присвоен padding или border
+            }
+            if (a.getBoundingClientRect().top <= 100) { // elem.getBoundingClientRect() возвращает в px координаты элемента относительно верхнего левого угла области просмотра окна браузера
+                b.className = 'sticky';
+            } else {
+                b.className = '';
+            }
+            window.addEventListener('resize', function() {
+                a.children[0].style.width = getComputedStyle(a, '').width
+            }, false);  // если изменить размер окна браузера, измениться ширина элемента
+        }
+    })()
+

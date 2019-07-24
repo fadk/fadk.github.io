@@ -247,7 +247,7 @@
 </header>
 
 
-<main>
+<main class="search-results-page">
     <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
             <li><a href="#">Об обуви</a></li>
@@ -264,18 +264,20 @@
                     <li class="is-active" data-tab="1">
                         <a>
                             <span>В товарах</span>
+                            <i class="fas fa-chevron-down"></i>
                         </a>
                     </li>
                     <li data-tab="2">
                         <a>
                             <span>В статьях</span>
+                            <i class="fas fa-chevron-down"></i>
                         </a>
                     </li>
                 </ul>
             </div>
             <div id="tab-content">
                 <div class="columns search__columns is-active" data-content="1">
-                    <a class="column product-list__item">
+                    <a class="product-list__item">
                         <figure class="product-list__image">
                             <img src="img/products/78440_boston_001-min.jpg" alt="">
                         </figure>
@@ -297,7 +299,7 @@
                             </div>
                         </fieldset>
                     </a>
-                    <a class="column product-list__item">
+                    <a class="product-list__item">
                         <figure class="product-list__image">
                             <img src="img/products/78440_dylan_001-min.jpg" alt="">
                         </figure>
@@ -319,7 +321,29 @@
                             </div>
                         </fieldset>
                     </a>
-                    <a class="column product-list__item">
+                    <a class="product-list__item">
+                            <figure class="product-list__image">
+                                <img src="img/products/78440_boston_001-min.jpg" alt="">
+                            </figure>
+                            <p class="product-list__name">Детская сменная обувь Ciciban Slippers Boston</p>
+                            <p class="product-list__price">2 540 р.</p>
+                            <fieldset class="rating">
+                                <div class="rating__group">
+                                    <input class="rating__input" type="radio" name="boston" id="boston-1" value="1">
+                                    <label class="rating__star" for="boston-1" aria-label="Ужасно"></label>
+                                    <input class="rating__input" type="radio" name="boston" id="boston-2" value="2">
+                                    <label class="rating__star" for="boston-2" aria-label="Сносно"></label>
+                                    <input class="rating__input" type="radio" name="boston" id="boston-3" value="3">
+                                    <label class="rating__star" for="boston-3" aria-label="Нормально"></label>
+                                    <input class="rating__input" type="radio" name="boston" id="boston-4" value="4">
+                                    <label class="rating__star" for="boston-4" aria-label="Хорошо"></label>
+                                    <input class="rating__input" type="radio" name="boston" id="boston-5" value="5" checked>
+                                    <label class="rating__star" for="boston-5" aria-label="Отлично"></label>
+                                    <div class="rating__focus"></div>
+                                </div>
+                            </fieldset>
+                        </a>
+                    <a class="product-list__item">
                         <figure class="product-list__image">
                             <img src="img/products/78440_dylan_001-min.jpg" alt="">
                         </figure>
@@ -359,6 +383,14 @@
                             <p>Как правильно примерять обувь деткам, чтобы носить ее долго и с удовольствием.</p>
                             <p class="group-of-pages__link" href="">Читать дальше</p>
                         </a>
+                        <a class="column group-of-pages__article">
+                                <figure>
+                                    <img src="img/article1-min.png" alt="">
+                                </figure>
+                                <div class="group-of-pages__title">Сделано с любовью</div>
+                                <p>6 главных отличий обуви Ciciban, в которую по-настоящему вкладываются производители.</p>
+                                <p class="group-of-pages__link" href="">Читать дальше</p>
+                            </a>
                         <a class="column group-of-pages__article">
                             <figure>
                                 <img src="img/article3-min.jpg" alt="">

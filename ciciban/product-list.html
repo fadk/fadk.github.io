@@ -247,7 +247,7 @@
 </header>
 
 
-<main>
+<main class="product-list-page">
     <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
             <li class="is-active"><a href="#" aria-current="page">Обувь</a></li>
@@ -259,25 +259,11 @@
                 <h1 class="refinement__header">Детская обувь Ciciban</h1>
                 <p id="pnumproducts">135 товаров</p>
             </div>
-            <ul class="category-and-sort">
-                <li class="refine-by"><a href="#refine">Выбрать<i class="fas fa-chevron-down"></i></a></li>
-                <li class="sort-by"><a href="#sort">Сортировать<i class="fas fa-chevron-down"></i></a></li>
-            </ul>
-            <div class="sort-by-content">
-                        <div class="" >
-                            <h3 class="active">Сначала новые</h3>
-                        </div>
-                        <div class="" >
-                            <h3 class="">Сначала подешевле</h3>
-                        </div>
-                        <div class="" >
-                            <h3 class="">Сначала подороже</h3>
-                        </div>
-            </div>
+
             <div class="sidebar__category" >
                 <ul class="">
                     <li>
-                        <div class="type__checkbox">
+                        <div class="checkbox">
                             <input type="checkbox" id="girl__check">
                             <label for="girl__check">
                                 Для девочек
@@ -285,7 +271,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="type__checkbox">
+                        <div class="checkbox">
                             <input type="checkbox" id="boy__check">
                             <label for="boy__check">
                                 Для мальчиков
@@ -308,7 +294,7 @@
                     </header>
                     <ul class="bd-category-list">
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check">
                                 <label for="type__check">
                                     Сменная обувь
@@ -316,7 +302,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check2">
                                 <label for="type__check2">
                                     Туфли
@@ -324,7 +310,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check3">
                                 <label for="type__check3">
                                     Балетки
@@ -332,7 +318,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check4">
                                 <label for="type__check4">
                                     Босоножки
@@ -340,7 +326,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check5">
                                 <label for="type__check5">
                                     Сандалии
@@ -348,7 +334,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check6">
                                 <label for="type__check6">
                                     Кроссовки
@@ -356,7 +342,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check7">
                                 <label for="type__check7">
                                     Кеды
@@ -364,7 +350,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check8">
                                 <label for="type__check8">
                                     Мокасины
@@ -372,7 +358,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check9">
                                 <label for="type__check9">
                                     Ботинки
@@ -380,7 +366,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check10">
                                 <label for="type__check10">
                                     Зимние сапоги
@@ -388,7 +374,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="type__checkbox">
+                            <div class="checkbox">
                                 <input type="checkbox" id="type__check11">
                                 <label for="type__check11">
                                     Резиновые сапоги
@@ -673,6 +659,22 @@
                         <a href="" class="button-white">Для девочек</a>
                         <a href="" class="button-white">Для мальчиков</a>
             </div>
+            <ul class="category-and-sort">
+                    <li class="refine-by"><a href="#refine">Выбрать<i class="fas fa-chevron-down"></i></a></li>
+                    <li class="sort-by"><a href="#sort">Сортировать<i class="fas fa-chevron-down"></i></a></li>
+                </ul>
+                <div class="sort-by-content">
+                            <div class="" >
+                                <h3 class="active">Сначала новые</h3>
+                            </div>
+                            <div class="" >
+                                <h3 class="">Сначала подешевле</h3>
+                            </div>
+                            <div class="" >
+                                <h3 class="">Сначала подороже</h3>
+                            </div>
+                </div>
+
             <fieldset class="product-list__sort">
                 <select >
                     <option class="">
@@ -690,97 +692,97 @@
                 </select>
                 <button class="sort-Go-Button simple-submit hidden" type="submit" value="Go">Go</button>
             </fieldset>
-            <div class="columns">
-                <div class="column product-list__item">
+            <div class="product-list__item-wrapper">
+                <div class="product-list__item">
                     <figure class="product-list__image">
                         <img src="img/products/78440_boston_001-min.jpg" alt="">
                     </figure>
                     <p class="product-list__name">Детская сменная обувь Ciciban Slippers Boston</p>
                     <p class="product-list__price">2 540 р.</p>
-                    <fieldset class="rating">
-                        <div class="rating__group">
-                            <input class="rating__input" type="radio" name="boston" id="boston-1" value="1">
-                            <label class="rating__star" for="boston-1" aria-label="Ужасно"></label>
-                            <input class="rating__input" type="radio" name="boston" id="boston-2" value="2">
-                            <label class="rating__star" for="boston-2" aria-label="Сносно"></label>
-                            <input class="rating__input" type="radio" name="boston" id="boston-3" value="3">
-                            <label class="rating__star" for="boston-3" aria-label="Нормально"></label>
-                            <input class="rating__input" type="radio" name="boston" id="boston-4" value="4">
-                            <label class="rating__star" for="boston-4" aria-label="Хорошо"></label>
-                            <input class="rating__input" type="radio" name="boston" id="boston-5" value="5" checked>
-                            <label class="rating__star" for="boston-5" aria-label="Отлично"></label>
-                            <div class="rating__focus"></div>
-                        </div>
-                    </fieldset>
+                    <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+                    
                 </div>
-                <div class="column product-list__item">
+                <div class="product-list__item">
                     <figure class="product-list__image">
                         <img src="img/products/78440_dylan_001-min.jpg" alt="">
                     </figure>
                     <p class="product-list__name">Детская сменная обувь Ciciban Slippers Dylan</p>
                     <p class="product-list__price">2 540 р.</p>
-                    <fieldset class="rating">
-                        <div class="rating__group">
-                            <input class="rating__input" type="radio" name="dylan" id="dylan-1" value="1">
-                            <label class="rating__star" for="dylan-1" aria-label="Ужасно"></label>
-                            <input class="rating__input" type="radio" name="dylan" id="dylan-2" value="2">
-                            <label class="rating__star" for="dylan-2" aria-label="Сносно"></label>
-                            <input class="rating__input" type="radio" name="dylan" id="dylan-3" value="3">
-                            <label class="rating__star" for="dylan-3" aria-label="Нормально"></label>
-                            <input class="rating__input" type="radio" name="dylan" id="dylan-4" value="4">
-                            <label class="rating__star" for="dylan-4" aria-label="Хорошо"></label>
-                            <input class="rating__input" type="radio" name="dylan" id="dylan-5" value="5" checked>
-                            <label class="rating__star" for="dylan-5" aria-label="Отлично"></label>
-                            <div class="rating__focus"></div>
-                        </div>
-                    </fieldset>
+                    <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
                 </div>
-            </div>
-            <div class="columns">
-                <div class="column product-list__item">
+                <div class="product-list__item">
+                        <figure class="product-list__image">
+                            <img src="img/products/78440_linux_001-min.jpg" alt="">
+                        </figure>
+                        <p class="product-list__name">Детская сменная обувь Ciciban Slippers Linux</p>
+                        <p class="product-list__price">2 540 р.</p>
+                        <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
+                    </div>
+                    <div class="product-list__item">
+                        <figure class="product-list__image">
+                            <img src="img/products/78440_mustang_001-min.jpg" alt="">
+                        </figure>
+                        <p class="product-list__name">Детская сменная обувь Ciciban Slippers Mustang</p>
+                        <p class="product-list__price">2 540 р.</p>
+                        <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
+                    </div>
+                    <div class="product-list__item">
+                            <figure class="product-list__image">
+                                <img src="img/products/78440_dylan_001-min.jpg" alt="">
+                            </figure>
+                            <p class="product-list__name">Детская сменная обувь Ciciban Slippers Dylan</p>
+                            <p class="product-list__price">2 540 р.</p>
+                            <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
+                        </div>
+                <div class="product-list__item">
                     <figure class="product-list__image">
                         <img src="img/products/78440_linux_001-min.jpg" alt="">
                     </figure>
                     <p class="product-list__name">Детская сменная обувь Ciciban Slippers Linux</p>
                     <p class="product-list__price">2 540 р.</p>
-                    <fieldset class="rating">
-                        <div class="rating__group">
-                            <input class="rating__input" type="radio" name="linux" id="linux-1" value="1">
-                            <label class="rating__star" for="linux-1" aria-label="Ужасно"></label>
-                            <input class="rating__input" type="radio" name="linux" id="linux-2" value="2">
-                            <label class="rating__star" for="linux-2" aria-label="Сносно"></label>
-                            <input class="rating__input" type="radio" name="linux" id="linux-3" value="3">
-                            <label class="rating__star" for="linux-3" aria-label="Нормально"></label>
-                            <input class="rating__input" type="radio" name="linux" id="linux-4" value="4">
-                            <label class="rating__star" for="linux-4" aria-label="Хорошо"></label>
-                            <input class="rating__input" type="radio" name="linux" id="linux-5" value="5" checked>
-                            <label class="rating__star" for="linux-5" aria-label="Отлично"></label>
-                            <div class="rating__focus"></div>
-                        </div>
-                    </fieldset>
+                    <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
                 </div>
-                <div class="column product-list__item">
+                <div class="product-list__item">
                     <figure class="product-list__image">
                         <img src="img/products/78440_mustang_001-min.jpg" alt="">
                     </figure>
                     <p class="product-list__name">Детская сменная обувь Ciciban Slippers Mustang</p>
                     <p class="product-list__price">2 540 р.</p>
-                    <fieldset class="rating">
-                        <div class="rating__group">
-                            <input class="rating__input" type="radio" name="mustang" id="mustang-1" value="1">
-                            <label class="rating__star" for="mustang-1" aria-label="Ужасно"></label>
-                            <input class="rating__input" type="radio" name="mustang" id="mustang-2" value="2">
-                            <label class="rating__star" for="mustang-2" aria-label="Сносно"></label>
-                            <input class="rating__input" type="radio" name="mustang" id="mustang-3" value="3">
-                            <label class="rating__star" for="mustang-3" aria-label="Нормально"></label>
-                            <input class="rating__input" type="radio" name="mustang" id="mustang-4" value="4">
-                            <label class="rating__star" for="mustang-4" aria-label="Хорошо"></label>
-                            <input class="rating__input" type="radio" name="mustang" id="mustang-5" value="5" checked>
-                            <label class="rating__star" for="mustang-5" aria-label="Отлично"></label>
-                            <div class="rating__focus"></div>
-                        </div>
-                    </fieldset>
+                    <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
                 </div>
+                <div class="product-list__item">
+                        <figure class="product-list__image">
+                            <img src="img/products/78440_boston_001-min.jpg" alt="">
+                        </figure>
+                        <p class="product-list__name">Детская сменная обувь Ciciban Slippers Boston</p>
+                        <p class="product-list__price">2 540 р.</p>
+                        <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
+                    </div>
+                    <div class="product-list__item">
+                        <figure class="product-list__image">
+                            <img src="img/products/78440_dylan_001-min.jpg" alt="">
+                        </figure>
+                        <p class="product-list__name">Детская сменная обувь Ciciban Slippers Dylan</p>
+                        <p class="product-list__price">2 540 р.</p>
+                        <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
+                    </div>
+                    <div class="product-list__item">
+                            <figure class="product-list__image">
+                                <img src="img/products/78440_dylan_001-min.jpg" alt="">
+                            </figure>
+                            <p class="product-list__name">Детская сменная обувь Ciciban Slippers Dylan</p>
+                            <p class="product-list__price">2 540 р.</p>
+                            <p class="product-list__description">Slippers — тапочки для беготни и занятий в помещениях и на сухих летних улицах. Текстиль крупной вязки пропускает воздух, ножки остаются сухими весь день, „дышат“ в закрытых и открытых моделях Slippers. Застежки-липучки велкро учат самостоятельности</p>
+
+                        </div>
             </div>
         </section>
     </div>
