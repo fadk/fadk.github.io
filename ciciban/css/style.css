@@ -2503,12 +2503,22 @@ a.boxclose{
     box-shadow: none
 }
 
+.aside-search{
+    margin-top: 20px;
+}
 
+.aside-search input[type=search]{
+    padding-left: 35px;
+}
 
-
-
-
-
+.aside-search .cici-search-button{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.aside-search .search-form-wrapper{
+    position: relative;
+}
 
 
 
