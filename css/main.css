@@ -718,6 +718,7 @@ html {
   padding-bottom: 0;
   width: 100vw;
   height: 400px;
+  background-color: #a5a178;
   background-image: url("/images/hero-600x400.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -795,6 +796,7 @@ html {
     .hero {
       width: 100%;
       height: auto;
+      background-color: #fff;
       background-image: none;
       text-align: left;
       color: #111;
@@ -805,6 +807,7 @@ html {
     .hero {
       width: 50vw;
       height: 700px;
+      background-color: #a5a178;
       background-image: url("/images/hero-d-960x700.jpg");
       background-position: top left;
       -webkit-background-size: auto 100%;
