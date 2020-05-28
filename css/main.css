@@ -398,6 +398,17 @@ html {
     .logo__img {
       width: 60px; } }
 
+.footer .logo__img {
+  display: none; }
+  @media (min-width: 601px) {
+    .footer .logo__img {
+      display: block;
+      -webkit-filter: grayscale(1);
+              filter: grayscale(1); } }
+  @media (min-width: 1300px) {
+    .footer .logo__img {
+      width: 34px; } }
+
 .main-nav__toggle-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -651,7 +662,11 @@ html {
 .footer .language-switch {
   border: 2px solid #919191; }
   .footer .language-switch__link {
-    color: #111; }
+    color: #444444; }
+  @media (min-width: 1300px) {
+    .footer .language-switch {
+      width: 28px;
+      height: 28px; } }
 
 .page-main {
   display: -webkit-box;
@@ -703,7 +718,7 @@ html {
   padding-bottom: 0;
   width: 100vw;
   height: 400px;
-  background-image: url("/images/hero-600x400-min.jpg");
+  background-image: url("/images/hero-600x400.jpg");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -775,7 +790,7 @@ html {
         top: 450px; } }
   @media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
     .hero {
-      background-image: url("/images/hero-1200x800-min.jpg"); } }
+      background-image: url("/images/hero-1200x800.jpg"); } }
   @media (min-width: 601px) {
     .hero {
       width: 100%;
@@ -790,7 +805,7 @@ html {
     .hero {
       width: 50vw;
       height: 700px;
-      background-image: url("/images/hero-d-960x700-min.jpg");
+      background-image: url("/images/hero-d-960x700.jpg");
       background-position: top left;
       -webkit-background-size: auto 100%;
          -moz-background-size: auto 100%;
@@ -798,7 +813,7 @@ html {
       margin-left: auto; } }
   @media (min-width: 1300px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1300px) and (min--moz-device-pixel-ratio: 2), (min-width: 1300px) and (-o-min-device-pixel-ratio: 2/1), (min-width: 1300px) and (min-resolution: 192dpi) {
     .hero {
-      background-image: url("/images/hero-d-1920x1400-min.jpg"); } }
+      background-image: url("/images/hero-d-1920x1400.jpg"); } }
 
 .button-link {
   display: -webkit-box;
@@ -1162,13 +1177,6 @@ html {
   width: 87.5%; }
   .footer__icon {
     margin-top: -4px; }
-  .footer .logo__img {
-    display: none; }
-    @media (min-width: 601px) {
-      .footer .logo__img {
-        display: block;
-        -webkit-filter: grayscale(1);
-                filter: grayscale(1); } }
   @media (min-width: 601px) {
     .footer {
       border: none;
