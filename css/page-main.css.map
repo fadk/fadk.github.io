@@ -1,1 +1,0 @@
-{"version":3,"sources":["page-main.scss"],"names":[],"mappings":"AAAA;EAIC,kBAAkB;EAClB,mBAAmB,EAAA;EALpB;IAEE,mBAAmB,EAAA","file":"page-main.css","sourcesContent":[".page-main{\n\t.page-main__hero, .page-main__button-link{\n\t\tmargin-bottom: 30px;\n\t}\n\tpadding-left: 10px;\n\tpadding-right: 10px;\n}\n"]}
