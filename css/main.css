@@ -885,10 +885,8 @@ blockquote {
   .hero__statement {
     position: absolute;
     bottom: 20px;
-    padding: 14px 65px 14px 65px;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    padding: 14px;
+    width: 250px;
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: 600;
     font-size: 23px;
@@ -908,7 +906,6 @@ blockquote {
                 align-self: flex-start; } }
     @media (min-width: 1300px) {
       .hero__statement {
-        width: 30%;
         left: 13.19%;
         top: 60vh;
         bottom: auto;
